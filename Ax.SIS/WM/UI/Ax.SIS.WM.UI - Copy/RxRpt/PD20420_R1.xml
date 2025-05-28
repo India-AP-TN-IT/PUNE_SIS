@@ -1,0 +1,59 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:Locale="es-MX">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="es-MX" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="BIZCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="REQ_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="REQ_GRP" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="REQ_SEQ" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="REQ_QTY" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="REQ_TIME" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="LOCATION_NO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="NOTE_NO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PRINT_SEQ" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="BARCODE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PRINT_USER_ID" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PRINT_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PRINT_TIME" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="REQ_GRP1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="NOTE_NO1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="NAME_KOR" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="REQ_BOX_QTY" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PARTNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="RPT_TITLE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <BIZCD>5111</BIZCD>
+    <REQ_DATE>2016-03-08</REQ_DATE>
+    <REQ_GRP>ZZ-01</REQ_GRP>
+    <PARTNO>82320-B0010WK</PARTNO>
+    <REQ_SEQ>1</REQ_SEQ>
+    <REQ_QTY>300</REQ_QTY>
+    <REQ_TIME>1443</REQ_TIME>
+    <LOCATION_NO>XXX-01-01-01</LOCATION_NO>
+    <NOTE_NO>20160308-001</NOTE_NO>
+    <PRINT_SEQ>1</PRINT_SEQ>
+    <BARCODE>20160308-001-001</BARCODE>
+    <PRINT_USER_ID>DEV1</PRINT_USER_ID>
+    <PRINT_DATE>2016-03-08</PRINT_DATE>
+    <PRINT_TIME>1449</PRINT_TIME>
+    <REQ_GRP1>ZZ</REQ_GRP1>
+    <NOTE_NO1>20160308-001-ZZ</NOTE_NO1>
+    <NAME_KOR>개발자</NAME_KOR>
+    <REQ_BOX_QTY>5</REQ_BOX_QTY>
+    <PARTNM>PNL-FR DR UPR TRIM, RH (IMG)</PARTNM>
+    <RPT_TITLE>PICK SLIP [CKD]</RPT_TITLE>
+  </DATA>
+</NewDataSet>

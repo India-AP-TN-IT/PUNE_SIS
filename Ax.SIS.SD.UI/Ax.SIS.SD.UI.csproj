@@ -1,0 +1,591 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8558EEED-CCE3-4176-958A-1A875A9D86EC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ax.SIS.SD.UI</RootNamespace>
+    <AssemblyName>Ax.SIS.SD.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="C1.C1Report.2, Version=2.6.20101.54005, Culture=neutral, PublicKeyToken=594a0605db190bb9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\C1.C1Report.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1BarCode.2, Version=2.0.20101.38, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\C1.Win.C1BarCode.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Chart.2, Version=2.0.20101.20060, Culture=neutral, PublicKeyToken=a22e16972c085838, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1Chart.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Chart3D.2, Version=2.0.20101.20060, Culture=neutral, PublicKeyToken=a22e16972c085838, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1Chart3D.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1FlexGrid.2, Version=2.6.20101.528, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1FlexGrid.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1FlexGrid.Classic.2, Version=2.6.20101.528, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1FlexGrid.Classic.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Gauge.2, Version=2.0.20101.24, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1Gauge.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Input.2, Version=2.0.20101.33244, Culture=neutral, PublicKeyToken=7e7ff60f0c214f9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1Input.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1List.2, Version=2.1.20101.165, Culture=neutral, PublicKeyToken=6b24f8f981dbd7bc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1List.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Report.2, Version=2.6.20101.54005, Culture=neutral, PublicKeyToken=41780e2fc605e636, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\C1.Win.C1Report.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Ribbon.2, Version=2.0.20101.233, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1Ribbon.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Schedule.2, Version=2.0.20101.114, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1Schedule.2.dll</HintPath>
+    </Reference>
+    <Reference Include="HE.Framework.Core">
+      <HintPath>..\Ax.DEV.Environment\Assemblies\HE.Framework.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="HE.Framework.ServiceModel">
+      <HintPath>..\Ax.DEV.Environment\Assemblies\HE.Framework.ServiceModel.dll</HintPath>
+    </Reference>
+    <Reference Include="HE.Framework.Windows.Forms">
+      <HintPath>..\Ax.DEV.Environment\Assemblies\HE.Framework.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\Ax.DEV.Environment\Assemblies\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\Ax.SIS\PD\UI\Ax.SIS.PD.UI\OfficeDLL\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>EINV\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Office, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\Ax.SIS\PD\UI\Ax.SIS.PD.UI\OfficeDLL\Office.dll</HintPath>
+    </Reference>
+    <Reference Include="OneCorLib, Version=2.3.0.0, Culture=neutral, PublicKeyToken=6895727a3cc10e00, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Ax.DEV.Environment\Assemblies\OneCorLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Net.Http.WebRequest, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TheOne.ServiceModel">
+      <HintPath>..\Ax.DEV.Environment\Assemblies\TheOne.ServiceModel.dll</HintPath>
+    </Reference>
+    <Reference Include="TheOne.Windows.Forms">
+      <HintPath>..\Ax.DEV.Environment\Assemblies\TheOne.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing">
+      <HintPath>Dlls\zxing.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ZSD02350.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ZSD02350.designer.cs">
+      <DependentUpon>ZSD02350.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZSD02400.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ZSD02400.designer.cs">
+      <DependentUpon>ZSD02400.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZSD02500_IRN_MANUAL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZSD02500_IRN_MANUAL.Designer.cs">
+      <DependentUpon>ZSD02500_IRN_MANUAL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZSD02500_PRTHelper.cs" />
+    <Compile Include="ZSD02620.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ZSD02620.Designer.cs">
+      <DependentUpon>ZSD02620.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZSD02810.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ZSD02810.Designer.cs">
+      <DependentUpon>ZSD02810.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZSD02500_EtcDelDLG.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ZSD02500_EtcDelDLG.Designer.cs">
+      <DependentUpon>ZSD02500_EtcDelDLG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZSD02740.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ZSD02740.Designer.cs">
+      <DependentUpon>ZSD02740.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZSD02750.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ZSD02750.Designer.cs">
+      <DependentUpon>ZSD02750.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZSD02730.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ZSD02730.Designer.cs">
+      <DependentUpon>ZSD02730.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZSD02720.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ZSD02720.Designer.cs">
+      <DependentUpon>ZSD02720.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZSD02710.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ZSD02710.Designer.cs">
+      <DependentUpon>ZSD02710.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZSD02550_DLG.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ZSD02550_DLG.Designer.cs">
+      <DependentUpon>ZSD02550_DLG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZSD20630.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ZSD20630.Designer.cs">
+      <DependentUpon>ZSD20630.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZSD02130.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ZSD02130.Designer.cs">
+      <DependentUpon>ZSD02130.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EINV\CancelEWayBillRequestEntity.cs" />
+    <Compile Include="EINV\CancelIRN.cs" />
+    <Compile Include="EINV\CancelIRNDirectAPIAccess.cs" />
+    <Compile Include="EINV\CreateEWayBillRequestEntity.cs" />
+    <Compile Include="EINV\EInvoiceMapper.cs" />
+    <Compile Include="EINV\EWayBillEntity.cs" />
+    <Compile Include="EINV\GetEWayBillDetailsRequestEntity.cs" />
+    <Compile Include="EINV\GetEWayBillDetailsResultEntity.cs" />
+    <Compile Include="EINV\GetIRNDetailsRequestEntity.cs" />
+    <Compile Include="EINV\GetIRNDetailsResultEntity.cs" />
+    <Compile Include="EINV\IRNDetailsEntity.cs" />
+    <Compile Include="EINV\IRNGeneration.cs" />
+    <Compile Include="EINV\IRNRequestModel.cs" />
+    <Compile Include="EINV\MessageEntity.cs" />
+    <Compile Include="EINV\ResultEntity.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\KIAService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="ZSD02100.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ZSD02100.designer.cs">
+      <DependentUpon>ZSD02100.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZSD02610.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ZSD02610.Designer.cs">
+      <DependentUpon>ZSD02610.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZSD02600.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ZSD02600.Designer.cs">
+      <DependentUpon>ZSD02600.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZSD02300.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ZSD02300.Designer.cs">
+      <DependentUpon>ZSD02300.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZSD02580.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ZSD02580.Designer.cs">
+      <DependentUpon>ZSD02580.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZSD02170.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ZSD02150.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ZSD02120.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ZSD02170.Designer.cs">
+      <DependentUpon>ZSD02170.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZSD02150.Designer.cs">
+      <DependentUpon>ZSD02150.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZSD02120.Designer.cs">
+      <DependentUpon>ZSD02120.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZSD02550.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ZSD02550.Designer.cs">
+      <DependentUpon>ZSD02550.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZSD02590.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ZSD02590.Designer.cs">
+      <DependentUpon>ZSD02590.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZSD02500.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ZSD02500.Designer.cs">
+      <DependentUpon>ZSD02500.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZSD02500_DLG.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ZSD02500_DLG.Designer.cs">
+      <DependentUpon>ZSD02500_DLG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZSD02110.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ZSD02110.Designer.cs">
+      <DependentUpon>ZSD02110.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ZSDE6000.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ZSDE6000.Designer.cs">
+      <DependentUpon>ZSDE6000.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZSDE600_EDIT.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ZSDE600_EDIT.Designer.cs">
+      <DependentUpon>ZSDE600_EDIT.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ax.DEV.Utility\Ax.DEV.Utility\Ax.DEV.Utility.csproj">
+      <Project>{9aefcdec-4c84-4d60-8fb5-79a3b67287c1}</Project>
+      <Name>Ax.DEV.Utility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ax.SIS\CM\UI\Ax.SIS.CM.UI\Ax.SIS.CM.UI.csproj">
+      <Project>{701e3ce9-7322-4e0d-a5c5-ca253a955d07}</Project>
+      <Name>Ax.SIS.CM.UI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="ZSD02350.resx">
+      <DependentUpon>ZSD02350.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZSD02400.resx">
+      <DependentUpon>ZSD02400.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZSD02500_IRN_MANUAL.resx">
+      <DependentUpon>ZSD02500_IRN_MANUAL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZSD02620.resx">
+      <DependentUpon>ZSD02620.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZSD02810.resx">
+      <DependentUpon>ZSD02810.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZSD02500_EtcDelDLG.resx">
+      <DependentUpon>ZSD02500_EtcDelDLG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZSD02740.resx">
+      <DependentUpon>ZSD02740.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZSD02750.resx">
+      <DependentUpon>ZSD02750.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZSD02730.resx">
+      <DependentUpon>ZSD02730.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZSD02720.resx">
+      <DependentUpon>ZSD02720.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZSD02710.resx">
+      <DependentUpon>ZSD02710.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZSD02550_DLG.resx">
+      <DependentUpon>ZSD02550_DLG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZSD20630.resx">
+      <DependentUpon>ZSD20630.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZSD02130.resx">
+      <DependentUpon>ZSD02130.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZSD02100.resx">
+      <DependentUpon>ZSD02100.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZSD02610.resx">
+      <DependentUpon>ZSD02610.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZSD02600.resx">
+      <DependentUpon>ZSD02600.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZSD02300.resx">
+      <DependentUpon>ZSD02300.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZSD02580.resx">
+      <DependentUpon>ZSD02580.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZSD02120.resx">
+      <DependentUpon>ZSD02120.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZSD02170.resx">
+      <DependentUpon>ZSD02170.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZSD02150.resx">
+      <DependentUpon>ZSD02150.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZSD02550.resx">
+      <DependentUpon>ZSD02550.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZSD02590.resx">
+      <DependentUpon>ZSD02590.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZSD02500.resx">
+      <DependentUpon>ZSD02500.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZSD02500_DLG.resx">
+      <DependentUpon>ZSD02500_DLG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZSD02110.resx">
+      <DependentUpon>ZSD02110.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZSDE6000.resx">
+      <DependentUpon>ZSDE6000.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZSDE600_EDIT.resx">
+      <DependentUpon>ZSDE600_EDIT.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Dlls\zxing.dll" />
+    <Content Include="EINV\Newtonsoft.Json.dll" />
+    <Content Include="RxRpt\ZSD02500B_IRN.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <EmbeddedResource Include="RxRpt\ZSD02500_01.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RxRpt\ZSD02500_PN.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <Content Include="RxRpt\ZSD02500_IRN.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="RxRpt\ZSD02550.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RxRpt\ZSD02500B.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RxRpt\ZSD02730.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RxRpt\ZSD02580.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RxRpt\ZSD02500.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <EmbeddedResource Include="RxRpt\ZSD02730.reb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <None Include="Web References\KIAService\O_DATA.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\KIAService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\KIAService\Service.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="RxRpt\ZSD02500.reb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="RxRpt\ZSD02580.reb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="RxRpt\ZSD02550.reb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="RxRpt\ZSD02500B.reb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="RxRpt\ZSD02500_IRN.reb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="RxRpt\ZSD02500B_IRN.reb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Web References\KIAService\Service.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="https://kininvoice.kiaindia.net:81/Service.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\KIAService\</RelPath>
+      <UpdateFromURL>https://kininvoice.kiaindia.net:81/Service.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Ax_SIS_SD_UI_KIAService_Service</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxClipsoft">
+      <Guid>{A0FBAB5F-29C4-486A-ADA5-B6612C807676}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="Clipsoft">
+      <Guid>{A0FBAB5F-29C4-486A-ADA5-B6612C807676}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

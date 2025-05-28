@@ -1,0 +1,379 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:Locale="ko-KR">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="ko-KR" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="CORCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BIZCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VINCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VINNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="IMPUTCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="IMPUTNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MATUSEYN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PLACECD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PLACENM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="DEFCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="DEFNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="DEF_QTY" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DEF_UCOST" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DEF_AMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="EMPNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="EMPNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="NOTENO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="RCV_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="REMARK" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="OBJECT_ID" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <CORCD>1000</CORCD>
+    <BIZCD>1001</BIZCD>
+    <VINCD>DH</VINCD>
+    <VINNM>DH</VINNM>
+    <PARTNO>82310-B1000RRY</PARTNO>
+    <PARTNM>PNL ASSY-FR DR TRIM LWR,LH</PARTNM>
+    <VENDCD>100012</VENDCD>
+    <VENDNM>한진피엘(주)</VENDNM>
+    <IMPUTCD>L</IMPUTCD>
+    <IMPUTNM>당사</IMPUTNM>
+    <MATUSEYN>AAAAA</MATUSEYN>
+    <PLACECD>C</PLACECD>
+    <PLACENM>투입후</PLACENM>
+    <DEFCD>DA064</DEFCD>
+    <DEFNM>융착 불량</DEFNM>
+    <DEF_QTY>1</DEF_QTY>
+    <DEF_UCOST>13693</DEF_UCOST>
+    <DEF_AMT>13693</DEF_AMT>
+    <EMPNO>900011</EMPNO>
+    <EMPNM>차민석</EMPNM>
+    <NOTENO>201506010002</NOTENO>	 
+    <RCV_DATE>2015-06-01</RCV_DATE>
+	<REMARK>201506010002</REMARK>
+    <OBJECT_ID>1</OBJECT_ID>
+  </DATA>
+  <DATA>
+    <CORCD>1000</CORCD>
+    <BIZCD>1001</BIZCD>
+    <VINCD>DH</VINCD>
+    <VINNM>DH</VINNM>
+    <PARTNO>82310-B1000RRY</PARTNO>
+    <PARTNM>PNL ASSY-FR DR TRIM LWR,LH</PARTNM>
+    <VENDCD>100012</VENDCD>
+    <VENDNM>한진피엘(주)</VENDNM>
+    <IMPUTCD>L</IMPUTCD>
+    <IMPUTNM>당사</IMPUTNM>
+    <MATUSEYN>AAAAA</MATUSEYN>
+    <PLACECD>C</PLACECD>
+    <PLACENM>투입후</PLACENM>
+    <DEFCD>DA064</DEFCD>
+    <DEFNM>융착 불량</DEFNM>
+    <DEF_QTY>1</DEF_QTY>
+    <DEF_UCOST>13693</DEF_UCOST>
+    <DEF_AMT>13693</DEF_AMT>
+    <EMPNO>900011</EMPNO>
+    <EMPNM>차민석</EMPNM>
+    <NOTENO>201506010002</NOTENO>	 
+    <RCV_DATE>2015-06-01</RCV_DATE>
+	<REMARK>201506010002</REMARK>
+    <OBJECT_ID>1</OBJECT_ID>
+  </DATA>
+  <DATA>
+    <CORCD>1000</CORCD>
+    <BIZCD>1001</BIZCD>
+    <VINCD>DH</VINCD>
+    <VINNM>DH</VINNM>
+    <PARTNO>82310-B1000RRY</PARTNO>
+    <PARTNM>PNL ASSY-FR DR TRIM LWR,LH</PARTNM>
+    <VENDCD>100012</VENDCD>
+    <VENDNM>한진피엘(주)</VENDNM>
+    <IMPUTCD>L</IMPUTCD>
+    <IMPUTNM>당사</IMPUTNM>
+    <MATUSEYN>AAAAA</MATUSEYN>
+    <PLACECD>C</PLACECD>
+    <PLACENM>투입후</PLACENM>
+    <DEFCD>DA064</DEFCD>
+    <DEFNM>융착 불량</DEFNM>
+    <DEF_QTY>1</DEF_QTY>
+    <DEF_UCOST>13693</DEF_UCOST>
+    <DEF_AMT>13693</DEF_AMT>
+    <EMPNO>900011</EMPNO>
+    <EMPNM>차민석</EMPNM>
+    <NOTENO>201506010002</NOTENO>	 
+    <RCV_DATE>2015-06-01</RCV_DATE>
+	<REMARK>201506010002</REMARK>
+    <OBJECT_ID>1</OBJECT_ID>
+  </DATA>
+  <DATA>
+    <CORCD>1000</CORCD>
+    <BIZCD>1001</BIZCD>
+    <VINCD>DH</VINCD>
+    <VINNM>DH</VINNM>
+    <PARTNO>82310-B1000RRY</PARTNO>
+    <PARTNM>PNL ASSY-FR DR TRIM LWR,LH</PARTNM>
+    <VENDCD>100012</VENDCD>
+    <VENDNM>한진피엘(주)</VENDNM>
+    <IMPUTCD>L</IMPUTCD>
+    <IMPUTNM>당사</IMPUTNM>
+    <MATUSEYN>AAAAA</MATUSEYN>
+    <PLACECD>C</PLACECD>
+    <PLACENM>투입후</PLACENM>
+    <DEFCD>DA064</DEFCD>
+    <DEFNM>융착 불량</DEFNM>
+    <DEF_QTY>1</DEF_QTY>
+    <DEF_UCOST>13693</DEF_UCOST>
+    <DEF_AMT>13693</DEF_AMT>
+    <EMPNO>900011</EMPNO>
+    <EMPNM>차민석</EMPNM>
+    <NOTENO>201506010002</NOTENO>	 
+    <RCV_DATE>2015-06-01</RCV_DATE>
+	<REMARK>201506010002</REMARK>
+    <OBJECT_ID>1</OBJECT_ID>
+  </DATA>
+  <DATA>
+    <CORCD>1000</CORCD>
+    <BIZCD>1001</BIZCD>
+    <VINCD>DH</VINCD>
+    <VINNM>DH</VINNM>
+    <PARTNO>82310-B1000RRY</PARTNO>
+    <PARTNM>PNL ASSY-FR DR TRIM LWR,LH</PARTNM>
+    <VENDCD>100012</VENDCD>
+    <VENDNM>한진피엘(주)</VENDNM>
+    <IMPUTCD>L</IMPUTCD>
+    <IMPUTNM>당사</IMPUTNM>
+    <MATUSEYN>AAAAA</MATUSEYN>
+    <PLACECD>C</PLACECD>
+    <PLACENM>투입후</PLACENM>
+    <DEFCD>DA064</DEFCD>
+    <DEFNM>융착 불량</DEFNM>
+    <DEF_QTY>1</DEF_QTY>
+    <DEF_UCOST>13693</DEF_UCOST>
+    <DEF_AMT>13693</DEF_AMT>
+    <EMPNO>900011</EMPNO>
+    <EMPNM>차민석</EMPNM>
+    <NOTENO>201506010002</NOTENO>	 
+    <RCV_DATE>2015-06-01</RCV_DATE>
+	<REMARK>201506010002</REMARK>
+    <OBJECT_ID>1</OBJECT_ID>
+  </DATA>
+  <DATA>
+    <CORCD>1000</CORCD>
+    <BIZCD>1001</BIZCD>
+    <VINCD>DH</VINCD>
+    <VINNM>DH</VINNM>
+    <PARTNO>82310-B1000RRY</PARTNO>
+    <PARTNM>PNL ASSY-FR DR TRIM LWR,LH</PARTNM>
+    <VENDCD>100012</VENDCD>
+    <VENDNM>한진피엘(주)</VENDNM>
+    <IMPUTCD>L</IMPUTCD>
+    <IMPUTNM>당사</IMPUTNM>
+    <MATUSEYN>AAAAA</MATUSEYN>
+    <PLACECD>C</PLACECD>
+    <PLACENM>투입후</PLACENM>
+    <DEFCD>DA064</DEFCD>
+    <DEFNM>융착 불량</DEFNM>
+    <DEF_QTY>1</DEF_QTY>
+    <DEF_UCOST>13693</DEF_UCOST>
+    <DEF_AMT>13693</DEF_AMT>
+    <EMPNO>900011</EMPNO>
+    <EMPNM>차민석</EMPNM>
+    <NOTENO>201506010002</NOTENO>	 
+    <RCV_DATE>2015-06-01</RCV_DATE>
+	<REMARK>201506010002</REMARK>
+    <OBJECT_ID>1</OBJECT_ID>
+  </DATA>
+  <DATA>
+    <CORCD>1000</CORCD>
+    <BIZCD>1001</BIZCD>
+    <VINCD>DH</VINCD>
+    <VINNM>DH</VINNM>
+    <PARTNO>82310-B1000RRY</PARTNO>
+    <PARTNM>PNL ASSY-FR DR TRIM LWR,LH</PARTNM>
+    <VENDCD>100012</VENDCD>
+    <VENDNM>한진피엘(주)</VENDNM>
+    <IMPUTCD>L</IMPUTCD>
+    <IMPUTNM>당사</IMPUTNM>
+    <MATUSEYN>AAAAA</MATUSEYN>
+    <PLACECD>C</PLACECD>
+    <PLACENM>투입후</PLACENM>
+    <DEFCD>DA064</DEFCD>
+    <DEFNM>융착 불량</DEFNM>
+    <DEF_QTY>1</DEF_QTY>
+    <DEF_UCOST>13693</DEF_UCOST>
+    <DEF_AMT>13693</DEF_AMT>
+    <EMPNO>900011</EMPNO>
+    <EMPNM>차민석</EMPNM>
+    <NOTENO>201506010002</NOTENO>	 
+    <RCV_DATE>2015-06-01</RCV_DATE>
+	<REMARK>201506010002</REMARK>
+    <OBJECT_ID>1</OBJECT_ID>
+  </DATA>
+  <DATA>
+    <CORCD>1000</CORCD>
+    <BIZCD>1001</BIZCD>
+    <VINCD>DH</VINCD>
+    <VINNM>DH</VINNM>
+    <PARTNO>82310-B1000RRY</PARTNO>
+    <PARTNM>PNL ASSY-FR DR TRIM LWR,LH</PARTNM>
+    <VENDCD>100012</VENDCD>
+    <VENDNM>한진피엘(주)</VENDNM>
+    <IMPUTCD>L</IMPUTCD>
+    <IMPUTNM>당사</IMPUTNM>
+    <MATUSEYN>AAAAA</MATUSEYN>
+    <PLACECD>C</PLACECD>
+    <PLACENM>투입후</PLACENM>
+    <DEFCD>DA064</DEFCD>
+    <DEFNM>융착 불량</DEFNM>
+    <DEF_QTY>1</DEF_QTY>
+    <DEF_UCOST>13693</DEF_UCOST>
+    <DEF_AMT>13693</DEF_AMT>
+    <EMPNO>900011</EMPNO>
+    <EMPNM>차민석</EMPNM>
+    <NOTENO>201506010002</NOTENO>	 
+    <RCV_DATE>2015-06-01</RCV_DATE>
+	<REMARK>201506010002</REMARK>
+    <OBJECT_ID>1</OBJECT_ID>
+  </DATA>
+  <DATA>
+    <CORCD>1000</CORCD>
+    <BIZCD>1001</BIZCD>
+    <VINCD>DH</VINCD>
+    <VINNM>DH</VINNM>
+    <PARTNO>82310-B1000RRY</PARTNO>
+    <PARTNM>PNL ASSY-FR DR TRIM LWR,LH</PARTNM>
+    <VENDCD>100012</VENDCD>
+    <VENDNM>한진피엘(주)</VENDNM>
+    <IMPUTCD>L</IMPUTCD>
+    <IMPUTNM>당사</IMPUTNM>
+    <MATUSEYN>AAAAA</MATUSEYN>
+    <PLACECD>C</PLACECD>
+    <PLACENM>투입후</PLACENM>
+    <DEFCD>DA064</DEFCD>
+    <DEFNM>융착 불량</DEFNM>
+    <DEF_QTY>1</DEF_QTY>
+    <DEF_UCOST>13693</DEF_UCOST>
+    <DEF_AMT>13693</DEF_AMT>
+    <EMPNO>900011</EMPNO>
+    <EMPNM>차민석</EMPNM>
+    <NOTENO>201506010002</NOTENO>	 
+    <RCV_DATE>2015-06-01</RCV_DATE>
+	<REMARK>201506010002</REMARK>
+    <OBJECT_ID>1</OBJECT_ID>
+  </DATA>
+  <DATA>
+    <CORCD>1000</CORCD>
+    <BIZCD>1001</BIZCD>
+    <VINCD>DH</VINCD>
+    <VINNM>DH</VINNM>
+    <PARTNO>82310-B1000RRY</PARTNO>
+    <PARTNM>PNL ASSY-FR DR TRIM LWR,LH</PARTNM>
+    <VENDCD>100012</VENDCD>
+    <VENDNM>한진피엘(주)</VENDNM>
+    <IMPUTCD>L</IMPUTCD>
+    <IMPUTNM>당사</IMPUTNM>
+    <MATUSEYN>AAAAA</MATUSEYN>
+    <PLACECD>C</PLACECD>
+    <PLACENM>투입후</PLACENM>
+    <DEFCD>DA064</DEFCD>
+    <DEFNM>융착 불량</DEFNM>
+    <DEF_QTY>1</DEF_QTY>
+    <DEF_UCOST>13693</DEF_UCOST>
+    <DEF_AMT>13693</DEF_AMT>
+    <EMPNO>900011</EMPNO>
+    <EMPNM>차민석</EMPNM>
+    <NOTENO>201506010002</NOTENO>	 
+    <RCV_DATE>2015-06-01</RCV_DATE>
+	<REMARK>201506010002</REMARK>
+    <OBJECT_ID>1</OBJECT_ID>
+  </DATA>
+  <DATA>
+    <CORCD>1000</CORCD>
+    <BIZCD>1001</BIZCD>
+    <VINCD>DH</VINCD>
+    <VINNM>DH</VINNM>
+    <PARTNO>82310-B1000RRY</PARTNO>
+    <PARTNM>PNL ASSY-FR DR TRIM LWR,LH</PARTNM>
+    <VENDCD>100012</VENDCD>
+    <VENDNM>한진피엘(주)</VENDNM>
+    <IMPUTCD>L</IMPUTCD>
+    <IMPUTNM>당사</IMPUTNM>
+    <MATUSEYN>AAAAA</MATUSEYN>
+    <PLACECD>C</PLACECD>
+    <PLACENM>투입후</PLACENM>
+    <DEFCD>DA064</DEFCD>
+    <DEFNM>융착 불량</DEFNM>
+    <DEF_QTY>1</DEF_QTY>
+    <DEF_UCOST>13693</DEF_UCOST>
+    <DEF_AMT>13693</DEF_AMT>
+    <EMPNO>900011</EMPNO>
+    <EMPNM>차민석</EMPNM>
+    <NOTENO>201506010002</NOTENO>	 
+    <RCV_DATE>2015-06-01</RCV_DATE>
+	<REMARK>201506010002</REMARK>
+    <OBJECT_ID>1</OBJECT_ID>
+  </DATA>
+  <DATA>
+    <CORCD>1000</CORCD>
+    <BIZCD>1001</BIZCD>
+    <VINCD>DH</VINCD>
+    <VINNM>DH</VINNM>
+    <PARTNO>82310-B1000RRY</PARTNO>
+    <PARTNM>PNL ASSY-FR DR TRIM LWR,LH</PARTNM>
+    <VENDCD>100012</VENDCD>
+    <VENDNM>한진피엘(주)</VENDNM>
+    <IMPUTCD>L</IMPUTCD>
+    <IMPUTNM>당사</IMPUTNM>
+    <MATUSEYN>AAAAA</MATUSEYN>
+    <PLACECD>C</PLACECD>
+    <PLACENM>투입후</PLACENM>
+    <DEFCD>DA064</DEFCD>
+    <DEFNM>융착 불량</DEFNM>
+    <DEF_QTY>1</DEF_QTY>
+    <DEF_UCOST>13693</DEF_UCOST>
+    <DEF_AMT>13693</DEF_AMT>
+    <EMPNO>900011</EMPNO>
+    <EMPNM>차민석</EMPNM>
+    <NOTENO>201506010002</NOTENO>	 
+    <RCV_DATE>2015-06-01</RCV_DATE>
+	<REMARK>201506010002</REMARK>
+    <OBJECT_ID>1</OBJECT_ID>
+  </DATA>
+  <DATA>
+    <CORCD>1000</CORCD>
+    <BIZCD>1001</BIZCD>
+    <VINCD>DH</VINCD>
+    <VINNM>DH</VINNM>
+    <PARTNO>82310-B1000RRY</PARTNO>
+    <PARTNM>PNL ASSY-FR DR TRIM LWR,LH</PARTNM>
+    <VENDCD>100012</VENDCD>
+    <VENDNM>한진피엘(주)</VENDNM>
+    <IMPUTCD>L</IMPUTCD>
+    <IMPUTNM>당사</IMPUTNM>
+    <MATUSEYN>AAAAA</MATUSEYN>
+    <PLACECD>C</PLACECD>
+    <PLACENM>투입후</PLACENM>
+    <DEFCD>DA064</DEFCD>
+    <DEFNM>융착 불량</DEFNM>
+    <DEF_QTY>1</DEF_QTY>
+    <DEF_UCOST>13693</DEF_UCOST>
+    <DEF_AMT>13693</DEF_AMT>
+    <EMPNO>900011</EMPNO>
+    <EMPNM>차민석</EMPNM>
+    <NOTENO>201506010002</NOTENO>	 
+    <RCV_DATE>2015-06-01</RCV_DATE>
+	<REMARK>201506010002</REMARK>
+    <OBJECT_ID>1</OBJECT_ID>
+  </DATA>
+</NewDataSet>

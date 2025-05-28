@@ -1,0 +1,448 @@
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\Ax.DEV.Utility.dll
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\Ax.DEV.Utility.pdb
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\pl\Ax.DEV.Utility.resources.dll
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\en\Ax.DEV.Utility.resources.dll
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.C1Excel.2.dll
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Chart.2.dll
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Chart3D.2.dll
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Command.2.dll
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1FlexGrid.2.dll
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Input.2.dll
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1InputPanel.2.dll
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1List.2.dll
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\HE.ComponentOne.dll
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\HE.Framework.Core.dll
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\HE.Framework.ServiceModel.dll
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\HE.Framework.Windows.Forms.dll
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\itextsharp.dll
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\Newtonsoft.Json.dll
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\OneCorLib.dll
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\TheOne.ServiceModel.dll
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\TheOne.UIModel.dll
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\TheOne.Windows.Forms.dll
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.C1Excel.2.xml
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Chart.2.xml
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Chart3D.2.xml
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Command.2.xml
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1FlexGrid.2.xml
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Input.2.xml
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1InputPanel.2.xml
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1List.2.xml
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\Interop.SHDocVw.dll
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Interop.SHDocVw.dll
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.csproj.ResolveComReference.cache
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Controls.AxDockingTab.resources
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Controls.AxRichTextBox.resources
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Controls.AxTextBox.resources
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Controls.AxOfficeViewer.resources
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxCommonBaseControl.resources
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxRexpertReportViewer.resources
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxCommonButtonControl.resources
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxExcelDownloadPopup.resources
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxHelperForm.resources
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxPrinterForm.resources
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.PopupHelper.resources
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Properties.Resources.resources
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Properties.Resources_en.resources
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Resources.Default.resources
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Resources.Default.pl.resources
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Resources.Default.en.resources
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.csproj.GenerateResource.Cache
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.dll.licenses
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\pl\Ax.DEV.Utility.resources.dll
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\en\Ax.DEV.Utility.resources.dll
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.dll
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.pdb
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.csprojResolveAssemblyReference.cache
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\Ax.DEV.Utility.dll
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\Ax.DEV.Utility.pdb
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\pl\Ax.DEV.Utility.resources.dll
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\en\Ax.DEV.Utility.resources.dll
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.C1Excel.2.dll
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Chart.2.dll
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Chart3D.2.dll
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Command.2.dll
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1FlexGrid.2.dll
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Input.2.dll
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1InputPanel.2.dll
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1List.2.dll
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\HE.ComponentOne.dll
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\HE.Framework.Core.dll
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\HE.Framework.ServiceModel.dll
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\HE.Framework.Windows.Forms.dll
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\itextsharp.dll
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\Newtonsoft.Json.dll
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\OneCorLib.dll
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\TheOne.ServiceModel.dll
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\TheOne.UIModel.dll
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\TheOne.Windows.Forms.dll
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.C1Excel.2.xml
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Chart.2.xml
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Chart3D.2.xml
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Command.2.xml
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1FlexGrid.2.xml
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Input.2.xml
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1InputPanel.2.xml
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1List.2.xml
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\Interop.SHDocVw.dll
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Interop.SHDocVw.dll
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.csproj.ResolveComReference.cache
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Controls.AxDockingTab.resources
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Controls.AxRichTextBox.resources
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Controls.AxTextBox.resources
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Controls.AxOfficeViewer.resources
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxCommonBaseControl.resources
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxRexpertReportViewer.resources
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxCommonButtonControl.resources
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxExcelDownloadPopup.resources
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxHelperForm.resources
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxPrinterForm.resources
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.PopupHelper.resources
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Properties.Resources.resources
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Properties.Resources_en.resources
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Resources.Default.resources
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Resources.Default.pl.resources
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Resources.Default.en.resources
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.csproj.GenerateResource.Cache
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.dll.licenses
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\pl\Ax.DEV.Utility.resources.dll
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\en\Ax.DEV.Utility.resources.dll
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.dll
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.pdb
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\Ax.DEV.Utility.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\Ax.DEV.Utility.pdb
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\pl\Ax.DEV.Utility.resources.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\en\Ax.DEV.Utility.resources.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.C1Excel.2.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Chart.2.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Chart3D.2.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Command.2.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1FlexGrid.2.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Input.2.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1InputPanel.2.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1List.2.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\HE.ComponentOne.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\HE.Framework.Core.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\HE.Framework.ServiceModel.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\HE.Framework.Windows.Forms.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\itextsharp.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\Newtonsoft.Json.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\OneCorLib.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\TheOne.ServiceModel.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\TheOne.UIModel.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\TheOne.Windows.Forms.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.C1Excel.2.xml
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Chart.2.xml
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Chart3D.2.xml
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Command.2.xml
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1FlexGrid.2.xml
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Input.2.xml
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1InputPanel.2.xml
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1List.2.xml
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\Interop.SHDocVw.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Interop.SHDocVw.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.csproj.ResolveComReference.cache
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Controls.AxDockingTab.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Controls.AxRichTextBox.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Controls.AxTextBox.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Controls.AxOfficeViewer.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxCommonBaseControl.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxRexpertReportViewer.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxCommonButtonControl.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxExcelDownloadPopup.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxHelperForm.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxPrinterForm.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.PopupHelper.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Properties.Resources.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Properties.Resources_en.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Resources.Default.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Resources.Default.pl.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Resources.Default.en.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.csproj.GenerateResource.Cache
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.dll.licenses
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\pl\Ax.DEV.Utility.resources.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\en\Ax.DEV.Utility.resources.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.pdb
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.csprojResolveAssemblyReference.cache
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\Ax.DEV.Utility.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\Ax.DEV.Utility.pdb
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\pl\Ax.DEV.Utility.resources.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\en\Ax.DEV.Utility.resources.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.C1Excel.2.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Chart.2.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Chart3D.2.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Command.2.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1FlexGrid.2.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Input.2.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1InputPanel.2.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1List.2.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\HE.ComponentOne.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\HE.Framework.Core.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\HE.Framework.ServiceModel.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\HE.Framework.Windows.Forms.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\itextsharp.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\Newtonsoft.Json.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\OneCorLib.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\TheOne.ServiceModel.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\TheOne.UIModel.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\TheOne.Windows.Forms.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.C1Excel.2.xml
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Chart.2.xml
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Chart3D.2.xml
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Command.2.xml
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1FlexGrid.2.xml
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Input.2.xml
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1InputPanel.2.xml
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1List.2.xml
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\Interop.SHDocVw.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Interop.SHDocVw.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.csproj.ResolveComReference.cache
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Controls.AxDockingTab.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Controls.AxRichTextBox.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Controls.AxTextBox.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Controls.AxOfficeViewer.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxCommonBaseControl.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxRexpertReportViewer.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxCommonButtonControl.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxExcelDownloadPopup.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxHelperForm.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxPrinterForm.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.PopupHelper.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Properties.Resources.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Properties.Resources_en.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Resources.Default.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Resources.Default.pl.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Resources.Default.en.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.csproj.GenerateResource.cache
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.dll.licenses
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\pl\Ax.DEV.Utility.resources.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\en\Ax.DEV.Utility.resources.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.pdb
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.csprojResolveAssemblyReference.cache
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\Ax.DEV.Utility.dll
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\Ax.DEV.Utility.pdb
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\pl\Ax.DEV.Utility.resources.dll
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\en\Ax.DEV.Utility.resources.dll
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.C1Excel.2.dll
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Chart.2.dll
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Chart3D.2.dll
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Command.2.dll
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1FlexGrid.2.dll
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Input.2.dll
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1InputPanel.2.dll
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1List.2.dll
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\HE.ComponentOne.dll
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\HE.Framework.Core.dll
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\HE.Framework.ServiceModel.dll
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\HE.Framework.Windows.Forms.dll
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\itextsharp.dll
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\Newtonsoft.Json.dll
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\OneCorLib.dll
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\TheOne.ServiceModel.dll
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\TheOne.UIModel.dll
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\TheOne.Windows.Forms.dll
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.C1Excel.2.xml
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Chart.2.xml
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Chart3D.2.xml
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Command.2.xml
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1FlexGrid.2.xml
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Input.2.xml
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1InputPanel.2.xml
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1List.2.xml
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\Interop.SHDocVw.dll
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Interop.SHDocVw.dll
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.csproj.ResolveComReference.cache
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Controls.AxDockingTab.resources
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Controls.AxRichTextBox.resources
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Controls.AxTextBox.resources
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Controls.AxOfficeViewer.resources
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxCommonBaseControl.resources
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxRexpertReportViewer.resources
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxCommonButtonControl.resources
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxExcelDownloadPopup.resources
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxHelperForm.resources
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxPrinterForm.resources
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.PopupHelper.resources
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Properties.Resources.resources
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Properties.Resources_en.resources
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Resources.Default.resources
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Resources.Default.pl.resources
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Resources.Default.en.resources
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.csproj.GenerateResource.Cache
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.dll.licenses
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\pl\Ax.DEV.Utility.resources.dll
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\en\Ax.DEV.Utility.resources.dll
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.dll
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.pdb
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\Ax.DEV.Utility.dll
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\Ax.DEV.Utility.pdb
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\pl\Ax.DEV.Utility.resources.dll
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\en\Ax.DEV.Utility.resources.dll
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.C1Excel.2.dll
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Chart.2.dll
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Chart3D.2.dll
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Command.2.dll
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1FlexGrid.2.dll
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Input.2.dll
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1InputPanel.2.dll
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1List.2.dll
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\HE.ComponentOne.dll
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\HE.Framework.Core.dll
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\HE.Framework.ServiceModel.dll
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\HE.Framework.Windows.Forms.dll
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\itextsharp.dll
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\Newtonsoft.Json.dll
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\OneCorLib.dll
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\TheOne.ServiceModel.dll
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\TheOne.UIModel.dll
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\TheOne.Windows.Forms.dll
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.C1Excel.2.xml
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Chart.2.xml
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Chart3D.2.xml
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Command.2.xml
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1FlexGrid.2.xml
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Input.2.xml
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1InputPanel.2.xml
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1List.2.xml
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\Interop.SHDocVw.dll
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.csproj.AssemblyReference.cache
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Interop.SHDocVw.dll
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.csproj.ResolveComReference.cache
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Controls.AxDockingTab.resources
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Controls.AxRichTextBox.resources
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Controls.AxTextBox.resources
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Controls.AxOfficeViewer.resources
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxCommonBaseControl.resources
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxRexpertReportViewer.resources
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxCommonButtonControl.resources
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxExcelDownloadPopup.resources
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxHelperForm.resources
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxPrinterForm.resources
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.PopupHelper.resources
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Properties.Resources.resources
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Properties.Resources_en.resources
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Resources.Default.resources
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Resources.Default.pl.resources
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Resources.Default.en.resources
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.csproj.GenerateResource.cache
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.dll.licenses
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.csproj.CoreCompileInputs.cache
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\pl\Ax.DEV.Utility.resources.dll
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\en\Ax.DEV.Utility.resources.dll
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.U.C0A39E36.Up2Date
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.dll
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.pdb
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\Ax.DEV.Utility.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\Ax.DEV.Utility.pdb
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\pl\Ax.DEV.Utility.resources.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\en\Ax.DEV.Utility.resources.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.C1Excel.2.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Chart.2.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Chart3D.2.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Command.2.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1FlexGrid.2.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Input.2.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1InputPanel.2.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1List.2.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\HE.ComponentOne.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\HE.Framework.Core.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\HE.Framework.ServiceModel.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\HE.Framework.Windows.Forms.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\itextsharp.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\Newtonsoft.Json.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\OneCorLib.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\TheOne.ServiceModel.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\TheOne.UIModel.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\TheOne.Windows.Forms.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.C1Excel.2.xml
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Chart.2.xml
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Chart3D.2.xml
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Command.2.xml
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1FlexGrid.2.xml
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Input.2.xml
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1InputPanel.2.xml
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1List.2.xml
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\Interop.SHDocVw.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Interop.SHDocVw.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.csproj.ResolveComReference.cache
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Controls.AxDockingTab.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Controls.AxRichTextBox.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Controls.AxTextBox.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Controls.AxOfficeViewer.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxCommonBaseControl.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxRexpertReportViewer.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxCommonButtonControl.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxExcelDownloadPopup.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxHelperForm.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxPrinterForm.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.PopupHelper.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Properties.Resources.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Properties.Resources_en.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Resources.Default.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Resources.Default.pl.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Resources.Default.en.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.csproj.GenerateResource.Cache
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.dll.licenses
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\pl\Ax.DEV.Utility.resources.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\en\Ax.DEV.Utility.resources.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.pdb
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.csprojResolveAssemblyReference.cache
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\Ax.DEV.Utility.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\Ax.DEV.Utility.pdb
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\pl\Ax.DEV.Utility.resources.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\en\Ax.DEV.Utility.resources.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.C1Excel.2.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Chart.2.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Chart3D.2.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Command.2.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1FlexGrid.2.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Input.2.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1InputPanel.2.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1List.2.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\HE.ComponentOne.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\HE.Framework.Core.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\HE.Framework.ServiceModel.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\HE.Framework.Windows.Forms.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\itextsharp.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\Newtonsoft.Json.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\OneCorLib.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\TheOne.ServiceModel.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\TheOne.UIModel.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\TheOne.Windows.Forms.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.C1Excel.2.xml
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Chart.2.xml
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Chart3D.2.xml
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Command.2.xml
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1FlexGrid.2.xml
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1Input.2.xml
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1InputPanel.2.xml
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\C1.Win.C1List.2.xml
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\bin\Debug\Interop.SHDocVw.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.csprojResolveAssemblyReference.cache
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Interop.SHDocVw.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.csproj.ResolveComReference.cache
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Controls.AxDockingTab.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Controls.AxRichTextBox.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Controls.AxTextBox.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Controls.AxOfficeViewer.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxCommonBaseControl.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxRexpertReportViewer.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxCommonButtonControl.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxExcelDownloadPopup.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxHelperForm.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.AxPrinterForm.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Library.PopupHelper.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Properties.Resources.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Properties.Resources_en.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Resources.Default.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Resources.Default.pl.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.Resources.Default.en.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.csproj.GenerateResource.Cache
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.dll.licenses
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\pl\Ax.DEV.Utility.resources.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\en\Ax.DEV.Utility.resources.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Utility\Ax.DEV.Utility\obj\Debug\Ax.DEV.Utility.pdb

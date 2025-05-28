@@ -1,0 +1,772 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EE017D31-35F6-42A6-A5F6-7A17C7F1A1E1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ax.SIS.WM.UI</RootNamespace>
+    <AssemblyName>Ax.SIS.WM.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="C1.C1DataExtender.2, Version=2.0.20101.72, Culture=neutral, PublicKeyToken=7c4b5683f80b910e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Ax.DEV.Environment\C1Assemblies\C1.C1DataExtender.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.C1Report.2, Version=2.6.20101.54005, Culture=neutral, PublicKeyToken=594a0605db190bb9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Ax.DEV.Environment\C1Assemblies\C1.C1Report.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Chart.2, Version=2.0.20101.20060, Culture=neutral, PublicKeyToken=a22e16972c085838, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1Chart.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Chart3D.2, Version=2.0.20101.20060, Culture=neutral, PublicKeyToken=a22e16972c085838, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1Chart3D.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1FlexGrid.2, Version=2.6.20101.528, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1FlexGrid.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Gauge.2, Version=2.0.20101.24, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1Gauge.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Input.2, Version=2.0.20101.33244, Culture=neutral, PublicKeyToken=7e7ff60f0c214f9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1Input.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1List.2, Version=2.1.20101.165, Culture=neutral, PublicKeyToken=6b24f8f981dbd7bc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1List.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Report.2, Version=2.6.20101.54005, Culture=neutral, PublicKeyToken=41780e2fc605e636, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1Report.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Ribbon.2, Version=2.0.20101.233, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1Ribbon.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Schedule.2, Version=2.0.20101.114, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1Schedule.2.dll</HintPath>
+    </Reference>
+    <Reference Include="HE.Framework.Core, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Ax.DEV.Environment\Assemblies\HE.Framework.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="HE.Framework.ServiceModel, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Ax.DEV.Environment\Assemblies\HE.Framework.ServiceModel.dll</HintPath>
+    </Reference>
+    <Reference Include="HE.Framework.Windows.Forms, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Ax.DEV.Environment\Assemblies\HE.Framework.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="OneCorLib">
+      <HintPath>..\..\..\..\Ax.DEV.Environment\Assemblies\OneCorLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TheOne.ServiceModel">
+      <HintPath>..\..\..\..\Ax.DEV.Environment\Assemblies\TheOne.ServiceModel.dll</HintPath>
+    </Reference>
+    <Reference Include="TheOne.Windows.Forms">
+      <HintPath>..\..\..\..\Ax.DEV.Environment\Assemblies\TheOne.Windows.Forms.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BarcodePRT\BarcodePrt.cs" />
+    <Compile Include="WM60150.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM60150.Designer.cs">
+      <DependentUpon>WM60150.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM60100.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM60100.Designer.cs">
+      <DependentUpon>WM60100.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM20410R.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM20410R.Designer.cs">
+      <DependentUpon>WM20410R.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM20410.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM20410.Designer.cs">
+      <DependentUpon>WM20410.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM20465.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM20465.Designer.cs">
+      <DependentUpon>WM20465.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM20460.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM20460.Designer.cs">
+      <DependentUpon>WM20460.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM20444.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM20444.Designer.cs">
+      <DependentUpon>WM20444.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM20474.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM20474.designer.cs">
+      <DependentUpon>WM20474.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM20610.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM20610.Designer.cs">
+      <DependentUpon>WM20610.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM20600.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM20600.Designer.cs">
+      <DependentUpon>WM20600.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM20515.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM20515.designer.cs">
+      <DependentUpon>WM20515.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM20521.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM20521.Designer.cs">
+      <DependentUpon>WM20521.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM20551.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM20551.designer.cs">
+      <DependentUpon>WM20551.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM30320.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM30320.Designer.cs">
+      <DependentUpon>WM30320.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM30512.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM30512.designer.cs">
+      <DependentUpon>WM30512.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM30515.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM30515.Designer.cs">
+      <DependentUpon>WM30515.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM30473.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM30473.Designer.cs">
+      <DependentUpon>WM30473.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM20475.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM20475.Designer.cs">
+      <DependentUpon>WM20475.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM20480.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM20480.Designer.cs">
+      <DependentUpon>WM20480.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM20514.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM20514.Designer.cs">
+      <DependentUpon>WM20514.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM20512.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM20512.Designer.cs">
+      <DependentUpon>WM20512.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM20520P1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM20520P1.Designer.cs">
+      <DependentUpon>WM20520P1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM20473.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM20473.Designer.cs">
+      <DependentUpon>WM20473.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM20420.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM20420.Designer.cs">
+      <DependentUpon>WM20420.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM20430.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM20430.Designer.cs">
+      <DependentUpon>WM20430.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM20443.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM20443.Designer.cs">
+      <DependentUpon>WM20443.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM20442.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM20442.Designer.cs">
+      <DependentUpon>WM20442.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM20441.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM20441.Designer.cs">
+      <DependentUpon>WM20441.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM20440.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM20440.Designer.cs">
+      <DependentUpon>WM20440.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM20472.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM20472.Designer.cs">
+      <DependentUpon>WM20472.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM20443P1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM20443P1.Designer.cs">
+      <DependentUpon>WM20443P1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM20510P1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM20510P1.Designer.cs">
+      <DependentUpon>WM20510P1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WM201A0.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM201A0.Designer.cs">
+      <DependentUpon>WM201A0.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM20470.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM20470.Designer.cs">
+      <DependentUpon>WM20470.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM20490.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM20490.Designer.cs">
+      <DependentUpon>WM20490.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM20500.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM20500.Designer.cs">
+      <DependentUpon>WM20500.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM20471.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM20471.Designer.cs">
+      <DependentUpon>WM20471.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM20510.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM20510.Designer.cs">
+      <DependentUpon>WM20510.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM20520.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM20520.Designer.cs">
+      <DependentUpon>WM20520.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM30551.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM30551.designer.cs">
+      <DependentUpon>WM30551.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM40530.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM40530.Designer.cs">
+      <DependentUpon>WM40530.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM20540.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM20540.Designer.cs">
+      <DependentUpon>WM20540.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM20540P1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM20540P1.Designer.cs">
+      <DependentUpon>WM20540P1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM20511.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM20511.Designer.cs">
+      <DependentUpon>WM20511.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM20550.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM20550.Designer.cs">
+      <DependentUpon>WM20550.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM40550.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM40550.Designer.cs">
+      <DependentUpon>WM40550.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM20513.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM20513.Designer.cs">
+      <DependentUpon>WM20513.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM20450.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM20450.Designer.cs">
+      <DependentUpon>WM20450.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM50510.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM50510.Designer.cs">
+      <DependentUpon>WM50510.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM50520.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM50520.Designer.cs">
+      <DependentUpon>WM50520.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM60510.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM60510.Designer.cs">
+      <DependentUpon>WM60510.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WM20400.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WM20400.Designer.cs">
+      <DependentUpon>WM20400.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Ax.DEV.Utility\Ax.DEV.Utility\Ax.DEV.Utility.csproj">
+      <Project>{9AEFCDEC-4C84-4D60-8FB5-79A3B67287C1}</Project>
+      <Name>Ax.DEV.Utility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\CM\UI\Ax.SIS.CM.UI\Ax.SIS.CM.UI.csproj">
+      <Project>{701E3CE9-7322-4E0D-A5C5-CA253A955D07}</Project>
+      <Name>Ax.SIS.CM.UI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="WM60150.resx">
+      <DependentUpon>WM60150.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM60100.resx">
+      <DependentUpon>WM60100.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM20410R.resx">
+      <DependentUpon>WM20410R.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM20410.resx">
+      <DependentUpon>WM20410.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM20465.resx">
+      <DependentUpon>WM20465.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM20460.resx">
+      <DependentUpon>WM20460.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM20444.resx">
+      <DependentUpon>WM20444.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM20474.resx">
+      <DependentUpon>WM20474.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM20610.resx">
+      <DependentUpon>WM20610.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM20600.resx">
+      <DependentUpon>WM20600.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM20515.resx">
+      <DependentUpon>WM20515.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM20521.resx">
+      <DependentUpon>WM20521.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM20551.resx">
+      <DependentUpon>WM20551.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM30320.resx">
+      <DependentUpon>WM30320.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM30512.resx">
+      <DependentUpon>WM30512.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM30515.resx">
+      <DependentUpon>WM30515.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM30473.resx">
+      <DependentUpon>WM30473.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM20475.resx">
+      <DependentUpon>WM20475.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM20480.resx">
+      <DependentUpon>WM20480.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM20514.resx">
+      <DependentUpon>WM20514.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM20512.resx">
+      <DependentUpon>WM20512.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM20520P1.resx">
+      <DependentUpon>WM20520P1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM20473.resx">
+      <DependentUpon>WM20473.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM20420.resx">
+      <DependentUpon>WM20420.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM20430.resx">
+      <DependentUpon>WM20430.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM20443.resx">
+      <DependentUpon>WM20443.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM20442.resx">
+      <DependentUpon>WM20442.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM20441.resx">
+      <DependentUpon>WM20441.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM20440.resx">
+      <DependentUpon>WM20440.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM20472.resx">
+      <DependentUpon>WM20472.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM20443P1.resx">
+      <DependentUpon>WM20443P1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM20510P1.resx">
+      <DependentUpon>WM20510P1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="WM201A0.resx">
+      <DependentUpon>WM201A0.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM20470.resx">
+      <DependentUpon>WM20470.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM20490.resx">
+      <DependentUpon>WM20490.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM20500.resx">
+      <DependentUpon>WM20500.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM20471.resx">
+      <DependentUpon>WM20471.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM20510.resx">
+      <DependentUpon>WM20510.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM20520.resx">
+      <DependentUpon>WM20520.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM30551.resx">
+      <DependentUpon>WM30551.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM40530.resx">
+      <DependentUpon>WM40530.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM20540.resx">
+      <DependentUpon>WM20540.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM20540P1.resx">
+      <DependentUpon>WM20540P1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM20511.resx">
+      <DependentUpon>WM20511.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM20550.resx">
+      <DependentUpon>WM20550.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM40550.resx">
+      <DependentUpon>WM40550.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM20513.resx">
+      <DependentUpon>WM20513.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM20450.resx">
+      <DependentUpon>WM20450.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM50510.resx">
+      <DependentUpon>WM50510.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM50520.resx">
+      <DependentUpon>WM50520.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM60510.resx">
+      <DependentUpon>WM60510.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WM20400.resx">
+      <DependentUpon>WM20400.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="RxRpt\PD20420_R1.xml" />
+    <Content Include="RxRpt\PD20430_R1_L.xml" />
+    <Content Include="RxRpt\PD20470_R2_S.xml" />
+    <Content Include="RxRpt\PD20470_R1_S.xml" />
+    <Content Include="RxRpt\PD20430_R1_S.xml" />
+    <Content Include="RxRpt\PD20470_R2.xml" />
+    <Content Include="RxRpt\PD20470_R1.xml" />
+    <Content Include="RxRpt\PD20430_R1.xml" />
+    <Content Include="RxRpt\WM20514_1.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="RxRpt\WM20514.xml" />
+    <Content Include="RxRpt\WM20440.xml" />
+    <Content Include="RxRpt\WM20443.xml" />
+    <Content Include="RxRpt\WM20480.xml" />
+    <Content Include="RxRpt\WM20520_BP2.xml" />
+    <Content Include="RxRpt\WM20521.xml" />
+    <Content Include="RxRpt\WM20520_BP1.xml" />
+    <Content Include="RxRpt\WM50510_R1.xml" />
+    <Content Include="RxRpt\WM60100_GRN.XML" />
+    <Content Include="RxRpt\WM60150_PO.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ChangeTypeGuessRows.reg" />
+    <EmbeddedResource Include="RxRpt\WM20420_R1.reb" />
+    <EmbeddedResource Include="RxRpt\WM20430_R1.reb" />
+    <EmbeddedResource Include="RxRpt\WM20470_R1.reb" />
+    <EmbeddedResource Include="RxRpt\WM20470_R2.reb" />
+    <EmbeddedResource Include="RxRpt\WM20430_R1_S.reb" />
+    <EmbeddedResource Include="RxRpt\WM20470_R1_S.reb" />
+    <EmbeddedResource Include="RxRpt\WM20470_R2_S.reb" />
+    <EmbeddedResource Include="RxRpt\WM20430_R1_L.reb" />
+    <EmbeddedResource Include="RxRpt\WM20430_R1_L2.reb" />
+    <EmbeddedResource Include="RxRpt\WM20430_R12.reb" />
+    <EmbeddedResource Include="RxRpt\WM20430_R1_S2.reb" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="RxRpt\WM20440.reb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="RxRpt\WM20441.reb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="RxRpt\WM20443.reb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="RxRpt\WM20480.reb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="RxRpt\WM20514.reb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="RxRpt\WM20443S.reb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="RxRpt\WM20514_1.reb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="RxRpt\WM20520_BP1.reb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="WM20521TAG.reb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="RxRpt\WM20521.reb" />
+    <EmbeddedResource Include="RxRpt\WM20521S.reb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="RxRpt\WM50510_R1.reb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="RxRpt\WM50510_R2.reb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="RxRpt\WM20520_BP2.reb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="RxRpt\WM60150_PO.reb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="RxRpt\WM60100_GRN.reb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,58 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="en-US" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="PARTNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="QTY" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ORDERNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BARCODE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="COM_NAME" msprop:OraDbType="126" type="xs:string" minOccurs="0" />\
+                <xs:element name="VCODE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VINCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PLAN_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BIN_SEQ" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="LOTNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+
+    <PARTNO>82301-A91111XXX</PARTNO>
+    <PARTNM>D.TRIM</PARTNM>
+    <QTY>100</QTY>
+    <ORDERNO>A12332132321</ORDERNO>
+    <BARCODE>123456789@82301-A91111XXX@A12332132321@100</BARCODE>
+    <COM_NAME>Seoyon E-Hwa AP</COM_NAME>
+    <VCODE>TEIH</VCODE>
+    <VINCD>QY</VINCD>
+    <PLAN_DATE>2021-12-31</PLAN_DATE>
+    <BIN_SEQ>1/7</BIN_SEQ>
+    <LOTNO>A123456789</LOTNO>
+   
+  </DATA>
+  <DATA>
+
+    <PARTNO>82301-A91111XXX</PARTNO>
+    <PARTNM>D.TRIM</PARTNM>
+    <QTY>100</QTY>
+    <ORDERNO>A12332132321</ORDERNO>
+    <BARCODE>123456789@82301-A91111XXX@A12332132321@100</BARCODE>
+    <COM_NAME>Seoyon E-Hwa AP</COM_NAME>
+    <VCODE>TEIH</VCODE>
+    <VINCD>QY</VINCD>
+    <PLAN_DATE>2021-12-31</PLAN_DATE>
+    <BIN_SEQ>2/7</BIN_SEQ>
+    <LOTNO>A123456789</LOTNO>
+  </DATA>
+</NewDataSet>
+

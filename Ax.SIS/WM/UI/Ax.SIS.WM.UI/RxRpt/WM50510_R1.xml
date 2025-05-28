@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ORDNO" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDORCD" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDNM" type="xs:string" minOccurs="0" />
+                <xs:element name="ADDRESS_1" type="xs:string" minOccurs="0" />
+                <xs:element name="ADDRESS_2" type="xs:string" minOccurs="0" />
+                <xs:element name="DELI_TYPE" type="xs:string" minOccurs="0" />
+                <xs:element name="CONTACT_PERSON" type="xs:string" minOccurs="0" />
+                <xs:element name="REMARKS" type="xs:string" minOccurs="0" />
+                <xs:element name="TOTAL" type="xs:string" minOccurs="0" />
+                <xs:element name="PREPARED_BY" type="xs:string" minOccurs="0" />
+                <xs:element name="REQUESTED_BY" type="xs:string" minOccurs="0" />
+                <xs:element name="VEHICLE_NO" type="xs:string" minOccurs="0" />
+                <xs:element name="DEPT" type="xs:string" minOccurs="0" />
+                <xs:element name="CHK_1" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO_1" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM_1" type="xs:string" minOccurs="0" />
+                <xs:element name="QUANTITY_1" type="xs:string" minOccurs="0" />
+                <xs:element name="UOM_1" type="xs:string" minOccurs="0" />
+                <xs:element name="CHK_2" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO_2" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM_2" type="xs:string" minOccurs="0" />
+                <xs:element name="QUANTITY_2" type="xs:string" minOccurs="0" />
+                <xs:element name="UOM_2" type="xs:string" minOccurs="0" />
+                <xs:element name="CHK_3" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO_3" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM_3" type="xs:string" minOccurs="0" />
+                <xs:element name="QUANTITY_3" type="xs:string" minOccurs="0" />
+                <xs:element name="UOM_3" type="xs:string" minOccurs="0" />
+                <xs:element name="CHK_4" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO_4" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM_4" type="xs:string" minOccurs="0" />
+                <xs:element name="QUANTITY_4" type="xs:string" minOccurs="0" />
+                <xs:element name="UOM_4" type="xs:string" minOccurs="0" />
+                <xs:element name="CHK_5" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO_5" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM_5" type="xs:string" minOccurs="0" />
+                <xs:element name="QUANTITY_5" type="xs:string" minOccurs="0" />
+                <xs:element name="UOM_5" type="xs:string" minOccurs="0" />
+                <xs:element name="CHK_6" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO_6" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM_6" type="xs:string" minOccurs="0" />
+                <xs:element name="QUANTITY_6" type="xs:string" minOccurs="0" />
+                <xs:element name="UOM_6" type="xs:string" minOccurs="0" />
+                <xs:element name="CHK_7" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO_7" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM_7" type="xs:string" minOccurs="0" />
+                <xs:element name="QUANTITY_7" type="xs:string" minOccurs="0" />
+                <xs:element name="UOM_7" type="xs:string" minOccurs="0" />
+                <xs:element name="CHK_8" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO_8" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM_8" type="xs:string" minOccurs="0" />
+                <xs:element name="QUANTITY_8" type="xs:string" minOccurs="0" />
+                <xs:element name="UOM_8" type="xs:string" minOccurs="0" />
+                <xs:element name="CHK_9" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO_9" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM_9" type="xs:string" minOccurs="0" />
+                <xs:element name="QUANTITY_9" type="xs:string" minOccurs="0" />
+                <xs:element name="UOM_9" type="xs:string" minOccurs="0" />
+                <xs:element name="CHK_10" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO_10" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM_10" type="xs:string" minOccurs="0" />
+                <xs:element name="QUANTITY_10" type="xs:string" minOccurs="0" />
+                <xs:element name="UOM_10" type="xs:string" minOccurs="0" />
+                <xs:element name="CHK_11" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO_11" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM_11" type="xs:string" minOccurs="0" />
+                <xs:element name="QUANTITY_11" type="xs:string" minOccurs="0" />
+                <xs:element name="UOM_11" type="xs:string" minOccurs="0" />
+                <xs:element name="CHK_12" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO_12" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM_12" type="xs:string" minOccurs="0" />
+                <xs:element name="QUANTITY_12" type="xs:string" minOccurs="0" />
+                <xs:element name="UOM_12" type="xs:string" minOccurs="0" />
+                <xs:element name="CHK_13" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO_13" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM_13" type="xs:string" minOccurs="0" />
+                <xs:element name="QUANTITY_13" type="xs:string" minOccurs="0" />
+                <xs:element name="UOM_13" type="xs:string" minOccurs="0" />
+                <xs:element name="CHK_14" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO_14" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM_14" type="xs:string" minOccurs="0" />
+                <xs:element name="QUANTITY_14" type="xs:string" minOccurs="0" />
+                <xs:element name="UOM_14" type="xs:string" minOccurs="0" />
+                <xs:element name="CHK_15" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO_15" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM_15" type="xs:string" minOccurs="0" />
+                <xs:element name="QUANTITY_15" type="xs:string" minOccurs="0" />
+                <xs:element name="UOM_15" type="xs:string" minOccurs="0" />
+                
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <ORDNO>EMGP2021/03/599999</ORDNO>
+    <VENDORCD>S00002</VENDORCD>
+    <VENDNM>Top Metal</VENDNM>
+    <ADDRESS_1>Bengodapalli,- 600078</ADDRESS_1>
+    <ADDRESS_2>Bengodapalli,- 600078</ADDRESS_2>
+    <DELI_TYPE>NON RETURNABLE</DELI_TYPE>
+    <CONTACT_PERSON>EKV</CONTACT_PERSON>
+    <REMARKS></REMARKS>
+    <TOTAL>80</TOTAL>
+    <PREPARED_BY>RETURNABLE</PREPARED_BY>
+    <REQUESTED_BY>EKV</REQUESTED_BY>
+    <VEHICLE_NO></VEHICLE_NO>
+    <DEPT>Materials</DEPT>
+    <CHK_1>1</CHK_1>
+    <PARTNO_1>85891-B0000WK</PARTNO_1>
+    <PARTNM_1>TRIM ASSY-RR WHEEL HOUSE,LH</PARTNM_1>
+    <QUANTITY_1>15</QUANTITY_1>
+    <UOM_1>NOS</UOM_1>
+    <CHK_2>1</CHK_2>
+    <PARTNO_2>85891-B0000WK</PARTNO_2>
+    <PARTNM_2>TRIM ASSY-RR WHEEL HOUSE,LH</PARTNM_2>
+    <QUANTITY_2>15</QUANTITY_2>
+    <UOM_2>NOS</UOM_2>
+    <CHK_3>1</CHK_3>
+    <PARTNO_3>85891-B0000WK</PARTNO_3>
+    <PARTNM_3>TRIM ASSY-RR WHEEL HOUSE,LH</PARTNM_3>
+    <QUANTITY_3>15</QUANTITY_3>
+    <UOM_3>NOS</UOM_3>
+    <CHK_4>1</CHK_4>
+    <PARTNO_4>85891-B0000WK</PARTNO_4>
+    <PARTNM_4>TRIM ASSY-RR WHEEL HOUSE,LH</PARTNM_4>
+    <QUANTITY_4>15</QUANTITY_4>
+    <UOM_4>NOS</UOM_4>
+    <CHK_5>1</CHK_5>
+    <PARTNO_5>85891-B0000WK</PARTNO_5>
+    <PARTNM_5>TRIM ASSY-RR WHEEL HOUSE,LH</PARTNM_5>
+    <QUANTITY_5>15</QUANTITY_5>
+    <UOM_5>NOS</UOM_5>
+    <CHK_6>1</CHK_6>
+    <PARTNO_6>85891-B0000WK</PARTNO_6>
+    <PARTNM_6>TRIM ASSY-RR WHEEL HOUSE,LH</PARTNM_6>
+    <QUANTITY_6>15</QUANTITY_6>
+    <UOM_6>NOS</UOM_6>
+    <CHK_7>1</CHK_7>
+    <PARTNO_7>85891-B0000WK</PARTNO_7>
+    <PARTNM_7>TRIM ASSY-RR WHEEL HOUSE,LH</PARTNM_7>
+    <QUANTITY_7>15</QUANTITY_7>
+    <UOM_7>NOS</UOM_7>
+    <CHK_8>1</CHK_8>
+    <PARTNO_8>85891-B0000WK</PARTNO_8>
+    <PARTNM_8>TRIM ASSY-RR WHEEL HOUSE,LH</PARTNM_8>
+    <QUANTITY_8>15</QUANTITY_8>
+    <UOM_8>NOS</UOM_8>
+    <CHK_9>1</CHK_9>
+    <PARTNO_9>85891-B0000WK</PARTNO_9>
+    <PARTNM_9>TRIM ASSY-RR WHEEL HOUSE,LH</PARTNM_9>
+    <QUANTITY_9>15</QUANTITY_9>
+    <UOM_9>NOS</UOM_9>
+    <CHK_10>1</CHK_10>
+    <PARTNO_10>85891-B0000WK</PARTNO_10>
+    <PARTNM_10>TRIM ASSY-RR WHEEL HOUSE,LH</PARTNM_10>
+    <QUANTITY_10>15</QUANTITY_10>
+    <UOM_10>NOS</UOM_10>
+    <CHK_11>1</CHK_11>
+    <PARTNO_11>85891-B0000WK</PARTNO_11>
+    <PARTNM_11>TRIM ASSY-RR WHEEL HOUSE,LH</PARTNM_11>
+    <QUANTITY_11>15</QUANTITY_11>
+    <UOM_11>NOS</UOM_11>
+    <CHK_12>1</CHK_12>
+    <PARTNO_12>85891-B0000WK</PARTNO_12>
+    <PARTNM_12>TRIM ASSY-RR WHEEL HOUSE,LH</PARTNM_12>
+    <QUANTITY_12>15</QUANTITY_12>
+    <UOM_12>NOS</UOM_12>
+    <CHK_13>1</CHK_13>
+    <PARTNO_13>85891-B0000WK</PARTNO_13>
+    <PARTNM_13>TRIM ASSY-RR WHEEL HOUSE,LH</PARTNM_13>
+    <QUANTITY_13>15</QUANTITY_13>
+    <UOM_13>NOS</UOM_13>
+    <CHK_14>1</CHK_14>
+    <PARTNO_14>85891-B0000WK</PARTNO_14>
+    <PARTNM_14>TRIM ASSY-RR WHEEL HOUSE,LH</PARTNM_14>
+    <QUANTITY_14>15</QUANTITY_14>
+    <UOM_14>NOS</UOM_14>
+    <CHK_15>1</CHK_15>
+    <PARTNO_15>85891-B0000WK</PARTNO_15>
+    <PARTNM_15>TRIM ASSY-RR WHEEL HOUSE,LH</PARTNM_15>
+    <QUANTITY_15>15</QUANTITY_15>
+    <UOM_15>NOS</UOM_15>
+  </DATA>
+</NewDataSet>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:Locale="en-US">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="en-US" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="CORCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BIZCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="DOCCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="DOCNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="LOCCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="LOCNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="GRPCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="GRPNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="COMM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="URL" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="UPDATE_ID" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="UPDATE_DATE" msprop:OraDbType="106" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="PUBCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <CORCD>5200</CORCD>
+    <BIZCD>5210</BIZCD>
+    <DOCCD>00001</DOCCD>
+    <DOCNM>Equipment daily check sheet</DOCNM>
+    <LOCCD>A001-02</LOCCD>
+    <LOCNM>KY D/TRIM LH 2nd Stacking Machine</LOCNM>
+    <GRPCD>G01</GRPCD>
+    <GRPNM>Technical Team</GRPNM>
+    <URL>http://m.seoyonehap.com/TM.ASPX?PUBCD=000000005&amp;CORCD=5200&amp;BIZCD=5210</URL>
+    <UPDATE_ID>DEV1</UPDATE_ID>
+    <UPDATE_DATE>2022-02-26T10:59:41+05:30</UPDATE_DATE>
+    <PUBCD>000000005</PUBCD>
+  </DATA>
+  <DATA>
+    <CORCD>5200</CORCD>
+    <BIZCD>5210</BIZCD>
+    <DOCCD>00001</DOCCD>
+    <DOCNM>Equipment daily check sheet</DOCNM>
+    <LOCCD>A001-01</LOCCD>
+    <LOCNM>KY D/TRIM LH 1st Stacking Machine</LOCNM>
+    <GRPCD>G01</GRPCD>
+    <GRPNM>Technical Team</GRPNM>
+    <URL>http://m.seoyonehap.com/TM.ASPX?PUBCD=000000006&amp;CORCD=5200&amp;BIZCD=5210</URL>
+    <UPDATE_ID>DEV1</UPDATE_ID>
+    <UPDATE_DATE>2022-02-26T10:59:41+05:30</UPDATE_DATE>
+    <PUBCD>000000006</PUBCD>
+  </DATA>
+  <DATA>
+    <CORCD>5200</CORCD>
+    <BIZCD>5210</BIZCD>
+    <DOCCD>00002</DOCCD>
+    <DOCNM>TEST 02</DOCNM>
+    <LOCCD>A001-01</LOCCD>
+    <LOCNM>KY D/TRIM LH 1st Stacking Machine</LOCNM>
+    <GRPCD>G01</GRPCD>
+    <GRPNM>Technical Team</GRPNM>
+    <URL>http://m.seoyonehap.com/TM.ASPX?PUBCD=000000007&amp;CORCD=5200&amp;BIZCD=5210</URL>
+    <UPDATE_ID>DEV1</UPDATE_ID>
+    <UPDATE_DATE>2022-03-01T14:31:50+05:30</UPDATE_DATE>
+    <PUBCD>000000007</PUBCD>
+  </DATA>
+</NewDataSet>

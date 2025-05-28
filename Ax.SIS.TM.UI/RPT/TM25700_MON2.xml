@@ -1,0 +1,292 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:Locale="en-US">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="en-US" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="CORCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BIZCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="LOCCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="LOCNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CHKCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CHKNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="DOCCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PUBCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="METHOD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CHK_SEQ" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="D00" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="D01" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="D02" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="D03" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="D04" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="D05" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="D06" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="D07" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="D08" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="D09" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="D10" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="D11" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="D12" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="D13" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="D14" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="D15" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="D16" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="D17" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="D18" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="D19" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="D20" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="D21" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="D22" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="D23" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="D24" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="D25" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="D26" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="D27" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="D28" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="D29" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="D30" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="UPDATE_ID" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="UPDATE_DATE" msprop:OraDbType="106" type="xs:dateTime" minOccurs="0" />
+                
+                
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <CORCD>5200</CORCD>
+    <BIZCD>5210</BIZCD>
+    <LOCCD>A/BWS/01</LOCCD>
+    <LOCNM>SP2I FRT BWS M/C</LOCNM>
+    <CHKCD>D001</CHKCD>
+    <CHKNM>Check for clean</CHKNM>
+    <DOCCD>SSMS-AYMT-F13</DOCCD>
+    <PUBCD>000000026</PUBCD>
+    <METHOD>Clean the Scissor lift daily</METHOD>
+    <CHK_SEQ>01</CHK_SEQ>
+    <D00>OK</D00>
+    <D01>OK</D01>
+    <D02>OK</D02>
+    <D03>OK</D03>
+    <D04>OK</D04>
+    <D05>OK</D05>
+    <D06>OK</D06>
+    <D07>OK</D07>
+    <D08>OK</D08>
+    <D09>OK</D09>
+    <D10>OK</D10>
+    <D11>OK</D11>
+    <D12>OK</D12>
+    <D13>OK</D13>
+    <D14>OK</D14>
+    <D15>OK</D15>
+    <D16>OK</D16>
+    <D17>OK</D17>
+    <D18>OK</D18>
+    <D19>OK</D19>
+    <D20>OK</D20>
+    <D21>OK</D21>
+    <D22>OK</D22>
+    <D23>OK</D23>
+    <D24>OK</D24>
+    <D25>OK</D25>
+    <D26>OK</D26>
+    <D27>OK</D27>
+    <D28>OK</D28>
+    <D29>OK</D29>
+    <D30>OK</D30>
+    <UPDATE_ID>DEV1</UPDATE_ID>
+    <UPDATE_DATE>2022-02-26T10:59:41+05:30</UPDATE_DATE>
+    
+  </DATA>
+  <DATA>
+    <CORCD>5200</CORCD>
+    <BIZCD>5210</BIZCD>
+    <LOCCD>A/BWS/01</LOCCD>
+    <LOCNM>SP2I FRT BWS M/C</LOCNM>
+    <CHKCD>D001</CHKCD>
+    <CHKNM>Check for clean</CHKNM>
+    <DOCCD>SSMS-AYMT-F13</DOCCD>
+    <PUBCD>000000026</PUBCD>
+    <METHOD>Clean the Scissor lift daily</METHOD>
+    <CHK_SEQ>01</CHK_SEQ>
+    <D00>OK</D00>
+    <D01>OK</D01>
+    <D02>OK</D02>
+    <D03>OK</D03>
+    <D04>OK</D04>
+    <D05>OK</D05>
+    <D06>OK</D06>
+    <D07>OK</D07>
+    <D08>OK</D08>
+    <D09>OK</D09>
+    <D10>OK</D10>
+    <D11>OK</D11>
+    <D12>OK</D12>
+    <D13>OK</D13>
+    <D14>OK</D14>
+    <D15>OK</D15>
+    <D16>OK</D16>
+    <D17>OK</D17>
+    <D18>OK</D18>
+    <D19>OK</D19>
+    <D20>OK</D20>
+    <D21>OK</D21>
+    <D22>OK</D22>
+    <D23>OK</D23>
+    <D24>OK</D24>
+    <D25>OK</D25>
+    <D26>OK</D26>
+    <D27>OK</D27>
+    <D28>OK</D28>
+    <D29>OK</D29>
+    <D30>OK</D30>
+    <UPDATE_ID>DEV1</UPDATE_ID>
+    <UPDATE_DATE>2022-02-26T10:59:41+05:30</UPDATE_DATE>
+   
+  </DATA>
+  <DATA>
+    <CORCD>5200</CORCD>
+    <BIZCD>5210</BIZCD>
+    <LOCCD>A/BWS/01</LOCCD>
+    <LOCNM>SP2I FRT BWS M/C</LOCNM>
+    <CHKCD>D001</CHKCD>
+    <CHKNM>Check for clean</CHKNM>
+    <DOCCD>SSMS-AYMT-F13</DOCCD>
+    <PUBCD>000000026</PUBCD>
+    <METHOD>Clean the Scissor lift daily</METHOD>
+    <CHK_SEQ>01</CHK_SEQ>
+    <D00>OK</D00>
+    <D01>OK</D01>
+    <D02>OK</D02>
+    <D03>OK</D03>
+    <D04>OK</D04>
+    <D05>OK</D05>
+    <D06>OK</D06>
+    <D07>OK</D07>
+    <D08>OK</D08>
+    <D09>OK</D09>
+    <D10>OK</D10>
+    <D11>OK</D11>
+    <D12>OK</D12>
+    <D13>OK</D13>
+    <D14>OK</D14>
+    <D15>OK</D15>
+    <D16>OK</D16>
+    <D17>OK</D17>
+    <D18>OK</D18>
+    <D19>OK</D19>
+    <D20>OK</D20>
+    <D21>OK</D21>
+    <D22>OK</D22>
+    <D23>OK</D23>
+    <D24>OK</D24>
+    <D25>OK</D25>
+    <D26>OK</D26>
+    <D27>OK</D27>
+    <D28>OK</D28>
+    <D29>OK</D29>
+    <D30>OK</D30>
+    <UPDATE_ID>DEV1</UPDATE_ID>
+    <UPDATE_DATE>2022-02-26T10:59:41+05:30</UPDATE_DATE>
+   
+  </DATA>
+  <DATA>
+    <CORCD>5200</CORCD>
+    <BIZCD>5210</BIZCD>
+    <LOCCD>A/BWS/01</LOCCD>
+    <LOCNM>SP2I FRT BWS M/C</LOCNM>
+    <CHKCD>D001</CHKCD>
+    <CHKNM>Check for clean</CHKNM>
+    <DOCCD>SSMS-AYMT-F13</DOCCD>
+    <PUBCD>000000026</PUBCD>
+    <METHOD>Clean the Scissor lift daily</METHOD>
+    <CHK_SEQ>01</CHK_SEQ>
+    <D00>OK</D00>
+    <D01>OK</D01>
+    <D02>OK</D02>
+    <D03>OK</D03>
+    <D04>OK</D04>
+    <D05>OK</D05>
+    <D06>OK</D06>
+    <D07>OK</D07>
+    <D08>OK</D08>
+    <D09>OK</D09>
+    <D10>OK</D10>
+    <D11>OK</D11>
+    <D12>OK</D12>
+    <D13>OK</D13>
+    <D14>OK</D14>
+    <D15>OK</D15>
+    <D16>OK</D16>
+    <D17>OK</D17>
+    <D18>OK</D18>
+    <D19>OK</D19>
+    <D20>OK</D20>
+    <D21>OK</D21>
+    <D22>OK</D22>
+    <D23>OK</D23>
+    <D24>OK</D24>
+    <D25>OK</D25>
+    <D26>OK</D26>
+    <D27>OK</D27>
+    <D28>OK</D28>
+    <D29>OK</D29>
+    <D30>OK</D30>
+    <UPDATE_ID>DEV1</UPDATE_ID>
+    <UPDATE_DATE>2022-02-26T10:59:41+05:30</UPDATE_DATE>
+    
+  </DATA>
+  <DATA>
+    <CORCD>5200</CORCD>
+    <BIZCD>5210</BIZCD>
+    <LOCCD>A/BWS/01</LOCCD>
+    <LOCNM>SP2I FRT BWS M/C</LOCNM>
+    <CHKCD>D001</CHKCD>
+    <CHKNM>Check for clean</CHKNM>
+    <DOCCD>SSMS-AYMT-F13</DOCCD>
+    <PUBCD>000000026</PUBCD>
+    <METHOD>Clean the Scissor lift daily</METHOD>
+    <CHK_SEQ>01</CHK_SEQ>
+    <D00>OK</D00>
+    <D01>OK</D01>
+    <D02>OK</D02>
+    <D03>OK</D03>
+    <D04>OK</D04>
+    <D05>OK</D05>
+    <D06>OK</D06>
+    <D07>OK</D07>
+    <D08>OK</D08>
+    <D09>OK</D09>
+    <D10>OK</D10>
+    <D11>OK</D11>
+    <D12>OK</D12>
+    <D13>OK</D13>
+    <D14>OK</D14>
+    <D15>OK</D15>
+    <D16>OK</D16>
+    <D17>OK</D17>
+    <D18>OK</D18>
+    <D19>OK</D19>
+    <D20>OK</D20>
+    <D21>OK</D21>
+    <D22>OK</D22>
+    <D23>OK</D23>
+    <D24>OK</D24>
+    <D25>OK</D25>
+    <D26>OK</D26>
+    <D27>OK</D27>
+    <D28>OK</D28>
+    <D29>OK</D29>
+    <D30>OK</D30>
+    <UPDATE_ID>DEV1</UPDATE_ID>
+    <UPDATE_DATE>2022-02-26T10:59:41+05:30</UPDATE_DATE>
+  </DATA>
+  
+</NewDataSet>

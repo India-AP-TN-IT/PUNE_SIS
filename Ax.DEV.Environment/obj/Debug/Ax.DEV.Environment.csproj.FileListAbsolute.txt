@@ -1,0 +1,41 @@
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Environment\bin\Debug\DEV.Environment.dll
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Environment\bin\Debug\DEV.Environment.pdb
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Environment\obj\Debug\DEV.Environment.dll
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Environment\obj\Debug\DEV.Environment.pdb
+E:\SRCS\AP\Ax_SIS\Ax.DEV.Environment\obj\Debug\Ax.DEV.Environment.csprojResolveAssemblyReference.cache
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Environment\bin\Debug\DEV.Environment.dll
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Environment\bin\Debug\DEV.Environment.pdb
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Environment\obj\Debug\DEV.Environment.dll
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Environment\obj\Debug\DEV.Environment.pdb
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Environment\obj\Debug\Ax.DEV.Environment.csprojResolveAssemblyReference.cache
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Environment\bin\Debug\DEV.Environment.dll
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Environment\bin\Debug\DEV.Environment.pdb
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Environment\obj\Debug\DEV.Environment.dll
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Environment\obj\Debug\DEV.Environment.pdb
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Environment\bin\Debug\DEV.Environment.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Environment\bin\Debug\DEV.Environment.pdb
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Environment\obj\Debug\DEV.Environment.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Environment\obj\Debug\DEV.Environment.pdb
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.DEV.Environment\obj\Debug\Ax.DEV.Environment.csprojResolveAssemblyReference.cache
+D:\SRCS\Git\All_India_SIS\Ax.DEV.Environment\obj\Debug\Ax.DEV.Environment.csprojResolveAssemblyReference.cache
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Environment\bin\Debug\DEV.Environment.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Environment\bin\Debug\DEV.Environment.pdb
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Environment\obj\Debug\DEV.Environment.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Environment\obj\Debug\DEV.Environment.pdb
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.DEV.Environment\obj\Debug\Ax.DEV.Environment.csprojResolveAssemblyReference.cache
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Environment\bin\Debug\DEV.Environment.dll
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Environment\bin\Debug\DEV.Environment.pdb
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Environment\obj\Debug\Ax.DEV.Environment.csproj.AssemblyReference.cache
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Environment\obj\Debug\Ax.DEV.Environment.csproj.CoreCompileInputs.cache
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Environment\obj\Debug\DEV.Environment.dll
+C:\Users\230410\source\repos\India-AP-TN-IT\All_India_SIS\Ax.DEV.Environment\obj\Debug\DEV.Environment.pdb
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Environment\bin\Debug\DEV.Environment.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Environment\bin\Debug\DEV.Environment.pdb
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Environment\obj\Debug\DEV.Environment.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Environment\obj\Debug\DEV.Environment.pdb
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.DEV.Environment\obj\Debug\Ax.DEV.Environment.csprojResolveAssemblyReference.cache
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Environment\bin\Debug\DEV.Environment.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Environment\bin\Debug\DEV.Environment.pdb
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Environment\obj\Debug\Ax.DEV.Environment.csprojResolveAssemblyReference.cache
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Environment\obj\Debug\DEV.Environment.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.DEV.Environment\obj\Debug\DEV.Environment.pdb

@@ -1,0 +1,3 @@
+﻿itextsharp.dll
+PDFLibNet.dll
+tessnet2_32.dll

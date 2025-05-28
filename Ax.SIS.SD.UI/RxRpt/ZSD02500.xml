@@ -1,0 +1,745 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="en-US" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="INVOICE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="DELI_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CARNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ADDRESS_1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ADDRESS_2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VEND_GST" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="IRN_ACK_NO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="IRN_ACK_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="EWAY_BILL_NO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TOTAL_QTY" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ASSESS_VALUE" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="OVERALL_CGST" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="OVERALL_SGST" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="OVERALL_IGST" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="OVERALL_UTGST" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TOTAL_AMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="CGST_IN_WORDS" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SGST_IN_WORDS" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TCS_IN_WORDS" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TOTALAMT_IN_WORDS" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SID" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="RPCS" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ORDER_NO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="HSN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="QTY" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="CGST" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SGST" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="UPRICE" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="AMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="IRN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TCS" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="OVERALL_TCS" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="CGST_PER" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SGST_PER" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="IGST_PER" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="UTGST_PER" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TCS_PER" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="AMT_PLS_GST" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TAMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="GSTNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="COMNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="COMNM_SHORT" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="COMADDR" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ZIPCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="AREACD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PANNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="KMI_VENDCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CIN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="COM_ETC" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SID1" type="xs:string" minOccurs="0" />
+                <xs:element name="RPCS1" type="xs:string" minOccurs="0" />
+                <xs:element name="ORDER_NO1" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO1" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM1" type="xs:string" minOccurs="0" />
+                <xs:element name="HSN1" type="xs:string" minOccurs="0" />
+                <xs:element name="QTY1" type="xs:string" minOccurs="0" />
+                <xs:element name="CGST1" type="xs:string" minOccurs="0" />
+                <xs:element name="SGST1" type="xs:string" minOccurs="0" />
+                <xs:element name="UPRICE1" type="xs:string" minOccurs="0" />
+                <xs:element name="AMT1" type="xs:string" minOccurs="0" />
+                <xs:element name="TCS1" type="xs:string" minOccurs="0" />
+                <xs:element name="AMT_PLS_GST1" type="xs:string" minOccurs="0" />
+                <xs:element name="TAMT1" type="xs:string" minOccurs="0" />
+                <xs:element name="SID2" type="xs:string" minOccurs="0" />
+                <xs:element name="RPCS2" type="xs:string" minOccurs="0" />
+                <xs:element name="ORDER_NO2" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO2" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM2" type="xs:string" minOccurs="0" />
+                <xs:element name="HSN2" type="xs:string" minOccurs="0" />
+                <xs:element name="QTY2" type="xs:string" minOccurs="0" />
+                <xs:element name="CGST2" type="xs:string" minOccurs="0" />
+                <xs:element name="SGST2" type="xs:string" minOccurs="0" />
+                <xs:element name="UPRICE2" type="xs:string" minOccurs="0" />
+                <xs:element name="AMT2" type="xs:string" minOccurs="0" />
+                <xs:element name="TCS2" type="xs:string" minOccurs="0" />
+                <xs:element name="AMT_PLS_GST2" type="xs:string" minOccurs="0" />
+                <xs:element name="TAMT2" type="xs:string" minOccurs="0" />
+                <xs:element name="SID3" type="xs:string" minOccurs="0" />
+                <xs:element name="RPCS3" type="xs:string" minOccurs="0" />
+                <xs:element name="ORDER_NO3" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO3" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM3" type="xs:string" minOccurs="0" />
+                <xs:element name="HSN3" type="xs:string" minOccurs="0" />
+                <xs:element name="QTY3" type="xs:string" minOccurs="0" />
+                <xs:element name="CGST3" type="xs:string" minOccurs="0" />
+                <xs:element name="SGST3" type="xs:string" minOccurs="0" />
+                <xs:element name="UPRICE3" type="xs:string" minOccurs="0" />
+                <xs:element name="AMT3" type="xs:string" minOccurs="0" />
+                <xs:element name="TCS3" type="xs:string" minOccurs="0" />
+                <xs:element name="AMT_PLS_GST3" type="xs:string" minOccurs="0" />
+                <xs:element name="TAMT3" type="xs:string" minOccurs="0" />
+                <xs:element name="SID4" type="xs:string" minOccurs="0" />
+                <xs:element name="RPCS4" type="xs:string" minOccurs="0" />
+                <xs:element name="ORDER_NO4" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO4" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM4" type="xs:string" minOccurs="0" />
+                <xs:element name="HSN4" type="xs:string" minOccurs="0" />
+                <xs:element name="QTY4" type="xs:string" minOccurs="0" />
+                <xs:element name="CGST4" type="xs:string" minOccurs="0" />
+                <xs:element name="SGST4" type="xs:string" minOccurs="0" />
+                <xs:element name="UPRICE4" type="xs:string" minOccurs="0" />
+                <xs:element name="AMT4" type="xs:string" minOccurs="0" />
+                <xs:element name="TCS4" type="xs:string" minOccurs="0" />
+                <xs:element name="AMT_PLS_GST4" type="xs:string" minOccurs="0" />
+                <xs:element name="TAMT4" type="xs:string" minOccurs="0" />
+                <xs:element name="SID5" type="xs:string" minOccurs="0" />
+                <xs:element name="RPCS5" type="xs:string" minOccurs="0" />
+                <xs:element name="ORDER_NO5" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO5" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM5" type="xs:string" minOccurs="0" />
+                <xs:element name="HSN5" type="xs:string" minOccurs="0" />
+                <xs:element name="QTY5" type="xs:string" minOccurs="0" />
+                <xs:element name="CGST5" type="xs:string" minOccurs="0" />
+                <xs:element name="SGST5" type="xs:string" minOccurs="0" />
+                <xs:element name="UPRICE5" type="xs:string" minOccurs="0" />
+                <xs:element name="AMT5" type="xs:string" minOccurs="0" />
+                <xs:element name="TCS5" type="xs:string" minOccurs="0" />
+                <xs:element name="AMT_PLS_GST5" type="xs:string" minOccurs="0" />
+                <xs:element name="TAMT5" type="xs:string" minOccurs="0" />
+                <xs:element name="SID6" type="xs:string" minOccurs="0" />
+                <xs:element name="RPCS6" type="xs:string" minOccurs="0" />
+                <xs:element name="ORDER_NO6" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO6" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM6" type="xs:string" minOccurs="0" />
+                <xs:element name="HSN6" type="xs:string" minOccurs="0" />
+                <xs:element name="QTY6" type="xs:string" minOccurs="0" />
+                <xs:element name="CGST6" type="xs:string" minOccurs="0" />
+                <xs:element name="SGST6" type="xs:string" minOccurs="0" />
+                <xs:element name="UPRICE6" type="xs:string" minOccurs="0" />
+                <xs:element name="AMT6" type="xs:string" minOccurs="0" />
+                <xs:element name="TCS6" type="xs:string" minOccurs="0" />
+                <xs:element name="AMT_PLS_GST6" type="xs:string" minOccurs="0" />
+                <xs:element name="TAMT6" type="xs:string" minOccurs="0" />
+                <xs:element name="SID7" type="xs:string" minOccurs="0" />
+                <xs:element name="RPCS7" type="xs:string" minOccurs="0" />
+                <xs:element name="ORDER_NO7" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO7" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM7" type="xs:string" minOccurs="0" />
+                <xs:element name="HSN7" type="xs:string" minOccurs="0" />
+                <xs:element name="QTY7" type="xs:string" minOccurs="0" />
+                <xs:element name="CGST7" type="xs:string" minOccurs="0" />
+                <xs:element name="SGST7" type="xs:string" minOccurs="0" />
+                <xs:element name="UPRICE7" type="xs:string" minOccurs="0" />
+                <xs:element name="AMT7" type="xs:string" minOccurs="0" />
+                <xs:element name="TCS7" type="xs:string" minOccurs="0" />
+                <xs:element name="AMT_PLS_GST7" type="xs:string" minOccurs="0" />
+                <xs:element name="TAMT7" type="xs:string" minOccurs="0" />
+                <xs:element name="SID8" type="xs:string" minOccurs="0" />
+                <xs:element name="RPCS8" type="xs:string" minOccurs="0" />
+                <xs:element name="ORDER_NO8" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO8" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM8" type="xs:string" minOccurs="0" />
+                <xs:element name="HSN8" type="xs:string" minOccurs="0" />
+                <xs:element name="QTY8" type="xs:string" minOccurs="0" />
+                <xs:element name="CGST8" type="xs:string" minOccurs="0" />
+                <xs:element name="SGST8" type="xs:string" minOccurs="0" />
+                <xs:element name="UPRICE8" type="xs:string" minOccurs="0" />
+                <xs:element name="AMT8" type="xs:string" minOccurs="0" />
+                <xs:element name="TCS8" type="xs:string" minOccurs="0" />
+                <xs:element name="AMT_PLS_GST8" type="xs:string" minOccurs="0" />
+                <xs:element name="TAMT8" type="xs:string" minOccurs="0" />
+                <xs:element name="QRCODE_INFO" type="xs:string" minOccurs="0" />
+                <xs:element name="ADDPAGE" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <INVOICE> A200000196</INVOICE>
+    <DELI_DATE> 27.11.2020</DELI_DATE>
+    <CARNO> AP39TH2199 / 001</CARNO>
+    <VENDNM>Kia Motors India Private Limited</VENDNM>
+    <ADDRESS_1>Erramanchi, Penukonda Mandal,</ADDRESS_1>
+    <ADDRESS_2>Anantapur district, Andhra Pradesh - 515164</ADDRESS_2>
+    <VEND_GST>GST No. : 37AAGCK5972Q6ZG</VEND_GST>
+    <IRN_ACK_NO>234234234234</IRN_ACK_NO>
+    <IRN_ACK_DATE>10/12/2020</IRN_ACK_DATE>
+    <EWAY_BILL_NO>234234</EWAY_BILL_NO>
+    <TOTAL_QTY>38</TOTAL_QTY>
+    <ASSESS_VALUE>74838.07</ASSESS_VALUE>
+    <OVERALL_CGST>10477.33</OVERALL_CGST>
+    <OVERALL_SGST>10477.33</OVERALL_SGST>
+    <OVERALL_IGST>0.00</OVERALL_IGST>
+    <OVERALL_UTGST>0.00</OVERALL_UTGST>
+    <TOTAL_AMT>95864.57</TOTAL_AMT>
+    <CGST_IN_WORDS>TEN THOUSAND FOUR HUNDRED SEVENTY-SEVEN Rupees THIRTY-THREE Paise</CGST_IN_WORDS>
+    <SGST_IN_WORDS>TEN THOUSAND FOUR HUNDRED SEVENTY-SEVEN Rupees THIRTY-THREE Paise</SGST_IN_WORDS>
+    <TCS_IN_WORDS>SEVENTY-ONE Rupees EIGHTY-FOUR Paise</TCS_IN_WORDS>
+    <TOTALAMT_IN_WORDS>NINETY-FIVE THOUSAND EIGHT HUNDRED SIXTY-FOUR Rupees FIFTY-SEVEN Paise</TOTALAMT_IN_WORDS>
+    <IRN>
+      T1550000964282301CC000WK
+      A200000196 271120209 9823.45 8708.99.000.00 1074.44 0.00 0.00 852.73 7674.57 1074.44 0.00 0.00 9823.45 0.00 0.00 0.00 37AAZCS2637P1Z8 0
+      T1550000971982301CC040AXQ
+      A200000196 271120206 10769.44 8708.99.000.00 1177.91 0.00 0.00 1402.27 8413.62 1177.91 0.00 0.00 10769.43 0.00 0.00 0.00 37AAZCS2637P1Z8 0
+      T1550000964582301CC070AXJ
+      A200000196 271120201 4382.08 8708.99.000.00 479.29 0.00 0.00 3423.50 3423.50 479.29 0.00 0.00 4382.08 0.00 0.00 0.00 37AAZCS2637P1Z8 0
+      T1550000129682301Q6070EJA
+      A200000196 271120205 26422.28 8708.99.000.00 2889.94 0.00 0.00 4128.48 20642.40 2889.94 0.00 0.00 26422.27 0.00 0.00 0.00 37AAZCS2637P1Z8 0
+      T1550000129782301Q6070EJB
+      A200000196 271120201 5284.46 8708.99.000.00 577.99 0.00 0.00 4128.48 4128.48 577.99 0.00 0.00 5284.45 0.00 0.00 0.00 37AAZCS2637P1Z8 0
+      T1550000129982301Q6310WK
+      A200000196 271120206 14152.24 8708.99.000.00 1547.90 0.00 0.00 1842.74 11056.44 1547.90 0.00 0.00 14152.24 0.00 0.00 0.00 37AAZCS2637P1Z8 0
+      T1550001323382302CC140WK
+      A200000196 271120209 19501.41 8708.99.000.00 2132.97 0.00 0.00 1692.83 15235.47 2132.97 0.00 0.00 19501.40 0.00 0.00 0.00 37AAZCS2637P1Z8 0
+      T1550000966082302CC270AXJ
+      A200000196 271120201 5457.39 8708.99.000.00 596.90 0.00 0.00 4263.59 4263.59 596.90 0.00 0.00 5457.40 0.00 0.00 0.00 37AAZCS2637P1Z8 0
+    </IRN>
+    <OVERALL_TCS>71.84</OVERALL_TCS>
+    <COMNM>SEOYON E-HWA SUMMIT AUTOMOTIVE ANANTAPUR PVT., LTD</COMNM>
+    <COMADDR>Plot no 11B, Industrial Park,
+Ammavaripalli, Ermanchi Village, Penukonda Mandal,
+Anantapur District, Andhra Pradesh - 515164.</COMADDR>
+    <KMI_VENDCD>TEIH</KMI_VENDCD>
+    <COM_ETC>AREA CODE:37, GST NO:37AAZCS2637P1Z8, PAN NO:AAZCS2637P</COM_ETC>
+    <SID1>1</SID1>
+    <RPCS1>Q094S00W</RPCS1>
+    <ORDER_NO1>5500009642</ORDER_NO1>
+    <PARTNO1>82301CC000WK</PARTNO1>
+    <PARTNM1>82301CC000WK PNL ASSY-FR DR TRIM COMPL,LH</PARTNM1>
+    <HSN1>8708.99.00</HSN1>
+    <QTY1>9</QTY1>
+    <CGST1>14%/1074.44</CGST1>
+    <SGST1>14%/1074.44</SGST1>
+    <UPRICE1>852.73</UPRICE1>
+    <TCS1>.075%/7.37</TCS1>
+    <AMT_PLS_GST1>9823.45</AMT_PLS_GST1>
+    <TAMT1>9830.82</TAMT1>
+    <SID2>2</SID2>
+    <RPCS2>Q094S04B</RPCS2>
+    <ORDER_NO2>5500009719</ORDER_NO2>
+    <PARTNO2>82301CC040AXQ</PARTNO2>
+    <PARTNM2>82301CC040AXQ PNL ASSY-FR DR TRIM COMPL,LH</PARTNM2>
+    <HSN2>8708.99.00</HSN2>
+    <QTY2>6</QTY2>
+    <CGST2>14%/1177.91</CGST2>
+    <SGST2>14%/1177.91</SGST2>
+    <UPRICE2>1402.27</UPRICE2>
+    <TCS2>.075%/8.08</TCS2>
+    <AMT_PLS_GST2>10769.43</AMT_PLS_GST2>
+    <TAMT2>10777.51</TAMT2>
+    <SID3>3</SID3>
+    <RPCS3>Q094S07Y</RPCS3>
+    <ORDER_NO3>5500009645</ORDER_NO3>
+    <PARTNO3>82301CC070AXJ</PARTNO3>
+    <PARTNM3>82301CC070AXJ PNL ASSY-FR DR TRIM COMPL,LH</PARTNM3>
+    <HSN3>8708.99.00</HSN3>
+    <QTY3>1</QTY3>
+    <CGST3>14%/479.29</CGST3>
+    <SGST3>14%/479.29</SGST3>
+    <UPRICE3>3423.50</UPRICE3>
+    <TCS3>.075%/3.29</TCS3>
+    <AMT_PLS_GST3>4382.08</AMT_PLS_GST3>
+    <TAMT3>4385.37</TAMT3>
+    <SID4>4</SID4>
+    <RPCS4>Q094T07A</RPCS4>
+    <ORDER_NO4>5500001296</ORDER_NO4>
+    <PARTNO4>82301Q6070EJA</PARTNO4>
+    <PARTNM4>82301Q6070EJA PNL ASSY-FR DR TRIM,LH</PARTNM4>
+    <HSN4>8708.99.00</HSN4>
+    <QTY4>5</QTY4>
+    <CGST4>14%/2889.94</CGST4>
+    <SGST4>14%/2889.94</SGST4>
+    <UPRICE4>4128.48</UPRICE4>
+    <TCS4>.075%/19.82</TCS4>
+    <AMT_PLS_GST4>26422.27</AMT_PLS_GST4>
+    <TAMT4>26442.09</TAMT4>
+    <SID5>5</SID5>
+    <RPCS5>Q094T07B</RPCS5>
+    <ORDER_NO5>5500001297</ORDER_NO5>
+    <PARTNO5>82301Q6070EJB</PARTNO5>
+    <PARTNM5>82301Q6070EJB PNL ASSY-FR DR TRIM,LH</PARTNM5>
+    <HSN5>8708.99.00</HSN5>
+    <QTY5>1</QTY5>
+    <CGST5>14%/577.99</CGST5>
+    <SGST5>14%/577.99</SGST5>
+    <UPRICE5>4128.48</UPRICE5>
+    <TCS5>.075%/3.96</TCS5>
+    <AMT_PLS_GST5>5284.45</AMT_PLS_GST5>
+    <TAMT5>5288.42</TAMT5>
+    <SID6>6</SID6>
+    <RPCS6>Q094T31W</RPCS6>
+    <ORDER_NO6>5500001299</ORDER_NO6>
+    <PARTNO6>82301Q6310WK</PARTNO6>
+    <PARTNM6>82301Q6310WK PNL ASSY-FR DR TRIM,LH</PARTNM6>
+    <HSN6>8708.99.00</HSN6>
+    <QTY6>6</QTY6>
+    <CGST6>14%/1547.90</CGST6>
+    <SGST6>14%/1547.90</SGST6>
+    <UPRICE6>1842.74</UPRICE6>
+    <TCS6>.075%/10.61</TCS6>
+    <AMT_PLS_GST6>14152.24</AMT_PLS_GST6>
+    <TAMT6>14162.86</TAMT6>
+    <SID7>7</SID7>
+    <RPCS7>Q093S14W</RPCS7>
+    <ORDER_NO7>5500013233</ORDER_NO7>
+    <PARTNO7>82302CC140WK</PARTNO7>
+    <PARTNM7>82302CC140WK PNL ASSY-FR DR TRIM COMPL,RH</PARTNM7>
+    <HSN7>8708.99.00</HSN7>
+    <QTY7>9</QTY7>
+    <CGST7>14%/2132.97</CGST7>
+    <SGST7>14%/2132.97</SGST7>
+    <UPRICE7>1692.83</UPRICE7>
+    <TCS7>.075%/14.63</TCS7>
+    <AMT_PLS_GST7>19501.40</AMT_PLS_GST7>
+    <TAMT7>19516.03</TAMT7>
+    <SID8>8</SID8>
+    <RPCS8>Q093S27Y</RPCS8>
+    <ORDER_NO8>5500009660</ORDER_NO8>
+    <PARTNO8>82302CC270AXJ</PARTNO8>
+    <PARTNM8>82302CC270AXJ PNL ASSY-FR DR TRIM COMPL,RH</PARTNM8>
+    <HSN8>8708.99.00</HSN8>
+    <QTY8>1</QTY8>
+    <CGST8>14%/596.90</CGST8>
+    <SGST8>14%/596.90</SGST8>
+    <UPRICE8>4263.59</UPRICE8>
+    <TCS8>.075%/4.09</TCS8>
+    <AMT_PLS_GST8>5457.40</AMT_PLS_GST8>
+    <TAMT8>5461.49</TAMT8>
+    <QRCODE_INFO>T1550000964282301CC000WK
+A200000196 271120209 9823.45 8708.99.000.00 1074.44 0.00 0.00 852.73 7674.57 1074.44 0.00 0.00 9823.45 0.00 0.00 0.00 37AAZCS2637P1Z8 0
+T1550000971982301CC040AXQ
+A200000196 271120206 10769.44 8708.99.000.00 1177.91 0.00 0.00 1402.27 8413.62 1177.91 0.00 0.00 10769.43 0.00 0.00 0.00 37AAZCS2637P1Z8 0
+T1550000964582301CC070AXJ
+A200000196 271120201 4382.08 8708.99.000.00 479.29 0.00 0.00 3423.50 3423.50 479.29 0.00 0.00 4382.08 0.00 0.00 0.00 37AAZCS2637P1Z8 0
+T1550000129682301Q6070EJA
+A200000196 271120205 26422.28 8708.99.000.00 2889.94 0.00 0.00 4128.48 20642.40 2889.94 0.00 0.00 26422.27 0.00 0.00 0.00 37AAZCS2637P1Z8 0
+T1550000129782301Q6070EJB
+A200000196 271120201 5284.46 8708.99.000.00 577.99 0.00 0.00 4128.48 4128.48 577.99 0.00 0.00 5284.45 0.00 0.00 0.00 37AAZCS2637P1Z8 0
+T1550000129982301Q6310WK
+A200000196 271120206 14152.24 8708.99.000.00 1547.90 0.00 0.00 1842.74 11056.44 1547.90 0.00 0.00 14152.24 0.00 0.00 0.00 37AAZCS2637P1Z8 0
+T1550001323382302CC140WK
+A200000196 271120209 19501.41 8708.99.000.00 2132.97 0.00 0.00 1692.83 15235.47 2132.97 0.00 0.00 19501.40 0.00 0.00 0.00 37AAZCS2637P1Z8 0
+T1550000966082302CC270AXJ
+A200000196 271120201 5457.39 8708.99.000.00 596.90 0.00 0.00 4263.59 4263.59 596.90 0.00 0.00 5457.40 0.00 0.00 0.00 37AAZCS2637P1Z8 0
+</QRCODE_INFO>
+    <ADDPAGE>
+      4
+    </ADDPAGE>
+  </DATA>
+  <DATA>
+    <INVOICE> A200000197</INVOICE>
+    <DELI_DATE> 27.11.2020</DELI_DATE>
+    <CARNO> AP39TH2199 / 001</CARNO>
+    <VENDNM>Kia Motors India Private Limited</VENDNM>
+    <ADDRESS_1>Erramanchi, Penukonda Mandal,</ADDRESS_1>
+    <ADDRESS_2>Anantapur district, Andhra Pradesh - 515164</ADDRESS_2>
+    <VEND_GST>GST No. : 37AAGCK5972Q6ZG</VEND_GST>
+    <IRN_ACK_NO>234234234234</IRN_ACK_NO>
+    <IRN_ACK_DATE>10/12/2020</IRN_ACK_DATE>
+    <EWAY_BILL_NO>234234</EWAY_BILL_NO>
+    <TOTAL_QTY>40</TOTAL_QTY>
+    <ASSESS_VALUE>67703.11</ASSESS_VALUE>
+    <OVERALL_CGST>9478.44</OVERALL_CGST>
+    <OVERALL_SGST>9478.44</OVERALL_SGST>
+    <OVERALL_IGST>0.00</OVERALL_IGST>
+    <OVERALL_UTGST>0.00</OVERALL_UTGST>
+    <TOTAL_AMT>86724.98</TOTAL_AMT>
+    <CGST_IN_WORDS>NINE THOUSAND FOUR HUNDRED SEVENTY-EIGHT Rupees FORTY-FOUR Paise</CGST_IN_WORDS>
+    <SGST_IN_WORDS>NINE THOUSAND FOUR HUNDRED SEVENTY-EIGHT Rupees FORTY-FOUR Paise</SGST_IN_WORDS>
+    <TCS_IN_WORDS>SIXTY-FOUR Rupees NINETY-NINE Paise</TCS_IN_WORDS>
+    <TOTALAMT_IN_WORDS>EIGHTY-SIX THOUSAND SEVEN HUNDRED TWENTY-FOUR Rupees NINETY-EIGHT Paise</TOTALAMT_IN_WORDS>
+    <IRN>X</IRN>
+    <OVERALL_TCS>64.99</OVERALL_TCS>
+    <COMNM>SEOYON E-HWA SUMMIT AUTOMOTIVE ANANTAPUR PVT., LTD</COMNM>
+    <COMADDR>Plot no 11B, Industrial Park,
+Ammavaripalli, Ermanchi Village, Penukonda Mandal,
+Anantapur District, Andhra Pradesh - 515164.</COMADDR>
+    <KMI_VENDCD>TEIH</KMI_VENDCD>
+    <COM_ETC>AREA CODE:37, GST NO:37AAZCS2637P1Z8, PAN NO:AAZCS2637P</COM_ETC>
+    <SID1>1</SID1>
+    <RPCS1>Q093S30B</RPCS1>
+    <ORDER_NO1>5500009736</ORDER_NO1>
+    <PARTNO1>82302CC300AXQ</PARTNO1>
+    <PARTNM1>82302CC300AXQ PNL ASSY-FR DR TRIM COMPL,RH</PARTNM1>
+    <HSN1>8708.99.00</HSN1>
+    <QTY1>6</QTY1>
+    <CGST1>14%/1883.58</CGST1>
+    <SGST1>14%/1883.58</SGST1>
+    <UPRICE1>2242.36</UPRICE1>
+    <TCS1>.075%/12.92</TCS1>
+    <AMT_PLS_GST1>17221.32</AMT_PLS_GST1>
+    <TAMT1>17234.24</TAMT1>
+    <SID2>2</SID2>
+    <RPCS2>Q093T23A</RPCS2>
+    <ORDER_NO2>5500001311</ORDER_NO2>
+    <PARTNO2>82302Q6230EJA</PARTNO2>
+    <PARTNM2>82302Q6230EJA PNL ASSY-FR DR TRIM,RH</PARTNM2>
+    <HSN2>8708.99.00</HSN2>
+    <QTY2>5</QTY2>
+    <CGST2>14%/3471.81</CGST2>
+    <SGST2>14%/3471.81</SGST2>
+    <UPRICE2>4959.73</UPRICE2>
+    <TCS2>.075%/23.81</TCS2>
+    <AMT_PLS_GST2>31742.27</AMT_PLS_GST2>
+    <TAMT2>31766.08</TAMT2>
+    <SID3>3</SID3>
+    <RPCS3>Q093T23B</RPCS3>
+    <ORDER_NO3>5500001312</ORDER_NO3>
+    <PARTNO3>82302Q6230EJB</PARTNO3>
+    <PARTNM3>82302Q6230EJB PNL ASSY-FR DR TRIM,RH</PARTNM3>
+    <HSN3>8708.99.00</HSN3>
+    <QTY3>1</QTY3>
+    <CGST3>14%/694.36</CGST3>
+    <SGST3>14%/694.36</SGST3>
+    <UPRICE3>4959.73</UPRICE3>
+    <TCS3>.075%/4.76</TCS3>
+    <AMT_PLS_GST3>6348.45</AMT_PLS_GST3>
+    <TAMT3>6353.22</TAMT3>
+    <SID4>4</SID4>
+    <RPCS4>Q093T26W</RPCS4>
+    <ORDER_NO4>5500001314</ORDER_NO4>
+    <PARTNO4>82302Q6260WK</PARTNO4>
+    <PARTNM4>82302Q6260WK PNL ASSY-FR DR TRIM,RH</PARTNM4>
+    <HSN4>8708.99.00</HSN4>
+    <QTY4>6</QTY4>
+    <CGST4>14%/748.54</CGST4>
+    <SGST4>14%/748.54</SGST4>
+    <UPRICE4>891.12</UPRICE4>
+    <TCS4>.075%/5.13</TCS4>
+    <AMT_PLS_GST4>6843.80</AMT_PLS_GST4>
+    <TAMT4>6848.93</TAMT4>
+    <SID5>5</SID5>
+    <RPCS5>Q088S01W</RPCS5>
+    <ORDER_NO5>5500009672</ORDER_NO5>
+    <PARTNO5>83301CC010WK</PARTNO5>
+    <PARTNM5>83301CC010WK PNL ASSY-RR DR TRIM COMPL,LH</PARTNM5>
+    <HSN5>8708.99.00</HSN5>
+    <QTY5>9</QTY5>
+    <CGST5>14%/885.97</CGST5>
+    <SGST5>14%/885.97</SGST5>
+    <UPRICE5>703.15</UPRICE5>
+    <TCS5>.075%/6.08</TCS5>
+    <AMT_PLS_GST5>8100.29</AMT_PLS_GST5>
+    <TAMT5>8106.36</TAMT5>
+    <SID6>6</SID6>
+    <RPCS6>Q088S03B</RPCS6>
+    <ORDER_NO6>5500009745</ORDER_NO6>
+    <PARTNO6>83301CC030AXQ</PARTNO6>
+    <PARTNM6>83301CC030AXQ PNL ASSY-RR DR TRIM COMPL,LH</PARTNM6>
+    <HSN6>8708.99.00</HSN6>
+    <QTY6>6</QTY6>
+    <CGST6>14%/1006.82</CGST6>
+    <SGST6>14%/1006.82</SGST6>
+    <UPRICE6>1198.60</UPRICE6>
+    <TCS6>.075%/6.90</TCS6>
+    <AMT_PLS_GST6>9205.25</AMT_PLS_GST6>
+    <TAMT6>9212.15</TAMT6>
+    <SID7>7</SID7>
+    <RPCS7>Q088S04Y</RPCS7>
+    <ORDER_NO7>5500009675</ORDER_NO7>
+    <PARTNO7>83301CC040AXJ</PARTNO7>
+    <PARTNM7>83301CC040AXJ PNL ASSY-RR DR TRIM COMPL,LH</PARTNM7>
+    <HSN7>8708.99.00</HSN7>
+    <QTY7>1</QTY7>
+    <CGST7>14%/176.09</CGST7>
+    <SGST7>14%/176.09</SGST7>
+    <UPRICE7>1257.76</UPRICE7>
+    <TCS7>.075%/1.21</TCS7>
+    <AMT_PLS_GST7>1609.93</AMT_PLS_GST7>
+    <TAMT7>1611.14</TAMT7>
+    <SID8>8</SID8>
+    <RPCS8>Q088T00W</RPCS8>
+    <ORDER_NO8>5500001320</ORDER_NO8>
+    <PARTNO8>83301Q6000WK</PARTNO8>
+    <PARTNM8>83301Q6000WK PNL ASSY-RR DR TRIM,LH</PARTNM8>
+    <HSN8>8708.99.00</HSN8>
+    <QTY8>6</QTY8>
+    <CGST8>14%/611.26</CGST8>
+    <SGST8>14%/611.26</SGST8>
+    <UPRICE8>727.69</UPRICE8>
+    <TCS8>.075%/4.19</TCS8>
+    <AMT_PLS_GST8>5588.66</AMT_PLS_GST8>
+    <TAMT8>5592.85</TAMT8>
+    <QRCODE_INFO>T1550000973682302CC300AXQ
+A200000197 271120206 17221.32 8708.99.000.00 1883.58 0.00 0.00 2242.36 13454.16 1883.58 0.00 0.00 17221.32 0.00 0.00 0.00 37AAZCS2637P1Z8 0
+T1550000131182302Q6230EJA
+A200000197 271120205 31742.27 8708.99.000.00 3471.81 0.00 0.00 4959.73 24798.65 3471.81 0.00 0.00 31742.27 0.00 0.00 0.00 37AAZCS2637P1Z8 0
+T1550000131282302Q6230EJB
+A200000197 271120201 6348.45 8708.99.000.00 694.36 0.00 0.00 4959.73 4959.73 694.36 0.00 0.00 6348.45 0.00 0.00 0.00 37AAZCS2637P1Z8 0
+T1550000131482302Q6260WK
+A200000197 271120206 6843.80 8708.99.000.00 748.54 0.00 0.00 891.12 5346.72 748.54 0.00 0.00 6843.80 0.00 0.00 0.00 37AAZCS2637P1Z8 0
+T1550000967283301CC010WK
+A200000197 271120209 8100.29 8708.99.000.00 885.97 0.00 0.00 703.15 6328.35 885.97 0.00 0.00 8100.29 0.00 0.00 0.00 37AAZCS2637P1Z8 0
+T1550000974583301CC030AXQ
+A200000197 271120206 9205.24 8708.99.000.00 1006.82 0.00 0.00 1198.60 7191.60 1006.82 0.00 0.00 9205.25 0.00 0.00 0.00 37AAZCS2637P1Z8 0
+T1550000967583301CC040AXJ
+A200000197 271120201 1609.94 8708.99.000.00 176.09 0.00 0.00 1257.76 1257.76 176.09 0.00 0.00 1609.93 0.00 0.00 0.00 37AAZCS2637P1Z8 0
+T1550000132083301Q6000WK
+A200000197 271120206 5588.66 8708.99.000.00 611.26 0.00 0.00 727.69 4366.14 611.26 0.00 0.00 5588.66 0.00 0.00 0.00 37AAZCS2637P1Z8 0
+</QRCODE_INFO>
+    <ADDPAGE>
+      4
+    </ADDPAGE>
+  </DATA>
+  <DATA>
+    <INVOICE> A200000198</INVOICE>
+    <DELI_DATE> 27.11.2020</DELI_DATE>
+    <CARNO> AP39TH2199 / 001</CARNO>
+    <VENDNM>Kia Motors India Private Limited</VENDNM>
+    <ADDRESS_1>Erramanchi, Penukonda Mandal,</ADDRESS_1>
+    <ADDRESS_2>Anantapur district, Andhra Pradesh - 515164</ADDRESS_2>
+    <VEND_GST>GST No. : 37AAGCK5972Q6ZG</VEND_GST>
+    <IRN_ACK_NO>234234234234</IRN_ACK_NO>
+    <IRN_ACK_DATE>10/12/2020</IRN_ACK_DATE>
+    <EWAY_BILL_NO>234234</EWAY_BILL_NO>
+    <TOTAL_QTY>34</TOTAL_QTY>
+    <ASSESS_VALUE>49996.29</ASSESS_VALUE>
+    <OVERALL_CGST>6999.48</OVERALL_CGST>
+    <OVERALL_SGST>6999.48</OVERALL_SGST>
+    <OVERALL_IGST>0.00</OVERALL_IGST>
+    <OVERALL_UTGST>0.00</OVERALL_UTGST>
+    <TOTAL_AMT>64043.25</TOTAL_AMT>
+    <CGST_IN_WORDS>SIX THOUSAND NINE HUNDRED NINETY-NINE Rupees FORTY-EIGHT Paise</CGST_IN_WORDS>
+    <SGST_IN_WORDS>SIX THOUSAND NINE HUNDRED NINETY-NINE Rupees FORTY-EIGHT Paise</SGST_IN_WORDS>
+    <TCS_IN_WORDS>FORTY-SEVEN</TCS_IN_WORDS>
+    <TOTALAMT_IN_WORDS>SIXTY-FOUR THOUSAND FORTY-THREE Rupees TWENTY-FIVE Paise</TOTALAMT_IN_WORDS>
+    <IRN>X</IRN>
+    <OVERALL_TCS>48.00</OVERALL_TCS>
+    <COMNM>SEOYON E-HWA SUMMIT AUTOMOTIVE ANANTAPUR PVT., LTD</COMNM>
+    <COMADDR>Plot no 11B, Industrial Park,
+Ammavaripalli, Ermanchi Village, Penukonda Mandal,
+Anantapur District, Andhra Pradesh - 515164.</COMADDR>
+    <KMI_VENDCD>TEIH</KMI_VENDCD>
+    <COM_ETC>AREA CODE:37, GST NO:37AAZCS2637P1Z8, PAN NO:AAZCS2637P</COM_ETC>
+    <SID1>1</SID1>
+    <RPCS1>Q088T01A</RPCS1>
+    <ORDER_NO1>5500001861</ORDER_NO1>
+    <PARTNO1>83301Q6010EJA</PARTNO1>
+    <PARTNM1>83301Q6010EJA PNL ASSY-RR DR TRIM,LH</PARTNM1>
+    <HSN1>8708.99.00</HSN1>
+    <QTY1>5</QTY1>
+    <CGST1>14%/1792.67</CGST1>
+    <SGST1>14%/1792.67</SGST1>
+    <UPRICE1>2560.96</UPRICE1>
+    <TCS1>.075%/12.29</TCS1>
+    <AMT_PLS_GST1>16390.14</AMT_PLS_GST1>
+    <TAMT1>16402.44</TAMT1>
+    <SID2>2</SID2>
+    <RPCS2>Q088T03B</RPCS2>
+    <ORDER_NO2>5500001324</ORDER_NO2>
+    <PARTNO2>83301Q6030EJB</PARTNO2>
+    <PARTNM2>83301Q6030EJB PNL ASSY-RR DR TRIM,LH</PARTNM2>
+    <HSN2>8708.99.00</HSN2>
+    <QTY2>1</QTY2>
+    <CGST2>14%/367.00</CGST2>
+    <SGST2>14%/367.00</SGST2>
+    <UPRICE2>2621.42</UPRICE2>
+    <TCS2>.075%/2.52</TCS2>
+    <AMT_PLS_GST2>3355.42</AMT_PLS_GST2>
+    <TAMT2>3357.93</TAMT2>
+    <SID3>3</SID3>
+    <RPCS3>Q087S01W</RPCS3>
+    <ORDER_NO3>5500009678</ORDER_NO3>
+    <PARTNO3>83302CC010WK</PARTNO3>
+    <PARTNM3>83302CC010WK PNL ASSY-RR DR TRIM COMPL,RH</PARTNM3>
+    <HSN3>8708.99.00</HSN3>
+    <QTY3>9</QTY3>
+    <CGST3>14%/885.97</CGST3>
+    <SGST3>14%/885.97</SGST3>
+    <UPRICE3>703.15</UPRICE3>
+    <TCS3>.075%/6.08</TCS3>
+    <AMT_PLS_GST3>8100.29</AMT_PLS_GST3>
+    <TAMT3>8106.36</TAMT3>
+    <SID4>4</SID4>
+    <RPCS4>Q087S03B</RPCS4>
+    <ORDER_NO4>5500009751</ORDER_NO4>
+    <PARTNO4>83302CC030AXQ</PARTNO4>
+    <PARTNM4>83302CC030AXQ PNL ASSY-RR DR TRIM COMPL,RH</PARTNM4>
+    <HSN4>8708.99.00</HSN4>
+    <QTY4>6</QTY4>
+    <CGST4>14%/1006.82</CGST4>
+    <SGST4>14%/1006.82</SGST4>
+    <UPRICE4>1198.60</UPRICE4>
+    <TCS4>.075%/6.90</TCS4>
+    <AMT_PLS_GST4>9205.25</AMT_PLS_GST4>
+    <TAMT4>9212.15</TAMT4>
+    <SID5>5</SID5>
+    <RPCS5>Q087S04Y</RPCS5>
+    <ORDER_NO5>5500009681</ORDER_NO5>
+    <PARTNO5>83302CC040AXJ</PARTNO5>
+    <PARTNM5>83302CC040AXJ PNL ASSY-RR DR TRIM COMPL,RH</PARTNM5>
+    <HSN5>8708.99.00</HSN5>
+    <QTY5>1</QTY5>
+    <CGST5>14%/176.09</CGST5>
+    <SGST5>14%/176.09</SGST5>
+    <UPRICE5>1257.76</UPRICE5>
+    <TCS5>.075%/1.21</TCS5>
+    <AMT_PLS_GST5>1609.93</AMT_PLS_GST5>
+    <TAMT5>1611.14</TAMT5>
+    <SID6>6</SID6>
+    <RPCS6>Q087T00W</RPCS6>
+    <ORDER_NO6>5500001326</ORDER_NO6>
+    <PARTNO6>83302Q6000WK</PARTNO6>
+    <PARTNM6>83302Q6000WK PNL ASSY-RR DR TRIM,RH</PARTNM6>
+    <HSN6>8708.99.00</HSN6>
+    <QTY6>6</QTY6>
+    <CGST6>14%/611.26</CGST6>
+    <SGST6>14%/611.26</SGST6>
+    <UPRICE6>727.69</UPRICE6>
+    <TCS6>.075%/4.19</TCS6>
+    <AMT_PLS_GST6>5588.66</AMT_PLS_GST6>
+    <TAMT6>5592.85</TAMT6>
+    <SID7>7</SID7>
+    <RPCS7>Q087T01A</RPCS7>
+    <ORDER_NO7>5500001873</ORDER_NO7>
+    <PARTNO7>83302Q6010EJA</PARTNO7>
+    <PARTNM7>83302Q6010EJA PNL ASSY-RR DR TRIM,RH</PARTNM7>
+    <HSN7>8708.99.00</HSN7>
+    <QTY7>5</QTY7>
+    <CGST7>14%/1792.67</CGST7>
+    <SGST7>14%/1792.67</SGST7>
+    <UPRICE7>2560.96</UPRICE7>
+    <TCS7>.075%/12.29</TCS7>
+    <AMT_PLS_GST7>16390.14</AMT_PLS_GST7>
+    <TAMT7>16402.44</TAMT7>
+    <SID8>8</SID8>
+    <RPCS8>Q087T03B</RPCS8>
+    <ORDER_NO8>5500001330</ORDER_NO8>
+    <PARTNO8>83302Q6030EJB</PARTNO8>
+    <PARTNM8>83302Q6030EJB PNL ASSY-RR DR TRIM,RH</PARTNM8>
+    <HSN8>8708.99.00</HSN8>
+    <QTY8>1</QTY8>
+    <CGST8>14%/367.00</CGST8>
+    <SGST8>14%/367.00</SGST8>
+    <UPRICE8>2621.42</UPRICE8>
+    <TCS8>.075%/2.52</TCS8>
+    <AMT_PLS_GST8>3355.42</AMT_PLS_GST8>
+    <TAMT8>3357.93</TAMT8>
+    <QRCODE_INFO>T1550000186183301Q6010EJA
+A200000198 271120205 16390.14 8708.99.000.00 1792.67 0.00 0.00 2560.96 12804.80 1792.67 0.00 0.00 16390.14 0.00 0.00 0.00 37AAZCS2637P1Z8 0
+T1550000132483301Q6030EJB
+A200000198 271120201 3355.42 8708.99.000.00 367.00 0.00 0.00 2621.42 2621.42 367.00 0.00 0.00 3355.42 0.00 0.00 0.00 37AAZCS2637P1Z8 0
+T1550000967883302CC010WK
+A200000198 271120209 8100.29 8708.99.000.00 885.97 0.00 0.00 703.15 6328.35 885.97 0.00 0.00 8100.29 0.00 0.00 0.00 37AAZCS2637P1Z8 0
+T1550000975183302CC030AXQ
+A200000198 271120206 9205.24 8708.99.000.00 1006.82 0.00 0.00 1198.60 7191.60 1006.82 0.00 0.00 9205.25 0.00 0.00 0.00 37AAZCS2637P1Z8 0
+T1550000968183302CC040AXJ
+A200000198 271120201 1609.94 8708.99.000.00 176.09 0.00 0.00 1257.76 1257.76 176.09 0.00 0.00 1609.93 0.00 0.00 0.00 37AAZCS2637P1Z8 0
+T1550000132683302Q6000WK
+A200000198 271120206 5588.66 8708.99.000.00 611.26 0.00 0.00 727.69 4366.14 611.26 0.00 0.00 5588.66 0.00 0.00 0.00 37AAZCS2637P1Z8 0
+T1550000187383302Q6010EJA
+A200000198 271120205 16390.14 8708.99.000.00 1792.67 0.00 0.00 2560.96 12804.80 1792.67 0.00 0.00 16390.14 0.00 0.00 0.00 37AAZCS2637P1Z8 0
+T1550000133083302Q6030EJB
+A200000198 271120201 3355.42 8708.99.000.00 367.00 0.00 0.00 2621.42 2621.42 367.00 0.00 0.00 3355.42 0.00 0.00 0.00 37AAZCS2637P1Z8 0
+</QRCODE_INFO>
+    <ADDPAGE>
+      4
+    </ADDPAGE>
+  </DATA>
+  <DATA>
+    <INVOICE> A200000199</INVOICE>
+    <DELI_DATE> 27.11.2020</DELI_DATE>
+    <CARNO> AP39TH2199 / 001</CARNO>
+    <VENDNM>Kia Motors India Private Limited</VENDNM>
+    <ADDRESS_1>Erramanchi, Penukonda Mandal,</ADDRESS_1>
+    <ADDRESS_2>Anantapur district, Andhra Pradesh - 515164</ADDRESS_2>
+    <VEND_GST>GST No. : 37AAGCK5972Q6ZG</VEND_GST>
+    <IRN_ACK_NO>234234234234</IRN_ACK_NO>
+    <IRN_ACK_DATE>10/12/2020</IRN_ACK_DATE>
+    <EWAY_BILL_NO>234234</EWAY_BILL_NO>
+    <TOTAL_QTY>12</TOTAL_QTY>
+    <ASSESS_VALUE>8773.47</ASSESS_VALUE>
+    <OVERALL_CGST>1228.29</OVERALL_CGST>
+    <OVERALL_SGST>1228.29</OVERALL_SGST>
+    <OVERALL_IGST>0.00</OVERALL_IGST>
+    <OVERALL_UTGST>0.00</OVERALL_UTGST>
+    <TOTAL_AMT>11238.46</TOTAL_AMT>
+    <CGST_IN_WORDS>ONE THOUSAND TWO HUNDRED TWENTY-EIGHT Rupees TWENTY-NINE Paise</CGST_IN_WORDS>
+    <SGST_IN_WORDS>ONE THOUSAND TWO HUNDRED TWENTY-EIGHT Rupees TWENTY-NINE Paise</SGST_IN_WORDS>
+    <TCS_IN_WORDS>EIGHT Rupees FORTY-TWO Paise</TCS_IN_WORDS>
+    <TOTALAMT_IN_WORDS>ELEVEN THOUSAND TWO HUNDRED THIRTY-EIGHT Rupees FORTY-SIX Paise</TOTALAMT_IN_WORDS>
+    <IRN>X</IRN>
+    <OVERALL_TCS>8.42</OVERALL_TCS>
+    <COMNM>SEOYON E-HWA SUMMIT AUTOMOTIVE ANANTAPUR PVT., LTD</COMNM>
+    <COMADDR>Plot no 11B, Industrial Park,
+Ammavaripalli, Ermanchi Village, Penukonda Mandal,
+Anantapur District, Andhra Pradesh - 515164.</COMADDR>
+    <KMI_VENDCD>TEIH</KMI_VENDCD>
+    <COM_ETC>AREA CODE:37, GST NO:37AAZCS2637P1Z8, PAN NO:AAZCS2637P</COM_ETC>
+    <SID1>1</SID1>
+    <RPCS1>Q030T01R</RPCS1>
+    <ORDER_NO1>5500014274</ORDER_NO1>
+    <PARTNO1>87310Q6010AAN</PARTNO1>
+    <PARTNM1>87310Q6010AAN GARNISH ASSY-TAIL GATE(MIC, 0.3 VGR CMR)</PARTNM1>
+    <HSN1>8708.99.00</HSN1>
+    <QTY1>6</QTY1>
+    <CGST1>14%/500.01</CGST1>
+    <SGST1>14%/500.01</SGST1>
+    <UPRICE1>595.25</UPRICE1>
+    <TCS1>.075%/3.43</TCS1>
+    <AMT_PLS_GST1>4571.52</AMT_PLS_GST1>
+    <TAMT1>4574.95</TAMT1>
+    <SID2>2</SID2>
+    <RPCS2>Q030T06X</RPCS2>
+    <ORDER_NO2>5500001396</ORDER_NO2>
+    <PARTNO2>87310Q6060CR</PARTNO2>
+    <PARTNM2>87310Q6060CR GARNISH ASSY-TAIL GATE (ELECTROPLATING,</PARTNM2>
+    <HSN2>8708.99.00</HSN2>
+    <QTY2>5</QTY2>
+    <CGST2>14%/605.54</CGST2>
+    <SGST2>14%/605.54</SGST2>
+    <UPRICE2>865.05</UPRICE2>
+    <TCS2>.075%/4.15</TCS2>
+    <AMT_PLS_GST2>5536.32</AMT_PLS_GST2>
+    <TAMT2>5540.47</TAMT2>
+    <SID3>3</SID3>
+    <RPCS3>Q030T07X</RPCS3>
+    <ORDER_NO3>5500001397</ORDER_NO3>
+    <PARTNO3>87310Q6070CR</PARTNO3>
+    <PARTNM3>87310Q6070CR GARNISH ASSY-TAIL GATE (ELECTROPLATING,</PARTNM3>
+    <HSN3>8708.99.00</HSN3>
+    <QTY3>1</QTY3>
+    <CGST3>14%/122.74</CGST3>
+    <SGST3>14%/122.74</SGST3>
+    <UPRICE3>876.72</UPRICE3>
+    <TCS3>.075%/0.84</TCS3>
+    <AMT_PLS_GST3>1122.20</AMT_PLS_GST3>
+    <TAMT3>1123.04</TAMT3>
+    <QRCODE_INFO>T1550001427487310Q6010AAN
+A200000199 271120206 4571.52 8708.99.000.00 500.01 0.00 0.00 595.25 3571.50 500.01 0.00 0.00 4571.52 0.00 0.00 0.00 37AAZCS2637P1Z8 0
+T1550000139687310Q6060CR
+A200000199 271120205 5536.33 8708.99.000.00 605.54 0.00 0.00 865.05 4325.25 605.54 0.00 0.00 5536.32 0.00 0.00 0.00 37AAZCS2637P1Z8 0
+T1550000139787310Q6070CR
+A200000199 271120201 1122.20 8708.99.000.00 122.74 0.00 0.00 876.72 876.72 122.74 0.00 0.00 1122.20 0.00 0.00 0.00 37AAZCS2637P1Z8 0
+</QRCODE_INFO>
+    <ADDPAGE>
+      4
+    </ADDPAGE>
+  </DATA>
+</NewDataSet>

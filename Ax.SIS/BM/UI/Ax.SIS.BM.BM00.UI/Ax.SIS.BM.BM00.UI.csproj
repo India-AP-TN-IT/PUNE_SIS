@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0246843C-4EDE-43F3-94D7-C7C21BCBA22D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ax.SIS.BM.BM00.UI</RootNamespace>
+    <AssemblyName>Ax.SIS.BM.BM00.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>http://localhost/HE.ERM.BM.BM00.UI/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="C1.Win.C1Command.2, Version=2.0.20101.19448, Culture=neutral, PublicKeyToken=e808566f358766d8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1Command.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1FlexGrid.2, Version=2.6.20101.528, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1FlexGrid.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Input.2, Version=2.0.20101.33244, Culture=neutral, PublicKeyToken=7e7ff60f0c214f9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1Input.2.dll</HintPath>
+    </Reference>
+    <Reference Include="HE.Framework.Core">
+      <HintPath>..\..\..\..\Ax.DEV.Environment\Assemblies\HE.Framework.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="HE.Framework.ServiceModel">
+      <HintPath>..\..\..\..\Ax.DEV.Environment\Assemblies\HE.Framework.ServiceModel.dll</HintPath>
+    </Reference>
+    <Reference Include="HE.Framework.Windows.Forms">
+      <HintPath>..\..\..\..\Ax.DEV.Environment\Assemblies\HE.Framework.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="OneCorLib">
+      <HintPath>..\..\..\..\Ax.DEV.Environment\Assemblies\OneCorLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TheOne.ServiceModel">
+      <HintPath>..\..\..\..\Ax.DEV.Environment\Assemblies\TheOne.ServiceModel.dll</HintPath>
+    </Reference>
+    <Reference Include="TheOne.Windows.Forms">
+      <HintPath>..\..\..\..\Ax.DEV.Environment\Assemblies\TheOne.Windows.Forms.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BM00\BM10080.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BM00\BM10080.Designer.cs">
+      <DependentUpon>BM10080.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM00\BM20011.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BM00\BM20011.designer.cs">
+      <DependentUpon>BM20011.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM00\BM20020.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BM00\BM20020.Designer.cs">
+      <DependentUpon>BM20020.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM00\BM20020P1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BM00\BM20020P1.Designer.cs">
+      <DependentUpon>BM20020P1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM00\BM10010.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BM00\BM10010.Designer.cs">
+      <DependentUpon>BM10010.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM00\BM20115P3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BM00\BM20115P3.Designer.cs">
+      <DependentUpon>BM20115P3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM00\BM20115P2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BM00\BM20115P2.Designer.cs">
+      <DependentUpon>BM20115P2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM00\BM20115P1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BM00\BM20115P1.Designer.cs">
+      <DependentUpon>BM20115P1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM00\BM10010P0.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BM00\BM10010P0.Designer.cs">
+      <DependentUpon>BM10010P0.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM00\BM30301.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BM00\BM30301.Designer.cs">
+      <DependentUpon>BM30301.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM00\BM50020.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BM00\BM50020.Designer.cs">
+      <DependentUpon>BM50020.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM00\BM50030.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BM00\BM50030.Designer.cs">
+      <DependentUpon>BM50030.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM00\BM60050.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BM00\BM60050.Designer.cs">
+      <DependentUpon>BM60050.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM00\BM20115P0.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BM00\BM20115P0.Designer.cs">
+      <DependentUpon>BM20115P0.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM00\BM20710.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BM00\BM20710.Designer.cs">
+      <DependentUpon>BM20710.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM00\BM20710P1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BM00\BM20710P1.Designer.cs">
+      <DependentUpon>BM20710P1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM00\BM20710P2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BM00\BM20710P2.Designer.cs">
+      <DependentUpon>BM20710P2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM00\BM30510.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BM00\BM30510.Designer.cs">
+      <DependentUpon>BM30510.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM00\BM20720.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BM00\BM20720.Designer.cs">
+      <DependentUpon>BM20720.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM00\BM30302.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BM00\BM30302.designer.cs">
+      <DependentUpon>BM30302.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BM00\BM10080.resx">
+      <DependentUpon>BM10080.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM00\BM20011.resx">
+      <DependentUpon>BM20011.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM00\BM20020.resx">
+      <DependentUpon>BM20020.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM00\BM20020P1.resx">
+      <DependentUpon>BM20020P1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM00\BM10010.resx">
+      <DependentUpon>BM10010.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM00\BM20115P3.resx">
+      <DependentUpon>BM20115P3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM00\BM20115P2.resx">
+      <DependentUpon>BM20115P2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM00\BM20115P1.resx">
+      <DependentUpon>BM20115P1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM00\BM10010P0.resx">
+      <DependentUpon>BM10010P0.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM00\BM30301.resx">
+      <DependentUpon>BM30301.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM00\BM50020.resx">
+      <DependentUpon>BM50020.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM00\BM50030.resx">
+      <DependentUpon>BM50030.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM00\BM60050.resx">
+      <DependentUpon>BM60050.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM00\BM20115P0.resx">
+      <DependentUpon>BM20115P0.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM00\BM20710.resx">
+      <DependentUpon>BM20710.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM00\BM20710P1.resx">
+      <DependentUpon>BM20710P1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM00\BM20710P2.resx">
+      <DependentUpon>BM20710P2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM00\BM30510.resx">
+      <DependentUpon>BM30510.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM00\BM20720.resx">
+      <DependentUpon>BM20720.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM00\BM30302.resx">
+      <DependentUpon>BM30302.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Ax.DEV.Utility\Ax.DEV.Utility\Ax.DEV.Utility.csproj">
+      <Project>{9aefcdec-4c84-4d60-8fb5-79a3b67287c1}</Project>
+      <Name>Ax.DEV.Utility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\CM\UI\Ax.SIS.CM.UI\Ax.SIS.CM.UI.csproj">
+      <Project>{701e3ce9-7322-4e0d-a5c5-ca253a955d07}</Project>
+      <Name>Ax.SIS.CM.UI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\글로벌 차종등록.xlsx" />
+    <None Include="Resources\자재원단위 강제등록_엑셀양식.xlsx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

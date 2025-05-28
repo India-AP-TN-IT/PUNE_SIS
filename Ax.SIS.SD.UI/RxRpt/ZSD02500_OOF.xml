@@ -1,0 +1,25 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<oof version ='3.0'>
+  <document title='report' enable-thread='0'>
+    <file-list>
+      <file type='reb' path='D:\A\ZSD02500_IRN.reb'>
+        <config-param-list></config-param-list>
+      </file>
+    </file-list>
+
+    <connection-list>
+      <connection type='file' namespace='XML'>
+        <config-param-list>
+          <config-param name='connection.once'>1</config-param>
+          <config-param name='path'>D:\A\ZSD02500.xml</config-param>
+        </config-param-list>
+        <content content-type='xml'>
+          <content-param name='root'>{%dataset.xml.root%}</content-param>
+          <content-param name='preservedwhitespace'>1</content-param>
+          <content-param name='bindmode'>name</content-param>
+        </content>
+      </connection>
+    </connection-list>
+    <plugin-list></plugin-list>
+  </document>
+</oof>

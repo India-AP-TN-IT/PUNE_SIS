@@ -1,0 +1,99 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:Locale="en-US">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="en-US" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="CORCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BIZCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="LINECD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="LOCNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="LOAD_QTY" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BEG_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="END_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="LOCNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PLANT_DIV" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PRDT_DIV" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="STR_LOC" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SLOT_YN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <CORCD>5200</CORCD>
+    <BIZCD>5210</BIZCD>
+    <LINECD>5200</LINECD>
+    <LOCNO>L-LOC0001</LOCNO>
+    <LOAD_QTY>99999</LOAD_QTY>
+    <BEG_DATE>2019-01-01</BEG_DATE>
+    <END_DATE>2099-12-31</END_DATE>
+    <LOCNM>D/TRIM Location1</LOCNM>
+    <PLANT_DIV>01</PLANT_DIV>
+    <PRDT_DIV>M</PRDT_DIV>
+    <STR_LOC></STR_LOC>
+    <SLOT_YN>Y</SLOT_YN>
+  </DATA>
+  <DATA>
+    <CORCD>5200</CORCD>
+    <BIZCD>5210</BIZCD>
+    <LINECD>5200</LINECD>
+    <LOCNO>L-LOC0002</LOCNO>
+    <LOAD_QTY>99999</LOAD_QTY>
+    <BEG_DATE>2019-01-01</BEG_DATE>
+    <END_DATE>2099-12-31</END_DATE>
+    <LOCNM>D/TRIM Location2</LOCNM>
+    <PLANT_DIV>01</PLANT_DIV>
+    <PRDT_DIV>M</PRDT_DIV>
+    <STR_LOC></STR_LOC>
+    <SLOT_YN>Y</SLOT_YN>
+  </DATA>
+  <DATA>
+    <CORCD>5200</CORCD>
+    <BIZCD>5210</BIZCD>
+    <LINECD>5200</LINECD>
+    <LOCNO>L-LOC0003</LOCNO>
+    <LOAD_QTY>99999</LOAD_QTY>
+    <BEG_DATE>2019-01-01</BEG_DATE>
+    <END_DATE>2099-12-31</END_DATE>
+    <LOCNM>D/TRIM Location3</LOCNM>
+    <PLANT_DIV>01</PLANT_DIV>
+    <PRDT_DIV>M</PRDT_DIV>
+    <STR_LOC></STR_LOC>
+    <SLOT_YN>Y</SLOT_YN>
+  </DATA>
+  <DATA>
+    <CORCD>5200</CORCD>
+    <BIZCD>5210</BIZCD>
+    <LINECD>5200</LINECD>
+    <LOCNO>L-B_L01A0002</LOCNO>
+    <LOAD_QTY>99999</LOAD_QTY>
+    <BEG_DATE>2019-01-01</BEG_DATE>
+    <END_DATE>2099-12-31</END_DATE>
+    <LOCNM>D/TRIM Location3</LOCNM>
+    <PLANT_DIV>01</PLANT_DIV>
+    <PRDT_DIV>M</PRDT_DIV>
+    <STR_LOC></STR_LOC>
+    <SLOT_YN>Y</SLOT_YN>
+  </DATA>
+  <DATA>
+    <CORCD>5200</CORCD>
+    <BIZCD>5210</BIZCD>
+    <LINECD>5200</LINECD>
+    <LOCNO>L-B_L01A0003</LOCNO>
+    <LOAD_QTY>99999</LOAD_QTY>
+    <BEG_DATE>2019-01-01</BEG_DATE>
+    <END_DATE>2099-12-31</END_DATE>
+    <LOCNM>D/TRIM Location3</LOCNM>
+    <PLANT_DIV>01</PLANT_DIV>
+    <PRDT_DIV>M</PRDT_DIV>
+    <STR_LOC></STR_LOC>
+    <SLOT_YN>Y</SLOT_YN>
+  </DATA>
+</NewDataSet>

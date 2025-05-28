@@ -1,0 +1,89 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="BIZCD" type="xs:string" minOccurs="0" />
+                <xs:element name="LOTNO" type="xs:string" minOccurs="0" />
+                <xs:element name="NOTENO" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM" type="xs:string" minOccurs="0" />
+                <xs:element name="QTY" type="xs:string" minOccurs="0" />
+                <xs:element name="DELI_DATE" type="xs:string" minOccurs="0" />
+                <xs:element name="DELI_CNT" type="xs:string" minOccurs="0" />
+                <xs:element name="ORDERNO" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDCD" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDNM" type="xs:string" minOccurs="0" />
+                <xs:element name="INVOICE_NO" type="xs:string" minOccurs="0" />
+                <xs:element name="CASE_NO" type="xs:string" minOccurs="0" />
+                <xs:element name="INV_STATUS" type="xs:string" minOccurs="0" />
+                <xs:element name="DOM_IMP_DIV" type="xs:string" minOccurs="0" />
+                <xs:element name="STOCK_DATE" type="xs:string" minOccurs="0" />
+                <xs:element name="STOCK_TIME" type="xs:string" minOccurs="0" />
+                <xs:element name="USER_ID" type="xs:string" minOccurs="0" />
+                <xs:element name="EDI_TAG" type="xs:string" minOccurs="0" />
+                <xs:element name="PROD_DATE" type="xs:string" minOccurs="0" />
+                <xs:element name="MAT_TYPE" type="xs:string" minOccurs="0" />
+                <xs:element name="MAT_TYPE_NM" type="xs:string" minOccurs="0" />
+                <xs:element name="STOCK_DATE2" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <BIZCD>5111</BIZCD>
+    <LOTNO>FMT-201604290044</LOTNO>
+    <NOTENO />
+    <PARTNO>85890-B0000WK</PARTNO>
+    <PARTNM>TRIM ASSY-RR WHEEL HOUSE,LH</PARTNM>
+    <QTY>15</QTY>
+    <DELI_DATE />
+    <DELI_CNT />
+    <ORDERNO />
+    <VENDCD>S00002</VENDCD>
+    <VENDNM>Top Metal</VENDNM>
+    <INVOICE_NO />
+    <CASE_NO />
+    <INV_STATUS>I</INV_STATUS>
+    <DOM_IMP_DIV>EKV</DOM_IMP_DIV>
+    <STOCK_DATE>2016-04-29</STOCK_DATE>
+    <STOCK_TIME>101427</STOCK_TIME>
+    <USER_ID>USER</USER_ID>
+    <EDI_TAG />
+    <PROD_DATE>2016-04-29</PROD_DATE>
+    <MAT_TYPE>상품</MAT_TYPE>
+    <MAT_TYPE_NM>GOOD</MAT_TYPE_NM>
+    <STOCK_DATE2>10/05/2016</STOCK_DATE2>
+  </DATA>
+  <DATA>
+    <BIZCD>5111</BIZCD>
+    <LOTNO>FMT-201604290084</LOTNO>
+    <NOTENO />
+    <PARTNO>85890-B0000WK</PARTNO>
+    <PARTNM>TRIM ASSY-RR WHEEL HOUSE,LH</PARTNM>
+    <QTY>16</QTY>
+    <DELI_DATE />
+    <DELI_CNT />
+    <ORDERNO />
+    <VENDCD>S00002</VENDCD>
+    <VENDNM>Top Metal</VENDNM>
+    <INVOICE_NO />
+    <CASE_NO />
+    <INV_STATUS>I</INV_STATUS>
+    <DOM_IMP_DIV>EKV</DOM_IMP_DIV>
+    <STOCK_DATE>2016-04-29</STOCK_DATE>
+    <STOCK_TIME>141126</STOCK_TIME>
+    <USER_ID>MAT07</USER_ID>
+    <EDI_TAG />
+    <PROD_DATE>2016-04-29</PROD_DATE>
+    <MAT_TYPE>상품</MAT_TYPE>
+    <MAT_TYPE_NM>GOOD</MAT_TYPE_NM>
+  </DATA>
+</NewDataSet>

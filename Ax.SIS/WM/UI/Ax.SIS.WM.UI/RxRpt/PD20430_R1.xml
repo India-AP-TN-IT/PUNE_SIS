@@ -1,0 +1,161 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:Locale="es-MX">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="es-MX" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="CORCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BIZCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="LOTNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="NOTENO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="QTY" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DELI_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="DELI_CNT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />             
+                <xs:element name="ORDERNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />               
+                <xs:element name="INVOICE_NO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CASE_NO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="INV_STATUS" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="DOM_IMP_DIV" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="STOCK_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="STOCK_TIME" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="USER_ID" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="EDI_TAG" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PROD_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MAT_TYPE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MAT_TYPE_NM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="STOCK_DATE2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <CORCD>5110</CORCD>
+    <BIZCD>5111</BIZCD>
+    <LOTNO>880101010000001AAA</LOTNO>
+    <NOTENO>IXZP01512001ZXXD0000101020151215</NOTENO>
+    <PARTNO>82310-B0000</PARTNO>
+    <PARTNM>PNL-FR DR UPR TRIM, LH (CORE)</PARTNM>
+    <QTY>500</QTY>
+    <DELI_DATE>2016-01-01</DELI_DATE>
+    <DELI_CNT>1</DELI_CNT>
+    <ORDERNO>X003</ORDERNO>
+    <VENDCD>S00001</VENDCD>
+    <VENDNM>S00001</VENDNM>
+    <INVOICE_NO>IXZP01512001Z</INVOICE_NO>
+    <CASE_NO>IXZP01512001ZXXD0000101020151215</CASE_NO>
+    <INV_STATUS>I0</INV_STATUS>
+    <DOM_IMP_DIV>EKL</DOM_IMP_DIV>
+    <STOCK_DATE>2016-01-22</STOCK_DATE>
+    <STOCK_TIME>190844</STOCK_TIME>
+    <USER_ID>111111</USER_ID>
+    <PROD_DATE>2016-01-22</PROD_DATE>
+    <MAT_TYPE>상품</MAT_TYPE>
+    <MAT_TYPE_NM>GOOD</MAT_TYPE_NM>
+    <STOCK_DATE2>10/05/2016</STOCK_DATE2>
+  </DATA>
+  <DATA>
+    <CORCD>5110</CORCD>
+    <BIZCD>5111</BIZCD>
+    <LOTNO>880101010000002AAA</LOTNO>
+    <NOTENO>IXZP01512001ZXXD0000101020151215</NOTENO>
+    <PARTNO>D1413-B0000</PARTNO>
+    <PARTNM>PAD-FR DR ARM REST, LH</PARTNM>
+    <QTY>980</QTY>
+    <DELI_DATE>2016-01-01</DELI_DATE>
+    <DELI_CNT>1</DELI_CNT>
+    <ORDERNO>X004</ORDERNO>
+    <VENDCD>S00001</VENDCD>
+    <VENDNM>S00001</VENDNM>
+    <INVOICE_NO>IXZP01512001Z</INVOICE_NO>
+    <CASE_NO>IXZP01512001ZXXD0000101020151215</CASE_NO>
+    <INV_STATUS>I0</INV_STATUS>
+    <DOM_IMP_DIV>EKL</DOM_IMP_DIV>
+    <STOCK_DATE>2016-01-22</STOCK_DATE>
+    <STOCK_TIME>190844</STOCK_TIME>
+    <USER_ID>111111</USER_ID>
+    <PROD_DATE>2016-01-22</PROD_DATE>
+    <MAT_TYPE>상품</MAT_TYPE>
+    <MAT_TYPE_NM>GOOD</MAT_TYPE_NM>
+    <STOCK_DATE2>10/05/2016</STOCK_DATE2>
+  </DATA>
+  <DATA>
+    <CORCD>5110</CORCD>
+    <BIZCD>5111</BIZCD>
+    <LOTNO>880101010000003AAA</LOTNO>
+    <NOTENO>IXZP01512001ZXXD0000101020151215</NOTENO>
+    <PARTNO>D1413-B0000</PARTNO>
+    <PARTNM>PAD-FR DR ARM REST, LH</PARTNM>
+    <QTY>985</QTY>
+    <DELI_DATE>2016-01-01</DELI_DATE>
+    <DELI_CNT>1</DELI_CNT>
+    <ORDERNO>X005</ORDERNO>
+    <VENDCD>S00001</VENDCD>
+    <VENDNM>S00001</VENDNM>
+    <INVOICE_NO>IXZP01512001Z</INVOICE_NO>
+    <CASE_NO>IXZP01512001ZXXD0000101020151215</CASE_NO>
+    <INV_STATUS>I0</INV_STATUS>
+    <DOM_IMP_DIV>EKL</DOM_IMP_DIV>
+    <STOCK_DATE>2016-01-22</STOCK_DATE>
+    <STOCK_TIME>190844</STOCK_TIME>
+    <USER_ID>111111</USER_ID>
+    <PROD_DATE>2016-01-22</PROD_DATE>
+    <MAT_TYPE>상품</MAT_TYPE>
+    <MAT_TYPE_NM>GOOD</MAT_TYPE_NM>
+  </DATA>
+  <DATA>
+    <CORCD>5110</CORCD>
+    <BIZCD>5111</BIZCD>
+    <LOTNO>880101010000004AAA</LOTNO>
+    <NOTENO>IXZP01512001ZXXD0000101020151215</NOTENO>
+    <PARTNO>82310-B0000</PARTNO>
+    <PARTNM>PNL-FR DR UPR TRIM, LH (CORE)</PARTNM>
+    <QTY>999</QTY>
+    <DELI_DATE>2016-01-01</DELI_DATE>
+    <DELI_CNT>1</DELI_CNT>
+    <ORDERNO>X006</ORDERNO>
+    <VENDCD>S00001</VENDCD>
+    <VENDNM>S00001</VENDNM>
+    <INVOICE_NO>IXZP01512001Z</INVOICE_NO>
+    <CASE_NO>IXZP01512001ZXXD0000101020151215</CASE_NO>
+    <INV_STATUS>I0</INV_STATUS>
+    <DOM_IMP_DIV>EKL</DOM_IMP_DIV>
+    <STOCK_DATE>2016-01-22</STOCK_DATE>
+    <STOCK_TIME>190844</STOCK_TIME>
+    <USER_ID>111111</USER_ID>
+    <PROD_DATE>2016-01-22</PROD_DATE>
+    <MAT_TYPE>상품</MAT_TYPE>
+    <MAT_TYPE_NM>GOOD</MAT_TYPE_NM>
+  </DATA>
+  <DATA>
+    <CORCD>5110</CORCD>
+    <BIZCD>5111</BIZCD>
+    <LOTNO>PCUS00002070010001</LOTNO>
+    <NOTENO>T151230S0000207EAM01</NOTENO>
+    <PARTNO>82330-B0010WK</PARTNO>
+    <PARTNM>PNL-FR DR CTR TRIM, LH</PARTNM>
+    <QTY>30</QTY>
+    <DELI_DATE>2016-01-01</DELI_DATE>
+    <DELI_CNT>1</DELI_CNT>
+    <ORDERNO>2180214</ORDERNO>
+    <VENDCD>S00002</VENDCD>
+    <VENDNM>S00001</VENDNM>
+    <INV_STATUS>I0</INV_STATUS>
+    <DOM_IMP_DIV>EKV</DOM_IMP_DIV>
+    <STOCK_DATE>2016-01-22</STOCK_DATE>
+    <STOCK_TIME>190822</STOCK_TIME>
+    <USER_ID>111111</USER_ID>
+    <PROD_DATE>2015-12-27</PROD_DATE>
+    <MAT_TYPE>상품</MAT_TYPE>
+    <MAT_TYPE_NM>GOOD</MAT_TYPE_NM>
+  </DATA>
+</NewDataSet>

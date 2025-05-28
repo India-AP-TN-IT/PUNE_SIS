@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9AEFCDEC-4C84-4D60-8FB5-79A3B67287C1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ax.DEV.Utility</RootNamespace>
+    <AssemblyName>Ax.DEV.Utility</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="C1.C1Excel.2, Version=2.1.20101.145, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Ax.DEV.Environment\C1Assemblies\C1.C1Excel.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Chart.2, Version=2.0.20101.20060, Culture=neutral, PublicKeyToken=a22e16972c085838, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1Chart.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Chart3D.2, Version=2.0.20101.20060, Culture=neutral, PublicKeyToken=a22e16972c085838, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1Chart3D.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Command.2, Version=2.0.20101.19448, Culture=neutral, PublicKeyToken=e808566f358766d8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1Command.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1FlexGrid.2, Version=2.6.20101.528, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1FlexGrid.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Input.2, Version=2.0.20101.33244, Culture=neutral, PublicKeyToken=7e7ff60f0c214f9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1Input.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1InputPanel.2, Version=2.0.20101.82, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1InputPanel.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1List.2, Version=2.1.20101.165, Culture=neutral, PublicKeyToken=6b24f8f981dbd7bc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1List.2.dll</HintPath>
+    </Reference>
+    <Reference Include="HE.ComponentOne">
+      <HintPath>..\..\Ax.DEV.Environment\Assemblies\HE.ComponentOne.dll</HintPath>
+    </Reference>
+    <Reference Include="HE.Framework.Core">
+      <HintPath>..\..\Ax.DEV.Environment\Assemblies\HE.Framework.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="HE.Framework.ServiceModel">
+      <HintPath>..\..\Ax.DEV.Environment\Assemblies\HE.Framework.ServiceModel.dll</HintPath>
+    </Reference>
+    <Reference Include="HE.Framework.Windows.Forms">
+      <HintPath>..\..\Ax.DEV.Environment\Assemblies\HE.Framework.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\..\Ax.DEV.Environment\Assemblies\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\Ax.DEV.Environment\Assemblies\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="OneCorLib">
+      <HintPath>..\..\Ax.DEV.Environment\Assemblies\OneCorLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TheOne.ServiceModel">
+      <HintPath>..\..\Ax.DEV.Environment\Assemblies\TheOne.ServiceModel.dll</HintPath>
+    </Reference>
+    <Reference Include="TheOne.UIModel">
+      <HintPath>..\..\Ax.DEV.Environment\Assemblies\TheOne.UIModel.dll</HintPath>
+    </Reference>
+    <Reference Include="TheOne.Windows.Forms">
+      <HintPath>..\..\Ax.DEV.Environment\Assemblies\TheOne.Windows.Forms.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\AxButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\AxChart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\AxChart3D.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\AxCheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\AxCodeBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\AxComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\AxDateEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\AxDockingTab.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\AxDockingTab.designer.cs">
+      <DependentUpon>AxDockingTab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AxFlexGrid.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\AxLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\AxNumericEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\AxPictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\AxRadioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\AxRichTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\AxRichTextBox.Designer.cs">
+      <DependentUpon>AxRichTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AxSplitter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\AxTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\AxOfficeViewer.cs" />
+    <Compile Include="Controls\AxOfficeViewer.Designer.cs">
+      <DependentUpon>AxOfficeViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AxComboList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Library\BrowserEmulation.cs" />
+    <Compile Include="Library\ControlFactoryList.cs" />
+    <Compile Include="Library\CoreHelper.cs" />
+    <Compile Include="Library\GWApprovaler.cs" />
+    <Compile Include="Library\AxCommonPopupControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Library\AxControlExtensions.cs" />
+    <Compile Include="Library\AxInputBox.cs" />
+    <Compile Include="Library\AxFlexGridColumnDictionary.cs" />
+    <Compile Include="Library\AxRexpertReportViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Library\AxRexpertReportViewer.Designer.cs">
+      <DependentUpon>AxRexpertReportViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Library\AxCommonButtonControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Library\AxCommonButtonControl.Designer.cs">
+      <DependentUpon>AxCommonButtonControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Library\AxExcelDownloadPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Library\AxExcelDownloadPopup.Designer.cs">
+      <DependentUpon>AxExcelDownloadPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Library\AxHelperForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Library\AxHelperForm.Designer.cs">
+      <DependentUpon>AxHelperForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Library\AxPrinterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Library\AxPrinterForm.Designer.cs">
+      <DependentUpon>AxPrinterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Library\AxFullScreenHelper.cs" />
+    <Compile Include="Library\IAxControl.cs" />
+    <Compile Include="Library\AxCommonBaseControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Library\AxStaticCommon.cs" />
+    <Compile Include="Library\IAxPopupHelper.cs" />
+    <Compile Include="Library\ImageCollapse.cs" />
+    <Compile Include="Library\IPopupControl.cs" />
+    <Compile Include="Library\LanguageHelper.cs" />
+    <Compile Include="Library\MenuHelper.cs" />
+    <Compile Include="Library\PDFHelper.cs" />
+    <Compile Include="Library\PopupHelper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Library\PopupHelper.Designer.cs">
+      <DependentUpon>PopupHelper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Library\RemoteFileHandler.cs" />
+    <Compile Include="Library\RemoteFileInfo.cs" />
+    <Compile Include="Library\StaticUserInfoContext.cs" />
+    <Compile Include="Library\UtilHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources_en.Designer.cs">
+      <DependentUpon>Resources_en.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Default.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Default.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Default.pl.Designer.cs">
+      <DependentUpon>Default.pl.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Default.en.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Default.en.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\AxDockingTab.resx">
+      <DependentUpon>AxDockingTab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\AxRichTextBox.resx">
+      <DependentUpon>AxRichTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\AxTextBox.resx">
+      <DependentUpon>AxTextBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\AxOfficeViewer.resx">
+      <DependentUpon>AxOfficeViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Library\AxCommonBaseControl.resx">
+      <DependentUpon>AxCommonBaseControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Library\AxRexpertReportViewer.resx">
+      <DependentUpon>AxRexpertReportViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Library\AxCommonButtonControl.resx">
+      <DependentUpon>AxCommonButtonControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Library\AxExcelDownloadPopup.resx">
+      <DependentUpon>AxExcelDownloadPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Library\AxHelperForm.resx">
+      <DependentUpon>AxHelperForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Library\AxPrinterForm.resx">
+      <DependentUpon>AxPrinterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Library\PopupHelper.resx">
+      <DependentUpon>PopupHelper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources_en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources_en.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Default.pl.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Default.pl.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Default.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Default.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Default.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Default.en.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\required.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\magnifier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="SHDocVw">
+      <Guid>{EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0%28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0%28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\button.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

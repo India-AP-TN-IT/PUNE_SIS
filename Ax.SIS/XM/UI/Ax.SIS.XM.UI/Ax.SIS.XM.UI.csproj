@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6BD4CE9A-4565-4497-B922-222FDA7B7C49}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ax.SIS.XM.UI</RootNamespace>
+    <AssemblyName>Ax.SIS.XM.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\..\..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="C1.Win.C1Command.2, Version=2.0.20101.19448, Culture=neutral, PublicKeyToken=e808566f358766d8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1Command.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1FlexGrid.2, Version=2.6.20101.528, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1FlexGrid.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Input.2, Version=2.0.20101.33244, Culture=neutral, PublicKeyToken=7e7ff60f0c214f9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1Input.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1List.2, Version=2.1.20101.165, Culture=neutral, PublicKeyToken=6b24f8f981dbd7bc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1List.2.dll</HintPath>
+    </Reference>
+    <Reference Include="HE.Framework.Core">
+      <HintPath>..\..\..\..\Ax.DEV.Environment\Assemblies\HE.Framework.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="HE.Framework.ServiceModel">
+      <HintPath>..\..\..\..\Ax.DEV.Environment\Assemblies\HE.Framework.ServiceModel.dll</HintPath>
+    </Reference>
+    <Reference Include="HE.Framework.Windows.Forms">
+      <HintPath>..\..\..\..\Ax.DEV.Environment\Assemblies\HE.Framework.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="OneCorLib">
+      <HintPath>..\..\..\..\Ax.DEV.Environment\Assemblies\OneCorLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TheOne.ServiceModel">
+      <HintPath>..\..\..\..\Ax.DEV.Environment\Assemblies\TheOne.ServiceModel.dll</HintPath>
+    </Reference>
+    <Reference Include="TheOne.Windows.Forms">
+      <HintPath>..\..\..\..\Ax.DEV.Environment\Assemblies\TheOne.Windows.Forms.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="XM39030.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XM39030.Designer.cs">
+      <DependentUpon>XM39030.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XM39010.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XM39010.designer.cs">
+      <DependentUpon>XM39010.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XM20001.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XM20001.Designer.cs">
+      <DependentUpon>XM20001.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XM20001P1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XM20001P1.Designer.cs">
+      <DependentUpon>XM20001P1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XM20002.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XM20002.Designer.cs">
+      <DependentUpon>XM20002.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XM20002P1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XM20002P1.Designer.cs">
+      <DependentUpon>XM20002P1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XM20003.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XM20003.Designer.cs">
+      <DependentUpon>XM20003.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XM20103.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XM20103.designer.cs">
+      <DependentUpon>XM20103.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XM20304.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XM20304.designer.cs">
+      <DependentUpon>XM20304.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XM20410.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XM20410.designer.cs">
+      <DependentUpon>XM20410.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XM30004.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XM30004.Designer.cs">
+      <DependentUpon>XM30004.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XM20005.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XM20005.Designer.cs">
+      <DependentUpon>XM20005.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XM20006.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XM20006.Designer.cs">
+      <DependentUpon>XM20006.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XM20101.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XM20101.Designer.cs">
+      <DependentUpon>XM20101.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XM20102.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XM20102.Designer.cs">
+      <DependentUpon>XM20102.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XM20102P1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XM20102P1.Designer.cs">
+      <DependentUpon>XM20102P1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XM30202.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XM30202.Designer.cs">
+      <DependentUpon>XM30202.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XM20203.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XM20203.Designer.cs">
+      <DependentUpon>XM20203.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XM30301.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XM30301.Designer.cs">
+      <DependentUpon>XM30301.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XM20302.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XM20302.Designer.cs">
+      <DependentUpon>XM20302.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XM30303.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XM30303.Designer.cs">
+      <DependentUpon>XM30303.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XM30303P1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XM30303P1.designer.cs">
+      <DependentUpon>XM30303P1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XM30304.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XM30304.Designer.cs">
+      <DependentUpon>XM30304.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XM30410.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XM30410.designer.cs">
+      <DependentUpon>XM30410.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XM30410P1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XM30410P1.designer.cs">
+      <DependentUpon>XM30410P1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XM30411.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XM30411.Designer.cs">
+      <DependentUpon>XM30411.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XM30412.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XM30412.Designer.cs">
+      <DependentUpon>XM30412.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XM21010.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XM21010.Designer.cs">
+      <DependentUpon>XM21010.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XM31010.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XM31010.Designer.cs">
+      <DependentUpon>XM31010.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XM30413.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XM30413.Designer.cs">
+      <DependentUpon>XM30413.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XM39011.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XM39011.designer.cs">
+      <DependentUpon>XM39011.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XM39020.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XM39020.designer.cs">
+      <DependentUpon>XM39020.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Ax.DEV.Utility\Ax.DEV.Utility\Ax.DEV.Utility.csproj">
+      <Project>{9AEFCDEC-4C84-4D60-8FB5-79A3B67287C1}</Project>
+      <Name>Ax.DEV.Utility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\CM\UI\Ax.SIS.CM.UI\Ax.SIS.CM.UI.csproj">
+      <Project>{701E3CE9-7322-4E0D-A5C5-CA253A955D07}</Project>
+      <Name>Ax.SIS.CM.UI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="XM39030.resx">
+      <DependentUpon>XM39030.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XM39010.resx">
+      <DependentUpon>XM39010.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="XM20001.resx">
+      <DependentUpon>XM20001.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XM20001P1.resx">
+      <DependentUpon>XM20001P1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XM20002.resx">
+      <DependentUpon>XM20002.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XM20002P1.resx">
+      <DependentUpon>XM20002P1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XM20003.resx">
+      <DependentUpon>XM20003.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XM20103.resx">
+      <DependentUpon>XM20103.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XM20304.resx">
+      <DependentUpon>XM20304.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XM20410.resx">
+      <DependentUpon>XM20410.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XM30004.resx">
+      <DependentUpon>XM30004.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XM20005.resx">
+      <DependentUpon>XM20005.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XM20006.resx">
+      <DependentUpon>XM20006.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XM20101.resx">
+      <DependentUpon>XM20101.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XM20102.resx">
+      <DependentUpon>XM20102.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XM20102P1.resx">
+      <DependentUpon>XM20102P1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XM30202.resx">
+      <DependentUpon>XM30202.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XM20203.resx">
+      <DependentUpon>XM20203.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XM30301.resx">
+      <DependentUpon>XM30301.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XM20302.resx">
+      <DependentUpon>XM20302.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XM30303.resx">
+      <DependentUpon>XM30303.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XM30303P1.resx">
+      <DependentUpon>XM30303P1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XM30304.resx">
+      <DependentUpon>XM30304.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XM30410.resx">
+      <DependentUpon>XM30410.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XM30410P1.resx">
+      <DependentUpon>XM30410P1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XM21010.resx">
+      <DependentUpon>XM21010.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XM31010.resx">
+      <DependentUpon>XM31010.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XM30413.resx">
+      <DependentUpon>XM30413.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XM39011.resx">
+      <DependentUpon>XM39011.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XM39020.resx">
+      <DependentUpon>XM39020.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

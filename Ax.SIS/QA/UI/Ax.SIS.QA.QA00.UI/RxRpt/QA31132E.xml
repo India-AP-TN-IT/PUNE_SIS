@@ -1,0 +1,344 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:Locale="ko-KR">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="ko-KR" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TYPENM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TOT_Y" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TOT_N" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V1_Y" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V1_N" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V2_Y" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V2_N" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V3_Y" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V3_N" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V4_Y" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V4_N" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V5_Y" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V5_N" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V6_Y" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V6_N" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V7_Y" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V7_N" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V8_Y" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V8_N" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V9_Y" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V9_N" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V10_Y" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V10_N" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V11_Y" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V11_N" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V12_Y" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V12_N" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V13_Y" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V13_N" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V14_Y" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V14_N" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V15_Y" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V15_N" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V16_Y" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V16_N" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V17_Y" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V17_N" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V18_Y" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V18_N" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V19_Y" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V19_N" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V20_Y" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V20_N" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V21_Y" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V21_N" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V22_Y" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V22_N" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V23_Y" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V23_N" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V24_Y" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V24_N" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V25_Y" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V25_N" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TYPE" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  
+  <DATA>
+    <TYPENM>DR TRIM</TYPENM>
+    <TOT_Y>88</TOT_Y>
+    <TOT_N>153</TOT_N>
+    <V1_Y>12</V1_Y>
+    <V1_N>5</V1_N>
+    <V2_Y>1</V2_Y>
+    <V2_N>5</V2_N>
+	<V3_Y />
+	<V3_N />
+	<V4_Y />
+	<V4_N />
+    <V5_Y>4</V5_Y>
+    <V5_N>27</V5_N>
+    <V6_Y>15</V6_Y>
+    <V6_N>14</V6_N>
+	<V7_Y />
+	<V7_N />
+    <V8_Y>11</V8_Y>
+    <V8_N>20</V8_N>
+	<V9_Y />
+	<V9_N />
+    <V10_Y>15</V10_Y>
+    <V10_N>30</V10_N>
+    <V11_Y>1</V11_Y>
+    <V11_N>6</V11_N>
+	<V12_Y />
+	<V12_N />
+	<V13_Y />
+	<V13_N />
+	<V14_Y />
+	<V14_N />
+    <V15_Y>5</V15_Y>
+    <V15_N>14</V15_N>
+    <V16_Y>17</V16_Y>
+    <V16_N>22</V16_N>
+	<V17_Y />
+	<V17_N />
+    <V18_Y>7</V18_Y>
+    <V18_N>10</V18_N>
+    <TYPE>1</TYPE>
+	<V19_Y />
+	<V19_N />
+	<V20_Y />
+	<V20_N />
+	<V21_Y />
+	<V21_N />
+	<V22_Y />
+	<V22_N />
+	<V23_Y />
+	<V23_N />
+	<V24_Y />
+	<V24_N />
+	<V25_Y />
+	<V25_N />
+  </DATA>
+  <DATA>
+    <TYPENM>SEAT</TYPENM>
+    <TOT_Y>8</TOT_Y>
+    <TOT_N>58</TOT_N>
+    <V11_Y>8</V11_Y>
+    <V11_N>58</V11_N>
+    <TYPE>1</TYPE>
+  </DATA>
+  <DATA>
+    <TYPENM>PLR TRIM</TYPENM>
+    <TOT_Y>16</TOT_Y>
+    <TOT_N>7</TOT_N>
+    <V5_Y>10</V5_Y>
+    <V6_N>4</V6_N>
+    <V8_N>2</V8_N>
+    <V10_Y>6</V10_Y>
+    <V16_N>1</V16_N>
+    <TYPE>1</TYPE>
+  </DATA>
+  <DATA>
+    <TYPENM>PKG TRAY</TYPENM>
+    <TOT_Y>5</TOT_Y>
+    <V1_Y>1</V1_Y>
+    <V5_Y>3</V5_Y>
+    <V10_Y>1</V10_Y>
+    <TYPE>1</TYPE>
+  </DATA>
+  <DATA>
+    <TYPENM>DR PULL HDL CAP</TYPENM>
+    <TOT_N>3</TOT_N>
+    <V8_N>3</V8_N>
+    <TYPE>1</TYPE>
+  </DATA>
+  <DATA>
+    <TYPENM>COVER'G SHELF</TYPENM>
+    <TOT_Y>1</TOT_Y>
+    <TOT_N>1</TOT_N>
+    <V8_N>1</V8_N>
+    <V15_Y>1</V15_Y>
+    <TYPE>1</TYPE>
+  </DATA>
+  <DATA>
+    <TYPENM>DR FRAME INR COVER</TYPENM>
+    <TOT_Y>2</TOT_Y>
+    <V5_Y>2</V5_Y>
+    <TYPE>1</TYPE>
+  </DATA>
+  <DATA>
+    <TYPENM>DR SCUFF</TYPENM>
+    <TOT_Y>2</TOT_Y>
+    <V10_Y>2</V10_Y>
+    <TYPE>1</TYPE>
+  </DATA>
+  <DATA>
+    <TYPENM>DR STEP</TYPENM>
+    <TOT_Y>2</TOT_Y>
+    <V10_Y>2</V10_Y>
+    <TYPE>1</TYPE>
+  </DATA>
+  <DATA>
+    <TYPENM>EXTENSION COVER</TYPENM>
+    <TOT_Y>2</TOT_Y>
+    <V10_Y>2</V10_Y>
+    <TYPE>1</TYPE>
+  </DATA>
+  <DATA>
+    <TYPENM>WINDOW TRIM</TYPENM>
+    <TOT_N>2</TOT_N>
+    <V18_N>2</V18_N>
+    <TYPE>1</TYPE>
+  </DATA>
+  <DATA>
+    <TYPENM>COWL SIDE TRIM</TYPENM>
+    <TOT_Y>1</TOT_Y>
+    <V10_Y>1</V10_Y>
+    <TYPE>1</TYPE>
+  </DATA>
+  <DATA>
+    <TYPENM>LUGG BOX</TYPENM>
+    <TOT_N>1</TOT_N>
+    <V6_N>1</V6_N>
+    <TYPE>1</TYPE>
+  </DATA>
+  <DATA>
+    <TYPENM>QUADRENT COVER</TYPENM>
+    <TOT_N>1</TOT_N>
+    <V15_N>1</V15_N>
+    <TYPE>1</TYPE>
+  </DATA>
+  <DATA>
+    <TYPENM>SCREEN</TYPENM>
+    <TOT_N>1</TOT_N>
+    <V6_N>1</V6_N>
+    <TYPE>1</TYPE>
+  </DATA>
+  <DATA>
+    <TYPENM>DR TRIM</TYPENM>
+    <TOT_Y>88</TOT_Y>
+    <TOT_N>153</TOT_N>
+    <V1_Y>12</V1_Y>
+    <V1_N>5</V1_N>
+    <V2_Y>1</V2_Y>
+    <V2_N>5</V2_N>
+    <V5_Y>4</V5_Y>
+    <V5_N>27</V5_N>
+    <V6_Y>15</V6_Y>
+    <V6_N>14</V6_N>
+    <V8_Y>11</V8_Y>
+    <V8_N>20</V8_N>
+    <V10_Y>15</V10_Y>
+    <V10_N>30</V10_N>
+    <V11_Y>1</V11_Y>
+    <V11_N>6</V11_N>
+    <V15_Y>5</V15_Y>
+    <V15_N>14</V15_N>
+    <V16_Y>17</V16_Y>
+    <V16_N>22</V16_N>
+    <V18_Y>7</V18_Y>
+    <V18_N>10</V18_N>
+    <TYPE>2</TYPE>
+  </DATA>
+  <DATA>
+    <TYPENM>SEAT</TYPENM>
+    <TOT_Y>8</TOT_Y>
+    <TOT_N>58</TOT_N>
+    <V11_Y>8</V11_Y>
+    <V11_N>58</V11_N>
+    <TYPE>2</TYPE>
+  </DATA>
+  <DATA>
+    <TYPENM>PLR TRIM</TYPENM>
+    <TOT_Y>16</TOT_Y>
+    <TOT_N>7</TOT_N>
+    <V5_Y>10</V5_Y>
+    <V6_N>4</V6_N>
+    <V8_N>2</V8_N>
+    <V10_Y>6</V10_Y>
+    <V16_N>1</V16_N>
+    <TYPE>2</TYPE>
+  </DATA>
+  <DATA>
+    <TYPENM>PKG TRAY</TYPENM>
+    <TOT_Y>5</TOT_Y>
+    <V1_Y>1</V1_Y>
+    <V5_Y>3</V5_Y>
+    <V10_Y>1</V10_Y>
+    <TYPE>2</TYPE>
+  </DATA>
+  <DATA>
+    <TYPENM>DR PULL HDL CAP</TYPENM>
+    <TOT_N>3</TOT_N>
+    <V8_N>3</V8_N>
+    <TYPE>2</TYPE>
+  </DATA>
+  <DATA>
+    <TYPENM>COVER'G SHELF</TYPENM>
+    <TOT_Y>1</TOT_Y>
+    <TOT_N>1</TOT_N>
+    <V8_N>1</V8_N>
+    <V15_Y>1</V15_Y>
+    <TYPE>2</TYPE>
+  </DATA>
+  <DATA>
+    <TYPENM>DR FRAME INR COVER</TYPENM>
+    <TOT_Y>2</TOT_Y>
+    <V5_Y>2</V5_Y>
+    <TYPE>2</TYPE>
+  </DATA>
+  <DATA>
+    <TYPENM>DR SCUFF</TYPENM>
+    <TOT_Y>2</TOT_Y>
+    <V10_Y>2</V10_Y>
+    <TYPE>2</TYPE>
+  </DATA>
+  <DATA>
+    <TYPENM>DR STEP</TYPENM>
+    <TOT_Y>2</TOT_Y>
+    <V10_Y>2</V10_Y>
+    <TYPE>2</TYPE>
+  </DATA>
+  <DATA>
+    <TYPENM>EXTENSION COVER</TYPENM>
+    <TOT_Y>2</TOT_Y>
+    <V10_Y>2</V10_Y>
+    <TYPE>2</TYPE>
+  </DATA>
+  <DATA>
+    <TYPENM>WINDOW TRIM</TYPENM>
+    <TOT_N>2</TOT_N>
+    <V18_N>2</V18_N>
+    <TYPE>2</TYPE>
+  </DATA>
+  <DATA>
+    <TYPENM>COWL SIDE TRIM</TYPENM>
+    <TOT_Y>1</TOT_Y>
+    <V10_Y>1</V10_Y>
+    <TYPE>2</TYPE>
+  </DATA>
+  <DATA>
+    <TYPENM>LUGG BOX</TYPENM>
+    <TOT_N>1</TOT_N>
+    <V6_N>1</V6_N>
+    <TYPE>2</TYPE>
+  </DATA>
+  <DATA>
+    <TYPENM>QUADRENT COVER</TYPENM>
+    <TOT_N>1</TOT_N>
+    <V15_N>1</V15_N>
+    <TYPE>2</TYPE>
+  </DATA>
+  <DATA>
+    <TYPENM>SCREEN</TYPENM>
+    <TOT_N>1</TOT_N>
+    <V6_N>1</V6_N>
+    <TYPE>2</TYPE>
+  </DATA>
+</NewDataSet>

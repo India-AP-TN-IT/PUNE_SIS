@@ -1,0 +1,892 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HE.Framework.Core</name>
+    </assembly>
+    <members>
+        <member name="T:HE.Framework.Core.DataSetSerializer">
+            <summary>
+            DataSet을 빠르게 직렬화, 역직렬화 하는 클래스입니다.
+            </summary>
+        </member>
+        <member name="M:HE.Framework.Core.DataSetSerializer.ToArray(System.Data.DataSet)">
+            <summary>
+            DataSet을 byte[]로 직렬화합니다.
+            </summary>
+            <param name="ds">직렬화하려는 DataSet 입니다.</param>
+            <returns>직렬화된 byte[] 입니다.</returns>
+        </member>
+        <member name="M:HE.Framework.Core.DataSetSerializer.ToDataSet(System.Byte[])">
+            <summary>
+            byte[]을 역직렬화하여 DataSet을 복원합니다.
+            </summary>
+            <param name="buffer">역직렬화 하려는 byte[] 입니다.</param>
+            <returns>역직렬화된 DataSet 입니다.</returns>
+        </member>
+        <member name="T:HE.Framework.Core.HEException">
+            <summary>
+            HEException 클래스의 새 인스턴스를 초기화 합니다.
+            Code는 20001입니다.
+            </summary>
+        </member>
+        <member name="F:HE.Framework.Core.HEException.ERROR_CODE">
+            <summary>
+            오라클 패키지 오류 코드 RAISE_APPLICATION_ERROR(20001,"AAA")
+            </summary>
+        </member>
+        <member name="M:HE.Framework.Core.HEException.#ctor(System.String)">
+            <summary>
+            지정된 오류 메시지를 사용하여 HEException 클래스의 새 인스턴스를 초기화한다.
+            </summary>
+            <param name="msg">오류를 설명하는 메시지</param>
+        </member>
+        <member name="M:HE.Framework.Core.HEException.#ctor(System.String,System.Exception)">
+            <summary>
+            지정된 오류 메시지와 예외 객체를 사용하여 HEException 클래스의 새 인스턴스를 초기화한다.
+            </summary>
+            <param name="msg">오류를 설명하는 메시지</param>
+            <param name="ie">예외 객체</param>
+        </member>
+        <member name="M:HE.Framework.Core.HEException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Serialize된 데이터를 사용하여 HEException 클래스의 새 인스턴스를 초기화한다.
+            </summary>
+            <param name="info">Serialize된 객체 데이터를 유지하는 객체</param>
+            <param name="context">소스 또는 대상에 대한 컨텍스트 정보</param>
+        </member>
+        <member name="T:HE.Framework.Core.CommandBase">
+            <summary>
+            통합 WCF 명령에 대한 베이스 클래스입니다.
+            </summary>
+        </member>
+        <member name="P:HE.Framework.Core.CommandBase.ProcedureName">
+            <summary>
+            저장 프로시저 이름을 가져오거나 설정합니다.
+            </summary>
+        </member>
+        <member name="T:HE.Framework.Core.SelectCommand">
+            <summary>
+            HEParameterSet을 사용하는 조회 기능의 통합 WCF 명령 클래스입니다.
+            </summary>
+        </member>
+        <member name="M:HE.Framework.Core.SelectCommand.#ctor(System.String,HE.Framework.Core.HEParameterSet,System.String[])">
+            <summary>
+            지정한 정보를 사용하여 SelectCommand 클래스의 새 인스턴스를 초기화합니다.
+            </summary>
+            <param name="procedureName">저장 프로시저 이름입니다.</param>
+            <param name="parameter">키/값의 매개변수 정보입니다.</param>
+            <param name="cursorNames">결과셋을 받기 위한 RefCursor 이름 배열입니다.(Oracle의 경우에만 사용됩니다.)</param>
+        </member>
+        <member name="P:HE.Framework.Core.SelectCommand.Parameter">
+            <summary>
+            키 /값의 조회 조건을 컬렉션을 가져오거나 설정합니다.
+            </summary>
+        </member>
+        <member name="P:HE.Framework.Core.SelectCommand.CursorNames">
+            <summary>
+            Oracle의 경우 결과 셋을 나타내는 RefCursor 이름 배열입니다.
+            </summary>
+        </member>
+        <member name="T:HE.Framework.Core.SaveCommand">
+            <summary>
+            DataSet을 사용하는 저장 기능의 통합 WCF 명령 클래스입니다.
+            </summary>
+        </member>
+        <member name="M:HE.Framework.Core.SaveCommand.#ctor(System.String,System.Collections.Generic.List{HE.Framework.Core.HEParameterSet})">
+            <summary>
+            지정한 정보를 사용하여 DataSetSaveCommand 클래스의 새 인스턴스를 초기화 합니다.
+            </summary>
+            <param name="procedureName">저장 프로시저 이름입니다.</param>
+            <param name="parametersList">저장하려는 DataSet 입니다.</param>
+        </member>
+        <member name="P:HE.Framework.Core.SaveCommand.ParametersList">
+            <summary>
+            DataSet에 대한 byte[] 값을 가져오거나 설정합니다.
+            </summary>
+        </member>
+        <member name="T:HE.Framework.Core.DataSetSaveCommand">
+            <summary>
+            DataSet을 사용하는 저장 기능의 통합 WCF 명령 클래스입니다.
+            </summary>
+        </member>
+        <member name="M:HE.Framework.Core.DataSetSaveCommand.#ctor(System.String,System.Data.DataSet)">
+            <summary>
+            지정한 정보를 사용하여 DataSetSaveCommand 클래스의 새 인스턴스를 초기화합니다.
+            </summary>
+            <param name="procedureName">저장 프로시저 이름입니다.</param>
+            <param name="ds">저장하려는 DataSet 입니다.</param>
+        </member>
+        <member name="P:HE.Framework.Core.DataSetSaveCommand.DataSetBuffer">
+            <summary>
+            DataSet에 대한 byte[] 값을 가져오거나 설정합니다.
+            </summary>
+        </member>
+        <member name="T:HE.Framework.Core.ServiceOption">
+            <summary>
+            서비스 처리 환경을 정의하는 클래스입니다.
+            </summary>
+        </member>
+        <member name="M:HE.Framework.Core.ServiceOption.#ctor(System.String,HE.Framework.Core.TransactionType)">
+            <summary>
+            지정한 정보를 사용하여 ServiceOption 클래스의 새 인스턴스를 초기화합니다.
+            </summary>
+            <param name="databaseName">데이터베이스 연결문자열 이름입니다.</param>
+            <param name="transactionType">트랜잭션 유형입니다.</param>
+        </member>
+        <member name="P:HE.Framework.Core.ServiceOption.DatabaseName">
+            <summary>
+            데이터베이스 연결 문자열 이름을 가져오거나 설정합니다.
+            </summary>
+        </member>
+        <member name="P:HE.Framework.Core.ServiceOption.TransactionType">
+            <summary>
+            트랜잭션 유형을 가져오거나 설정합니다.
+            </summary>
+        </member>
+        <member name="T:HE.Framework.Core.TransactionType">
+            <summary>
+            트랜잭션 유형에 대한 열거자입니다.
+            </summary>
+        </member>
+        <member name="F:HE.Framework.Core.TransactionType.Required">
+            <summary>
+            TransactionOption.Requried 으로 트랜잭션을 시작합니다. (트랜잭션을 사용합니다.)
+            </summary>
+        </member>
+        <member name="F:HE.Framework.Core.TransactionType.Supported">
+            <summary>
+            TransactionOption.Supported 으로 트랜잭션을 시작합니다. (트랜잭션을 사용하지 않습니다.)
+            </summary>
+        </member>
+        <member name="T:HE.Framework.Core.Report.HEGZipCompress">
+            <summary>
+            GZipCompress
+            </summary>
+        </member>
+        <member name="M:HE.Framework.Core.Report.HEGZipCompress.Compress(System.Byte[])">
+            <summary>
+            bytes array 를 압축
+            </summary>
+            <param name="buffer"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HE.Framework.Core.Report.HEGZipCompress.Decompress(System.Byte[])">
+            <summary>
+            bytes array 를 압축해제
+            </summary>
+            <param name="gzBuffer"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HE.Framework.Core.Report.HERexReport">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HE.Framework.Core.Report.HERexReport.#ctor">
+            <summary>
+            HERexReport 클래스의 새 인스턴스를 초기화합니다.
+            </summary>
+        </member>
+        <member name="M:HE.Framework.Core.Report.HERexReport.#ctor(System.String,System.String)">
+            <summary>
+            지정한 정보를 사용하여 HERexReport 클래스의 새 인스턴스를 초기화합니다.
+            </summary>
+            <param name="userId">사용자 아이디입니다.</param>
+            <param name="userName">사용자 이름입니다.</param>
+        </member>
+        <member name="M:HE.Framework.Core.Report.HERexReport.#ctor(System.String,System.String,System.Boolean)">
+            <summary>
+            지정한 정보를 사용하여 HERexReport 클래스의 새 인스턴스를 초기화합니다.
+            </summary>
+            <param name="userId">사용자 아이디입니다.</param>
+            <param name="userName">사용자 이름입니다.</param>
+            <param name="reportFileTransfer">리포트 파일 전송여부.</param>
+        </member>
+        <member name="M:HE.Framework.Core.Report.HERexReport.Serialize(HE.Framework.Core.Report.HERexReport)">
+            <summary>
+            Serialize
+            </summary>
+            <param name="report"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HE.Framework.Core.Report.HERexReport.SerializeToString(HE.Framework.Core.Report.HERexReport)">
+            <summary>
+            SerializeToString
+            </summary>
+            <param name="report"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HE.Framework.Core.Report.HERexReport.Deserialize(System.IO.MemoryStream)">
+            <summary>
+            stream을 HERexReport로 역직렬화합니다.
+            </summary>
+            <param name="stream">역직렬화하려는 stream 입니다.</param>
+            <returns>역직렬화 된 HERexReport 입니다.</returns>
+        </member>
+        <member name="M:HE.Framework.Core.Report.HERexReport.DeserializeFromString(System.String)">
+            <summary>
+            stream을 HERexReport로 역직렬화합니다.
+            </summary>
+            <param name="dataString">역직렬화하려는 stream 입니다.</param>
+            <returns>역직렬화 된 HERexReport 입니다.</returns>
+        </member>
+        <member name="P:HE.Framework.Core.Report.HERexReport.ReportUserID">
+            <summary>
+            사용자 ID
+            </summary>
+        </member>
+        <member name="P:HE.Framework.Core.Report.HERexReport.ReportUserName">
+            <summary>
+            사용자 이름을 가져오거나 설정합니다.
+            </summary>
+        </member>
+        <member name="P:HE.Framework.Core.Report.HERexReport.ReportName">
+            <summary>
+            보고서 파일 이름을 가져오거나 설정합니다.
+            </summary>
+        </member>
+        <member name="P:HE.Framework.Core.Report.HERexReport.ReportFileTransfer">
+            <summary>
+            보고서 파일직접 지정 여부를 설정합니다.
+            </summary>
+        </member>
+        <member name="P:HE.Framework.Core.Report.HERexReport.ReportFileData">
+            <summary>
+            보고서 파일을 직접 지정하거나 설정합니다.
+            </summary>
+        </member>
+        <member name="P:HE.Framework.Core.Report.HERexReport.Sections">
+            <summary>
+            Report 정보 컬렉션을 가져오거나 설정합니다.
+            </summary>
+        </member>
+        <member name="T:HE.Framework.Core.Report.HERexSection">
+            <summary>
+            통합 Rex Report 페이지에 전달하는 매개변수 클래스입니다.
+            </summary>
+        </member>
+        <member name="M:HE.Framework.Core.Report.HERexSection.#ctor">
+            <summary>
+            HERexSection 클래스의 새 인스턴스를 초기화합니다.
+            </summary>
+        </member>
+        <member name="M:HE.Framework.Core.Report.HERexSection.#ctor(System.String,HE.Framework.Core.HEParameterSet,HE.Framework.Core.HEParameterSet)">
+            <summary>
+            지정한 정보를 사용하여 HERexSection 클래스의 새 인스턴스를 초기화합니다.
+            </summary>
+            <param name="dbProcedure">저장 프로시저 이름입니다.</param>
+            <param name="dbParameter">저장 프로시저에서 사용하는 매개변수 컬렉션입니다.</param>
+            <param name="reportParameter">보고서 파일에서 사용하는 매개변수 컬렉션입니다.</param>
+        </member>
+        <member name="M:HE.Framework.Core.Report.HERexSection.#ctor(System.Data.DataSet,HE.Framework.Core.HEParameterSet)">
+            <summary>
+            지정한 정보를 사용하여 HERexSection 클래스의 DataSet 타입으로 인스턴스를 초기화합니다.
+            </summary>
+            <param name="userDataSet"></param>
+            <param name="reportParameter"></param>
+        </member>
+        <member name="M:HE.Framework.Core.Report.HERexSection.#ctor(System.String,HE.Framework.Core.HEParameterSet)">
+            <summary>
+            지정한 정보를 사용하여 HERexSection 클래스의 Xml Url 주소로 인스턴스를 초기화합니다.
+            </summary>
+            <param name="userXmlUrl"></param>
+            <param name="reportParameter"></param>
+        </member>
+        <member name="P:HE.Framework.Core.Report.HERexSection.DBProcedure">
+            <summary>
+            저장 프로시저 이름을 가져오거나 설정합니다.
+            </summary>
+        </member>
+        <member name="P:HE.Framework.Core.Report.HERexSection.DBParameter">
+            <summary>
+            저장 프로시저에서 사용할 매개변수 컬렉션을 가져오거나 설정합니다.
+            </summary>
+        </member>
+        <member name="P:HE.Framework.Core.Report.HERexSection.UserDataSet">
+            <summary>
+            DataSet 타입으로 파라메터 전달 합니다.
+            </summary>
+        </member>
+        <member name="P:HE.Framework.Core.Report.HERexSection.UserXmlUrl">
+            <summary>
+            서버 xml Url 주소를 설정 합니다.
+            </summary>
+        </member>
+        <member name="P:HE.Framework.Core.Report.HERexSection.ReportParameter">
+            <summary>
+            보고서 파일에서 사용할 매개변수 컬렉션을 가져오거나 설정합니다.
+            </summary>
+        </member>
+        <member name="T:HE.Framework.Core.Report.HERexSectionCollection">
+            <summary>
+            보고서에 전달하는 매개변수 컬렉션 클래스입니다.
+            </summary>
+        </member>
+        <member name="M:HE.Framework.Core.Report.HERexSectionCollection.#ctor">
+            <summary>
+            HERexSectionCollection 클래스의 새 인스턴스를 초기화합니다.
+            </summary>
+        </member>
+        <member name="M:HE.Framework.Core.Report.HERexSectionCollection.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Deserialize 시에 사용되는 생성자입니다.
+            </summary>
+            <param name="info"></param>
+            <param name="context"></param>
+        </member>
+        <member name="P:HE.Framework.Core.Report.HERexSectionCollection.Item(System.String)">
+            <summary>
+            지정한 이름의 HERexSection을 가져옵니다.
+            </summary>
+            <param name="key">HERexSection 이름입니다.</param>
+            <returns>HERexSection 입니다.</returns>
+        </member>
+        <member name="M:HE.Framework.Core.Security.HESecurityContext.#ctor(System.String)">
+            <summary>
+            생성자
+            </summary>
+            <param name="aclString"></param>
+        </member>
+        <member name="M:HE.Framework.Core.Security.HESecurityContext.#ctor(System.Int32,System.Int32,System.String)">
+            <summary>
+            생성자
+            </summary>
+            <param name="basicACL"></param>
+            <param name="extACL"></param>
+            <param name="strACL"></param>
+        </member>
+        <member name="M:HE.Framework.Core.Security.HESecurityContext.#ctor(System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+            생성자
+            </summary>
+            <param name="create"></param>
+            <param name="retrieve"></param>
+            <param name="update"></param>
+            <param name="delete"></param>
+        </member>
+        <member name="P:HE.Framework.Core.Security.HESecurityContext.CanReset">
+            <summary>
+            초기화 권한
+            </summary>
+        </member>
+        <member name="P:HE.Framework.Core.Security.HESecurityContext.CanProcess">
+            <summary>
+            처리 권한
+            </summary>
+        </member>
+        <member name="P:HE.Framework.Core.Security.HESecurityContext.CanPrint">
+            <summary>
+            출력 권한
+            </summary>
+        </member>
+        <member name="P:HE.Framework.Core.Security.HESecurityContext.CanDownload">
+            <summary>
+            다운로드 권한
+            </summary>
+        </member>
+        <member name="P:HE.Framework.Core.Security.HESecurityContext.CanUpload">
+            <summary>
+            업로드 권한
+            </summary>
+        </member>
+        <member name="M:HE.Framework.Core.Security.HEUserInfoContext.#ctor(System.String)">
+            <summary>
+            생성자
+            </summary>
+            <param name="contextData"></param>
+        </member>
+        <member name="M:HE.Framework.Core.Security.HEUserInfoContext.#ctor(System.String,System.String,System.String,System.String)">
+            <summary>
+            생성자
+            </summary>
+            <param name="userID">사용자 ID</param>
+            <param name="userName">사용자명</param>
+            <param name="deptID">부서 ID</param>
+            <param name="deptName">부서명</param>
+        </member>
+        <member name="M:HE.Framework.Core.Security.HEUserInfoContext.#ctor(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            생성자
+            </summary>
+            <param name="authSvr">인증 서버</param>
+            <param name="userID">사용자 ID</param>
+            <param name="userName">사용자명</param>
+            <param name="deptID">부서 ID</param>
+            <param name="deptName">부서명</param>
+        </member>
+        <member name="M:HE.Framework.Core.Security.HEUserInfoContext.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="userID">사용자 ID</param>
+            <param name="userName">사용자명</param>
+            <param name="deptID">부서 ID</param>
+            <param name="deptName">부서명</param>
+            <param name="corCode">법인 코드</param>
+            <param name="sysCode">시스템 코드</param>
+            <param name="bizCode">사업장 코드</param>
+            <param name="language">언어</param>
+            <param name="password">비밀번호</param>
+            <param name="empNo">사번</param>
+            <param name="userIP">접속 IP</param>
+            <param name="telNo">전화번호</param>
+            <param name="phoneNo">휴대폰 번호</param>
+            <param name="emailAddress">전자메일 주소</param>
+        </member>
+        <member name="M:HE.Framework.Core.Security.HEUserInfoContext.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="authSvr">인증 서버</param>
+            <param name="userID">사용자 ID</param>
+            <param name="userName">사용자명</param>
+            <param name="deptID">부서 ID</param>
+            <param name="deptName">부서명</param>
+            <param name="corCode">법인 코드</param>
+            <param name="sysCode">시스템 코드</param>
+            <param name="bizCode">사업장 코드</param>
+            <param name="language">언어</param>
+            <param name="password">비밀번호</param>
+            <param name="empNo">사번</param>
+            <param name="userIP">접속 IP</param>
+            <param name="telNo">전화번호</param>
+            <param name="phoneNo">휴대폰 번호</param>
+            <param name="emailAddress">전자메일 주소</param>
+        </member>
+        <member name="P:HE.Framework.Core.Security.HEUserInfoContext.AuthSvr">
+            <summary>
+            인증 서버
+            </summary>
+        </member>
+        <member name="P:HE.Framework.Core.Security.HEUserInfoContext.IsAdmin">
+            <summary>
+            관리자 여부
+            </summary>
+        </member>
+        <member name="P:HE.Framework.Core.Security.HEUserInfoContext.UserName">
+            <summary>
+            사용자 이름
+            </summary>
+        </member>
+        <member name="P:HE.Framework.Core.Security.HEUserInfoContext.DeptID">
+            <summary>
+            부서 아이디
+            </summary>
+        </member>
+        <member name="P:HE.Framework.Core.Security.HEUserInfoContext.DeptName">
+            <summary>
+            부서 이름
+            </summary>
+        </member>
+        <member name="P:HE.Framework.Core.Security.HEUserInfoContext.CorporationCode">
+            <summary>
+            법인 코드
+            </summary>
+        </member>
+        <member name="P:HE.Framework.Core.Security.HEUserInfoContext.SystemCode">
+            <summary>
+            시스템 코드
+            </summary>
+        </member>
+        <member name="P:HE.Framework.Core.Security.HEUserInfoContext.BusinessCode">
+            <summary>
+            사업장 코드
+            </summary>
+        </member>
+        <member name="P:HE.Framework.Core.Security.HEUserInfoContext.Language">
+            <summary>
+            언어
+            </summary>
+        </member>
+        <member name="P:HE.Framework.Core.Security.HEUserInfoContext.Password">
+            <summary>
+            비밀번호
+            </summary>
+        </member>
+        <member name="P:HE.Framework.Core.Security.HEUserInfoContext.EmpNo">
+            <summary>
+            사번
+            </summary>
+        </member>
+        <member name="P:HE.Framework.Core.Security.HEUserInfoContext.UserIP">
+            <summary>
+            접속 IP
+            </summary>
+        </member>
+        <member name="P:HE.Framework.Core.Security.HEUserInfoContext.TelNo">
+            <summary>
+            전화번호
+            </summary>
+        </member>
+        <member name="P:HE.Framework.Core.Security.HEUserInfoContext.PhoneNo">
+            <summary>
+            휴대폰 번호
+            </summary>
+        </member>
+        <member name="P:HE.Framework.Core.Security.HEUserInfoContext.EmailAddress">
+            <summary>
+            전자메일 주소
+            </summary>
+        </member>
+        <member name="T:HE.Framework.ServiceModel.AxClientProxy">
+            <summary>
+            통합 WCF 서비스를 제공하는 프록시 클래스입니다.
+            </summary>
+        </member>
+        <member name="T:HE.Framework.ServiceModel.HEClientProxy">
+            <summary>
+            통합 WCF 서비스를 제공하는 프록시 클래스입니다.
+            </summary>
+        </member>
+        <member name="M:HE.Framework.ServiceModel.HEClientProxy.#ctor(System.String)">
+            <summary>
+            통합 WCF 서비스 프록시 클래스를 초기화합니다.
+            </summary>
+            <remarks>
+            HEClientProxy 클래스이 사용하는 정보는 다음과 같습니다. <br />
+            서비스 주소 이름 : 기본 서비스 주소 이름 사용(defaultAddress) <br />
+            서비스 이름 : "HCMService.svc" <br />
+            바인딩 이름 : 기본 바인딩 설정 사용 (defaultBinding) <br />
+            </remarks>
+            <param name="dbName"></param>
+        </member>
+        <member name="M:HE.Framework.ServiceModel.HEClientProxy.ExecuteDataSet(HE.Framework.Core.ServiceOption,HE.Framework.Core.SelectCommand)">
+            <summary>
+            지정한 설정을 사용하여 결과셋을 반환하는 서비스를 호출하고 그 결과를 DataSet으로 반환합니다.
+            option 설정에 따라 트랜잭션이 적용됩니다.
+            </summary>
+            <param name="option">서비스 호출 정보입니다.</param>
+            <param name="command">서비스 호출 명령입니다.</param>
+            <returns>DataSet 입니다.</returns>
+        </member>
+        <member name="M:HE.Framework.ServiceModel.HEClientProxy.MultipleExecuteDataSet(HE.Framework.Core.ServiceOption,System.Collections.Generic.List{HE.Framework.Core.SelectCommand})">
+            <summary>
+            지정한 설정을 사용하여 결과셋을 반환하는 서비스를 호출하고 그 결과를 DataSet으로 반환합니다.
+            option 설정에 따라 트랜잭션이 적용됩니다.
+            </summary>
+            <param name="option">서비스 호출 정보입니다.</param>
+            <param name="commands">서비스 호출 명령 컬렉션입니다.</param>
+            <returns>DataSet 입니다.</returns>
+        </member>
+        <member name="M:HE.Framework.ServiceModel.HEClientProxy.ExecuteNonQuery(HE.Framework.Core.ServiceOption,System.Collections.Generic.List{HE.Framework.Core.SaveCommand})">
+            <summary>
+            HEParameterSet을 매개변수로 사용하고 결과값이 없는 서비스를 호출합니다.
+            </summary>
+            <param name="option">서비스 호출 정보입니다.</param>
+            <param name="commands">서비스 호출 명령 컬렉션입니다.</param>
+            <returns></returns>
+        </member>
+        <member name="M:HE.Framework.ServiceModel.HEClientProxy.ExecuteNonQuery(HE.Framework.Core.ServiceOption,System.Collections.Generic.List{HE.Framework.Core.DataSetSaveCommand})">
+            <summary>
+            DataSet을 매개변수로 사용하고 결과값이 없는 서비스를 호출합니다.
+            </summary>
+            <param name="option">서비스 호출 정보입니다.</param>
+            <param name="commands">서비스 호출 명령 컬렉션입니다.</param>
+            <returns></returns>
+        </member>
+        <member name="M:HE.Framework.ServiceModel.HEClientProxy.ExecuteScalar(HE.Framework.Core.ServiceOption,HE.Framework.Core.SelectCommand)">
+            <summary>
+            단일값을 반환하는 서비스를 호출하고, 그 결과를 반환합니다.
+            </summary>
+            <param name="option">서비스 호출 정보입니다.</param>
+            <param name="command">서비스 호출 명령입니다.</param>
+            <returns>서비스 수행 결과입니다.</returns>
+        </member>
+        <member name="M:HE.Framework.ServiceModel.HEClientProxy.ExecuteDataSet(System.String,System.String[])">
+            <summary>
+            1개 이상의 결과셋을 저장 프로시저를 호출합니다. 트랜잭션을 사용하지 않습니다.
+            </summary>
+            <param name="procedureName">저장 프로시저명 입니다.</param>
+            <param name="cursorNames">결과셋을 받기 위한 RefCursor 이름 배열입니다.(Oracle의 경우에만 사용됩니다.)</param>
+            <returns>수행 결과가 들어있는 DataSet 입니다.</returns>
+            <remarks>
+            Oracle의 경우 cursorNames가 null 이면, 기본 이름(OUT_CURSOR)이 사용됩니다.
+            그 외 데이터베이스는 cursorNames를 무시합니다.
+            </remarks>
+        </member>
+        <member name="M:HE.Framework.ServiceModel.HEClientProxy.ExecuteDataSet(System.String,HE.Framework.Core.HEParameterSet,System.String[])">
+            <summary>
+            1개 이상의 결과셋을 반환하는 저장 프로시저를 호출합니다. 트랜잭션을 사용하지 않습니다.
+            </summary>
+            <param name="procedureName">저장 프로시저명 입니다.</param>
+            <param name="parameter">키/값의 매개변수 정보보입니다.</param>
+            <param name="cursorNames">결과셋을 받기 위한 RefCursor 이름 배열입니다.(Oracle의 경우에만 사용됩니다.)</param>
+            <returns>수행 결과가 들어있는 DataSet 입니다.</returns>
+            <remarks>
+            Oracle의 경우 cursorNames가 null이면, 기본 이름(OUT_CURSOR)이 사용됩니다.
+            그 외 데이터베이스는 cursorNames를 무시합니다.
+            </remarks>
+        </member>
+        <member name="M:HE.Framework.ServiceModel.HEClientProxy.ExecuteDataSetTx(System.String,System.String[])">
+            <summary>
+            1개 이상의 결과셋을 반환하는 저장 프로시저를 호출합니다. 트랜잭션을 사용합니다.
+            </summary>
+            <param name="procedureName">저장 프로시저명 입니다.</param>
+            <param name="cursorNames">결과셋을 받기 위한 RefCursor 이름 배열입니다.(Oracle의 경우에만 사용됩니다.) </param>
+            <returns>수행 결과가 들어있는 DataSet 입니다.</returns>
+            <remarks>
+            Oracle의 경우 cursorNames가 null 이면, 기본 이름(OUT_CURSOR)이 사용됩니다.
+            그 외 데이터베이스는 cursorNames를 무시합니다.
+            </remarks>
+        </member>
+        <member name="M:HE.Framework.ServiceModel.HEClientProxy.ExecuteDataSetTx(System.String,HE.Framework.Core.HEParameterSet,System.String[])">
+            <summary>
+            1개 이상의 결과셋을 반환하는 저장 프로시저를 호출합니다. 트랜잭션을 사용합니다.
+            </summary>
+            <param name="procedureName">저장 프로시저명 입니다.</param>
+            <param name="parameter">키/값의 매개변수 정보입니다.</param>
+            <param name="cursorNames">결과셋을 받기 위한 RefCursor 이름 배열입니다.(Oracle의 경우에만 사용됩니다.)</param>
+            <returns>수행 결과가 들어있는 DataSet 입니다.</returns>
+            <remarks>
+            Oracle의 경우 cursorNames가 null 이면, 기본 이름(OUT_CURSOR)이 사용됩니다.
+            그 외 데이터베이스는 cursorNames를 무시합니다.
+            </remarks>
+        </member>
+        <member name="M:HE.Framework.ServiceModel.HEClientProxy.MultipleExecuteDataSet(System.String,System.Collections.Generic.List{HE.Framework.Core.HEParameterSet})">
+            <summary>
+            여러개의 매개변수를 사용하여 단일한 저장 프로시저를 반복적으로 호출합니다. 트랜잭션을 사용하지 않습니다.
+            </summary>
+            <param name="procedureName">저장 프로시저 이름입니다.</param>
+            <param name="parameterList">키/값의 매개변수 정보 배열입니다.</param>
+            <returns>수행 결과가 들어있는 DataSet 입니다.</returns>
+            <remarks>
+            Oracle의 경우 RefCursor는 항상 기본 이름(OUT_CURSOR)이 사용됩니다.
+            반복적인 호출 결과를 단일한 DataSet으로 반환합니다.
+            </remarks>
+        </member>
+        <member name="M:HE.Framework.ServiceModel.HEClientProxy.MultipleExecuteDataSet(System.String[],HE.Framework.Core.HEParameterSet)">
+            <summary>
+            단일한 매개변수를 사용하여 여러개의 저장 프로시저를 호출합니다. 트랜잭션을 사용하지 않습니다.
+            </summary>
+            <param name="procedureNames">저장 프로시저 이름 배열입니다.</param>
+            <param name="parameter">키/값의 매개변수 정보 입니다.</param>
+            <returns>수행 결과가 들어있는 DataSet 입니다.</returns>
+            <remarks>
+            Oracle의 경우 RefCursor는 항상 기본 이름(OUT_CURSOR)이 사용됩니다.
+            여러 저장 프로시저의 호출 결과를 단일한 DataSet으로 반환합니다.
+            </remarks>
+        </member>
+        <member name="M:HE.Framework.ServiceModel.HEClientProxy.MultipleExecuteDataSet(System.String[],System.Collections.Generic.List{HE.Framework.Core.HEParameterSet})">
+            <summary>
+            여러개의 매개변수를 사용하여, 여러개의 저장 프로시저를 호출합니다. 트랜잭션을 사용하지 않습니다.
+            </summary>
+            <param name="procedureNames">저장 프로시저 이름 배열입니다.</param>
+            <param name="parameterList">키/값의 매개변수 정보 배열입니다.</param>
+            <returns>
+            수행 결과가 들어있는 DataSet 입니다.
+            </returns>
+            <remarks>
+            Oracle의 경우 RefCursor는 항상 기본 이름(OUT_CURSOR)이 사용됩니다.
+            여러 저장 프로시저의 호출 결과를 단일한 DataSet으로 반환합니다.
+            procedureNames 배열의 크기와 parameterList 배열의 크기는 동일해야 합니다.
+            </remarks>
+        </member>
+        <member name="M:HE.Framework.ServiceModel.HEClientProxy.MultipleExecuteDataSetTx(System.String,System.Collections.Generic.List{HE.Framework.Core.HEParameterSet})">
+            <summary>
+            여러개의 매개변수를 사용하여 단일한 저장 프로시저를 반복적으로 호출합니다. 트랜잭션을 사용합니다.
+            </summary>
+            <param name="procedureName">저장 프로시저 이름입니다.</param>
+            <param name="parameterList">키/값의 매개변수 정보 배열입니다.</param>
+            <returns>수행 결과가 들어있는 DataSet 입니다.</returns>
+            <remarks>
+            Oracle의 경우 RefCursor는 항상 기본 이름(OUT_CURSOR)이 사용됩니다.
+            반복적인 호출 결과를 단일한 DataSet으로 반환합니다.
+            </remarks>
+        </member>
+        <member name="M:HE.Framework.ServiceModel.HEClientProxy.MultipleExecuteDataSetTx(System.String[],HE.Framework.Core.HEParameterSet)">
+            <summary>
+            단일한 매개변수를 사용하여 여러개의 저장 프로시저를 호출합니다. 트랜잭션을 사용합니다.
+            </summary>
+            <param name="procedureNames">저장 프로시저 이름 배열입니다.</param>
+            <param name="parameter">키/값의 매개젼수 정보 입니다.</param>
+            <returns>수행 결과가 들어있는 DataSet 입니다.</returns>
+            <remarks>
+            Oracle 의 경우 RefCursor는 항상 기본 이름(OUT_CURSOR)이 사용됩니다.
+            여러 저장 프로시저의 호출 결과를 단일한 DataSet으로 반환합니다.
+            </remarks>
+        </member>
+        <member name="M:HE.Framework.ServiceModel.HEClientProxy.MultipleExecuteDataSetTx(System.String[],System.Collections.Generic.List{HE.Framework.Core.HEParameterSet})">
+            <summary>
+            여러개의 매개변수를 사용하여, 여러개의 저장 프로시저를 호출합니다. 트랜잭션을 사용합니다.
+            </summary>
+            <param name="procedureNames">저장 프로시저 이름 배열입니다.</param>
+            <param name="parameterList">키/값의 매개변수 정보 배열입니다.</param>
+            <returns>수행 결과가 들어있는 DataSet 입니다.</returns>
+            <remarks>
+            Oracle의 경우 RefCursor는 항상 기본 이름(OUT_CURSOR)이 사용됩니다.
+            여러 저장 프로시저의 호출 결과를 단일한 DataSet으로 반환합니다.
+            procedureNames 배열의 크기와 parameterList 배열의 크기는 동일해야 합니다.
+            </remarks>
+        </member>
+        <member name="M:HE.Framework.ServiceModel.HEClientProxy.ExecuteNonQueryTx(System.String,System.Data.DataSet)">
+            <summary>
+            결과값이 없는 저장 프로시저를 첫번째 테이블에 대해서 반복적으로 호출합니다. 트랜잭션을 사용합니다.
+            </summary>
+            <param name="procedureName">저장 프로시저 이름입니다.</param>
+            <param name="ds">처리하는 DataSet 입니다.</param>
+            <returns></returns>
+            <remarks>
+            첫번째 DataTable만을 처리합니다.
+            </remarks>
+        </member>
+        <member name="M:HE.Framework.ServiceModel.HEClientProxy.ExecuteNonQueryTx(System.String,HE.Framework.Core.HEParameterSet)">
+            <summary>
+            결과값이 없는 저장 프로시저를 매개변수를 사용하여 1번 호출합니다. 트랜잭션을 사용합니다.
+            </summary>
+            <param name="procedureName">저장 프로시저 이름입니다.</param>
+            <param name="parameter">키/값의 매개변수 정보입니다.</param>
+            <returns></returns>
+        </member>
+        <member name="M:HE.Framework.ServiceModel.HEClientProxy.ExecuteNonQueryTx(System.String,System.Collections.Generic.List{HE.Framework.Core.HEParameterSet})">
+            <summary>
+            결과값이 없는 저장 프로시저를 매개변수 배열에 대해서 반복적으로 호출합니다. 트랜잭션을 사용합니다.
+            </summary>
+            <param name="procedureName">저장 프로시저 이름입니다.</param>
+            <param name="parameterList">키/값의 매개변수 정보 배열입니다.</param>
+            <returns></returns>
+        </member>
+        <member name="M:HE.Framework.ServiceModel.HEClientProxy.MultipleExecuteNonQueryTx(System.String[],System.Data.DataSet)">
+            <summary>
+            결과값이 없는 각각의 저장 프로시저를 DataSet의 Table 마다 호출합니다. 트랜잭션을 사용합니다.
+            </summary>
+            <param name="procedureNames">저장 프로시저 이름 배열입니다.</param>
+            <param name="ds">1개 이상의 테이블을 가지고 있는 DataSet 입니다.</param>
+            <returns></returns>
+            <remarks>
+            procedureNames 배열의 크기와 ds에 들어있는 테이블의 개수가 일치해야 합니다.
+            procedureNames[0] 저장 프로시저는 ds.Tables[0] 테이블을 처리합니다.
+            </remarks>
+        </member>
+        <member name="M:HE.Framework.ServiceModel.HEClientProxy.MultipleExecuteNonQueryTx(System.String[],System.Data.DataSet[])">
+            <summary>
+            결과값이 없는 각각의 저장 프로시저를 DataSet마다 호출합니다. 트랜잭션을 사용합니다.
+            </summary>
+            <param name="procedureNames">저장 프로시저명에 대한 배열 입니다.</param>
+            <param name="dsList">DataSet 배열 입니다.</param>
+            <returns></returns>
+            <remarks>
+            procedureNames 배열의 크기와 dsList 배열의 크기가 동일해야 합니다.
+            procedureNames[0] 저장 프로시저는 dsList[0]을 처리합니다.
+            각 DataSet의 첫번째 DataTable만을 처리합니다.
+            </remarks>
+        </member>
+        <member name="M:HE.Framework.ServiceModel.HEClientProxy.MultipleExecuteNonQueryTx(System.String[],HE.Framework.Core.HEParameterSet)">
+            <summary>
+            결과셋이 없는 여러 개의 저장 프로시저를 단일한 매개변수를 사용하여 호출합니다. 트랜잭션을 사용합니다.
+            </summary>
+            <param name="procedureNames">저장 프로시저명에 대한 배열 입니다.</param>
+            <param name="parameter">키/값의 매개변수 정보입니다.</param>
+            <returns></returns>
+        </member>
+        <member name="M:HE.Framework.ServiceModel.HEClientProxy.MultipleExecuteNonQueryTx(System.String[],System.Collections.Generic.List{HE.Framework.Core.HEParameterSet})">
+            <summary>
+            결과셋이 없는 여러 개의 저장 프로시저를 여러개의 매개변수를 사용하여 호출합니다. 트랜잭션을 사용합니다.
+            </summary>
+            <param name="procedureNames">저장 프로시저명에 대한 배열입니다.</param>
+            <param name="parameterList">키/값의 매개변수 정보 배열입니다.</param>
+            <returns></returns>
+            <remarks>
+            procedureNames 배열의 크기와 parameterList 배열의 크기가 동일해야 합니다.
+            </remarks>
+        </member>
+        <member name="M:HE.Framework.ServiceModel.HEClientProxy.ExecuteScalar(System.String,HE.Framework.Core.HEParameterSet)">
+            <summary>
+            지정한 정보를 사용하여 단일값을 반환하는 저장 프로시저를 호출합니다. 트랜잭션을 사용하지 않습니다.
+            </summary>
+            <param name="procedureName">저장 프로시저 이름입니다.</param>
+            <param name="parameter">키/값의 매개변수 정보입니다.</param>
+            <returns>실행 결과입니다.</returns>
+        </member>
+        <member name="M:HE.Framework.ServiceModel.HEClientProxy.ExecuteScalarTx(System.String,HE.Framework.Core.HEParameterSet)">
+            <summary>
+            지정한 정보를 사용하여 단일값을 반환하는 저장 프로시저를 호출합니다. 트랜잭션을 사용합니다.
+            </summary>
+            <param name="procedureName">저장 프로시저 이름입니다.</param>
+            <param name="parameter">키/값의 매개변수 정보입니다.</param>
+            <returns>실행 결과입니다.</returns>
+        </member>
+        <member name="M:HE.Framework.ServiceModel.HEClientProxy.CheckData(System.String,HE.Framework.Core.HEParameterSet)">
+            <summary>
+            지정한 정보를 사용하여 저장 프로시저를 호출하고, 그 결과가 있는지를 확인합니다. 트랜잭션을 사용하지 않습니다.
+            </summary>
+            <param name="procedureName">저장 프로시저 이름입니다.</param>
+            <param name="parameter">키/값의 매개변수 정보입니다.</param>
+            <returns>첫번째 결과셋의 크기가 0보다 크면 true, 그렇지 않으면 false 입니다.</returns>
+            <remarks>
+            오라클의 경우 RefCursor가 1개이어야 하며, 기본 이름(OUT_CURSOR)이 사용됩니다.
+            </remarks>
+        </member>
+        <member name="M:HE.Framework.ServiceModel.HEClientProxy.Dispose">
+            <summary>
+            리소스를 해제합니다.
+            </summary>
+        </member>
+        <member name="P:HE.Framework.ServiceModel.HEClientProxy.DBName">
+            <summary>
+            사용하려는 데이터베이스 연결 문자열 이름을 가져옵니다.
+            </summary>
+            <remarks>
+            null 이면 기본 데이터베이스 연결 문자열을 사용합니다.
+            </remarks>
+        </member>
+        <member name="M:HE.Framework.ServiceModel.AxClientProxy.#ctor">
+            <summary>
+            통합 WCF 서비스 프록시 클래스를 초기화합니다.
+            </summary>
+            <remarks>
+            HEClientProxy 클래스이 사용하는 정보는 다음과 같습니다. <br />
+            서비스 주소 이름 : 기본 서비스 주소 이름 사용(defaultAddress) <br />
+            서비스 이름 : "HCMService.svc" <br />
+            바인딩 이름 : 기본 바인딩 설정 사용 (defaultBinding) <br />
+            </remarks>
+            <param name="dbName"></param>        
+        </member>
+        <member name="T:HE.Framework.ServiceModel.IHEService">
+            <summary>
+            통합 WCF 서비스에 대한 인터페이스입니다.
+            </summary>
+        </member>
+        <member name="M:HE.Framework.ServiceModel.IHEService.ExecuteDataSet(HE.Framework.Core.ServiceOption,HE.Framework.Core.SelectCommand)">
+            <summary>
+            지정한 설정을 사용하여 결과셋을 반환하는 서비스를 호출하고 그 결과를 DataSet으로 반환합니다.
+            option 설정에 따라 트랜잭션이 적용됩니다.
+            </summary>
+            <param name="option">서비스 호출 정보입니다.</param>
+            <param name="command">서비스 호출 명령입니다.</param>
+            <returns>DataSet 입니다.</returns>
+        </member>
+        <member name="M:HE.Framework.ServiceModel.IHEService.ExecuteDataSet(HE.Framework.Core.ServiceOption,System.Collections.Generic.List{HE.Framework.Core.SelectCommand})">
+            <summary>
+            지정한 설정을 사용하여 결과셋을 반환하는 서비스를 호출하고 그 결과를 DataSet으로 반환합니다.
+            option 설정에 따라 트랜잭션이 적용됩니다.
+            </summary>
+            <param name="option">서비스 호출 정보입니다.</param>
+            <param name="commands">서비스 호출 명령 컬렉션입니다.</param>
+            <returns>DataSet 입니다.</returns>
+        </member>
+        <member name="M:HE.Framework.ServiceModel.IHEService.ExecuteNonQuery(HE.Framework.Core.ServiceOption,System.Collections.Generic.List{HE.Framework.Core.DataSetSaveCommand})">
+            <summary>
+            DataSet을 매개변수로 사용하고 결과값이 없는 서비스를 호출하고, 영향을 받은 행수를 반환합니다.
+            </summary>
+            <param name="option">서비스 호출 정보입니다.</param>
+            <param name="commands">서비스 호출 명령 컬렉션입니다.</param>
+            <returns></returns>
+        </member>
+        <member name="M:HE.Framework.ServiceModel.IHEService.ExecuteNonQuery(HE.Framework.Core.ServiceOption,System.Collections.Generic.List{HE.Framework.Core.SaveCommand})">
+            <summary>
+            HEParameterSet을 매개변수로 사용하고 결과값이 없는 서비스를 호출하고, 영향을 받은 행수를 반환합니다.
+            </summary>
+            <param name="option">서비스 호출 정보입니다.</param>
+            <param name="commands">서비스 호출 명령 컬렉션입니다.</param>
+            <returns></returns>
+        </member>
+        <member name="M:HE.Framework.ServiceModel.IHEService.ExecuteScalar(HE.Framework.Core.ServiceOption,HE.Framework.Core.SelectCommand)">
+            <summary>
+            단일 값을 반호나하는 서비스를 호출하고, 그 겨로가를 반환합니다.
+            </summary>
+            <param name="option">서비스 호출 정보입니다.</param>
+            <param name="command">서비스 호출 명령입니다.</param>
+            <returns>서비스 수행 결과입니다.</returns>
+        </member>
+    </members>
+</doc>

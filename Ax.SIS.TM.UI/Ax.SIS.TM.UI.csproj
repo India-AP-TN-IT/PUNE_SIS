@@ -1,0 +1,415 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E9D8B323-7BEA-4151-8731-2473213447EF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ax.SIS.TM.UI</RootNamespace>
+    <AssemblyName>Ax.SIS.TM.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="C1.C1DataExtender.2, Version=2.0.20101.72, Culture=neutral, PublicKeyToken=7c4b5683f80b910e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Ax.DEV.Environment\C1Assemblies\C1.C1DataExtender.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.C1Report.2, Version=2.6.20101.54005, Culture=neutral, PublicKeyToken=594a0605db190bb9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Ax.DEV.Environment\C1Assemblies\C1.C1Report.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Chart.2, Version=2.0.20101.20060, Culture=neutral, PublicKeyToken=a22e16972c085838, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1Chart.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Chart3D.2, Version=2.0.20101.20060, Culture=neutral, PublicKeyToken=a22e16972c085838, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1Chart3D.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1FlexGrid.2, Version=2.6.20101.528, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1FlexGrid.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Gauge.2, Version=2.0.20101.24, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1Gauge.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Input.2, Version=2.0.20101.33244, Culture=neutral, PublicKeyToken=7e7ff60f0c214f9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1Input.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1List.2, Version=2.1.20101.165, Culture=neutral, PublicKeyToken=6b24f8f981dbd7bc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1List.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Report.2, Version=2.6.20101.54005, Culture=neutral, PublicKeyToken=41780e2fc605e636, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1Report.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Ribbon.2, Version=2.0.20101.233, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1Ribbon.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Schedule.2, Version=2.0.20101.114, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1Schedule.2.dll</HintPath>
+    </Reference>
+    <Reference Include="HE.Framework.Core">
+      <HintPath>..\Ax.DEV.Environment\Assemblies\HE.Framework.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="HE.Framework.ServiceModel">
+      <HintPath>..\Ax.DEV.Environment\Assemblies\HE.Framework.ServiceModel.dll</HintPath>
+    </Reference>
+    <Reference Include="HE.Framework.Windows.Forms">
+      <HintPath>..\Ax.DEV.Environment\Assemblies\HE.Framework.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="OneCorLib">
+      <HintPath>..\Ax.DEV.Environment\Assemblies\OneCorLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TheOne.ServiceModel">
+      <HintPath>..\Ax.DEV.Environment\Assemblies\TheOne.ServiceModel.dll</HintPath>
+    </Reference>
+    <Reference Include="TheOne.Windows.Forms">
+      <HintPath>..\Ax.DEV.Environment\Assemblies\TheOne.Windows.Forms.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="TM24390.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TM24390.Designer.cs">
+      <DependentUpon>TM24390.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TM26110.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TM26110.Designer.cs">
+      <DependentUpon>TM26110.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TM26100.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TM26100.Designer.cs">
+      <DependentUpon>TM26100.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TM20300P1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TM20300P1.Designer.cs">
+      <DependentUpon>TM20300P1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TM20300.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TM20300.Designer.cs">
+      <DependentUpon>TM20300.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TM24300.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TM24300.Designer.cs">
+      <DependentUpon>TM24300.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TM24005.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TM24005.Designer.cs">
+      <DependentUpon>TM24005.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TM23400 .cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TM23400 .Designer.cs">
+      <DependentUpon>TM23400 .cs</DependentUpon>
+    </Compile>
+    <Compile Include="TM23300.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TM23300.Designer.cs">
+      <DependentUpon>TM23300.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TM23000.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TM23000.Designer.cs">
+      <DependentUpon>TM23000.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TM21100.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TM21100.Designer.cs">
+      <DependentUpon>TM21100.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TM21000.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TM21000.Designer.cs">
+      <DependentUpon>TM21000.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TM20800.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TM20800.Designer.cs">
+      <DependentUpon>TM20800.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TM24200.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TM24200.Designer.cs">
+      <DependentUpon>TM24200.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TM24100.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TM24100.Designer.cs">
+      <DependentUpon>TM24100.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TM25700.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TM25700.Designer.cs">
+      <DependentUpon>TM25700.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TM25500.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TM25500.Designer.cs">
+      <DependentUpon>TM25500.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TM20500.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TM20500.Designer.cs">
+      <DependentUpon>TM20500.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TM20500_DLG.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TM20500_DLG.Designer.cs">
+      <DependentUpon>TM20500_DLG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TM20600.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TM20600.Designer.cs">
+      <DependentUpon>TM20600.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TM20400.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TM20400.Designer.cs">
+      <DependentUpon>TM20400.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TM23200.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TM23200.Designer.cs">
+      <DependentUpon>TM23200.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TM23200P1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TM23200P1.Designer.cs">
+      <DependentUpon>TM23200P1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TM24000.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TM24000.Designer.cs">
+      <DependentUpon>TM24000.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TM26000.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TM26000.Designer.cs">
+      <DependentUpon>TM26000.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TM26110_DLG.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TM26110_DLG.Designer.cs">
+      <DependentUpon>TM26110_DLG.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ax.DEV.Utility\Ax.DEV.Utility\Ax.DEV.Utility.csproj">
+      <Project>{9aefcdec-4c84-4d60-8fb5-79a3b67287c1}</Project>
+      <Name>Ax.DEV.Utility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ax.SIS\CM\UI\Ax.SIS.CM.UI\Ax.SIS.CM.UI.csproj">
+      <Project>{701e3ce9-7322-4e0d-a5c5-ca253a955d07}</Project>
+      <Name>Ax.SIS.CM.UI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="TM24390.resx">
+      <DependentUpon>TM24390.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TM26110.resx">
+      <DependentUpon>TM26110.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TM26100.resx">
+      <DependentUpon>TM26100.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TM20300P1.resx">
+      <DependentUpon>TM20300P1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TM20300.resx">
+      <DependentUpon>TM20300.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TM24300.resx">
+      <DependentUpon>TM24300.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TM24005.resx">
+      <DependentUpon>TM24005.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TM23400 .resx">
+      <DependentUpon>TM23400 .cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TM23300.resx">
+      <DependentUpon>TM23300.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TM23000.resx">
+      <DependentUpon>TM23000.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TM21100.resx">
+      <DependentUpon>TM21100.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TM21000.resx">
+      <DependentUpon>TM21000.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TM20800.resx">
+      <DependentUpon>TM20800.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TM24200.resx">
+      <DependentUpon>TM24200.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TM24100.resx">
+      <DependentUpon>TM24100.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TM25700.resx">
+      <DependentUpon>TM25700.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TM25500.resx">
+      <DependentUpon>TM25500.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TM20500.resx">
+      <DependentUpon>TM20500.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TM20500_DLG.resx">
+      <DependentUpon>TM20500_DLG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TM20600.resx">
+      <DependentUpon>TM20600.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TM20400.resx">
+      <DependentUpon>TM20400.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TM23200.resx">
+      <DependentUpon>TM23200.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TM23200P1.resx">
+      <DependentUpon>TM23200P1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TM24000.resx">
+      <DependentUpon>TM24000.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TM26000.resx">
+      <DependentUpon>TM26000.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TM26110_DLG.resx">
+      <DependentUpon>TM26110_DLG.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="RPT\TM20600.xml" />
+    <Content Include="RPT\TM26110.xml" />
+    <Content Include="RPT\TM24300.xml" />
+    <Content Include="RPT\TM24100.xml" />
+    <Content Include="RPT\TM25700_DAILY.xml" />
+    <Content Include="RPT\TM25700_Dailychk.xml" />
+    <Content Include="RPT\TM25700_MON.xml" />
+    <Content Include="RPT\TM25700_MON2.xml" />
+    <Content Include="RPT\TM23200_B.xml" />
+    <Content Include="RPT\TM24000.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="RPT\TM20600.reb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\TM24100.reb" />
+    <EmbeddedResource Include="RPT\TM24300.reb" />
+    <EmbeddedResource Include="RPT\TM26110.reb" />
+    <None Include="RPT\TM25700_DAILY.reb" />
+    <EmbeddedResource Include="RPT\TM25700_Dailychk.reb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <None Include="RPT\TM25700_MON.reb" />
+    <EmbeddedResource Include="RPT\TM25700_MON2.reb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\TM23200_B.reb" />
+    <EmbeddedResource Include="RPT\TM24000.reb" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

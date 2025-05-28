@@ -1,0 +1,182 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:Locale="ko-KR">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="ko-KR" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="PRINT_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CLASSCM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MGRTNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PLANT0" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PLANT1" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PLANT2" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PLANT3" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PLANT4" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PLANT5" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TOTAL" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="REMARK" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CHK_CYCLE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <PRINT_DATE>2017-06-20</PRINT_DATE>
+    <CLASSCM>PLASTIC MASTER COLOR 보유현황</CLASSCM>
+    <MGRTNO>A-0-00</MGRTNO>
+    <PLANT0>61</PLANT0>
+    <TOTAL>61</TOTAL>
+    <CHK_CYCLE>N</CHK_CYCLE>
+  </DATA>
+  <DATA>
+    <PRINT_DATE>2017-06-20</PRINT_DATE>
+    <CLASSCM>원단 MASTER COLOR 보유현황</CLASSCM>
+    <MGRTNO>B-0-00</MGRTNO>
+    <PLANT1>19</PLANT1>
+    <PLANT2>2</PLANT2>
+    <PLANT3>27</PLANT3>
+    <PLANT4>22</PLANT4>
+    <PLANT5>33</PLANT5>
+    <TOTAL>103</TOTAL>
+    <CHK_CYCLE>N</CHK_CYCLE>
+  </DATA>
+  <DATA>
+    <PRINT_DATE>2017-06-20</PRINT_DATE>
+    <CLASSCM>부품 한도견본 보유현황</CLASSCM>
+    <MGRTNO>C-0-00</MGRTNO>
+    <PLANT1>6</PLANT1>
+    <PLANT2>4</PLANT2>
+    <PLANT3>20</PLANT3>
+    <PLANT4>2</PLANT4>
+    <PLANT5>32</PLANT5>
+    <TOTAL>64</TOTAL>
+    <CHK_CYCLE>N</CHK_CYCLE>
+  </DATA>
+  <DATA>
+    <PRINT_DATE>2017-06-20</PRINT_DATE>
+    <CLASSCM>ASS'Y 한도견본 보유현황</CLASSCM>
+    <MGRTNO>D-0-00</MGRTNO>
+    <PLANT1>10</PLANT1>
+    <PLANT2>5</PLANT2>
+    <PLANT3>14</PLANT3>
+    <PLANT4>13</PLANT4>
+    <PLANT5>34</PLANT5>
+    <TOTAL>75</TOTAL>
+    <REMARK>점검관리주기(2회/년)</REMARK>
+    <CHK_CYCLE>Y</CHK_CYCLE>
+  </DATA>
+  <DATA>
+    <PRINT_DATE>2017-06-20</PRINT_DATE>
+    <CLASSCM>BODY CHECKER 보유현황</CLASSCM>
+    <MGRTNO>E-0-00</MGRTNO>
+    <PLANT5>1</PLANT5>
+    <TOTAL>1</TOTAL>
+    <REMARK>정기점검CH'K(분기)</REMARK>
+    <CHK_CYCLE>N</CHK_CYCLE>
+  </DATA>
+  <DATA>
+    <PRINT_DATE>2017-06-20</PRINT_DATE>
+    <CLASSCM>도장품 MASTER COLOR 보유현황</CLASSCM>
+    <MGRTNO>F-0-00</MGRTNO>
+    <PLANT1>9</PLANT1>
+    <PLANT2>2</PLANT2>
+    <PLANT3>9</PLANT3>
+    <PLANT4>1</PLANT4>
+    <PLANT5>10</PLANT5>
+    <TOTAL>31</TOTAL>
+    <CHK_CYCLE>N</CHK_CYCLE>
+  </DATA>
+  <DATA>
+    <PRINT_DATE>2017-06-20</PRINT_DATE>
+    <CLASSCM>ASS'Y C/FIX 보유현황</CLASSCM>
+    <MGRTNO>G-0-00</MGRTNO>
+    <PLANT1>2</PLANT1>
+    <PLANT2>2</PLANT2>
+    <PLANT3>14</PLANT3>
+    <PLANT4>6</PLANT4>
+    <PLANT5>8</PLANT5>
+    <TOTAL>32</TOTAL>
+    <REMARK>정기점검CH'K(분기)</REMARK>
+    <CHK_CYCLE>N</CHK_CYCLE>
+  </DATA>
+  <DATA>
+    <PRINT_DATE>2017-06-20</PRINT_DATE>
+    <CLASSCM>부품검사지그 보유현황</CLASSCM>
+    <MGRTNO>H-0-00</MGRTNO>
+    <PLANT1>10</PLANT1>
+    <PLANT2>6</PLANT2>
+    <PLANT3>16</PLANT3>
+    <PLANT4>3</PLANT4>
+    <PLANT5>12</PLANT5>
+    <TOTAL>47</TOTAL>
+    <REMARK>점검관리주기(1회/년)</REMARK>
+    <CHK_CYCLE>Y</CHK_CYCLE>
+  </DATA>
+  <DATA>
+    <PRINT_DATE>2017-06-20</PRINT_DATE>
+    <CLASSCM>SWITCH 작동불량 한도견본 보유현황</CLASSCM>
+    <MGRTNO>I-0-00</MGRTNO>
+    <PLANT1>5</PLANT1>
+    <PLANT2>4</PLANT2>
+    <PLANT3>13</PLANT3>
+    <PLANT4>7</PLANT4>
+    <PLANT5>8</PLANT5>
+    <TOTAL>38</TOTAL>
+    <REMARK>점검관리주기(1회/년)</REMARK>
+    <CHK_CYCLE>Y</CHK_CYCLE>
+  </DATA>
+  <DATA>
+    <PRINT_DATE>2017-06-20</PRINT_DATE>
+    <CLASSCM>사출 분쇄물 한도견본 보유현황</CLASSCM>
+    <MGRTNO>J-0-00</MGRTNO>
+    <PLANT1>2</PLANT1>
+    <PLANT2>2</PLANT2>
+    <PLANT3>4</PLANT3>
+    <PLANT5>1</PLANT5>
+    <TOTAL>9</TOTAL>
+    <REMARK>점검관리주기(2회/년)</REMARK>
+    <CHK_CYCLE>Y</CHK_CYCLE>
+  </DATA>
+  <DATA>
+    <PRINT_DATE>2017-06-20</PRINT_DATE>
+    <CLASSCM>사출 원재료 한도견본 보유현황</CLASSCM>
+    <MGRTNO>K-0-00</MGRTNO>
+    <PLANT1>5</PLANT1>
+    <PLANT2>2</PLANT2>
+    <PLANT3>3</PLANT3>
+    <TOTAL>10</TOTAL>
+    <REMARK>점검관리주기(2회/년)</REMARK>
+    <CHK_CYCLE>Y</CHK_CYCLE>
+  </DATA>
+  <DATA>
+    <PRINT_DATE>2017-06-20</PRINT_DATE>
+    <CLASSCM>NG MASTER 한도견본 보유현황</CLASSCM>
+    <MGRTNO>L-0-00</MGRTNO>
+    <PLANT1>4</PLANT1>
+    <PLANT2>6</PLANT2>
+    <PLANT3>18</PLANT3>
+    <PLANT4>8</PLANT4>
+    <PLANT5>4</PLANT5>
+    <TOTAL>40</TOTAL>
+    <REMARK>점검관리주기(1회/년)</REMARK>
+    <CHK_CYCLE>Y</CHK_CYCLE>
+  </DATA>
+  <DATA>
+    <PRINT_DATE>2017-06-20</PRINT_DATE>
+    <CLASSCM>도장부품 칼라 한도견본 보유현황</CLASSCM>
+    <MGRTNO>M-0-00</MGRTNO>
+    <PLANT1>7</PLANT1>
+    <PLANT2>11</PLANT2>
+    <PLANT4>9</PLANT4>
+    <PLANT5>5</PLANT5>
+    <TOTAL>32</TOTAL>
+    <REMARK>점검관리주기(1회/1년)</REMARK>
+    <CHK_CYCLE>Y</CHK_CYCLE>
+  </DATA>
+</NewDataSet>

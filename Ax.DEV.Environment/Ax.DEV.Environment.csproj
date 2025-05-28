@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{997C11A3-8D85-4348-AE71-D321B10AFBB5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DEV.Environment</RootNamespace>
+    <AssemblyName>DEV.Environment</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Addins\Ax.SIS.DevTools.DevHelperAddin.AddIn" />
+    <Content Include="Addins\Ax.SIS.DevTools.DevHelperAddin.dll" />
+    <Content Include="Addins\Ax.SIS\C1.Win.C1FlexGrid.2.dll" />
+    <Content Include="Addins\Ax.SIS\C1.Win.C1FlexGrid.2.xml" />
+    <Content Include="Addins\Ax.SIS\C1.Win.C1Input.2.dll" />
+    <Content Include="Addins\Ax.SIS\C1.Win.C1Input.2.xml" />
+    <Content Include="Addins\Ax.SIS\DeployAssembly.exe" />
+    <Content Include="Addins\Ax.SIS\DeployAssembly.pdb" />
+    <Content Include="Addins\Ax.SIS\en-US\TheOne.Windows.Forms.resources.dll" />
+    <Content Include="Addins\Ax.SIS\en\OneCorLib.resources.dll" />
+    <Content Include="Addins\Ax.SIS\en\TheOne.ServiceModel.resources.dll" />
+    <Content Include="Addins\Ax.SIS\en\TheOne.UIModel.resources.dll" />
+    <Content Include="Addins\Ax.SIS\en\TheOne.Windows.Forms.resources.dll" />
+    <Content Include="Addins\Ax.SIS\HE.Framework.Core.dll" />
+    <Content Include="Addins\Ax.SIS\HE.Framework.Core.pdb" />
+    <Content Include="Addins\Ax.SIS\HE.Framework.Core.xml" />
+    <Content Include="Addins\Ax.SIS\Menu.xml" />
+    <Content Include="Addins\Ax.SIS\OneCorLib.dll" />
+    <Content Include="Addins\Ax.SIS\OneCorLib.pdb" />
+    <Content Include="Addins\Ax.SIS\OneCorLib.xml" />
+    <Content Include="Addins\Ax.SIS\TheOne.ServiceModel.dll" />
+    <Content Include="Addins\Ax.SIS\TheOne.ServiceModel.pdb" />
+    <Content Include="Addins\Ax.SIS\TheOne.ServiceModel.xml" />
+    <Content Include="Addins\Ax.SIS\TheOne.UIModel.dll" />
+    <Content Include="Addins\Ax.SIS\TheOne.UIModel.xml" />
+    <Content Include="Addins\Ax.SIS\TheOne.Windows.Forms.dll" />
+    <Content Include="Addins\Ax.SIS\TheOne.Windows.Forms.pdb" />
+    <Content Include="Addins\Ax.SIS\TheOne.Windows.Forms.xml" />
+    <Content Include="Addins\Ax.SIS\UI.TestContainer.exe" />
+    <Content Include="Addins\Ax.SIS\UI.TestContainer.pdb" />
+    <Content Include="Assemblies\HE.ComponentOne.dll" />
+    <Content Include="Assemblies\HE.DevHelper.dll" />
+    <Content Include="Assemblies\HE.ERM.UIControl.dll" />
+    <Content Include="Assemblies\HE.Framework.Core.dll" />
+    <Content Include="Assemblies\HE.Framework.ServiceModel.dll" />
+    <Content Include="Assemblies\HE.Framework.Transactions.dll" />
+    <Content Include="Assemblies\HE.Framework.UIModel.dll" />
+    <Content Include="Assemblies\HE.Framework.Windows.Forms.dll" />
+    <Content Include="Assemblies\itextsharp.dll" />
+    <Content Include="Assemblies\itextsharp.pdfa.dll" />
+    <Content Include="Assemblies\Newtonsoft.Json.dll" />
+    <Content Include="Assemblies\OneCorLib.dll" />
+    <Content Include="Assemblies\PDFLibNet.dll" />
+    <Content Include="Assemblies\System.Windows.Forms.DataVisualization.Design.dll" />
+    <Content Include="Assemblies\System.Windows.Forms.DataVisualization.dll" />
+    <Content Include="Assemblies\DLL 정보.txt" />
+    <Content Include="Assemblies\tessnet2_32.dll" />
+    <Content Include="Assemblies\TheOne.Data.dll" />
+    <Content Include="Assemblies\TheOne.Data.Odp.dll" />
+    <Content Include="Assemblies\TheOne.Data.Oracle.dll" />
+    <Content Include="Assemblies\TheOne.ServiceModel.dll" />
+    <Content Include="Assemblies\TheOne.Transactions.dll" />
+    <Content Include="Assemblies\TheOne.UIModel.dll" />
+    <Content Include="Assemblies\TheOne.Web.dll" />
+    <Content Include="Assemblies\TheOne.Windows.Forms.dll" />
+    <Content Include="C1Assemblies\C1.C1DataExtender.2.dll" />
+    <Content Include="C1Assemblies\C1.C1DataExtender.2.XML" />
+    <Content Include="C1Assemblies\C1.C1Excel.2.dll" />
+    <Content Include="C1Assemblies\C1.C1Excel.2.XML" />
+    <Content Include="C1Assemblies\C1.C1Flash.2.dll" />
+    <Content Include="C1Assemblies\C1.C1Flash.xml" />
+    <Content Include="C1Assemblies\C1.C1Pdf.2.dll" />
+    <Content Include="C1Assemblies\C1.C1Pdf.2.XML" />
+    <Content Include="C1Assemblies\C1.C1Report.2.dll" />
+    <Content Include="C1Assemblies\C1.C1Report.2.XML" />
+    <Content Include="C1Assemblies\C1.C1Zip.2.dll" />
+    <Content Include="C1Assemblies\C1.C1Zip.2.XML" />
+    <Content Include="C1Assemblies\C1.Data.2.dll" />
+    <Content Include="C1Assemblies\C1.Data.2.XML" />
+    <Content Include="C1Assemblies\C1.Data.Designer.2.exe" />
+    <Content Include="C1Assemblies\C1.Data.Express.2.dll" />
+    <Content Include="C1Assemblies\C1.Data.Express.2.XML" />
+    <Content Include="C1Assemblies\C1.Win.C1BarCode.2.dll" />
+    <Content Include="C1Assemblies\C1.Win.C1BarCode.2.XML" />
+    <Content Include="C1Assemblies\C1.Win.C1Chart.2.dll" />
+    <Content Include="C1Assemblies\C1.Win.C1Chart.2.xml" />
+    <Content Include="C1Assemblies\C1.Win.C1Chart3D.2.dll" />
+    <Content Include="C1Assemblies\C1.Win.C1Chart3D.2.xml" />
+    <Content Include="C1Assemblies\C1.Win.C1Command.2.dll" />
+    <Content Include="C1Assemblies\C1.Win.C1Command.2.XML" />
+    <Content Include="C1Assemblies\C1.Win.C1DynamicHelp.2.dll" />
+    <Content Include="C1Assemblies\C1.Win.C1DynamicHelp.2.XML" />
+    <Content Include="C1Assemblies\C1.Win.C1Editor.2.dll" />
+    <Content Include="C1Assemblies\C1.Win.C1Editor.2.xml" />
+    <Content Include="C1Assemblies\C1.Win.C1FlexGrid.2.dll" />
+    <Content Include="C1Assemblies\C1.Win.C1FlexGrid.2.XML" />
+    <Content Include="C1Assemblies\C1.Win.C1FlexGrid.Classic.2.dll" />
+    <Content Include="C1Assemblies\C1.Win.C1Gauge.2.dll" />
+    <Content Include="C1Assemblies\C1.Win.C1Gauge.2.XML" />
+    <Content Include="C1Assemblies\C1.Win.C1Input.2.dll" />
+    <Content Include="C1Assemblies\C1.Win.C1Input.2.XML" />
+    <Content Include="C1Assemblies\C1.Win.C1InputPanel.2.dll" />
+    <Content Include="C1Assemblies\C1.Win.C1InputPanel.2.XML" />
+    <Content Include="C1Assemblies\C1.Win.C1List.2.dll" />
+    <Content Include="C1Assemblies\C1.Win.C1List.2.XML" />
+    <Content Include="C1Assemblies\C1.Win.C1Report.2.dll" />
+    <Content Include="C1Assemblies\C1.Win.C1Report.2.XML" />
+    <Content Include="C1Assemblies\C1.Win.C1Ribbon.2.dll" />
+    <Content Include="C1Assemblies\C1.Win.C1Ribbon.2.XML" />
+    <Content Include="C1Assemblies\C1.Win.C1Ribbon.Design.2.dll" />
+    <Content Include="C1Assemblies\C1.Win.C1Schedule.2.dll" />
+    <Content Include="C1Assemblies\C1.Win.C1Schedule.2.XML" />
+    <Content Include="C1Assemblies\C1.Win.C1Sizer.2.dll" />
+    <Content Include="C1Assemblies\C1.Win.C1Sizer.2.XML" />
+    <Content Include="C1Assemblies\C1.Win.C1SpellChecker.2.dll" />
+    <Content Include="C1Assemblies\C1.Win.C1SpellChecker.2.XML" />
+    <Content Include="C1Assemblies\C1.Win.C1SuperTooltip.2.dll" />
+    <Content Include="C1Assemblies\C1.Win.C1SuperTooltip.2.XML" />
+    <Content Include="C1Assemblies\C1.Win.C1TrueDBGrid.2.dll" />
+    <Content Include="C1Assemblies\C1.Win.C1TrueDBGrid.2.XML" />
+    <Content Include="C1Assemblies\Designer\C1.Data.Design.2.dll" />
+    <Content Include="C1Assemblies\Designer\C1.Win.C1Gauge.2.Design.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Addins\Ax.SIS.DevTools.DevHelperAddin.dll.config" />
+    <None Include="Addins\Ax.SIS\DeployAssembly.exe.config" />
+    <None Include="Addins\Ax.SIS\UI.TestContainer.exe.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

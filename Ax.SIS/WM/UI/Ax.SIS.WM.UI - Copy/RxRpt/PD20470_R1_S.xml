@@ -1,0 +1,153 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="BIZCD" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDORCD" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDNM" type="xs:string" minOccurs="0" />
+                <xs:element name="INVOICE_NO" type="xs:string" minOccurs="0" />
+                <xs:element name="CONTAINER_NO" type="xs:string" minOccurs="0" />
+                <xs:element name="PACK_CASE_NO" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM" type="xs:string" minOccurs="0" />
+                <xs:element name="BARCODE" type="xs:string" minOccurs="0" />
+                <xs:element name="NET_WEIGHT" type="xs:string" minOccurs="0" />
+                <xs:element name="GROSS_WEIGHT" type="xs:string" minOccurs="0" />
+                <xs:element name="PACKING_DATE" type="xs:string" minOccurs="0" />
+                <xs:element name="PACKING_QTY" type="xs:string" minOccurs="0" />
+                <xs:element name="PACKING_UNIT" type="xs:string" minOccurs="0" />
+                <xs:element name="ORDER_NO" type="xs:string" minOccurs="0" />
+                <xs:element name="CASE_LOTNO" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDOR_LOTNO" type="xs:string" minOccurs="0" />
+                <xs:element name="SHIPPING_DATE" type="xs:string" minOccurs="0" />
+                <xs:element name="MAT_TYPE" type="xs:string" minOccurs="0" />
+                <xs:element name="CORCD" type="xs:string" minOccurs="0" />
+                <xs:element name="EMPNO" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <BIZCD>5111</BIZCD>
+    <VENDORCD>S00001</VENDORCD>
+    <VENDNM>Hanil E-Hwa H/Q</VENDNM>
+    <INVOICE_NO>IHMP11601001X</INVOICE_NO>
+    <CONTAINER_NO>IHMP11601001X</CONTAINER_NO>
+    <PACK_CASE_NO>EHC6HM0017</PACK_CASE_NO>
+    <PARTNO>12431-03121</PARTNO>
+    <PARTNM>T/SCREW (I/S HDL Housing)</PARTNM>
+    <BARCODE>88010000000003DT63</BARCODE>
+    <NET_WEIGHT>12</NET_WEIGHT>
+    <GROSS_WEIGHT>13</GROSS_WEIGHT>
+    <PACKING_DATE>2016-01-09</PACKING_DATE>
+    <PACKING_QTY>20000</PACKING_QTY>
+    <PACKING_UNIT>EA</PACKING_UNIT>
+    <ORDER_NO>HMP1151212</ORDER_NO>
+    <CASE_LOTNO>20160105</CASE_LOTNO>
+    <VENDOR_LOTNO>160104</VENDOR_LOTNO>
+    <SHIPPING_DATE>2016-01-11</SHIPPING_DATE>
+    <MAT_TYPE>EAM</MAT_TYPE>
+    <CORCD>5110</CORCD>
+    <EMPNO>DEV1</EMPNO>
+  </DATA>
+  <DATA>
+    <BIZCD>5111</BIZCD>
+    <VENDORCD>S00001</VENDORCD>
+    <VENDNM>Hanil E-Hwa H/Q</VENDNM>
+    <INVOICE_NO>IHMP11601001X</INVOICE_NO>
+    <CONTAINER_NO>IHMP11601001X</CONTAINER_NO>
+    <PACK_CASE_NO>EHC6HM0013</PACK_CASE_NO>
+    <PARTNO>12492-04101</PARTNO>
+    <PARTNM>M4 SCREW</PARTNM>
+    <BARCODE>88010000000003DNC4</BARCODE>
+    <NET_WEIGHT>18</NET_WEIGHT>
+    <GROSS_WEIGHT>19</GROSS_WEIGHT>
+    <PACKING_DATE>2016-01-09</PACKING_DATE>
+    <PACKING_QTY>10000</PACKING_QTY>
+    <PACKING_UNIT>EA</PACKING_UNIT>
+    <ORDER_NO>HMP1151209</ORDER_NO>
+    <CASE_LOTNO>20160104</CASE_LOTNO>
+    <VENDOR_LOTNO>151210H11</VENDOR_LOTNO>
+    <SHIPPING_DATE>2016-01-11</SHIPPING_DATE>
+    <MAT_TYPE>EAM</MAT_TYPE>
+    <CORCD>5110</CORCD>
+    <EMPNO>DEV1</EMPNO>
+  </DATA>
+  <DATA>
+    <BIZCD>5111</BIZCD>
+    <VENDORCD>S00001</VENDORCD>
+    <VENDNM>Hanil E-Hwa H/Q</VENDNM>
+    <INVOICE_NO>IHMP11601001X</INVOICE_NO>
+    <CONTAINER_NO>IHMP11601001X</CONTAINER_NO>
+    <PACK_CASE_NO>EHC6HM0018</PACK_CASE_NO>
+    <PARTNO>12492-04127B</PARTNO>
+    <PARTNM>SCREW</PARTNM>
+    <BARCODE>88010000000003DT64</BARCODE>
+    <NET_WEIGHT>16</NET_WEIGHT>
+    <GROSS_WEIGHT>17</GROSS_WEIGHT>
+    <PACKING_DATE>2016-01-09</PACKING_DATE>
+    <PACKING_QTY>10000</PACKING_QTY>
+    <PACKING_UNIT>EA</PACKING_UNIT>
+    <ORDER_NO>HMP1151212</ORDER_NO>
+    <CASE_LOTNO>20160105</CASE_LOTNO>
+    <VENDOR_LOTNO>160104</VENDOR_LOTNO>
+    <SHIPPING_DATE>2016-01-11</SHIPPING_DATE>
+    <MAT_TYPE>EAM</MAT_TYPE>
+    <CORCD>5110</CORCD>
+    <EMPNO>DEV1</EMPNO>
+  </DATA>
+  <DATA>
+    <BIZCD>5111</BIZCD>
+    <VENDORCD>S00001</VENDORCD>
+    <VENDNM>Hanil E-Hwa H/Q</VENDNM>
+    <INVOICE_NO>IHMP11601001X</INVOICE_NO>
+    <CONTAINER_NO>IHMP11601001X</CONTAINER_NO>
+    <PACK_CASE_NO>EHC6HM0014</PACK_CASE_NO>
+    <PARTNO>12492-05121</PARTNO>
+    <PARTNM>T-SCREW</PARTNM>
+    <BARCODE>88010000000003DN7R</BARCODE>
+    <NET_WEIGHT>18</NET_WEIGHT>
+    <GROSS_WEIGHT>19</GROSS_WEIGHT>
+    <PACKING_DATE>2016-01-09</PACKING_DATE>
+    <PACKING_QTY>6000</PACKING_QTY>
+    <PACKING_UNIT>EA</PACKING_UNIT>
+    <ORDER_NO>HMP1151210</ORDER_NO>
+    <CASE_LOTNO>20160104</CASE_LOTNO>
+    <VENDOR_LOTNO>20160104</VENDOR_LOTNO>
+    <SHIPPING_DATE>2016-01-11</SHIPPING_DATE>
+    <MAT_TYPE>EAM</MAT_TYPE>
+    <CORCD>5110</CORCD>
+    <EMPNO>DEV1</EMPNO>
+  </DATA>
+  <DATA>
+    <BIZCD>5111</BIZCD>
+    <VENDORCD>S00001</VENDORCD>
+    <VENDNM>Hanil E-Hwa H/Q</VENDNM>
+    <INVOICE_NO>IHMP11601001X</INVOICE_NO>
+    <CONTAINER_NO>IHMP11601001X</CONTAINER_NO>
+    <PACK_CASE_NO>EHC6HM0012</PACK_CASE_NO>
+    <PARTNO>12492-05123</PARTNO>
+    <PARTNM />
+    <BARCODE>88010000000003DNC5</BARCODE>
+    <NET_WEIGHT>21</NET_WEIGHT>
+    <GROSS_WEIGHT>22</GROSS_WEIGHT>
+    <PACKING_DATE>2016-01-09</PACKING_DATE>
+    <PACKING_QTY>8000</PACKING_QTY>
+    <PACKING_UNIT>EA</PACKING_UNIT>
+    <ORDER_NO>HMP1151212</ORDER_NO>
+    <CASE_LOTNO>20160104</CASE_LOTNO>
+    <VENDOR_LOTNO>151124H3</VENDOR_LOTNO>
+    <SHIPPING_DATE>2016-01-11</SHIPPING_DATE>
+    <MAT_TYPE>EAM</MAT_TYPE>
+    <CORCD>5110</CORCD>
+    <EMPNO>DEV1</EMPNO>
+  </DATA>
+</NewDataSet>

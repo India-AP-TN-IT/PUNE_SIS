@@ -1,0 +1,171 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="BIZCD" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDCD" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDNM" type="xs:string" minOccurs="0" />
+                <xs:element name="NOTENO" type="xs:string" minOccurs="0" />
+                <xs:element name="DELI_DATE" type="xs:string" minOccurs="0" />
+                <xs:element name="DELI_CNT" type="xs:string" minOccurs="0" />
+                <xs:element name="YARDNO" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM" type="xs:string" minOccurs="0" />
+                <xs:element name="DELI_QTY" type="xs:string" minOccurs="0" />
+                <xs:element name="LOTNO" type="xs:string" minOccurs="0" />
+                <xs:element name="ARRIV_DATE" type="xs:string" minOccurs="0" />
+                <xs:element name="ARRIV_TIME" type="xs:string" minOccurs="0" />
+                <xs:element name="ARRIV_QTY" type="xs:string" minOccurs="0" />
+                <xs:element name="INSDELI_CNT" type="xs:string" minOccurs="0" />
+                <xs:element name="LOG_DIV" type="xs:string" minOccurs="0" />
+                <xs:element name="PONO" type="xs:string" minOccurs="0" />
+                <xs:element name="BARCODE" type="xs:string" minOccurs="0" />
+                <xs:element name="SEQ" type="xs:string" minOccurs="0" />
+                <xs:element name="BOX_COUNT" type="xs:string" minOccurs="0" />
+                <xs:element name="BARCODE_NOTE" type="xs:string" minOccurs="0" />
+                <xs:element name="MAT_TYPE" type="xs:string" minOccurs="0" />
+                <xs:element name="CORCD" type="xs:string" minOccurs="0" />
+                <xs:element name="EMPNO" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <BIZCD>5111</BIZCD>
+    <VENDCD>S00003</VENDCD>
+    <VENDNM>Koam</VENDNM>
+    <NOTENO>1</NOTENO>
+    <DELI_DATE>2016-01-18</DELI_DATE>
+    <DELI_CNT>1</DELI_CNT>
+    <YARDNO>1</YARDNO>
+    <PARTNO>82310-B0001WK</PARTNO>
+    <PARTNM>PNL-FR DR UPR TRIM, LH</PARTNM>
+    <DELI_QTY>20</DELI_QTY>
+    <LOTNO>20160112</LOTNO>
+    <ARRIV_DATE>2016-01-18</ARRIV_DATE>
+    <ARRIV_TIME>14:20</ARRIV_TIME>
+    <ARRIV_QTY />
+    <INSDELI_CNT>1</INSDELI_CNT>
+    <LOG_DIV>EBC</LOG_DIV>
+    <PONO>2182974</PONO>
+    <BARCODE>Q1IS00003010001</BARCODE>
+    <SEQ>1</SEQ>
+    <BOX_COUNT>1</BOX_COUNT>
+    <BARCODE_NOTE>T160118S0000301EAM01</BARCODE_NOTE>
+    <MAT_TYPE>EAM</MAT_TYPE>
+    <CORCD>5110</CORCD>
+    <EMPNO>DEV1</EMPNO>
+  </DATA>
+  <DATA>
+    <BIZCD>5111</BIZCD>
+    <VENDCD>S00002</VENDCD>
+    <VENDNM>Top Metal</VENDNM>
+    <NOTENO>1</NOTENO>
+    <DELI_DATE>2016-01-08</DELI_DATE>
+    <DELI_CNT>1</DELI_CNT>
+    <YARDNO>1</YARDNO>
+    <PARTNO>82310-B0010BGG</PARTNO>
+    <PARTNM>PNL-FR DR UPR TRIM, LH (IMG)</PARTNM>
+    <DELI_QTY>1</DELI_QTY>
+    <LOTNO>123456</LOTNO>
+    <ARRIV_DATE>2016-01-12</ARRIV_DATE>
+    <ARRIV_TIME>11:11</ARRIV_TIME>
+    <ARRIV_QTY />
+    <INSDELI_CNT>1</INSDELI_CNT>
+    <LOG_DIV>EBC</LOG_DIV>
+    <PONO>2180835</PONO>
+    <BARCODE>Q18S00002010001</BARCODE>
+    <SEQ>1</SEQ>
+    <BOX_COUNT>1</BOX_COUNT>
+    <BARCODE_NOTE>T160108S0000201EAM01</BARCODE_NOTE>
+    <MAT_TYPE>EAM</MAT_TYPE>
+    <CORCD>5110</CORCD>
+    <EMPNO>DEV1</EMPNO>
+  </DATA>
+  <DATA>
+    <BIZCD>5111</BIZCD>
+    <VENDCD>S00003</VENDCD>
+    <VENDNM>Koam</VENDNM>
+    <NOTENO>2</NOTENO>
+    <DELI_DATE>2016-01-18</DELI_DATE>
+    <DELI_CNT>1</DELI_CNT>
+    <YARDNO>1</YARDNO>
+    <PARTNO>82320-B0001WK</PARTNO>
+    <PARTNM>PNL-FR DR UPR TRIM, RH</PARTNM>
+    <DELI_QTY>20</DELI_QTY>
+    <LOTNO>20160112</LOTNO>
+    <ARRIV_DATE>2016-01-18</ARRIV_DATE>
+    <ARRIV_TIME>14:20</ARRIV_TIME>
+    <ARRIV_QTY />
+    <INSDELI_CNT>1</INSDELI_CNT>
+    <LOG_DIV>EBC</LOG_DIV>
+    <PONO>2182976</PONO>
+    <BARCODE>Q1IS00003010002</BARCODE>
+    <SEQ>1</SEQ>
+    <BOX_COUNT>1</BOX_COUNT>
+    <BARCODE_NOTE>T160118S0000301EAM01</BARCODE_NOTE>
+    <MAT_TYPE>EAM</MAT_TYPE>
+    <CORCD>5110</CORCD>
+    <EMPNO>DEV1</EMPNO>
+  </DATA>
+  <DATA>
+    <BIZCD>5111</BIZCD>
+    <VENDCD>S00002</VENDCD>
+    <VENDNM>Top Metal</VENDNM>
+    <NOTENO>1</NOTENO>
+    <DELI_DATE>2016-01-14</DELI_DATE>
+    <DELI_CNT>1</DELI_CNT>
+    <YARDNO>1</YARDNO>
+    <PARTNO>82320-B0010WK</PARTNO>
+    <PARTNM>PNL-FR DR UPR TRIM, RH (IMG)</PARTNM>
+    <DELI_QTY>10</DELI_QTY>
+    <LOTNO>222323232323123</LOTNO>
+    <ARRIV_DATE>2016-01-14</ARRIV_DATE>
+    <ARRIV_TIME>11:11</ARRIV_TIME>
+    <ARRIV_QTY />
+    <INSDELI_CNT>1</INSDELI_CNT>
+    <LOG_DIV>EBC</LOG_DIV>
+    <PONO>2181377</PONO>
+    <BARCODE>Q1ES00002010001</BARCODE>
+    <SEQ>2</SEQ>
+    <BOX_COUNT>10</BOX_COUNT>
+    <BARCODE_NOTE>T160114S0000201EAM01</BARCODE_NOTE>
+    <MAT_TYPE>EAM</MAT_TYPE>
+    <CORCD>5110</CORCD>
+    <EMPNO>DEV1</EMPNO>
+  </DATA>
+  <DATA>
+    <BIZCD>5111</BIZCD>
+    <VENDCD>S00002</VENDCD>
+    <VENDNM>Top Metal</VENDNM>
+    <NOTENO>1</NOTENO>
+    <DELI_DATE>2016-01-14</DELI_DATE>
+    <DELI_CNT>1</DELI_CNT>
+    <YARDNO>1</YARDNO>
+    <PARTNO>82320-B0010WK</PARTNO>
+    <PARTNM>PNL-FR DR UPR TRIM, RH (IMG)</PARTNM>
+    <DELI_QTY>10</DELI_QTY>
+    <LOTNO>222323232323123</LOTNO>
+    <ARRIV_DATE>2016-01-14</ARRIV_DATE>
+    <ARRIV_TIME>11:11</ARRIV_TIME>
+    <ARRIV_QTY />
+    <INSDELI_CNT>1</INSDELI_CNT>
+    <LOG_DIV>EBC</LOG_DIV>
+    <PONO>2181377</PONO>
+    <BARCODE>Q1ES00002010001</BARCODE>
+    <SEQ>3</SEQ>
+    <BOX_COUNT>10</BOX_COUNT>
+    <BARCODE_NOTE>T160114S0000201EAM01</BARCODE_NOTE>
+    <MAT_TYPE>EAM</MAT_TYPE>
+    <CORCD>5110</CORCD>
+    <EMPNO>DEV1</EMPNO>
+  </DATA>
+</NewDataSet>

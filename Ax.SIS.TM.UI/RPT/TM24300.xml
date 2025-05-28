@@ -1,0 +1,37 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:Locale="en-US">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="en-US" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="CORCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BIZCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ASNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ASNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SPEC" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SAP_ASNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ACQ_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="DEPT" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="WEB_ADDR" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <CORCD>5200</CORCD>
+    <BIZCD>5210</BIZCD>
+    <ASNO>VENDCD</ASNO>
+    <ASNM>VENDNM</ASNM>
+    <SPEC>L-LOC0001</SPEC>
+    <SAP_ASNO>TRKNM</SAP_ASNO>
+    <ACQ_DATE>2019-01-01</ACQ_DATE>
+    <DEPT>2099-12-31</DEPT>
+    <WEB_ADDR>WEB_ADDR</WEB_ADDR>
+  </DATA>
+</NewDataSet>

@@ -1,0 +1,107 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:Locale="en-US">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="en-US" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="CORCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BIZCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CHE_SEQ" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CHE_TIME" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CHKCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CHKNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="METHOD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VAL" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="WHO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="LOCCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="LOCNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="UPDATE_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="AREA_DESC" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <CORCD>5200</CORCD>
+    <BIZCD>5210</BIZCD>
+    <CHE_SEQ>1</CHE_SEQ>
+    <CHE_TIME>16:03:42</CHE_TIME>
+    <CHKCD>01</CHKCD>
+    <CHKNM>Check for clean</CHKNM>
+    <METHOD>Clean the Scissor lift daily</METHOD>
+    <VAL>OK</VAL>
+    <WHO>9515561977</WHO>
+    <LOCCD>A/BWS/02</LOCCD>
+    <LOCNM>SP2I RR BWS M/C</LOCNM>
+    <UPDATE_DATE>27-05-2022</UPDATE_DATE>
+    <AREA_DESC>B BLOCK</AREA_DESC>
+      </DATA>
+  <DATA>
+    <CORCD>5200</CORCD>
+    <BIZCD>5210</BIZCD>
+    <CHE_SEQ>1</CHE_SEQ>
+    <CHE_TIME>16:03:42</CHE_TIME>
+    <CHKCD>01</CHKCD>
+    <CHKNM>Check for clean</CHKNM>
+    <METHOD>Clean the Scissor lift daily</METHOD>
+    <VAL>OK</VAL>
+    <WHO>9515561977</WHO>
+    <LOCCD>A/BWS/02</LOCCD>
+    <LOCNM>SP2I RR BWS M/C</LOCNM>
+    <UPDATE_DATE>27-05-2022</UPDATE_DATE>
+    <AREA_DESC>B BLOCK</AREA_DESC>
+      </DATA>
+  <DATA>
+    <CORCD>5200</CORCD>
+    <BIZCD>5210</BIZCD>
+    <CHE_SEQ>1</CHE_SEQ>
+    <CHE_TIME>16:03:42</CHE_TIME>
+    <CHKCD>01</CHKCD>
+    <CHKNM>Check for clean</CHKNM>
+    <METHOD>Clean the Scissor lift daily</METHOD>
+    <VAL>OK</VAL>
+    <WHO>9515561977</WHO>
+    <LOCCD>A/BWS/02</LOCCD>
+    <LOCNM>SP2I RR BWS M/C</LOCNM>
+    <UPDATE_DATE>27-05-2022</UPDATE_DATE>
+    <AREA_DESC>B BLOCK</AREA_DESC>
+      </DATA>
+  <DATA>
+    <CORCD>5200</CORCD>
+    <BIZCD>5210</BIZCD>
+    <CHE_SEQ>1</CHE_SEQ>
+    <CHE_TIME>16:03:42</CHE_TIME>
+    <CHKCD>01</CHKCD>
+    <CHKNM>Check for clean</CHKNM>
+    <METHOD>Clean the Scissor lift daily</METHOD>
+    <VAL>OK</VAL>
+    <WHO>9515561977</WHO>
+    <LOCCD>A/BWS/02</LOCCD>
+    <LOCNM>SP2I RR BWS M/C</LOCNM>
+    <UPDATE_DATE>27-05-2022</UPDATE_DATE>
+    <AREA_DESC>B BLOCK</AREA_DESC>
+      </DATA>
+  <DATA>
+    <CORCD>5200</CORCD>
+    <BIZCD>5210</BIZCD>
+    <CHE_SEQ>1</CHE_SEQ>
+    <CHE_TIME>16:03:42</CHE_TIME>
+    <CHKCD>01</CHKCD>
+    <CHKNM>Check for clean</CHKNM>
+    <METHOD>Clean the Scissor lift daily</METHOD>
+    <VAL>OK</VAL>
+    <WHO>9515561977</WHO>
+    <LOCCD>A/BWS/02</LOCCD>
+    <LOCNM>SP2I RR BWS M/C</LOCNM>
+    <UPDATE_DATE>27-05-2022</UPDATE_DATE>
+    <AREA_DESC>B BLOCK</AREA_DESC>
+      </DATA>
+
+</NewDataSet>

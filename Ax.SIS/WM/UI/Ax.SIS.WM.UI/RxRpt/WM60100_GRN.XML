@@ -1,0 +1,198 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:Locale="en-US">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="en-US" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="PONO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PONO_SEQ" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CORCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BIZCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="GRNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PO_UNIT" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PO_QTY" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="COINCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="GR_QTY" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="GR_AMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PO_AMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="GR_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CONF_PERSON" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SUPP_INV_NO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SUPP_INV_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="GR_SEQ" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MGRT_NAME" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MGRT_TELNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SAKTO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SAKTO_NM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="KOSTL" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="KOSTL_NM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="DELI_PLACE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PO_DELI_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PO_UCOST" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="HSN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VEND_ADDR" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VEND_GST" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VEND_REGIO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PO_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="OUR_GSTNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="OUR_COMNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="OUR_COMADDR" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="OUR_PANNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PAY_TERM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="DEL_TERM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CON_TERM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SUM_AMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SUM_QTY" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SUM_AMT_WR" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BANK_TERM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <PONO>4300001139</PONO>
+    <PONO_SEQ>10</PONO_SEQ>
+    <CORCD>5200</CORCD>
+    <BIZCD>5210</BIZCD>
+    <GRNO>20220425000002</GRNO>
+    <VENDCD>307210</VENDCD>
+    <PARTNM>RED ZONE ARC-LIGHT</PARTNM>
+    <PO_UNIT>EA</PO_UNIT>
+    <PO_QTY>3</PO_QTY>
+    <COINCD>INR</COINCD>
+    <GR_QTY>3</GR_QTY>
+    <GR_AMT>19095</GR_AMT>
+    <PO_AMT>19095</PO_AMT>
+    <GR_DATE>25-04-2022</GR_DATE>
+    <CONF_PERSON>1</CONF_PERSON>
+    <SUPP_INV_NO>43</SUPP_INV_NO>
+    <SUPP_INV_DATE>2022-04-26</SUPP_INV_DATE>
+    <GR_SEQ>1</GR_SEQ>
+    <MGRT_NAME>BOGALA SAI SWEETY</MGRT_NAME>
+    <MGRT_TELNO>7569697077</MGRT_TELNO>
+    <SAKTO>0005230606</SAKTO>
+    <SAKTO_NM>Repair Expenses_Electrical Equipment</SAKTO_NM>
+    <KOSTL>0000522150</KOSTL>
+    <KOSTL_NM>Plant Maintenance</KOSTL_NM>
+    <DELI_PLACE>SEOYON E-HWA SUMMIT ANANTAPUR</DELI_PLACE>
+    <PO_DELI_DATE>2022-04-30</PO_DELI_DATE>
+    <PO_UCOST>6365</PO_UCOST>
+    <HSN>32</HSN>
+    <VENDNM>YASH ENGINEERING SERVICES(LEGAL NAM</VENDNM>
+    <VEND_ADDR>ROOF TOP , SY NO 45,KOTHAPALLI  VILLAGE  anantapur DWARAKAMAI NAGAR ,BEHIND PETROL PUM</VEND_ADDR>
+    <VEND_GST>37EWZPP3143Q1ZA</VEND_GST>
+    <VEND_REGIO>37</VEND_REGIO>
+    <PO_DATE>19-04-2022</PO_DATE>
+    <OUR_GSTNO>37AAZCS2637P1Z8</OUR_GSTNO>
+    <OUR_COMNM>SEOYON E-HWA SUMMIT AUTOMOTIVE ANANTAPUR PVT., LTD</OUR_COMNM>
+    <OUR_COMADDR>
+      Plot no 11B, Industrial Park,
+      Ammavaripalli, Ermanchi Village, Penukonda Mandal,
+      Anantapur District, Andhra Pradesh - 515164.
+    </OUR_COMADDR>
+    <OUR_PANNO>AAZCS2637P</OUR_PANNO>
+    <SUM_AMT>68856</SUM_AMT>
+    <SUM_QTY>12</SUM_QTY>
+    <SUM_AMT_WR>Sixty-Eight Thousand Eight Hundred Fifty-Six</SUM_AMT_WR>
+  </DATA>
+  <DATA>
+    <PONO>4300001139</PONO>
+    <PONO_SEQ>20</PONO_SEQ>
+    <CORCD>5200</CORCD>
+    <BIZCD>5210</BIZCD>
+    <GRNO>20220425000002</GRNO>
+    <VENDCD>307210</VENDCD>
+    <PARTNM>FITMENT CHARGES INCLUDING</PARTNM>
+    <PO_UNIT>EA</PO_UNIT>
+    <PO_QTY>3</PO_QTY>
+    <COINCD>INR</COINCD>
+    <GR_QTY>3</GR_QTY>
+    <GR_AMT>21375</GR_AMT>
+    <PO_AMT>21375</PO_AMT>
+    <GR_DATE>25-04-2022</GR_DATE>
+    <CONF_PERSON>2</CONF_PERSON>
+    <SUPP_INV_NO>43</SUPP_INV_NO>
+    <SUPP_INV_DATE>2022-04-26</SUPP_INV_DATE>
+    <GR_SEQ>2</GR_SEQ>
+    <MGRT_NAME>BOGALA SAI SWEETY</MGRT_NAME>
+    <MGRT_TELNO>7569697077</MGRT_TELNO>
+    <SAKTO>0005230606</SAKTO>
+    <SAKTO_NM>Repair Expenses_Electrical Equipment</SAKTO_NM>
+    <KOSTL>0000522150</KOSTL>
+    <KOSTL_NM>Plant Maintenance</KOSTL_NM>
+    <PO_DELI_DATE>2022-04-30</PO_DELI_DATE>
+    <PO_UCOST>7125</PO_UCOST>
+    <HSN>32</HSN>
+    <VENDNM>YASH ENGINEERING SERVICES(LEGAL NAM</VENDNM>
+    <VEND_ADDR>ROOF TOP , SY NO 45,KOTHAPALLI  VILLAGE  anantapur DWARAKAMAI NAGAR ,BEHIND PETROL PUM</VEND_ADDR>
+    <VEND_GST>37EWZPP3143Q1ZA</VEND_GST>
+    <VEND_REGIO>37</VEND_REGIO>
+    <PO_DATE>19-04-2022</PO_DATE>
+    <OUR_GSTNO>37AAZCS2637P1Z8</OUR_GSTNO>
+    <OUR_COMNM>SEOYON E-HWA SUMMIT AUTOMOTIVE ANANTAPUR PVT., LTD</OUR_COMNM>
+    <OUR_COMADDR>
+      Plot no 11B, Industrial Park,
+      Ammavaripalli, Ermanchi Village, Penukonda Mandal,
+      Anantapur District, Andhra Pradesh - 515164.
+    </OUR_COMADDR>
+    <OUR_PANNO>AAZCS2637P</OUR_PANNO>
+    <SUM_AMT>68856</SUM_AMT>
+    <SUM_QTY>12</SUM_QTY>
+    <SUM_AMT_WR>Sixty-Eight Thousand Eight Hundred Fifty-Six</SUM_AMT_WR>
+  </DATA>
+  <DATA>
+    <PONO>4300001139</PONO>
+    <PONO_SEQ>30</PONO_SEQ>
+    <CORCD>5200</CORCD>
+    <BIZCD>5210</BIZCD>
+    <GRNO>20220425000002</GRNO>
+    <VENDCD>307210</VENDCD>
+    <PARTNM>RED ZONE LIGHT</PARTNM>
+    <PO_UNIT>EA</PO_UNIT>
+    <PO_QTY>6</PO_QTY>
+    <COINCD>INR</COINCD>
+    <GR_QTY>6</GR_QTY>
+    <GR_AMT>28386</GR_AMT>
+    <PO_AMT>28386</PO_AMT>
+    <GR_DATE>25-04-2022</GR_DATE>
+    <CONF_PERSON>3</CONF_PERSON>
+    <SUPP_INV_NO>43</SUPP_INV_NO>
+    <SUPP_INV_DATE>2022-04-26</SUPP_INV_DATE>
+    <GR_SEQ>3</GR_SEQ>
+    <MGRT_NAME>BOGALA SAI SWEETY</MGRT_NAME>
+    <MGRT_TELNO>7569697077</MGRT_TELNO>
+    <SAKTO>0005230606</SAKTO>
+    <SAKTO_NM>Repair Expenses_Electrical Equipment</SAKTO_NM>
+    <KOSTL>0000522150</KOSTL>
+    <KOSTL_NM>Plant Maintenance</KOSTL_NM>
+    <PO_DELI_DATE>2022-04-30</PO_DELI_DATE>
+    <PO_UCOST>4731</PO_UCOST>
+    <HSN>32</HSN>
+    <VENDNM>YASH ENGINEERING SERVICES(LEGAL NAM</VENDNM>
+    <VEND_ADDR>ROOF TOP , SY NO 45,KOTHAPALLI  VILLAGE  anantapur DWARAKAMAI NAGAR ,BEHIND PETROL PUM</VEND_ADDR>
+    <VEND_GST>37EWZPP3143Q1ZA</VEND_GST>
+    <VEND_REGIO>37</VEND_REGIO>
+    <PO_DATE>19-04-2022</PO_DATE>
+    <OUR_GSTNO>37AAZCS2637P1Z8</OUR_GSTNO>
+    <OUR_COMNM>SEOYON E-HWA SUMMIT AUTOMOTIVE ANANTAPUR PVT., LTD</OUR_COMNM>
+    <OUR_COMADDR>
+      Plot no 11B, Industrial Park,
+      Ammavaripalli, Ermanchi Village, Penukonda Mandal,
+      Anantapur District, Andhra Pradesh - 515164.
+    </OUR_COMADDR>
+    <OUR_PANNO>AAZCS2637P</OUR_PANNO>
+    <SUM_AMT>68856</SUM_AMT>
+    <SUM_QTY>12</SUM_QTY>
+    <SUM_AMT_WR>Sixty-Eight Thousand Eight Hundred Fifty-Six</SUM_AMT_WR>
+  </DATA>
+</NewDataSet>

@@ -1,0 +1,173 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NATIONNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="IDENTI_NO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CUST_PONO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ORDER_NO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="DELI_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="UNIT" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CASE_VENDNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="EXP_VENDNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BARCODE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <NATIONNM> ( INDIA - HI )</NATIONNM>
+    <IDENTI_NO>00000DE8</IDENTI_NO>
+    <CUST_PONO>00000DE8</CUST_PONO>
+    <ORDER_NO>HIP1120114</ORDER_NO>
+    <DELI_DATE>2012-02-28</DELI_DATE>
+    <PARTNO>86630-1J500</PARTNO>
+    <UNIT>45/EA</UNIT>
+    <PARTNM>BEAM ASSY REAR BUMPER</PARTNM>
+    <CASE_VENDNM>대한포장물류</CASE_VENDNM>
+    <EXP_VENDNM>HAN IL E HWA CO., LTD. Ulsan Plant</EXP_VENDNM>
+    <BARCODE>880100000000000DE8</BARCODE>
+  </DATA>
+  <DATA>
+    <NATIONNM> ( INDIA - HI )</NATIONNM>
+    <IDENTI_NO>00000DE9</IDENTI_NO>
+    <ORDER_NO>HIP1120114</ORDER_NO>
+    <DELI_DATE>2012-02-28</DELI_DATE>
+    <PARTNO>86630-1J500</PARTNO>
+    <UNIT>45/EA</UNIT>
+    <PARTNM>BEAM ASSY REAR BUMPER</PARTNM>
+    <CASE_VENDNM>대한포장물류</CASE_VENDNM>
+    <EXP_VENDNM>HAN IL E HWA CO., LTD. Ulsan Plant</EXP_VENDNM>
+    <BARCODE>880100000000000DE9</BARCODE>
+  </DATA>
+  <DATA>
+    <NATIONNM> ( INDIA - HI )</NATIONNM>
+    <IDENTI_NO>00000DEA</IDENTI_NO>
+    <ORDER_NO>HIP1120114</ORDER_NO>
+    <DELI_DATE>2012-02-28</DELI_DATE>
+    <PARTNO>86630-1J500</PARTNO>
+    <UNIT>45/EA</UNIT>
+    <PARTNM>BEAM ASSY REAR BUMPER</PARTNM>
+    <CASE_VENDNM>대한포장물류</CASE_VENDNM>
+    <EXP_VENDNM>HAN IL E HWA CO., LTD. Ulsan Plant</EXP_VENDNM>
+    <BARCODE>880100000000000DEA</BARCODE>
+  </DATA>
+  <DATA>
+    <NATIONNM> ( INDIA - HI )</NATIONNM>
+    <IDENTI_NO>00000DEB</IDENTI_NO>
+    <ORDER_NO>HIP1120114</ORDER_NO>
+    <DELI_DATE>2012-02-28</DELI_DATE>
+    <PARTNO>86630-1J500</PARTNO>
+    <UNIT>45/EA</UNIT>
+    <PARTNM>BEAM ASSY REAR BUMPER</PARTNM>
+    <CASE_VENDNM>대한포장물류</CASE_VENDNM>
+    <EXP_VENDNM>HAN IL E HWA CO., LTD. Ulsan Plant</EXP_VENDNM>
+    <BARCODE>880100000000000DEB</BARCODE>
+  </DATA>
+  <DATA>
+    <NATIONNM> ( INDIA - HI )</NATIONNM>
+    <IDENTI_NO>00000DEC</IDENTI_NO>
+    <ORDER_NO>HIP1120114</ORDER_NO>
+    <DELI_DATE>2012-02-28</DELI_DATE>
+    <PARTNO>86630-1J500</PARTNO>
+    <UNIT>45/EA</UNIT>
+    <PARTNM>BEAM ASSY REAR BUMPER</PARTNM>
+    <CASE_VENDNM>대한포장물류</CASE_VENDNM>
+    <EXP_VENDNM>HAN IL E HWA CO., LTD. Ulsan Plant</EXP_VENDNM>
+    <BARCODE>880100000000000DEC</BARCODE>
+  </DATA>
+  <DATA>
+    <NATIONNM> ( INDIA - HI )</NATIONNM>
+    <IDENTI_NO>00000DED</IDENTI_NO>
+    <ORDER_NO>HIP1120114</ORDER_NO>
+    <DELI_DATE>2012-02-28</DELI_DATE>
+    <PARTNO>86630-1J500</PARTNO>
+    <UNIT>45/EA</UNIT>
+    <PARTNM>BEAM ASSY REAR BUMPER</PARTNM>
+    <CASE_VENDNM>대한포장물류</CASE_VENDNM>
+    <EXP_VENDNM>HAN IL E HWA CO., LTD. Ulsan Plant</EXP_VENDNM>
+    <BARCODE>880100000000000DED</BARCODE>
+  </DATA>
+  <DATA>
+    <NATIONNM> ( INDIA - HI )</NATIONNM>
+    <IDENTI_NO>00000DEE</IDENTI_NO>
+    <ORDER_NO>HIP1120114</ORDER_NO>
+    <DELI_DATE>2012-02-28</DELI_DATE>
+    <PARTNO>86630-1J500</PARTNO>
+    <UNIT>45/EA</UNIT>
+    <PARTNM>BEAM ASSY REAR BUMPER</PARTNM>
+    <CASE_VENDNM>대한포장물류</CASE_VENDNM>
+    <EXP_VENDNM>HAN IL E HWA CO., LTD. Ulsan Plant</EXP_VENDNM>
+    <BARCODE>880100000000000DEE</BARCODE>
+  </DATA>
+  <DATA>
+    <NATIONNM> ( INDIA - HI )</NATIONNM>
+    <IDENTI_NO>00000DEF</IDENTI_NO>
+    <ORDER_NO>HIP1120114</ORDER_NO>
+    <DELI_DATE>2012-02-28</DELI_DATE>
+    <PARTNO>86630-1J500</PARTNO>
+    <UNIT>45/EA</UNIT>
+    <PARTNM>BEAM ASSY REAR BUMPER</PARTNM>
+    <CASE_VENDNM>대한포장물류</CASE_VENDNM>
+    <EXP_VENDNM>HAN IL E HWA CO., LTD. Ulsan Plant</EXP_VENDNM>
+    <BARCODE>880100000000000DEF</BARCODE>
+  </DATA>
+  <DATA>
+    <NATIONNM> ( INDIA - HI )</NATIONNM>
+    <IDENTI_NO>00000DEG</IDENTI_NO>
+    <ORDER_NO>HIP1120114</ORDER_NO>
+    <DELI_DATE>2012-02-28</DELI_DATE>
+    <PARTNO>86630-1J500</PARTNO>
+    <UNIT>45/EA</UNIT>
+    <PARTNM>BEAM ASSY REAR BUMPER</PARTNM>
+    <CASE_VENDNM>대한포장물류</CASE_VENDNM>
+    <EXP_VENDNM>HAN IL E HWA CO., LTD. Ulsan Plant</EXP_VENDNM>
+    <BARCODE>880100000000000DEG</BARCODE>
+  </DATA>
+  <DATA>
+    <NATIONNM> ( INDIA - HI )</NATIONNM>
+    <IDENTI_NO>00000DEH</IDENTI_NO>
+    <ORDER_NO>HIP1120114</ORDER_NO>
+    <DELI_DATE>2012-02-28</DELI_DATE>
+    <PARTNO>86630-1J500</PARTNO>
+    <UNIT>45/EA</UNIT>
+    <PARTNM>BEAM ASSY REAR BUMPER</PARTNM>
+    <CASE_VENDNM>대한포장물류</CASE_VENDNM>
+    <EXP_VENDNM>HAN IL E HWA CO., LTD. Ulsan Plant</EXP_VENDNM>
+    <BARCODE>880100000000000DEH</BARCODE>
+  </DATA>
+  <DATA>
+    <NATIONNM> ( INDIA - HI )</NATIONNM>
+    <IDENTI_NO>00000DEI</IDENTI_NO>
+    <ORDER_NO>HIP1120114</ORDER_NO>
+    <DELI_DATE>2012-02-28</DELI_DATE>
+    <PARTNO>86630-1J500</PARTNO>
+    <UNIT>45/EA</UNIT>
+    <PARTNM>BEAM ASSY REAR BUMPER</PARTNM>
+    <CASE_VENDNM>대한포장물류</CASE_VENDNM>
+    <EXP_VENDNM>HAN IL E HWA CO., LTD. Ulsan Plant</EXP_VENDNM>
+    <BARCODE>880100000000000DEI</BARCODE>
+  </DATA>
+  <DATA>
+    <NATIONNM> ( INDIA - HI )</NATIONNM>
+    <IDENTI_NO>00000DEJ</IDENTI_NO>
+    <ORDER_NO>HIP1120114</ORDER_NO>
+    <DELI_DATE>2012-02-28</DELI_DATE>
+    <PARTNO>86630-1J500</PARTNO>
+    <UNIT>45/EA</UNIT>
+    <PARTNM>BEAM ASSY REAR BUMPER</PARTNM>
+    <CASE_VENDNM>대한포장물류</CASE_VENDNM>
+    <EXP_VENDNM>HAN IL E HWA CO., LTD. Ulsan Plant</EXP_VENDNM>
+    <BARCODE>880100000000000DEJ</BARCODE>
+  </DATA>
+</NewDataSet>

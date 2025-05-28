@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MenuTree>
+	<MenuItem id="10" title="기본예제" action="Expand" url="" class="" displayTitle="" extraInfo="">
+		<MenuItem id="1010" title="권한 예제" action="Expand" url="" class="" expanded="True" displayTitle="" extraInfo="">
+			<MenuItem id="101010" title="모든 권한" action="OpenUI" url="OML.Employee.UI.DLL" class="OML.Employee.UI.UC001" displayTitle="" extraInfo="" />
+			<MenuItem id="101020" title="조회 전용" action="OpenUI" url="OML.Employee.UI.DLL" class="OML.Employee.UI.UC001" displayTitle="" extraInfo="" />
+			<MenuItem id="101030" title="조회/추가" action="OpenUI" url="OML.Employee.UI.DLL" class="OML.Employee.UI.UC001" displayTitle="" extraInfo="" />
+			<MenuItem id="101040" title="권한없음" action="OpenUI" url="OML.Employee.UI.DLL" class="OML.Employee.UI.UC001" displayTitle="" extraInfo="" />
+			<MenuItem id="101050" title="TestMenu" action="OpenUI" url="OML.Employee.UI.DLL" class="OML.Employee.UI.UC005" displayTitle="" extraInfo="" />
+		</MenuItem>
+	</MenuItem>
+	<MenuItem id="20" title="메뉴1" action="Expand" url="" class="" displayTitle="" extraInfo="">
+		<MenuItem id="2010" title="화면1" action="OpenUI" url="TheOne.Admin.UI.DLL" class="TheOne.Admin.UI.SystemMgm" displayTitle="" extraInfo="" />
+		<MenuItem id="2020" title="화면2" action="OpenUI" url="TheOne.Admin.UI.DLL" class="TheOne.Admin.UI.UsersMgm" displayTitle="" extraInfo="" />
+		<MenuItem id="2030" title="화면3" action="OpenUI" url="TheOne.Admin.UI.DLL" class="TheOne.Admin.UI.AuthGroups" displayTitle="" extraInfo="" />
+		<MenuItem id="2040" title="화면4" action="OpenUI" url="TheOne.Admin.UI.DLL" class="TheOne.Admin.UI.AuthMgm" displayTitle="" extraInfo="" />
+		<MenuItem id="2050" title="화면5" action="OpenUI" url="TheOne.Admin.UI.DLL" class="TheOne.Admin.UI.MenuMgm" displayTitle="" extraInfo="" />
+		<MenuItem id="2060" title="화면6" action="OpenUI" url="TheOne.Admin.UI.DLL" class="TheOne.Admin.UI.GroupUsers" displayTitle="" extraInfo="" />
+		<MenuItem id="2070" title="화면7" action="OpenUI" url="TheOne.Admin.UI.DLL" class="TheOne.Admin.UI.GroupMenuAuth" displayTitle="" extraInfo="" />
+		<MenuItem id="2080" title="화면8" action="OpenUI" url="TheOne.Admin.UI.DLL" class="TheOne.Admin.UI.UserMenuAuth" displayTitle="" extraInfo="" />
+	</MenuItem>
+	<MenuItem id="30" title="메뉴2" action="Expand" url="" class="" displayTitle="" extraInfo="">
+		<MenuItem id="3010" title="중분류1" action="Expand" url="" class="" displayTitle="" extraInfo="">
+			<MenuItem id="301010" title="화면1" action="OpenUI" url="OML.Employee.UI2.DLL" class="OML.Employee.UI.UC201" displayTitle="" extraInfo="" />
+		</MenuItem>
+		<MenuItem id="3020" title="중분류2" action="Expand" url="" class="" displayTitle="" extraInfo="">
+			<MenuItem id="302010" title="화면1" action="OpenUI" url="OML.Employee.UI2.DLL" class="OML.Employee.UI.UC202" displayTitle="" extraInfo="" />
+			<MenuItem id="302020" title="화면2" action="OpenUI" url="OML.Employee.UI2.DLL" class="OML.Employee.UI.UC203" displayTitle="" extraInfo="" />
+			<MenuItem id="302030" title="화면3" action="OpenUI" url="OML.Employee.UI2.DLL" class="OML.Employee.UI.UC204" displayTitle="" extraInfo="" />
+		</MenuItem>
+	</MenuItem>
+	<MenuItem id="40" title="메뉴3" action="Expand" url="" class="" displayTitle="" extraInfo="">
+		<MenuItem id="4010" title="화면1" action="OpenUI" url="OML.Sample.UI.DLL" class="OML.Sample.UI.PersonUI01" displayTitle="" extraInfo="" />
+		<MenuItem id="4020" title="화면2" action="OpenUI" url="INHA.POC.UI.DLL" class="INHA.POC.UI.TestUI" displayTitle="" extraInfo="" />
+	</MenuItem>
+</MenuTree>

@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:Locale="en-US">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="en-US" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="CORCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="AREACD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="AREANM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="WHCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="USE_YN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CHK" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="SUB_CODE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <CORCD>5200</CORCD>
+    <AREACD>A-AREA01</AREACD>
+	<AREANM></AREANM>
+    <WHCD>W-M01</WHCD>
+    <USE_YN>Y</USE_YN>
+    <CHK>0</CHK>
+    <SUB_CODE>AREA01</SUB_CODE>
+  </DATA>
+</NewDataSet>

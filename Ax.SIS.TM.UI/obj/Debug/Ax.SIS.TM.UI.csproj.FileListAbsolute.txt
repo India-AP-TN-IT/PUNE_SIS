@@ -1,0 +1,288 @@
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\RPT\TM20600.reb
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\RPT\TM25700_Dailychk.reb
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\RPT\TM25700_MON2.reb
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\Ax.SIS.TM.UI.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\Ax.SIS.TM.UI.pdb
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\Ax.DEV.Utility.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\Ax.SIS.CM.UI.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.C1Report.2.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Chart.2.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Chart3D.2.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1FlexGrid.2.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Gauge.2.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Input.2.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1List.2.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Report.2.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Schedule.2.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\HE.Framework.Core.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\HE.Framework.ServiceModel.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\HE.Framework.Windows.Forms.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\OneCorLib.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\TheOne.ServiceModel.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\TheOne.Windows.Forms.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Command.2.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\Newtonsoft.Json.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\HE.ComponentOne.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\TheOne.UIModel.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\itextsharp.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\Ax.DEV.Utility.pdb
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\Ax.SIS.CM.UI.pdb
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.C1Report.2.xml
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Chart.2.xml
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Chart3D.2.xml
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1FlexGrid.2.xml
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Gauge.2.xml
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Input.2.xml
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1List.2.xml
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Report.2.xml
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Schedule.2.xml
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Command.2.xml
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\en\Ax.DEV.Utility.resources.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\pl\Ax.DEV.Utility.resources.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM23400.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM23300.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM23000.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM21100.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM21000.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM20800.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM24100.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM25700.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM25500.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM20500.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM20500_DLG.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM20600.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM20400.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM23200.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM23200P1.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM24000.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.csproj.GenerateResource.Cache
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.pdb
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM24200.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM24005.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM24300.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM26000.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM20300.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM20300P1.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM26100.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM26110.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM26110_DLG.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM24390.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\RPT\TM20600.reb
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\RPT\TM25700_Dailychk.reb
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\RPT\TM25700_MON2.reb
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\Ax.SIS.TM.UI.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\Ax.SIS.TM.UI.pdb
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\Ax.DEV.Utility.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\Ax.SIS.CM.UI.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.C1DataExtender.2.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.C1Report.2.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Chart.2.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Chart3D.2.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1FlexGrid.2.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Gauge.2.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Input.2.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1List.2.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Report.2.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Ribbon.2.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Schedule.2.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\HE.Framework.Core.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\HE.Framework.ServiceModel.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\HE.Framework.Windows.Forms.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\OneCorLib.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\TheOne.ServiceModel.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\TheOne.Windows.Forms.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Command.2.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\TheOne.UIModel.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\itextsharp.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\HE.ComponentOne.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\Ax.DEV.Utility.pdb
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\Ax.SIS.CM.UI.pdb
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.C1DataExtender.2.xml
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.C1Report.2.xml
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Chart.2.xml
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Chart3D.2.xml
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1FlexGrid.2.xml
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Gauge.2.xml
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Input.2.xml
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1List.2.xml
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Report.2.xml
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Ribbon.2.xml
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Schedule.2.xml
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Command.2.xml
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\en\Ax.DEV.Utility.resources.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\pl\Ax.DEV.Utility.resources.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM24390.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM26110.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM26100.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM20300P1.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM20300.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM24300.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM24005.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM23400.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM23300.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM23000.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM21100.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM21000.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM20800.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM24200.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM24100.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM25700.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM25500.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM20500.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM20500_DLG.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM20600.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM20400.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM23200.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM23200P1.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM24000.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM26000.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM26110_DLG.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.csproj.GenerateResource.cache
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.pdb
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.csprojResolveAssemblyReference.cache
+D:\SRCS\Git\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.csprojResolveAssemblyReference.cache
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\RPT\TM20600.reb
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\RPT\TM25700_Dailychk.reb
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\RPT\TM25700_MON2.reb
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\Ax.SIS.TM.UI.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\Ax.SIS.TM.UI.pdb
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\Ax.DEV.Utility.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\Ax.SIS.CM.UI.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.C1Report.2.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Chart.2.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Chart3D.2.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1FlexGrid.2.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Gauge.2.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Input.2.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1List.2.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Report.2.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Schedule.2.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\HE.Framework.Core.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\HE.Framework.ServiceModel.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\HE.Framework.Windows.Forms.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\OneCorLib.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\TheOne.ServiceModel.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\TheOne.Windows.Forms.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Command.2.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\Newtonsoft.Json.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\HE.ComponentOne.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\TheOne.UIModel.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\itextsharp.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\Ax.DEV.Utility.pdb
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\Ax.SIS.CM.UI.pdb
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.C1Report.2.xml
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Chart.2.xml
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Chart3D.2.xml
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1FlexGrid.2.xml
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Gauge.2.xml
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Input.2.xml
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1List.2.xml
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Report.2.xml
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Schedule.2.xml
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Command.2.xml
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\en\Ax.DEV.Utility.resources.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\bin\Debug\pl\Ax.DEV.Utility.resources.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM24390.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM26110.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM26100.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM20300P1.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM20300.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM24300.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM24005.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM23400.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM23300.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM23000.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM21100.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM21000.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM20800.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM24200.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM24100.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM25700.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM25500.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM20500.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM20500_DLG.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM20600.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM20400.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM23200.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM23200P1.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM24000.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM26000.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM26110_DLG.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.csproj.GenerateResource.Cache
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.pdb
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.csprojResolveAssemblyReference.cache
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\bin\Debug\RPT\TM20600.reb
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\bin\Debug\RPT\TM25700_Dailychk.reb
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\bin\Debug\RPT\TM25700_MON2.reb
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\bin\Debug\Ax.SIS.TM.UI.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\bin\Debug\Ax.SIS.TM.UI.pdb
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\bin\Debug\Ax.DEV.Utility.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\bin\Debug\Ax.SIS.CM.UI.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\bin\Debug\C1.C1Report.2.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Chart.2.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Chart3D.2.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1FlexGrid.2.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Gauge.2.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Input.2.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1List.2.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Report.2.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Schedule.2.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\bin\Debug\HE.Framework.Core.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\bin\Debug\HE.Framework.ServiceModel.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\bin\Debug\HE.Framework.Windows.Forms.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\bin\Debug\OneCorLib.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\bin\Debug\TheOne.ServiceModel.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\bin\Debug\TheOne.Windows.Forms.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Command.2.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\bin\Debug\Newtonsoft.Json.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\bin\Debug\HE.ComponentOne.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\bin\Debug\TheOne.UIModel.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\bin\Debug\itextsharp.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\bin\Debug\Ax.DEV.Utility.pdb
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\bin\Debug\Ax.SIS.CM.UI.pdb
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\bin\Debug\C1.C1Report.2.xml
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Chart.2.xml
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Chart3D.2.xml
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1FlexGrid.2.xml
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Gauge.2.xml
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Input.2.xml
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1List.2.xml
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Report.2.xml
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Schedule.2.xml
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\bin\Debug\C1.Win.C1Command.2.xml
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\bin\Debug\en\Ax.DEV.Utility.resources.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\bin\Debug\pl\Ax.DEV.Utility.resources.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.csprojResolveAssemblyReference.cache
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM24390.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM26110.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM26100.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM20300P1.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM20300.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM24300.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM24005.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM23400.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM23300.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM23000.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM21100.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM21000.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM20800.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM24200.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM24100.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM25700.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM25500.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM20500.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM20500_DLG.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM20600.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM20400.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM23200.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM23200P1.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM24000.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM26000.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.TM26110_DLG.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.csproj.GenerateResource.Cache
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS.TM.UI\obj\Debug\Ax.SIS.TM.UI.pdb

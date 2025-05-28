@@ -1,0 +1,323 @@
+﻿namespace Ax.SIS.XM.UI
+{
+    partial class XM39030
+    {
+        /// <summary> 
+        /// 필수 디자이너 변수입니다.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary> 
+        /// 사용 중인 모든 리소스를 정리합니다.
+        /// </summary>
+        /// <param name="disposing">관리되는 리소스를 삭제해야 하면 true이고, 그렇지 않으면 false입니다.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region 구성 요소 디자이너에서 생성한 코드
+
+        /// <summary> 
+        /// 디자이너 지원에 필요한 메서드입니다. 
+        /// 이 메서드의 내용을 코드 편집기로 수정하지 마십시오.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(XM39030));
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.lbl01_ESTI_CLASS = new Ax.DEV.Utility.Controls.AxLabel();
+            this.dtp01_STD_DATE = new Ax.DEV.Utility.Controls.AxDateEdit();
+            this.lbl01_Date = new Ax.DEV.Utility.Controls.AxLabel();
+            this.txt01_PARTNO = new Ax.DEV.Utility.Controls.AxTextBox();
+            this.lbl01_PARTNO = new Ax.DEV.Utility.Controls.AxLabel();
+            this.lbl01_BIZNM2 = new Ax.DEV.Utility.Controls.AxLabel();
+            this.cbo01_BIZCD = new Ax.DEV.Utility.Controls.AxComboBox();
+            this.heDockingTab1 = new Ax.DEV.Utility.Controls.AxDockingTab();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.grd01 = new Ax.DEV.Utility.Controls.AxFlexGrid();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.grd02 = new Ax.DEV.Utility.Controls.AxFlexGrid();
+            this.cbo01_ESTI_CLASS = new Ax.DEV.Utility.Controls.AxComboBox();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.lbl01_ESTI_CLASS)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lbl01_Date)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt01_PARTNO)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lbl01_PARTNO)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lbl01_BIZNM2)).BeginInit();
+            this.panel3.SuspendLayout();
+            this.tabControl1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.grd01)).BeginInit();
+            this.tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.grd02)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // _buttonsControl
+            // 
+            this._buttonsControl.Size = new System.Drawing.Size(1024, 28);
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.panel2);
+            this.panel1.Controls.Add(this.heDockingTab1);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(0, 28);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1024, 740);
+            this.panel1.TabIndex = 1;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.cbo01_ESTI_CLASS);
+            this.panel2.Controls.Add(this.lbl01_ESTI_CLASS);
+            this.panel2.Controls.Add(this.dtp01_STD_DATE);
+            this.panel2.Controls.Add(this.lbl01_Date);
+            this.panel2.Controls.Add(this.txt01_PARTNO);
+            this.panel2.Controls.Add(this.lbl01_PARTNO);
+            this.panel2.Controls.Add(this.lbl01_BIZNM2);
+            this.panel2.Controls.Add(this.cbo01_BIZCD);
+            this.panel2.Location = new System.Drawing.Point(0, 18);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(240, 721);
+            this.panel2.TabIndex = 1;
+            // 
+            // lbl01_ESTI_CLASS
+            // 
+            this.lbl01_ESTI_CLASS.AutoFontSizeMaxValue = 9F;
+            this.lbl01_ESTI_CLASS.AutoFontSizeMinValue = 9F;
+            this.lbl01_ESTI_CLASS.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(220)))), ((int)(((byte)(255)))));
+            this.lbl01_ESTI_CLASS.Location = new System.Drawing.Point(6, 84);
+            this.lbl01_ESTI_CLASS.Name = "lbl01_ESTI_CLASS";
+            this.lbl01_ESTI_CLASS.Size = new System.Drawing.Size(220, 23);
+            this.lbl01_ESTI_CLASS.TabIndex = 148;
+            this.lbl01_ESTI_CLASS.Tag = null;
+            this.lbl01_ESTI_CLASS.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl01_ESTI_CLASS.Value = "평가 클래스";
+            // 
+            // dtp01_STD_DATE
+            // 
+            this.dtp01_STD_DATE.CustomFormat = "yyyy-MM-dd";
+            this.dtp01_STD_DATE.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtp01_STD_DATE.Location = new System.Drawing.Point(112, 57);
+            this.dtp01_STD_DATE.MinDate = new System.DateTime(1900, 1, 1, 0, 0, 0, 0);
+            this.dtp01_STD_DATE.Name = "dtp01_STD_DATE";
+            this.dtp01_STD_DATE.OriginalFormat = "";
+            this.dtp01_STD_DATE.Size = new System.Drawing.Size(114, 21);
+            this.dtp01_STD_DATE.TabIndex = 134;
+            // 
+            // lbl01_Date
+            // 
+            this.lbl01_Date.AutoFontSizeMaxValue = 9F;
+            this.lbl01_Date.AutoFontSizeMinValue = 9F;
+            this.lbl01_Date.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(220)))), ((int)(((byte)(255)))));
+            this.lbl01_Date.Location = new System.Drawing.Point(6, 57);
+            this.lbl01_Date.Name = "lbl01_Date";
+            this.lbl01_Date.Size = new System.Drawing.Size(100, 21);
+            this.lbl01_Date.TabIndex = 133;
+            this.lbl01_Date.Tag = null;
+            this.lbl01_Date.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl01_Date.Value = "Date";
+            // 
+            // txt01_PARTNO
+            // 
+            this.txt01_PARTNO.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txt01_PARTNO.Location = new System.Drawing.Point(6, 162);
+            this.txt01_PARTNO.Name = "txt01_PARTNO";
+            this.txt01_PARTNO.Size = new System.Drawing.Size(220, 21);
+            this.txt01_PARTNO.TabIndex = 125;
+            this.txt01_PARTNO.Tag = null;
+            // 
+            // lbl01_PARTNO
+            // 
+            this.lbl01_PARTNO.AutoFontSizeMaxValue = 9F;
+            this.lbl01_PARTNO.AutoFontSizeMinValue = 9F;
+            this.lbl01_PARTNO.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(220)))), ((int)(((byte)(255)))));
+            this.lbl01_PARTNO.Location = new System.Drawing.Point(6, 136);
+            this.lbl01_PARTNO.Name = "lbl01_PARTNO";
+            this.lbl01_PARTNO.Size = new System.Drawing.Size(220, 23);
+            this.lbl01_PARTNO.TabIndex = 124;
+            this.lbl01_PARTNO.Tag = null;
+            this.lbl01_PARTNO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl01_PARTNO.Value = "PART NO";
+            // 
+            // lbl01_BIZNM2
+            // 
+            this.lbl01_BIZNM2.AutoFontSizeMaxValue = 9F;
+            this.lbl01_BIZNM2.AutoFontSizeMinValue = 9F;
+            this.lbl01_BIZNM2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(220)))), ((int)(((byte)(255)))));
+            this.lbl01_BIZNM2.Location = new System.Drawing.Point(6, 5);
+            this.lbl01_BIZNM2.Name = "lbl01_BIZNM2";
+            this.lbl01_BIZNM2.Size = new System.Drawing.Size(220, 23);
+            this.lbl01_BIZNM2.TabIndex = 113;
+            this.lbl01_BIZNM2.Tag = null;
+            this.lbl01_BIZNM2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl01_BIZNM2.Value = "PLANT";
+            // 
+            // cbo01_BIZCD
+            // 
+            this.cbo01_BIZCD.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbo01_BIZCD.FormattingEnabled = true;
+            this.cbo01_BIZCD.Location = new System.Drawing.Point(6, 31);
+            this.cbo01_BIZCD.Name = "cbo01_BIZCD";
+            this.cbo01_BIZCD.Size = new System.Drawing.Size(220, 20);
+            this.cbo01_BIZCD.TabIndex = 112;
+            this.cbo01_BIZCD.SelectedIndexChanged += new System.EventHandler(this.cbo01_BIZCD_SelectedIndexChanged);
+            // 
+            // heDockingTab1
+            // 
+            this.heDockingTab1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.heDockingTab1.Location = new System.Drawing.Point(0, 0);
+            this.heDockingTab1.Name = "heDockingTab1";
+            this.heDockingTab1.PanelHeight = 740;
+            this.heDockingTab1.PanelWidth = 377;
+            this.heDockingTab1.Size = new System.Drawing.Size(1024, 740);
+            this.heDockingTab1.TabIndex = 0;
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.tabControl1);
+            this.panel3.Location = new System.Drawing.Point(279, 29);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(742, 736);
+            this.panel3.TabIndex = 3;
+            // 
+            // tabControl1
+            // 
+            this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Controls.Add(this.tabPage3);
+            this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControl1.Location = new System.Drawing.Point(0, 0);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(742, 736);
+            this.tabControl1.TabIndex = 0;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Controls.Add(this.grd01);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(734, 710);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Cust Plan (Material)";
+            this.tabPage2.ToolTipText = "Cust Plan (Material)";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // grd01
+            // 
+            this.grd01.AllowHeaderMerging = false;
+            this.grd01.ColumnInfo = "0,0,0,0,0,0,Columns:";
+            this.grd01.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.grd01.EnabledActionFlag = true;
+            this.grd01.HighLight = C1.Win.C1FlexGrid.HighLightEnum.Never;
+            this.grd01.KeyActionEnter = C1.Win.C1FlexGrid.KeyActionEnum.MoveAcross;
+            this.grd01.KeyActionTab = C1.Win.C1FlexGrid.KeyActionEnum.MoveAcross;
+            this.grd01.LastRowAdd = false;
+            this.grd01.Location = new System.Drawing.Point(3, 3);
+            this.grd01.Name = "grd01";
+            this.grd01.OriginalFormat = null;
+            this.grd01.PopMenuVisible = true;
+            this.grd01.Rows.DefaultSize = 18;
+            this.grd01.Size = new System.Drawing.Size(728, 704);
+            this.grd01.StyleInfo = resources.GetString("grd01.StyleInfo");
+            this.grd01.TabIndex = 3;
+            this.grd01.UseCustomHighlight = true;
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Controls.Add(this.grd02);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Size = new System.Drawing.Size(734, 710);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Cust Plan (ASSY)";
+            this.tabPage3.ToolTipText = "Cust Plan (ASSY)";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // grd02
+            // 
+            this.grd02.AllowHeaderMerging = false;
+            this.grd02.ColumnInfo = "0,0,0,0,0,0,Columns:";
+            this.grd02.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.grd02.EnabledActionFlag = true;
+            this.grd02.HighLight = C1.Win.C1FlexGrid.HighLightEnum.Never;
+            this.grd02.KeyActionEnter = C1.Win.C1FlexGrid.KeyActionEnum.MoveAcross;
+            this.grd02.KeyActionTab = C1.Win.C1FlexGrid.KeyActionEnum.MoveAcross;
+            this.grd02.LastRowAdd = false;
+            this.grd02.Location = new System.Drawing.Point(0, 0);
+            this.grd02.Name = "grd02";
+            this.grd02.OriginalFormat = null;
+            this.grd02.PopMenuVisible = true;
+            this.grd02.Rows.DefaultSize = 18;
+            this.grd02.Size = new System.Drawing.Size(734, 710);
+            this.grd02.StyleInfo = resources.GetString("grd02.StyleInfo");
+            this.grd02.TabIndex = 4;
+            this.grd02.UseCustomHighlight = true;
+            // 
+            // cbo01_ESTI_CLASS
+            // 
+            this.cbo01_ESTI_CLASS.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbo01_ESTI_CLASS.FormattingEnabled = true;
+            this.cbo01_ESTI_CLASS.Location = new System.Drawing.Point(6, 110);
+            this.cbo01_ESTI_CLASS.Name = "cbo01_ESTI_CLASS";
+            this.cbo01_ESTI_CLASS.Size = new System.Drawing.Size(220, 20);
+            this.cbo01_ESTI_CLASS.TabIndex = 149;
+            // 
+            // XM39030
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panel1);
+            this.Name = "XM39030";
+            this.Controls.SetChildIndex(this._buttonsControl, 0);
+            this.Controls.SetChildIndex(this.panel1, 0);
+            this.Controls.SetChildIndex(this.panel3, 0);
+            this.panel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.lbl01_ESTI_CLASS)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lbl01_Date)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt01_PARTNO)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lbl01_PARTNO)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lbl01_BIZNM2)).EndInit();
+            this.panel3.ResumeLayout(false);
+            this.tabControl1.ResumeLayout(false);
+            this.tabPage2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.grd01)).EndInit();
+            this.tabPage3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.grd02)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Panel panel1;
+        private Ax.DEV.Utility.Controls.AxDockingTab heDockingTab1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel3;
+        private Ax.DEV.Utility.Controls.AxLabel lbl01_BIZNM2;
+        private Ax.DEV.Utility.Controls.AxComboBox cbo01_BIZCD;
+        private Ax.DEV.Utility.Controls.AxTextBox txt01_PARTNO;
+        private Ax.DEV.Utility.Controls.AxLabel lbl01_PARTNO;
+        private DEV.Utility.Controls.AxDateEdit dtp01_STD_DATE;
+        private DEV.Utility.Controls.AxLabel lbl01_Date;
+        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabPage tabPage2;
+        private DEV.Utility.Controls.AxFlexGrid grd01;
+        private System.Windows.Forms.TabPage tabPage3;
+        private DEV.Utility.Controls.AxFlexGrid grd02;
+        private DEV.Utility.Controls.AxLabel lbl01_ESTI_CLASS;
+        private DEV.Utility.Controls.AxComboBox cbo01_ESTI_CLASS;
+    }
+}

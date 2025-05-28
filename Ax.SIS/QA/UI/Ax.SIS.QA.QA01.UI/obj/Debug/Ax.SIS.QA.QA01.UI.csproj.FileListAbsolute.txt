@@ -1,0 +1,488 @@
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.SIS.QA.QA01.UI.dll
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.SIS.QA.QA01.UI.pdb
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.DEV.Utility.dll
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.SIS.QA.QA09.UI.dll
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Chart.2.dll
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1FlexGrid.2.dll
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Input.2.dll
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1List.2.dll
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\HE.Framework.Core.dll
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\HE.Framework.ServiceModel.dll
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\HE.Framework.Windows.Forms.dll
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\OneCorLib.dll
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\TheOne.ServiceModel.dll
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\TheOne.Windows.Forms.dll
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Chart3D.2.dll
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Command.2.dll
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Newtonsoft.Json.dll
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\HE.ComponentOne.dll
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\TheOne.UIModel.dll
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\itextsharp.dll
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.DEV.Utility.pdb
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.SIS.QA.QA09.UI.pdb
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Chart.2.xml
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1FlexGrid.2.xml
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Input.2.xml
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1List.2.xml
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Chart3D.2.xml
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Command.2.xml
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\en\Ax.DEV.Utility.resources.dll
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\pl\Ax.DEV.Utility.resources.dll
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.csprojResolveAssemblyReference.cache
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20031.resources
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20032.resources
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20033.resources
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20034.resources
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20035.resources
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20061.resources
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20062.resources
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30234P1.resources
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20212.resources
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20213.resources
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20411.resources
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20428.resources
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20431.resources
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20511.resources
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30036.resources
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30222.resources
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30223.resources
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30234.resources
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30411.resources
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30418.resources
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30431.resources
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30511.resources
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA40034.resources
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA40114.resources
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA50418.resources
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA50421.resources
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.Properties.Resources.resources
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20214.resources
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30224.resources
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA21411.resources
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA21412.resources
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA31431.resources
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20036.resources
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.csproj.GenerateResource.Cache
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.dll.licenses
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.dll
+E:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.pdb
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.SIS.QA.QA01.UI.dll
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.SIS.QA.QA01.UI.pdb
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.DEV.Utility.dll
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.SIS.QA.QA09.UI.dll
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Chart.2.dll
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1FlexGrid.2.dll
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Input.2.dll
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1List.2.dll
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\HE.Framework.Core.dll
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\HE.Framework.ServiceModel.dll
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\HE.Framework.Windows.Forms.dll
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\OneCorLib.dll
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\TheOne.ServiceModel.dll
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\TheOne.Windows.Forms.dll
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Chart3D.2.dll
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Command.2.dll
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Newtonsoft.Json.dll
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\HE.ComponentOne.dll
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\TheOne.UIModel.dll
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\itextsharp.dll
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.DEV.Utility.pdb
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.SIS.QA.QA09.UI.pdb
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Chart.2.xml
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1FlexGrid.2.xml
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Input.2.xml
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1List.2.xml
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Chart3D.2.xml
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Command.2.xml
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\en\Ax.DEV.Utility.resources.dll
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\pl\Ax.DEV.Utility.resources.dll
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.csprojResolveAssemblyReference.cache
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20031.resources
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20032.resources
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20033.resources
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20034.resources
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20035.resources
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20061.resources
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20062.resources
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30234P1.resources
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20212.resources
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20213.resources
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20411.resources
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20428.resources
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20431.resources
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20511.resources
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30036.resources
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30222.resources
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30223.resources
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30234.resources
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30411.resources
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30418.resources
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30431.resources
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30511.resources
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA40034.resources
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA40114.resources
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA50418.resources
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA50421.resources
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.Properties.Resources.resources
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20214.resources
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30224.resources
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA21411.resources
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA21412.resources
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA31431.resources
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20036.resources
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.csproj.GenerateResource.Cache
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.dll.licenses
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.dll
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.pdb
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.SIS.CM.UI.dll
+D:\SRCS\AP\Ax_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.SIS.CM.UI.pdb
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.SIS.QA.QA01.UI.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.SIS.QA.QA01.UI.pdb
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.DEV.Utility.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.SIS.QA.QA09.UI.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Chart.2.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1FlexGrid.2.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Input.2.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1List.2.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\HE.Framework.Core.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\HE.Framework.ServiceModel.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\HE.Framework.Windows.Forms.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\OneCorLib.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\TheOne.ServiceModel.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\TheOne.Windows.Forms.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Chart3D.2.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Command.2.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Newtonsoft.Json.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\HE.ComponentOne.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\TheOne.UIModel.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\itextsharp.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.SIS.CM.UI.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.DEV.Utility.pdb
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.SIS.QA.QA09.UI.pdb
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Chart.2.xml
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1FlexGrid.2.xml
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Input.2.xml
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1List.2.xml
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Chart3D.2.xml
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Command.2.xml
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.SIS.CM.UI.pdb
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\en\Ax.DEV.Utility.resources.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\pl\Ax.DEV.Utility.resources.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.csprojResolveAssemblyReference.cache
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20031.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20032.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20033.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20034.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20035.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20061.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20062.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30234P1.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20212.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20213.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20411.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20428.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20431.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20511.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30036.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30222.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30223.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30234.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30411.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30418.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30431.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30511.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA40034.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA40114.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA50418.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA50421.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.Properties.Resources.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20214.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30224.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA21411.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA21412.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA31431.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20036.resources
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.csproj.GenerateResource.Cache
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.dll.licenses
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.dll
+D:\SRCS\Git\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.pdb
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.SIS.QA.QA01.UI.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.SIS.QA.QA01.UI.pdb
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.DEV.Utility.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.SIS.QA.QA09.UI.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Chart.2.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1FlexGrid.2.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Input.2.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1List.2.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\HE.Framework.Core.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\HE.Framework.ServiceModel.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\HE.Framework.Windows.Forms.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\OneCorLib.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\TheOne.ServiceModel.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\TheOne.Windows.Forms.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Chart3D.2.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Command.2.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Newtonsoft.Json.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\HE.ComponentOne.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\TheOne.UIModel.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\itextsharp.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.SIS.CM.UI.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.DEV.Utility.pdb
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.SIS.QA.QA09.UI.pdb
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Chart.2.xml
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1FlexGrid.2.xml
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Input.2.xml
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1List.2.xml
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Chart3D.2.xml
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Command.2.xml
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.SIS.CM.UI.pdb
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\en\Ax.DEV.Utility.resources.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\pl\Ax.DEV.Utility.resources.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20031.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20032.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20033.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20034.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20035.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20061.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20062.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30234P1.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20212.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20213.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20411.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20428.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20431.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20511.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30036.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30222.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30223.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30234.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30411.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30418.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30431.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30511.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA40034.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA40114.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA50418.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA50421.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.Properties.Resources.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20214.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30224.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA21411.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA21412.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA31431.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20036.resources
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.csproj.GenerateResource.Cache
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.dll.licenses
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.dll
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.pdb
+E:\drive F\SRCS\GIT\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.csprojResolveAssemblyReference.cache
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.SIS.QA.QA01.UI.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.SIS.QA.QA01.UI.pdb
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.DEV.Utility.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.SIS.QA.QA09.UI.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Chart.2.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1FlexGrid.2.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Input.2.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1List.2.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\HE.Framework.Core.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\HE.Framework.ServiceModel.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\HE.Framework.Windows.Forms.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\OneCorLib.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\TheOne.ServiceModel.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\TheOne.Windows.Forms.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Command.2.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\TheOne.UIModel.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\itextsharp.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Chart3D.2.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\HE.ComponentOne.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.SIS.CM.UI.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.DEV.Utility.pdb
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.SIS.QA.QA09.UI.pdb
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Chart.2.xml
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1FlexGrid.2.xml
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Input.2.xml
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1List.2.xml
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Command.2.xml
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Chart3D.2.xml
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.SIS.CM.UI.pdb
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\en\Ax.DEV.Utility.resources.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\pl\Ax.DEV.Utility.resources.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20031.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20032.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20033.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20034.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20035.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20061.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20062.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30234P1.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20212.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20213.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20411.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20428.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20431.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20511.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30036.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30222.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30223.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30234.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30411.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30418.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30431.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30511.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA40034.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA40114.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA50418.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA50421.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.Properties.Resources.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20214.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30224.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA21411.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA21412.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA31431.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20036.resources
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.csproj.GenerateResource.cache
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.dll.licenses
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.dll
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.pdb
+C:\Users\SEOYON\Documents\GitHub\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.csprojResolveAssemblyReference.cache
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.SIS.QA.QA01.UI.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.SIS.QA.QA01.UI.pdb
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.DEV.Utility.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.SIS.QA.QA09.UI.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Chart.2.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1FlexGrid.2.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Input.2.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1List.2.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\HE.Framework.Core.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\HE.Framework.ServiceModel.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\HE.Framework.Windows.Forms.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\OneCorLib.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\TheOne.ServiceModel.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\TheOne.Windows.Forms.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Chart3D.2.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Command.2.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Newtonsoft.Json.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\HE.ComponentOne.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\TheOne.UIModel.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\itextsharp.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.SIS.CM.UI.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.DEV.Utility.pdb
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.SIS.QA.QA09.UI.pdb
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Chart.2.xml
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1FlexGrid.2.xml
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Input.2.xml
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1List.2.xml
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Chart3D.2.xml
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Command.2.xml
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.SIS.CM.UI.pdb
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\en\Ax.DEV.Utility.resources.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\pl\Ax.DEV.Utility.resources.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20031.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20032.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20033.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20034.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20035.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20061.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20062.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30234P1.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20212.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20213.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20411.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20428.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20431.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20511.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30036.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30222.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30223.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30234.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30411.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30418.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30431.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30511.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA40034.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA40114.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA50418.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA50421.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.Properties.Resources.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20214.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30224.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA21411.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA21412.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA31431.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20036.resources
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.csproj.GenerateResource.Cache
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.dll.licenses
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.dll
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.pdb
+D:\1. 개발소스\2. 해외법인\03. India\Pune\All_India_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.csprojResolveAssemblyReference.cache
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.SIS.QA.QA01.UI.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.SIS.QA.QA01.UI.pdb
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.DEV.Utility.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.SIS.QA.QA09.UI.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Chart.2.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1FlexGrid.2.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Input.2.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1List.2.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\HE.Framework.Core.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\HE.Framework.ServiceModel.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\HE.Framework.Windows.Forms.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\OneCorLib.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\TheOne.ServiceModel.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\TheOne.Windows.Forms.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Chart3D.2.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Command.2.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Newtonsoft.Json.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\HE.ComponentOne.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\TheOne.UIModel.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\itextsharp.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.SIS.CM.UI.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.DEV.Utility.pdb
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.SIS.QA.QA09.UI.pdb
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Chart.2.xml
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1FlexGrid.2.xml
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Input.2.xml
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1List.2.xml
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Chart3D.2.xml
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\C1.Win.C1Command.2.xml
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\Ax.SIS.CM.UI.pdb
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\en\Ax.DEV.Utility.resources.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\bin\Debug\pl\Ax.DEV.Utility.resources.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.csprojResolveAssemblyReference.cache
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20031.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20032.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20033.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20034.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20035.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20061.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20062.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30234P1.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20212.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20213.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20411.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20428.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20431.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20511.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30036.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30222.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30223.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30234.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30411.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30418.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30431.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30511.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA40034.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA40114.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA50418.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA50421.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.Properties.Resources.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20214.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA30224.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA21411.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA21412.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA31431.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.QA20036.resources
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.csproj.GenerateResource.Cache
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.dll.licenses
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.dll
+D:\Srcs\PUNE\PUNE_SIS\Ax.SIS\QA\UI\Ax.SIS.QA.QA01.UI\obj\Debug\Ax.SIS.QA.QA01.UI.pdb

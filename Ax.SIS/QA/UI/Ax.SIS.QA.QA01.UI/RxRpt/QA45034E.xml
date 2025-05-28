@@ -1,0 +1,207 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:Locale="ko-KR">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="ko-KR" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="CLASSNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VINCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MGRTNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MGRTNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <CLASSNM>도장품 MASTER COLOR</CLASSNM>
+    <VINCD>RBK</VINCD>
+    <MGRTNM>SF-10</MGRTNM>
+    <MGRTNO>F-1-1</MGRTNO>
+  </DATA>
+  <DATA>
+    <CLASSNM>도장품 MASTER COLOR</CLASSNM>
+    <VINCD>RBK</VINCD>
+    <MGRTNM>SF-10</MGRTNM>
+    <MGRTNO>F-1-2</MGRTNO>
+  </DATA>
+  <DATA>
+    <CLASSNM>도장품 MASTER COLOR</CLASSNM>
+    <VINCD>RBK</VINCD>
+    <MGRTNM>SF-10</MGRTNM>
+    <MGRTNO>F-1-3</MGRTNO>
+  </DATA>
+  <DATA>
+    <CLASSNM>도장품 MASTER COLOR</CLASSNM>
+    <VINCD>RBK</VINCD>
+    <MGRTNM>UT578A</MGRTNM>
+    <MGRTNO>F-1-4</MGRTNO>
+  </DATA>
+  <DATA>
+    <CLASSNM>도장품 MASTER COLOR</CLASSNM>
+    <VINCD>RBK</VINCD>
+    <MGRTNM>JZ802</MGRTNM>
+    <MGRTNO>F-1-5</MGRTNO>
+  </DATA>
+  <DATA>
+    <CLASSNM>도장품 MASTER COLOR</CLASSNM>
+    <VINCD>RBK</VINCD>
+    <MGRTNM>UT578A</MGRTNM>
+    <MGRTNO>F-1-6</MGRTNO>
+  </DATA>
+  <DATA>
+    <CLASSNM>도장품 MASTER COLOR</CLASSNM>
+    <VINCD>RBK</VINCD>
+    <MGRTNM>UT578A</MGRTNM>
+    <MGRTNO>F-1-7</MGRTNO>
+  </DATA>
+  <DATA>
+    <CLASSNM>도장품 MASTER COLOR</CLASSNM>
+    <VINCD>RBK</VINCD>
+    <MGRTNM>UT578A</MGRTNM>
+    <MGRTNO>F-1-8</MGRTNO>
+  </DATA>
+  <DATA>
+    <CLASSNM>도장품 MASTER COLOR</CLASSNM>
+    <VINCD>RBK</VINCD>
+    <MGRTNM>SW BEZEL</MGRTNM>
+    <MGRTNO>F-1-9</MGRTNO>
+  </DATA>
+  <DATA>
+    <CLASSNM>도장품 MASTER COLOR</CLASSNM>
+    <VINCD>DM</VINCD>
+    <MGRTNM>RESOTHANE HT#500</MGRTNM>
+    <MGRTNO>F-2-1</MGRTNO>
+  </DATA>
+  <DATA>
+    <CLASSNM>도장품 MASTER COLOR</CLASSNM>
+    <VINCD>DM</VINCD>
+    <MGRTNM>RESOTHANE-HT#500</MGRTNM>
+    <MGRTNO>F-2-2</MGRTNO>
+  </DATA>
+  <DATA>
+    <CLASSNM>도장품 MASTER COLOR</CLASSNM>
+    <VINCD>GD</VINCD>
+    <MGRTNM>SF-10</MGRTNM>
+    <MGRTNO>F-3-4</MGRTNO>
+  </DATA>
+  <DATA>
+    <CLASSNM>도장품 MASTER COLOR</CLASSNM>
+    <VINCD>GD</VINCD>
+    <MGRTNM>SOLID</MGRTNM>
+    <MGRTNO>F-3-5</MGRTNO>
+  </DATA>
+  <DATA>
+    <CLASSNM>도장품 MASTER COLOR</CLASSNM>
+    <VINCD>GD</VINCD>
+    <MGRTNM>GD 메탈한도</MGRTNM>
+    <MGRTNO>F-3-6</MGRTNO>
+  </DATA>
+  <DATA>
+    <CLASSNM>도장품 MASTER COLOR</CLASSNM>
+    <VINCD>AD</VINCD>
+    <MGRTNM>SOFT PAINT</MGRTNM>
+    <MGRTNO>F-3-7</MGRTNO>
+  </DATA>
+  <DATA>
+    <CLASSNM>도장품 MASTER COLOR</CLASSNM>
+    <VINCD>AD</VINCD>
+    <MGRTNM>SOFT PAINT</MGRTNM>
+    <MGRTNO>F-3-8</MGRTNO>
+  </DATA>
+  <DATA>
+    <CLASSNM>도장품 MASTER COLOR</CLASSNM>
+    <VINCD>AD</VINCD>
+    <MGRTNM>SOFT PAINT</MGRTNM>
+    <MGRTNO>F-3-9</MGRTNO>
+  </DATA>
+  <DATA>
+    <CLASSNM>도장품 MASTER COLOR</CLASSNM>
+    <VINCD>AE</VINCD>
+    <MGRTNM>metallic</MGRTNM>
+    <MGRTNO>F-3-10</MGRTNO>
+  </DATA>
+  <DATA>
+    <CLASSNM>도장품 MASTER COLOR</CLASSNM>
+    <VINCD>PD</VINCD>
+    <MGRTNM>Metallic PAINT</MGRTNM>
+    <MGRTNO>F-3-11</MGRTNO>
+  </DATA>
+  <DATA>
+    <CLASSNM>도장품 MASTER COLOR</CLASSNM>
+    <VINCD>PD</VINCD>
+    <MGRTNM>Metallic PAINT</MGRTNM>
+    <MGRTNO>F-3-12</MGRTNO>
+  </DATA>
+  <DATA>
+    <CLASSNM>도장품 MASTER COLOR</CLASSNM>
+    <VINCD>NC</VINCD>
+    <MGRTNM>RESOTHANE-HT#500</MGRTNM>
+    <MGRTNO>F-4-1</MGRTNO>
+  </DATA>
+  <DATA>
+    <CLASSNM>도장품 MASTER COLOR</CLASSNM>
+    <VINCD>DH</VINCD>
+    <MGRTNM>WOOD GRAIN</MGRTNM>
+    <MGRTNO>F-5-7</MGRTNO>
+  </DATA>
+  <DATA>
+    <CLASSNM>도장품 MASTER COLOR</CLASSNM>
+    <VINCD>DH</VINCD>
+    <MGRTNM>WOOD GRAIN</MGRTNM>
+    <MGRTNO>F-5-8</MGRTNO>
+  </DATA>
+  <DATA>
+    <CLASSNM>도장품 MASTER COLOR</CLASSNM>
+    <VINCD>DH</VINCD>
+    <MGRTNM>WOOD GRAIN</MGRTNM>
+    <MGRTNO>F-5-9</MGRTNO>
+  </DATA>
+  <DATA>
+    <CLASSNM>도장품 MASTER COLOR</CLASSNM>
+    <VINCD>DH</VINCD>
+    <MGRTNM>WOOD GRAIN</MGRTNM>
+    <MGRTNO>F-5-10</MGRTNO>
+  </DATA>
+  <DATA>
+    <CLASSNM>도장품 MASTER COLOR</CLASSNM>
+    <VINCD>DH</VINCD>
+    <MGRTNM>WOOD GRAIN</MGRTNM>
+    <MGRTNO>F-5-11</MGRTNO>
+  </DATA>
+  <DATA>
+    <CLASSNM>도장품 MASTER COLOR</CLASSNM>
+    <VINCD>DH</VINCD>
+    <MGRTNM>DH 도금한도</MGRTNM>
+    <MGRTNO>F-5-12</MGRTNO>
+  </DATA>
+  <DATA>
+    <CLASSNM>도장품 MASTER COLOR</CLASSNM>
+    <VINCD>HI</VINCD>
+    <MGRTNM>Metalic PAINT</MGRTNM>
+    <MGRTNO>F-5-13</MGRTNO>
+  </DATA>
+  <DATA>
+    <CLASSNM>도장품 MASTER COLOR</CLASSNM>
+    <VINCD>HI</VINCD>
+    <MGRTNM>Metalic PAINT</MGRTNM>
+    <MGRTNO>F-5-14</MGRTNO>
+  </DATA>
+  <DATA>
+    <CLASSNM>도장품 MASTER COLOR</CLASSNM>
+    <VINCD>HI</VINCD>
+    <MGRTNM>Metalic PAINT</MGRTNM>
+    <MGRTNO>F-5-15</MGRTNO>
+  </DATA>
+  <DATA>
+    <CLASSNM>도장품 MASTER COLOR</CLASSNM>
+    <VINCD>HI</VINCD>
+    <MGRTNM>Metalic PAINT</MGRTNM>
+    <MGRTNO>F-5-16</MGRTNO>
+  </DATA>
+</NewDataSet>

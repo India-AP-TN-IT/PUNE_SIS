@@ -1,0 +1,1594 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2A240701-DF93-49E9-8ECC-EF2CAD616CE5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ax.SIS.PD.UI</RootNamespace>
+    <AssemblyName>Ax.SIS.PD.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\..\..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="C1.Win.C1Chart.2, Version=2.0.20101.20060, Culture=neutral, PublicKeyToken=a22e16972c085838, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1Chart.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Chart3D.2, Version=2.0.20101.20060, Culture=neutral, PublicKeyToken=a22e16972c085838, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1Chart3D.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1FlexGrid.2, Version=2.6.20101.528, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1FlexGrid.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1FlexGrid.Classic.2, Version=2.6.20101.528, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL" />
+    <Reference Include="C1.Win.C1Gauge.2, Version=2.0.20101.24, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1Gauge.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Input.2, Version=2.0.20101.33244, Culture=neutral, PublicKeyToken=7e7ff60f0c214f9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1Input.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1List.2, Version=2.1.20101.165, Culture=neutral, PublicKeyToken=6b24f8f981dbd7bc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1List.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Ribbon.2, Version=2.0.20101.233, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1Ribbon.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Schedule.2, Version=2.0.20101.114, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Ax.DEV.Environment\C1Assemblies\C1.Win.C1Schedule.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DataMatrix.net">
+      <HintPath>..\..\..\..\..\..\..\HE_MES\HE_MES\Dlls\DataMatrix.net.dll</HintPath>
+    </Reference>
+    <Reference Include="HE.Framework.Core">
+      <HintPath>..\..\..\..\Ax.DEV.Environment\Assemblies\HE.Framework.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="HE.Framework.ServiceModel">
+      <HintPath>..\..\..\..\Ax.DEV.Environment\Assemblies\HE.Framework.ServiceModel.dll</HintPath>
+    </Reference>
+    <Reference Include="HE.Framework.Windows.Forms">
+      <HintPath>..\..\..\..\Ax.DEV.Environment\Assemblies\HE.Framework.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>OfficeDLL\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <HintPath>OfficeDLL\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Office, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>OfficeDLL\Office.dll</HintPath>
+    </Reference>
+    <Reference Include="OneCorLib">
+      <HintPath>..\..\..\..\Ax.DEV.Environment\Assemblies\OneCorLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TheOne.ServiceModel">
+      <HintPath>..\..\..\..\Ax.DEV.Environment\Assemblies\TheOne.ServiceModel.dll</HintPath>
+    </Reference>
+    <Reference Include="TheOne.Windows.Forms">
+      <HintPath>..\..\..\..\Ax.DEV.Environment\Assemblies\TheOne.Windows.Forms.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PD20170.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD20170.Designer.cs">
+      <DependentUpon>PD20170.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZPD20050.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ZPD20050.Designer.cs">
+      <DependentUpon>ZPD20050.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD20060.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD20060.Designer.cs">
+      <DependentUpon>PD20060.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD20412.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD20412.Designer.cs">
+      <DependentUpon>PD20412.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD30120_DLG.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD30120_DLG.Designer.cs">
+      <DependentUpon>PD30120_DLG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD30120.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD30120.Designer.cs">
+      <DependentUpon>PD30120.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD30125.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD30125.Designer.cs">
+      <DependentUpon>PD30125.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD31380.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD31380.designer.cs">
+      <DependentUpon>PD31380.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD31370.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD31370.designer.cs">
+      <DependentUpon>PD31370.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD50020.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD50020.designer.cs">
+      <DependentUpon>PD50020.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD30202.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD30202.designer.cs">
+      <DependentUpon>PD30202.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD20120.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD20120.designer.cs">
+      <DependentUpon>PD20120.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD25221.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD25221.designer.cs">
+      <DependentUpon>PD25221.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD25222.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD25222.designer.cs">
+      <DependentUpon>PD25222.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD25311.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD25311.designer.cs">
+      <DependentUpon>PD25311.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD25312.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD25312.designer.cs">
+      <DependentUpon>PD25312.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD25420.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD25420.designer.cs">
+      <DependentUpon>PD25420.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD30010P1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD30010P1.designer.cs">
+      <DependentUpon>PD30010P1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD31360.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD31360.designer.cs">
+      <DependentUpon>PD31360.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD50010.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD50010.Designer.cs">
+      <DependentUpon>PD50010.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD31030 .cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD31030 .designer.cs">
+      <DependentUpon>PD31030 .cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD22210.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD22210.designer.cs">
+      <DependentUpon>PD22210.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD20501.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD20501.Designer.cs">
+      <DependentUpon>PD20501.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD20030.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD20030.Designer.cs">
+      <DependentUpon>PD20030.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD20150.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD20150.Designer.cs">
+      <DependentUpon>PD20150.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD20202.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD20202.designer.cs">
+      <DependentUpon>PD20202.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD20420.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD20420.Designer.cs">
+      <DependentUpon>PD20420.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD20421.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD20421.Designer.cs">
+      <DependentUpon>PD20421.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD31350.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD31350.designer.cs">
+      <DependentUpon>PD31350.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD33120.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD33120.designer.cs">
+      <DependentUpon>PD33120.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD40475.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD40475.Designer.cs">
+      <DependentUpon>PD40475.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD40495.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD40495.Designer.cs">
+      <DependentUpon>PD40495.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD40470.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD40470.Designer.cs">
+      <DependentUpon>PD40470.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD40490.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD40490.Designer.cs">
+      <DependentUpon>PD40490.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD201C0.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD201C0.Designer.cs">
+      <DependentUpon>PD201C0.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD40151.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD40151.designer.cs">
+      <DependentUpon>PD40151.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD40480.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD40480.Designer.cs">
+      <DependentUpon>PD40480.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD40420.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD40420.designer.cs">
+      <DependentUpon>PD40420.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD40421.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD40421.Designer.cs">
+      <DependentUpon>PD40421.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD50025.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD50025.Designer.cs">
+      <DependentUpon>PD50025.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD50061.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD50061.designer.cs">
+      <DependentUpon>PD50061.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD60050.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD60050.designer.cs">
+      <DependentUpon>PD60050.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD60060.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD60060.Designer.cs">
+      <DependentUpon>PD60060.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD70010.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD70010.designer.cs">
+      <DependentUpon>PD70010.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD70030.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD70030.Designer.cs">
+      <DependentUpon>PD70030.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD80010.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD80010.Designer.cs">
+      <DependentUpon>PD80010.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD80020.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD80020.designer.cs">
+      <DependentUpon>PD80020.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD80030.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD80030.designer.cs">
+      <DependentUpon>PD80030.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD20410.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD20410.Designer.cs">
+      <DependentUpon>PD20410.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD20420P1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD20420P1.Designer.cs">
+      <DependentUpon>PD20420P1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD31110.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD31110.Designer.cs">
+      <DependentUpon>PD31110.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD40170.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD40170.designer.cs">
+      <DependentUpon>PD40170.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD20201.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD20201.designer.cs">
+      <DependentUpon>PD20201.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD30201.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD30201.designer.cs">
+      <DependentUpon>PD30201.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD20101.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD20101.designer.cs">
+      <DependentUpon>PD20101.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD20102.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD20102.designer.cs">
+      <DependentUpon>PD20102.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD30101.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD30101.designer.cs">
+      <DependentUpon>PD30101.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD34110.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD34110.designer.cs">
+      <DependentUpon>PD34110.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD24130.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD24130.designer.cs">
+      <DependentUpon>PD24130.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD24120.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD24120.designer.cs">
+      <DependentUpon>PD24120.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD44110.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD44110.designer.cs">
+      <DependentUpon>PD44110.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD23110.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD23110.designer.cs">
+      <DependentUpon>PD23110.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD33110.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD33110.designer.cs">
+      <DependentUpon>PD33110.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD25130.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD25130.designer.cs">
+      <DependentUpon>PD25130.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD25310.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD25310.designer.cs">
+      <DependentUpon>PD25310.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD35330.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD35330.designer.cs">
+      <DependentUpon>PD35330.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD35210.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD35210.designer.cs">
+      <DependentUpon>PD35210.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD25240.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD25240.designer.cs">
+      <DependentUpon>PD25240.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD25240P1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD25240P1.designer.cs">
+      <DependentUpon>PD25240P1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD35220.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD35220.designer.cs">
+      <DependentUpon>PD35220.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD25220.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD25220.designer.cs">
+      <DependentUpon>PD25220.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD25220P1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD25220P1.designer.cs">
+      <DependentUpon>PD25220P1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD20041.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD20041.designer.cs">
+      <DependentUpon>PD20041.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD20042.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD20042.designer.cs">
+      <DependentUpon>PD20042.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD20042P1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD20042P1.designer.cs">
+      <DependentUpon>PD20042P1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD20042P2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD20042P2.designer.cs">
+      <DependentUpon>PD20042P2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD20043.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD20043.designer.cs">
+      <DependentUpon>PD20043.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD25210.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD25210.designer.cs">
+      <DependentUpon>PD25210.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD30050.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD30050.designer.cs">
+      <DependentUpon>PD30050.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD64110.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD64110.designer.cs">
+      <DependentUpon>PD64110.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD20034.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD20034.designer.cs">
+      <DependentUpon>PD20034.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD31340.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD31340.designer.cs">
+      <DependentUpon>PD31340.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD25140.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD25140.designer.cs">
+      <DependentUpon>PD25140.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD25410.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD25410.designer.cs">
+      <DependentUpon>PD25410.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PD60020.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD60020.Designer.cs">
+      <DependentUpon>PD60020.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD40340.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD40340.Designer.cs">
+      <DependentUpon>PD40340.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD60030.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD60030.Designer.cs">
+      <DependentUpon>PD60030.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD60040.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD60040.Designer.cs">
+      <DependentUpon>PD60040.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD40310.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD40310.Designer.cs">
+      <DependentUpon>PD40310.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD40370.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD40370.Designer.cs">
+      <DependentUpon>PD40370.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD40010.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD40010.Designer.cs">
+      <DependentUpon>PD40010.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD40120.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD40120.Designer.cs">
+      <DependentUpon>PD40120.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD20330.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD20330.Designer.cs">
+      <DependentUpon>PD20330.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD20350.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD20350.Designer.cs">
+      <DependentUpon>PD20350.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD40020.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD40020.Designer.cs">
+      <DependentUpon>PD40020.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD20010.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD20010.Designer.cs">
+      <DependentUpon>PD20010.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD20020.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD20020.Designer.cs">
+      <DependentUpon>PD20020.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD20190.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD20190.Designer.cs">
+      <DependentUpon>PD20190.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD20140.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD20140.Designer.cs">
+      <DependentUpon>PD20140.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD20130.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD20130.Designer.cs">
+      <DependentUpon>PD20130.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD30010.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD30010.Designer.cs">
+      <DependentUpon>PD30010.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD30030.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD30030.Designer.cs">
+      <DependentUpon>PD30030.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD60010.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD60010.Designer.cs">
+      <DependentUpon>PD60010.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD40160.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD40160.Designer.cs">
+      <DependentUpon>PD40160.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD30020.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD30020.Designer.cs">
+      <DependentUpon>PD30020.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD40150.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD40150.Designer.cs">
+      <DependentUpon>PD40150.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD40350.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD40350.Designer.cs">
+      <DependentUpon>PD40350.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD40110.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD40110.Designer.cs">
+      <DependentUpon>PD40110.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD40130.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD40130.Designer.cs">
+      <DependentUpon>PD40130.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD30040.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD30040.Designer.cs">
+      <DependentUpon>PD30040.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD20160.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD20160.Designer.cs">
+      <DependentUpon>PD20160.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD20320.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD20320.Designer.cs">
+      <DependentUpon>PD20320.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD20340.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD20340.Designer.cs">
+      <DependentUpon>PD20340.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD20360.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD20360.Designer.cs">
+      <DependentUpon>PD20360.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD40380.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD40380.Designer.cs">
+      <DependentUpon>PD40380.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD40390.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD40390.Designer.cs">
+      <DependentUpon>PD40390.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD201A0.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD201A0.Designer.cs">
+      <DependentUpon>PD201A0.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD40400.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD40400.Designer.cs">
+      <DependentUpon>PD40400.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD40410.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD40410.Designer.cs">
+      <DependentUpon>PD40410.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD50130.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD50130.Designer.cs">
+      <DependentUpon>PD50130.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PDFTP.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PDFTP.Designer.cs">
+      <DependentUpon>PDFTP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD40510.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD40510.Designer.cs">
+      <DependentUpon>PD40510.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD40520.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD40520.Designer.cs">
+      <DependentUpon>PD40520.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD20115.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD20115.Designer.cs">
+      <DependentUpon>PD20115.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD20165.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD20165.Designer.cs">
+      <DependentUpon>PD20165.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD40430.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD40430.Designer.cs">
+      <DependentUpon>PD40430.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD40440.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD40440.Designer.cs">
+      <DependentUpon>PD40440.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD201D0.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD201D0.Designer.cs">
+      <DependentUpon>PD201D0.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD201D1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD201D1.Designer.cs">
+      <DependentUpon>PD201D1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD40500.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD40500.Designer.cs">
+      <DependentUpon>PD40500.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD201D2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD201D2.Designer.cs">
+      <DependentUpon>PD201D2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD40460.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD40460.Designer.cs">
+      <DependentUpon>PD40460.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="PD70020.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD70020.Designer.cs">
+      <DependentUpon>PD70020.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD23111.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD23111.designer.cs">
+      <DependentUpon>PD23111.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD30210.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD30210.designer.cs">
+      <DependentUpon>PD30210.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD30230P1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD30230P1.designer.cs">
+      <DependentUpon>PD30230P1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD30240.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD30240.designer.cs">
+      <DependentUpon>PD30240.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD31350P1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD31350P1.designer.cs">
+      <DependentUpon>PD31350P1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD30250.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD30250.designer.cs">
+      <DependentUpon>PD30250.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD64120.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD64120.designer.cs">
+      <DependentUpon>PD64120.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD35340.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD35340.designer.cs">
+      <DependentUpon>PD35340.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD80040.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD80040.Designer.cs">
+      <DependentUpon>PD80040.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD30110.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD30110.Designer.cs">
+      <DependentUpon>PD30110.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD20050.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PD20050.Designer.cs">
+      <DependentUpon>PD20050.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZPD23111.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ZPD23111.designer.cs">
+      <DependentUpon>ZPD23111.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Ax.DEV.Utility\Ax.DEV.Utility\Ax.DEV.Utility.csproj">
+      <Project>{9AEFCDEC-4C84-4D60-8FB5-79A3B67287C1}</Project>
+      <Name>Ax.DEV.Utility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\CM\UI\Ax.SIS.CM.UI\Ax.SIS.CM.UI.csproj">
+      <Project>{701e3ce9-7322-4e0d-a5c5-ca253a955d07}</Project>
+      <Name>Ax.SIS.CM.UI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="PD20170.resx">
+      <DependentUpon>PD20170.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZPD20050.resx">
+      <DependentUpon>ZPD20050.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD20060.resx">
+      <DependentUpon>PD20060.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD20412.resx">
+      <DependentUpon>PD20412.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD30120_DLG.resx">
+      <DependentUpon>PD30120_DLG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD30120.resx">
+      <DependentUpon>PD30120.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD30125.resx">
+      <DependentUpon>PD30125.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD31380.resx">
+      <DependentUpon>PD31380.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD31370.resx">
+      <DependentUpon>PD31370.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD50020.resx">
+      <DependentUpon>PD50020.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD30202.resx">
+      <DependentUpon>PD30202.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD20120.resx">
+      <DependentUpon>PD20120.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD25221.resx">
+      <DependentUpon>PD25221.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD25222.resx">
+      <DependentUpon>PD25222.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD25311.resx">
+      <DependentUpon>PD25311.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD25312.resx">
+      <DependentUpon>PD25312.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD31360.resx">
+      <DependentUpon>PD31360.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD50010.resx">
+      <DependentUpon>PD50010.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD50025.resx">
+      <DependentUpon>PD50025.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="PD25420.resx">
+      <DependentUpon>PD25420.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD30010P1.resx">
+      <DependentUpon>PD30010P1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD31030 .resx">
+      <DependentUpon>PD31030 .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD22210.resx">
+      <DependentUpon>PD22210.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD20501.resx">
+      <DependentUpon>PD20501.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD20030.resx">
+      <DependentUpon>PD20030.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD20150.resx">
+      <DependentUpon>PD20150.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD20202.resx">
+      <DependentUpon>PD20202.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD20420.resx">
+      <DependentUpon>PD20420.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD20421.resx">
+      <DependentUpon>PD20421.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD31350.resx">
+      <DependentUpon>PD31350.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD33120.resx">
+      <DependentUpon>PD33120.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD40475.resx">
+      <DependentUpon>PD40475.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD40495.resx">
+      <DependentUpon>PD40495.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD40470.resx">
+      <DependentUpon>PD40470.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD40490.resx">
+      <DependentUpon>PD40490.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD201C0.resx">
+      <DependentUpon>PD201C0.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD40151.resx">
+      <DependentUpon>PD40151.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD40480.resx">
+      <DependentUpon>PD40480.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD40420.resx">
+      <DependentUpon>PD40420.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD40421.resx">
+      <DependentUpon>PD40421.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD50061.resx">
+      <DependentUpon>PD50061.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD60020.resx">
+      <DependentUpon>PD60020.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD40340.resx">
+      <DependentUpon>PD40340.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD60030.resx">
+      <DependentUpon>PD60030.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD60040.resx">
+      <DependentUpon>PD60040.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD40310.resx">
+      <DependentUpon>PD40310.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD40370.resx">
+      <DependentUpon>PD40370.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD40010.resx">
+      <DependentUpon>PD40010.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD40120.resx">
+      <DependentUpon>PD40120.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD20330.resx">
+      <DependentUpon>PD20330.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD20350.resx">
+      <DependentUpon>PD20350.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD40020.resx">
+      <DependentUpon>PD40020.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD20010.resx">
+      <DependentUpon>PD20010.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD20020.resx">
+      <DependentUpon>PD20020.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD20190.resx">
+      <DependentUpon>PD20190.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD20140.resx">
+      <DependentUpon>PD20140.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD20130.resx">
+      <DependentUpon>PD20130.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD30010.resx">
+      <DependentUpon>PD30010.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD30030.resx">
+      <DependentUpon>PD30030.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD60050.resx">
+      <DependentUpon>PD60050.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD60060.resx">
+      <DependentUpon>PD60060.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD70010.resx">
+      <DependentUpon>PD70010.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD70030.resx">
+      <DependentUpon>PD70030.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD80010.resx">
+      <DependentUpon>PD80010.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD80020.resx">
+      <DependentUpon>PD80020.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD80030.resx">
+      <DependentUpon>PD80030.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD20410.resx">
+      <DependentUpon>PD20410.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD20420P1.resx">
+      <DependentUpon>PD20420P1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD31110.resx">
+      <DependentUpon>PD31110.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD40170.resx">
+      <DependentUpon>PD40170.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD20201.resx">
+      <DependentUpon>PD20201.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD30201.resx">
+      <DependentUpon>PD30201.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD20101.resx">
+      <DependentUpon>PD20101.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD20102.resx">
+      <DependentUpon>PD20102.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD30101.resx">
+      <DependentUpon>PD30101.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD34110.resx">
+      <DependentUpon>PD34110.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD24130.resx">
+      <DependentUpon>PD24130.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD24120.resx">
+      <DependentUpon>PD24120.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD44110.resx">
+      <DependentUpon>PD44110.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD23110.resx">
+      <DependentUpon>PD23110.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD33110.resx">
+      <DependentUpon>PD33110.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD25130.resx">
+      <DependentUpon>PD25130.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD25310.resx">
+      <DependentUpon>PD25310.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD35330.resx">
+      <DependentUpon>PD35330.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD35210.resx">
+      <DependentUpon>PD35210.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD25240.resx">
+      <DependentUpon>PD25240.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD25240P1.resx">
+      <DependentUpon>PD25240P1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD35220.resx">
+      <DependentUpon>PD35220.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD25220.resx">
+      <DependentUpon>PD25220.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD25220P1.resx">
+      <DependentUpon>PD25220P1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD20041.resx">
+      <DependentUpon>PD20041.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD20042.resx">
+      <DependentUpon>PD20042.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD20042P1.resx">
+      <DependentUpon>PD20042P1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD20042P2.resx">
+      <DependentUpon>PD20042P2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD20043.resx">
+      <DependentUpon>PD20043.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD25210.resx">
+      <DependentUpon>PD25210.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD30050.resx">
+      <DependentUpon>PD30050.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD60010.resx">
+      <DependentUpon>PD60010.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD40160.resx">
+      <DependentUpon>PD40160.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD30020.resx">
+      <DependentUpon>PD30020.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD40150.resx">
+      <DependentUpon>PD40150.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD40350.resx">
+      <DependentUpon>PD40350.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD40110.resx">
+      <DependentUpon>PD40110.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD40130.resx">
+      <DependentUpon>PD40130.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD30040.resx">
+      <DependentUpon>PD30040.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD20160.resx">
+      <DependentUpon>PD20160.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD20320.resx">
+      <DependentUpon>PD20320.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD20340.resx">
+      <DependentUpon>PD20340.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD20360.resx">
+      <DependentUpon>PD20360.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD40380.resx">
+      <DependentUpon>PD40380.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD40390.resx">
+      <DependentUpon>PD40390.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD201A0.resx">
+      <DependentUpon>PD201A0.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD40400.resx">
+      <DependentUpon>PD40400.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD40410.resx">
+      <DependentUpon>PD40410.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD50130.resx">
+      <DependentUpon>PD50130.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PDFTP.resx">
+      <DependentUpon>PDFTP.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD40510.resx">
+      <DependentUpon>PD40510.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD40520.resx">
+      <DependentUpon>PD40520.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD20115.resx">
+      <DependentUpon>PD20115.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD20165.resx">
+      <DependentUpon>PD20165.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD40430.resx">
+      <DependentUpon>PD40430.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD40440.resx">
+      <DependentUpon>PD40440.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD201D0.resx">
+      <DependentUpon>PD201D0.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD201D1.resx">
+      <DependentUpon>PD201D1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD40500.resx">
+      <DependentUpon>PD40500.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD201D2.resx">
+      <DependentUpon>PD201D2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD40460.resx">
+      <DependentUpon>PD40460.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD64110.resx">
+      <DependentUpon>PD64110.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD20034.resx">
+      <DependentUpon>PD20034.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD31340.resx">
+      <DependentUpon>PD31340.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD25140.resx">
+      <DependentUpon>PD25140.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD25410.resx">
+      <DependentUpon>PD25410.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD23111.resx">
+      <DependentUpon>PD23111.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD30210.resx">
+      <DependentUpon>PD30210.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD30230P1.resx">
+      <DependentUpon>PD30230P1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD30240.resx">
+      <DependentUpon>PD30240.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD31350P1.resx">
+      <DependentUpon>PD31350P1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD30250.resx">
+      <DependentUpon>PD30250.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD64120.resx">
+      <DependentUpon>PD64120.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD35340.resx">
+      <DependentUpon>PD35340.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD80040.resx">
+      <DependentUpon>PD80040.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD30110.resx">
+      <DependentUpon>PD30110.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD20050.resx">
+      <DependentUpon>PD20050.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZPD23111.resx">
+      <DependentUpon>ZPD23111.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Resources\LED매칭일괄등록.xlsx" />
+    <None Include="Resources\RptPressInjection.xlsx" />
+    <EmbeddedResource Include="PD70020.resx">
+      <DependentUpon>PD70020.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RxRpt\PD40201.reb" />
+    <EmbeddedResource Include="RxRpt\PD40103.reb" />
+    <EmbeddedResource Include="RxRpt\PD44111.reb" />
+    <EmbeddedResource Include="RxRpt\PD44112.reb" />
+    <EmbeddedResource Include="RxRpt\KdPkPackA4P.reb" />
+    <EmbeddedResource Include="RxRpt\KdPoDeliPackP.reb" />
+    <EmbeddedResource Include="RxRpt\PD30250.reb" />
+    <EmbeddedResource Include="RxRpt\PD44111E.reb" />
+    <None Include="Resources\제조품번일괄등록.xlsx" />
+    <EmbeddedResource Include="RxRpt\PD30120.reb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="OfficeDLL\itextsharp.dll" />
+    <Content Include="OfficeDLL\Microsoft.Office.Interop.Excel.dll" />
+    <Content Include="OfficeDLL\Office.dll" />
+    <Content Include="RxRpt\PartLabel.xml" />
+    <Content Include="RxRpt\PD30120.xml" />
+    <Content Include="RxRpt\PD30250.xml" />
+    <Content Include="RxRpt\PD40103.xml" />
+    <Content Include="RxRpt\PD40201.xml" />
+    <Content Include="RxRpt\PD44111.xml" />
+    <Content Include="RxRpt\PD44112.xml" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>Always</RunPostBuildEvent>
+  </PropertyGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+  </Target>
+  <PropertyGroup>
+    <PreBuildEvent>if exist "$(TargetPath).locked" del "$(TargetPath).locked"
+if exist "$(TargetPath)" if not exist "$(TargetPath).locked" move "$(TargetPath)" "$(TargetPath).locked"</PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

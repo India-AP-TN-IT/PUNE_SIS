@@ -1,0 +1,94 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:Locale="ko-KR">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="ko-KR" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="VENDCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VINCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ITEMCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="DEF_QTY" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DEFCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="DEFPOSCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="RCV_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="OCCUR_CNTT" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="AMEND_CNTT" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="AMEND_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VER_4M_TYPE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VER1_CHK_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VER1_CHKRSLT_TYPE1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VER1_CHKRSLT_TYPE2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VER1_RECHK_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VER1_RECHKRSLT_TYPE1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VER1_RECHKRSLT_TYPE2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VER2_CHK_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VER2_CHKRSLT" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VER2_AMEND_RSLT" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VER2_RET_TIME" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="VER2_RET_BEG_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VER2_RET_END_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VER2_RECHK_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VER2_RECHKRSLT" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VER2_CHK_EMPNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VER2_CHK_DETAIL" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ADD_AMEND_APPLY_YN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ADD_AMEND_CNTT" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="AFILE_DATA1" msprop:OraDbType="102" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="AFILE_DATA2" msprop:OraDbType="102" type="xs:base64Binary" minOccurs="0" />
+				<xs:element name="FILE_DATA1" msprop:OraDbType="102" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="FILE_DATA2" msprop:OraDbType="102" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="FILE_DATA3" msprop:OraDbType="102" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="FILE_DATA4" msprop:OraDbType="102" type="xs:base64Binary" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <VENDCD>100009 : (주)신진엔지니어링경주공장</VENDCD>
+    <VINCD>TQ</VINCD>
+    <ITEMCD>DR TRIM</ITEMCD>
+    <PARTNO>M0240-4H000KD</PARTNO>
+    <PARTNM>LWR TRIM ASS`Y, RH</PARTNM>
+    <DEF_QTY>3</DEF_QTY>
+    <DEFCD>DA029 : 백화</DEFCD>
+    <DEFPOSCD>PP006 : LWR TRIM</DEFPOSCD>
+    <RCV_DATE>2017-06-10</RCV_DATE>
+    <OCCUR_CNTT>1. 반제품 대차에서 제품꺼낼 시 대차 상단部  부딪힘으로         백화 발생.</OCCUR_CNTT>
+    <AMEND_CNTT>1.금형수정
+   -두께증대로 강성보강.</AMEND_CNTT>
+    <AMEND_DATE>2017-06-15</AMEND_DATE>
+    <VER_4M_TYPE>기계</VER_4M_TYPE>
+    <VER1_CHK_DATE>2017-06-19</VER1_CHK_DATE>
+    <VER1_CHKRSLT_TYPE1>입고부품 양호</VER1_CHKRSLT_TYPE1>
+    <VER1_CHKRSLT_TYPE2>작업성 양호</VER1_CHKRSLT_TYPE2>
+    <ADD_AMEND_APPLY_YN>불필요</ADD_AMEND_APPLY_YN>
+	<VER1_RECHK_DATE />
+	<VER1_RECHKRSLT_TYPE1 />
+	<VER1_RECHKRSLT_TYPE2 />
+	<VER2_CHK_DATE />
+	<VER2_CHKRSLT />
+	<VER2_AMEND_RSLT />	
+	<VER2_RET_TIME />
+    <VER2_RET_BEG_DATE />
+    <VER2_RET_END_DATE />
+    <VER2_RECHK_DATE />
+    <VER2_RECHKRSLT />
+    <VER2_CHK_EMPNM />
+    <VER2_CHK_DETAIL />
+    <ADD_AMEND_CNTT />
+    <AFILE_DATA1 />
+    <AFILE_DATA2 />
+	<FILE_DATA1 />
+    <FILE_DATA2 />
+    <FILE_DATA3 />
+    <FILE_DATA4 />
+  </DATA>
+</NewDataSet>

@@ -1,0 +1,135 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:Locale="ko-KR">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="ko-KR" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="CORCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BIZCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VINCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VINNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="L_DEF_QTY" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="L_DEF_AMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V_DEF_QTY" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="V_DEF_AMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="J_DEF_QTY" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="J_DEF_AMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DEF_QTY" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DEF_AMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <CORCD>1000</CORCD>
+    <BIZCD>1001</BIZCD>
+    <VINCD>DH</VINCD>
+    <VINNM>DH</VINNM>
+    <VENDCD>100012</VENDCD>
+    <VENDNM>한진피엘(주)</VENDNM>
+    <PARTNO>83310-B1000RRY</PARTNO>
+    <PARTNM>PNL ASSY-RR DR TRIM LWR,LH</PARTNM>
+    <L_DEF_QTY>1</L_DEF_QTY>
+    <L_DEF_AMT>12126</L_DEF_AMT>
+	<V_DEF_QTY />
+	<V_DEF_AMT />
+	<J_DEF_QTY />
+	<J_DEF_AMT />
+    <DEF_QTY>1</DEF_QTY>
+    <DEF_AMT>12126</DEF_AMT>
+  </DATA>
+  <DATA>
+    <CORCD>1000</CORCD>
+    <BIZCD>1001</BIZCD>
+    <VINCD>DH</VINCD>
+    <VINNM>DH</VINNM>
+    <VENDCD>100012</VENDCD>
+    <VENDNM>한진피엘(주)</VENDNM>
+    <PARTNO>83320-B1000RRY</PARTNO>
+    <PARTNM>PNL ASSY-RR DR TRIM LWR,RH</PARTNM>
+    <L_DEF_QTY>1</L_DEF_QTY>
+    <L_DEF_AMT>12126</L_DEF_AMT>
+    <DEF_QTY>1</DEF_QTY>
+    <DEF_AMT>12126</DEF_AMT>
+  </DATA>
+  <DATA>
+    <CORCD>1000</CORCD>
+    <BIZCD>1001</BIZCD>
+    <VINCD>DH</VINCD>
+    <VINNM>DH</VINNM>
+    <VENDCD>100012</VENDCD>
+    <VENDNM>한진피엘(주)</VENDNM>
+    <PARTNO>M0030-B1AI0RRY</PARTNO>
+    <PARTNM>MODULE ASSY-RR UPR_MAIN,LH</PARTNM>
+    <L_DEF_QTY>1</L_DEF_QTY>
+    <L_DEF_AMT>212650</L_DEF_AMT>
+    <DEF_QTY>1</DEF_QTY>
+    <DEF_AMT>212650</DEF_AMT>
+  </DATA>
+  <DATA>
+    <CORCD>1000</CORCD>
+    <BIZCD>1001</BIZCD>
+    <VINCD>DH</VINCD>
+    <VINNM>DH</VINNM>
+    <VENDCD>100012</VENDCD>
+    <VENDNM>한진피엘(주)</VENDNM>
+    <PARTNO>M0040-B1AI0RRY</PARTNO>
+    <PARTNM>MODULE ASSY-RR UPR_MAIN,RH</PARTNM>
+    <L_DEF_QTY>1</L_DEF_QTY>
+    <L_DEF_AMT>212650</L_DEF_AMT>
+    <DEF_QTY>1</DEF_QTY>
+    <DEF_AMT>212650</DEF_AMT>
+  </DATA>
+  <DATA>
+    <CORCD>1000</CORCD>
+    <BIZCD>1001</BIZCD>
+    <VINCD>HI</VINCD>
+    <VINNM>HI</VINNM>
+    <VENDCD>100015</VENDCD>
+    <VENDNM>범양기업</VENDNM>
+    <PARTNO>M0240-D2000NNB</PARTNO>
+    <PARTNM>MODULE ASSY-RR DR TRIM LWR, RH</PARTNM>
+    <L_DEF_QTY>1</L_DEF_QTY>
+    <L_DEF_AMT>50498</L_DEF_AMT>
+    <DEF_QTY>1</DEF_QTY>
+    <DEF_AMT>50498</DEF_AMT>
+  </DATA>
+  <DATA>
+    <CORCD>1000</CORCD>
+    <BIZCD>1001</BIZCD>
+    <VINCD>NC</VINCD>
+    <VINNM>NC</VINNM>
+    <VENDCD>105609</VENDCD>
+    <VENDNM>(주)덕진</VENDNM>
+    <PARTNO>M0231-B8010RYN</PARTNO>
+    <PARTNM>MODULE-UPR,LH(커튼)</PARTNM>
+    <L_DEF_QTY>1</L_DEF_QTY>
+    <L_DEF_AMT>28535</L_DEF_AMT>
+    <DEF_QTY>1</DEF_QTY>
+    <DEF_AMT>28535</DEF_AMT>
+  </DATA>
+  <DATA>
+    <CORCD>1000</CORCD>
+    <BIZCD>1001</BIZCD>
+    <VINCD>PD</VINCD>
+    <VINNM>PD</VINNM>
+    <VENDCD>105609</VENDCD>
+    <VENDNM>(주)덕진</VENDNM>
+    <PARTNO>M0220-G3000TRY</PARTNO>
+    <PARTNM>MODULE ASSY-FR UPR TRIM, RH</PARTNM>
+    <L_DEF_QTY>2</L_DEF_QTY>
+    <L_DEF_AMT>14026</L_DEF_AMT>
+    <DEF_QTY>2</DEF_QTY>
+    <DEF_AMT>14026</DEF_AMT>
+  </DATA>
+</NewDataSet>

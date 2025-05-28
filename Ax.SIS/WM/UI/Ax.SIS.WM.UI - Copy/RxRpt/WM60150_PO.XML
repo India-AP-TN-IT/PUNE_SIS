@@ -1,0 +1,291 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:Locale="en-US">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="en-US" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="PONO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VEND_ADDR" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VEND_GST" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VEND_REGIO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PO_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PO_DELI_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PONO_SEQ" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PO_QTY" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="GR_QTY" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="GR_AMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PO_UNIT" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PO_UCOST" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PO_AMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="COINCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MGRT_NAME" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MGRT_TELNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SAKTO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SAKTO_NM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="KOSTL" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="KOSTL_NM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="DELI_PLACE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SEQ" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="OUR_GSTNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="OUR_COMNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="OUR_COMADDR" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="OUR_PANNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PAY_TERM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="DEL_TERM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CON_TERM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SUM_AMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <PONO>4300000954</PONO>
+    <VENDCD>305366</VENDCD>
+    <VENDNM>SRI VINAYAGA PRINTERS</VENDNM>
+    <VEND_ADDR>Thiruvottiyur, No. 42/21, Nadabai Garden Street chennai TAMILNADU</VEND_ADDR>
+    <VEND_GST>33BLAPM8464N1ZN</VEND_GST>
+    <VEND_REGIO>33</VEND_REGIO>
+    <PO_DATE>02-03-2022</PO_DATE>
+    <PO_DELI_DATE>2022-03-10</PO_DELI_DATE>
+    <PARTNM>KY OFFLINE REPORT(A4 SIZE DOUBLE SIDE)</PARTNM>
+    <PONO_SEQ>10</PONO_SEQ>
+    <PO_QTY>10</PO_QTY>
+    <GR_QTY>0</GR_QTY>
+    <GR_AMT>0</GR_AMT>
+    <PO_UNIT>EA</PO_UNIT>
+    <PO_UCOST>150</PO_UCOST>
+    <PO_AMT>1500</PO_AMT>
+    <COINCD>INR</COINCD>
+    <MGRT_NAME>Nandyalam Chandra Mounika</MGRT_NAME>
+    <MGRT_TELNO>7330736422</MGRT_TELNO>
+    <SAKTO>0005230701</SAKTO>
+    <SAKTO_NM>Consumable Supplies Expenses_Product</SAKTO_NM>
+    <KOSTL>0000522130</KOSTL>
+    <KOSTL_NM>Quality</KOSTL_NM>
+    <DELI_PLACE>SEOYON E HWA SUMMIT,ANANTHAPUR</DELI_PLACE>
+    <SEQ>1</SEQ>
+    <OUR_GSTNO>37AAZCS2637P1Z8</OUR_GSTNO>
+    <OUR_COMNM>SEOYON E-HWA SUMMIT AUTOMOTIVE ANANTAPUR PVT., LTD</OUR_COMNM>
+    <OUR_COMADDR>
+      Plot no 11B, Industrial Park,
+      Ammavaripalli, Ermanchi Village, Penukonda Mandal,
+      Anantapur District, Andhra Pradesh - 515164.
+    </OUR_COMADDR>
+    <OUR_PANNO>AAZCS2637P</OUR_PANNO>
+    <PAY_TERM>100% Amount Deposit</PAY_TERM>
+    <DEL_TERM>As Per Seoyon Schedule</DEL_TERM>
+    <CON_TERM>
+      01. Test
+      02. TEst
+      03. Test
+      04. Test
+      05. Test
+      06. Test
+      07. Test
+      08.Test
+    </CON_TERM>
+    <SUM_AMT>10100</SUM_AMT>
+  </DATA>
+  <DATA>
+    <PONO>4300000954</PONO>
+    <VENDCD>305366</VENDCD>
+    <VENDNM>SRI VINAYAGA PRINTERS</VENDNM>
+    <VEND_ADDR>Thiruvottiyur, No. 42/21, Nadabai Garden Street chennai TAMILNADU</VEND_ADDR>
+    <VEND_GST>33BLAPM8464N1ZN</VEND_GST>
+    <VEND_REGIO>33</VEND_REGIO>
+    <PO_DATE>02-03-2022</PO_DATE>
+    <PO_DELI_DATE>2022-03-10</PO_DELI_DATE>
+    <PARTNM>DFT REPORT(A4 SIZE DOUBLE SIDE)</PARTNM>
+    <PONO_SEQ>20</PONO_SEQ>
+    <PO_QTY>5</PO_QTY>
+    <GR_QTY>0</GR_QTY>
+    <GR_AMT>0</GR_AMT>
+    <PO_UNIT>EA</PO_UNIT>
+    <PO_UCOST>150</PO_UCOST>
+    <PO_AMT>750</PO_AMT>
+    <COINCD>INR</COINCD>
+    <MGRT_NAME>Nandyalam Chandra Mounika</MGRT_NAME>
+    <MGRT_TELNO>7330736422</MGRT_TELNO>
+    <SAKTO>0005230701</SAKTO>
+    <SAKTO_NM>Consumable Supplies Expenses_Product</SAKTO_NM>
+    <KOSTL>0000522130</KOSTL>
+    <KOSTL_NM>Quality</KOSTL_NM>
+    <DELI_PLACE>SEOYON E HWA SUMMIT,ANANTHAPUR</DELI_PLACE>
+    <SEQ>2</SEQ>
+    <OUR_GSTNO>37AAZCS2637P1Z8</OUR_GSTNO>
+    <OUR_COMNM>SEOYON E-HWA SUMMIT AUTOMOTIVE ANANTAPUR PVT., LTD</OUR_COMNM>
+    <OUR_COMADDR>
+      Plot no 11B, Industrial Park,
+      Ammavaripalli, Ermanchi Village, Penukonda Mandal,
+      Anantapur District, Andhra Pradesh - 515164.
+    </OUR_COMADDR>
+    <OUR_PANNO>AAZCS2637P</OUR_PANNO>
+    <PAY_TERM>100% Amount Deposit</PAY_TERM>
+    <DEL_TERM>As Per Seoyon Schedule</DEL_TERM>
+    <CON_TERM>
+      01. Test
+      02. TEst
+      03. Test
+      04. Test
+      05. Test
+      06. Test
+      07. Test
+      08.Test
+    </CON_TERM>
+    <SUM_AMT>10100</SUM_AMT>
+  </DATA>
+  <DATA>
+    <PONO>4300000954</PONO>
+    <VENDCD>305366</VENDCD>
+    <VENDNM>SRI VINAYAGA PRINTERS</VENDNM>
+    <VEND_ADDR>Thiruvottiyur, No. 42/21, Nadabai Garden Street chennai TAMILNADU</VEND_ADDR>
+    <VEND_GST>33BLAPM8464N1ZN</VEND_GST>
+    <VEND_REGIO>33</VEND_REGIO>
+    <PO_DATE>02-03-2022</PO_DATE>
+    <PO_DELI_DATE>2022-03-10</PO_DELI_DATE>
+    <PARTNM>GLOSS VALUE REPORT(A4 SIZE DOUBLE SIDE)</PARTNM>
+    <PONO_SEQ>30</PONO_SEQ>
+    <PO_QTY>5</PO_QTY>
+    <GR_QTY>0</GR_QTY>
+    <GR_AMT>0</GR_AMT>
+    <PO_UNIT>EA</PO_UNIT>
+    <PO_UCOST>150</PO_UCOST>
+    <PO_AMT>750</PO_AMT>
+    <COINCD>INR</COINCD>
+    <MGRT_NAME>Nandyalam Chandra Mounika</MGRT_NAME>
+    <MGRT_TELNO>7330736422</MGRT_TELNO>
+    <SAKTO>0005230701</SAKTO>
+    <SAKTO_NM>Consumable Supplies Expenses_Product</SAKTO_NM>
+    <KOSTL>0000522130</KOSTL>
+    <KOSTL_NM>Quality</KOSTL_NM>
+    <DELI_PLACE>SEOYON E HWA SUMMIT,ANANTHAPUR</DELI_PLACE>
+    <SEQ>3</SEQ>
+    <OUR_GSTNO>37AAZCS2637P1Z8</OUR_GSTNO>
+    <OUR_COMNM>SEOYON E-HWA SUMMIT AUTOMOTIVE ANANTAPUR PVT., LTD</OUR_COMNM>
+    <OUR_COMADDR>
+      Plot no 11B, Industrial Park,
+      Ammavaripalli, Ermanchi Village, Penukonda Mandal,
+      Anantapur District, Andhra Pradesh - 515164.
+    </OUR_COMADDR>
+    <OUR_PANNO>AAZCS2637P</OUR_PANNO>
+    <PAY_TERM>100% Amount Deposit</PAY_TERM>
+    <DEL_TERM>As Per Seoyon Schedule</DEL_TERM>
+    <CON_TERM>
+      01. Test
+      02. TEst
+      03. Test
+      04. Test
+      05. Test
+      06. Test
+      07. Test
+      08.Test
+    </CON_TERM>
+    <SUM_AMT>10100</SUM_AMT>
+  </DATA>
+  <DATA>
+    <PONO>4300000954</PONO>
+    <VENDCD>305366</VENDCD>
+    <VENDNM>SRI VINAYAGA PRINTERS</VENDNM>
+    <VEND_ADDR>Thiruvottiyur, No. 42/21, Nadabai Garden Street chennai TAMILNADU</VEND_ADDR>
+    <VEND_GST>33BLAPM8464N1ZN</VEND_GST>
+    <VEND_REGIO>33</VEND_REGIO>
+    <PO_DATE>02-03-2022</PO_DATE>
+    <PO_DELI_DATE>2022-03-10</PO_DELI_DATE>
+    <PARTNM>HANGER REPORT(( A3 SIZE DOUBLE SIDE))</PARTNM>
+    <PONO_SEQ>40</PONO_SEQ>
+    <PO_QTY>20</PO_QTY>
+    <GR_QTY>0</GR_QTY>
+    <GR_AMT>0</GR_AMT>
+    <PO_UNIT>EA</PO_UNIT>
+    <PO_UCOST>280</PO_UCOST>
+    <PO_AMT>5600</PO_AMT>
+    <COINCD>INR</COINCD>
+    <MGRT_NAME>Nandyalam Chandra Mounika</MGRT_NAME>
+    <MGRT_TELNO>7330736422</MGRT_TELNO>
+    <SAKTO>0005230701</SAKTO>
+    <SAKTO_NM>Consumable Supplies Expenses_Product</SAKTO_NM>
+    <KOSTL>0000522130</KOSTL>
+    <KOSTL_NM>Quality</KOSTL_NM>
+    <DELI_PLACE>SEOYON E HWA SUMMIT,ANANTHAPUR</DELI_PLACE>
+    <SEQ>4</SEQ>
+    <OUR_GSTNO>37AAZCS2637P1Z8</OUR_GSTNO>
+    <OUR_COMNM>SEOYON E-HWA SUMMIT AUTOMOTIVE ANANTAPUR PVT., LTD</OUR_COMNM>
+    <OUR_COMADDR>
+      Plot no 11B, Industrial Park,
+      Ammavaripalli, Ermanchi Village, Penukonda Mandal,
+      Anantapur District, Andhra Pradesh - 515164.
+    </OUR_COMADDR>
+    <OUR_PANNO>AAZCS2637P</OUR_PANNO>
+    <PAY_TERM>100% Amount Deposit</PAY_TERM>
+    <DEL_TERM>As Per Seoyon Schedule</DEL_TERM>
+    <CON_TERM>
+      01. Test
+      02. TEst
+      03. Test
+      04. Test
+      05. Test
+      06. Test
+      07. Test
+      08.Test
+    </CON_TERM>
+    <SUM_AMT>10100</SUM_AMT>
+  </DATA>
+  <DATA>
+    <PONO>4300000954</PONO>
+    <VENDCD>305366</VENDCD>
+    <VENDNM>SRI VINAYAGA PRINTERS</VENDNM>
+    <VEND_ADDR>Thiruvottiyur, No. 42/21, Nadabai Garden Street chennai TAMILNADU</VEND_ADDR>
+    <VEND_GST>33BLAPM8464N1ZN</VEND_GST>
+    <VEND_REGIO>33</VEND_REGIO>
+    <PO_DATE>02-03-2022</PO_DATE>
+    <PO_DELI_DATE>2022-03-10</PO_DELI_DATE>
+    <PARTNM>REJECTED TAGS(RED)</PARTNM>
+    <PONO_SEQ>50</PONO_SEQ>
+    <PO_QTY>2000</PO_QTY>
+    <GR_QTY>0</GR_QTY>
+    <GR_AMT>0</GR_AMT>
+    <PO_UNIT>EA</PO_UNIT>
+    <PO_UCOST>0.75</PO_UCOST>
+    <PO_AMT>1500</PO_AMT>
+    <COINCD>INR</COINCD>
+    <MGRT_NAME>Nandyalam Chandra Mounika</MGRT_NAME>
+    <MGRT_TELNO>7330736422</MGRT_TELNO>
+    <SAKTO>0005230701</SAKTO>
+    <SAKTO_NM>Consumable Supplies Expenses_Product</SAKTO_NM>
+    <KOSTL>0000522130</KOSTL>
+    <KOSTL_NM>Quality</KOSTL_NM>
+    <DELI_PLACE>SEOYON E HWA SUMMIT,ANANTHAPUR</DELI_PLACE>
+    <SEQ>5</SEQ>
+    <OUR_GSTNO>37AAZCS2637P1Z8</OUR_GSTNO>
+    <OUR_COMNM>SEOYON E-HWA SUMMIT AUTOMOTIVE ANANTAPUR PVT., LTD</OUR_COMNM>
+    <OUR_COMADDR>
+      Plot no 11B, Industrial Park,
+      Ammavaripalli, Ermanchi Village, Penukonda Mandal,
+      Anantapur District, Andhra Pradesh - 515164.
+    </OUR_COMADDR>
+    <OUR_PANNO>AAZCS2637P</OUR_PANNO>
+    <PAY_TERM>100% Amount Deposit</PAY_TERM>
+    <DEL_TERM>As Per Seoyon Schedule</DEL_TERM>
+    <CON_TERM>
+      01. Test
+      02. TEst
+      03. Test
+      04. Test
+      05. Test
+      06. Test
+      07. Test
+      08.Test
+    </CON_TERM>
+    <SUM_AMT>10100</SUM_AMT>
+  </DATA>
+</NewDataSet>

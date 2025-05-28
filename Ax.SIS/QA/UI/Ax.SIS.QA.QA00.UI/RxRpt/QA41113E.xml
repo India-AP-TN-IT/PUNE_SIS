@@ -1,0 +1,135 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:Locale="ko-KR">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="ko-KR" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="CORCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BIZCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VINCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="LOTNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="RCV_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="DEFNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="DEFNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="UNIT" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="DEF_QTY" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MGRT_CNTTNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="DEF_PLACENM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="INSPECT_EMPNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="INSPECT_EMPNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="OBJECT_ID" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <CORCD>1000</CORCD>
+    <BIZCD>1001</BIZCD>
+    <VINCD>HI</VINCD>
+    <VENDCD>100015</VENDCD>
+    <VENDNM>범양기업</VENDNM>
+    <PARTNO>M0310-D2000NNB</PARTNO>
+    <PARTNM>MODULE ASSY-FR DR CTR TRIM,LH</PARTNM>
+    <LOTNO>2017-06-07</LOTNO>
+    <RCV_DATE>2017-06-07</RCV_DATE>
+    <DEFNO>201706070003</DEFNO>
+    <DEFNM>DB028 : SINK</DEFNM>
+    <UNIT>EA</UNIT>
+    <DEF_QTY>9</DEF_QTY>
+    <MGRT_CNTTNM>1 : 반송</MGRT_CNTTNM>
+    <DEF_PLACENM>I : 입고</DEF_PLACENM>
+    <INSPECT_EMPNO>960022</INSPECT_EMPNO>
+    <INSPECT_EMPNM>양정표</INSPECT_EMPNM>
+    <OBJECT_ID>1</OBJECT_ID>
+  </DATA>
+  <DATA>
+    <CORCD>1000</CORCD>
+    <BIZCD>1001</BIZCD>
+    <VINCD>TQ</VINCD>
+    <VENDCD>100009</VENDCD>
+    <VENDNM>(주)신진엔지니어링경주공장</VENDNM>
+    <PARTNO>M0240-4H000KD</PARTNO>
+    <PARTNM>LWR TRIM ASS`Y, RH</PARTNM>
+    <LOTNO>2017-06-08</LOTNO>
+    <RCV_DATE>2017-06-10</RCV_DATE>
+    <DEFNO>201706100001</DEFNO>
+    <DEFNM>DA029 : 백화</DEFNM>
+    <UNIT>EA</UNIT>
+    <DEF_QTY>3</DEF_QTY>
+    <MGRT_CNTTNM>2 : 수정</MGRT_CNTTNM>
+    <DEF_PLACENM>A : 순회</DEF_PLACENM>
+    <INSPECT_EMPNO>940093</INSPECT_EMPNO>
+    <INSPECT_EMPNM>조항래</INSPECT_EMPNM>
+    <OBJECT_ID>2</OBJECT_ID>
+  </DATA>
+  <DATA>
+    <CORCD>1000</CORCD>
+    <BIZCD>1001</BIZCD>
+    <VINCD>TQ</VINCD>
+    <VENDCD>100017</VENDCD>
+    <VENDNM>(주)제이제이케이</VENDNM>
+    <PARTNO>M82315-4HBM0KD2</PARTNO>
+    <PARTNM>UPR TRIM ASS`Y POWER LH</PARTNM>
+    <LOTNO>2017-06-14</LOTNO>
+    <RCV_DATE>2017-06-14</RCV_DATE>
+    <DEFNO>201706140001</DEFNO>
+    <DEFNM>DA010 : 누락</DEFNM>
+    <UNIT>EA</UNIT>
+    <DEF_QTY>8</DEF_QTY>
+    <MGRT_CNTTNM>2 : 수정</MGRT_CNTTNM>
+    <DEF_PLACENM>L : Line</DEF_PLACENM>
+    <INSPECT_EMPNO>940093</INSPECT_EMPNO>
+    <INSPECT_EMPNM>조항래</INSPECT_EMPNM>
+    <OBJECT_ID>3</OBJECT_ID>
+  </DATA>
+  <DATA>
+    <CORCD>1000</CORCD>
+    <BIZCD>1001</BIZCD>
+    <VINCD>TQ</VINCD>
+    <VENDCD>100017</VENDCD>
+    <VENDNM>(주)제이제이케이</VENDNM>
+    <PARTNO>M82315-4HAG0UK2</PARTNO>
+    <PARTNM>UPR TRIM ASS`Y SLS LEATHER LH</PARTNM>
+    <LOTNO>2017-06-14</LOTNO>
+    <RCV_DATE>2017-06-15</RCV_DATE>
+    <DEFNO>201706150001</DEFNO>
+    <DEFNM>DA011 : 눌림</DEFNM>
+    <UNIT>EA</UNIT>
+    <DEF_QTY>9</DEF_QTY>
+    <MGRT_CNTTNM>2 : 수정</MGRT_CNTTNM>
+    <DEF_PLACENM>L : Line</DEF_PLACENM>
+    <INSPECT_EMPNO>940093</INSPECT_EMPNO>
+    <INSPECT_EMPNM>조항래</INSPECT_EMPNM>
+    <OBJECT_ID>4</OBJECT_ID>
+  </DATA>
+  <DATA>
+    <CORCD>1000</CORCD>
+    <BIZCD>1001</BIZCD>
+    <VINCD>RBK</VINCD>
+    <VENDCD>100016</VENDCD>
+    <VENDNM>태광공업(주)</VENDNM>
+    <PARTNO>M0170-1R090RY</PARTNO>
+    <PARTNM>MODULE ASSY-RR UPR TRIM,LH</PARTNM>
+    <LOTNO>2017-06-20</LOTNO>
+    <RCV_DATE>2017-06-20</RCV_DATE>
+    <DEFNO>201706200001</DEFNO>
+    <DEFNM>DB002 : 광택</DEFNM>
+    <UNIT>EA</UNIT>
+    <DEF_QTY>5</DEF_QTY>
+    <MGRT_CNTTNM>2 : 수정</MGRT_CNTTNM>
+    <DEF_PLACENM>I : 입고</DEF_PLACENM>
+    <INSPECT_EMPNO>880342</INSPECT_EMPNO>
+    <INSPECT_EMPNM>문기택</INSPECT_EMPNM>
+    <OBJECT_ID>5</OBJECT_ID>
+  </DATA>
+</NewDataSet>

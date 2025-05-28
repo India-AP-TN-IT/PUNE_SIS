@@ -1,0 +1,200 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:Locale="ko-KR">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="ko-KR" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="DATA_DIV" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VINCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="STANDARD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="IN_QTY" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="BAD_QTY" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="BAD_AMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="IN_BAD_TIME" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DEFCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TIN_QTY" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TALLIN_QTY" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MAXBADTIME" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MAXPPM" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TBALLIN_QTY" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TBALLBAD_QTY" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TBALLBAD_AMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TBALLBAD_TIME" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <DATA_DIV>1</DATA_DIV>
+    <VENDCD>100009</VENDCD>
+    <VENDNM>(주)신진엔지니어링경주공장</VENDNM>
+    <VINCD>TQ</VINCD>
+    <PARTNO>M0240-4H000KD</PARTNO>
+    <PARTNM>LWR TRIM ASS`Y, RH</PARTNM>
+	<STANDARD />
+    <IN_QTY>2400</IN_QTY>
+    <BAD_QTY>3</BAD_QTY>
+    <BAD_AMT>21897</BAD_AMT>
+    <IN_BAD_TIME>1</IN_BAD_TIME>
+	<DEFCD />
+    <TIN_QTY>312269</TIN_QTY>
+    <TALLIN_QTY>6501827</TALLIN_QTY>
+    <MAXBADTIME>2</MAXBADTIME>
+    <MAXPPM>611</MAXPPM>
+    <TBALLIN_QTY>10632</TBALLIN_QTY>
+    <TBALLBAD_QTY>34</TBALLBAD_QTY>
+    <TBALLBAD_AMT>634427</TBALLBAD_AMT>
+    <TBALLBAD_TIME>5</TBALLBAD_TIME>
+  </DATA>
+  <DATA>
+    <DATA_DIV>1</DATA_DIV>
+    <VENDCD>100015</VENDCD>
+    <VENDNM>범양기업</VENDNM>
+    <VINCD>HI</VINCD>
+    <PARTNO>M0310-D2000NNB</PARTNO>
+    <PARTNM>MODULE ASSY-FR DR CTR TRIM,LH</PARTNM>
+    <STANDARD>PU LEATHER</STANDARD>
+    <IN_QTY>435</IN_QTY>
+    <BAD_QTY>9</BAD_QTY>
+    <BAD_AMT>315333</BAD_AMT>
+    <IN_BAD_TIME>1</IN_BAD_TIME>
+    <TIN_QTY>90551</TIN_QTY>
+    <TALLIN_QTY>6501827</TALLIN_QTY>
+    <MAXBADTIME>2</MAXBADTIME>
+    <MAXPPM>611</MAXPPM>
+    <TBALLIN_QTY>10632</TBALLIN_QTY>
+    <TBALLBAD_QTY>34</TBALLBAD_QTY>
+    <TBALLBAD_AMT>634427</TBALLBAD_AMT>
+    <TBALLBAD_TIME>5</TBALLBAD_TIME>
+  </DATA>
+  <DATA>
+    <DATA_DIV>1</DATA_DIV>
+    <VENDCD>100016</VENDCD>
+    <VENDNM>태광공업(주)</VENDNM>
+    <VINCD>RBK</VINCD>
+    <PARTNO>M0170-1R090RY</PARTNO>
+    <PARTNM>MODULE ASSY-RR UPR TRIM,LH</PARTNM>
+    <STANDARD>RR PWR 사양</STANDARD>
+    <IN_QTY>6051</IN_QTY>
+    <BAD_QTY>5</BAD_QTY>
+    <BAD_AMT>5325</BAD_AMT>
+    <IN_BAD_TIME>1</IN_BAD_TIME>
+    <TIN_QTY>102323</TIN_QTY>
+    <TALLIN_QTY>6501827</TALLIN_QTY>
+    <MAXBADTIME>2</MAXBADTIME>
+    <MAXPPM>611</MAXPPM>
+    <TBALLIN_QTY>10632</TBALLIN_QTY>
+    <TBALLBAD_QTY>34</TBALLBAD_QTY>
+    <TBALLBAD_AMT>634427</TBALLBAD_AMT>
+    <TBALLBAD_TIME>5</TBALLBAD_TIME>
+  </DATA>
+  <DATA>
+    <DATA_DIV>1</DATA_DIV>
+    <VENDCD>100017</VENDCD>
+    <VENDNM>(주)제이제이케이</VENDNM>
+    <VINCD>TQ</VINCD>
+    <PARTNO>M82315-4HAG0UK2</PARTNO>
+    <PARTNM>UPR TRIM ASS`Y SLS LEATHER LH</PARTNM>
+    <STANDARD>50</STANDARD>
+    <IN_QTY>791</IN_QTY>
+    <BAD_QTY>9</BAD_QTY>
+    <BAD_AMT>154656</BAD_AMT>
+    <IN_BAD_TIME>1</IN_BAD_TIME>
+    <TIN_QTY>27816</TIN_QTY>
+    <TALLIN_QTY>6501827</TALLIN_QTY>
+    <MAXBADTIME>2</MAXBADTIME>
+    <MAXPPM>611</MAXPPM>
+    <TBALLIN_QTY>10632</TBALLIN_QTY>
+    <TBALLBAD_QTY>34</TBALLBAD_QTY>
+    <TBALLBAD_AMT>634427</TBALLBAD_AMT>
+    <TBALLBAD_TIME>5</TBALLBAD_TIME>
+  </DATA>
+  <DATA>
+    <DATA_DIV>1</DATA_DIV>
+    <VENDCD>100017</VENDCD>
+    <VENDNM>(주)제이제이케이</VENDNM>
+    <VINCD>TQ</VINCD>
+    <PARTNO>M82315-4HBM0KD2</PARTNO>
+    <PARTNM>UPR TRIM ASS`Y POWER LH</PARTNM>
+    <IN_QTY>955</IN_QTY>
+    <BAD_QTY>8</BAD_QTY>
+    <BAD_AMT>137216</BAD_AMT>
+    <IN_BAD_TIME>1</IN_BAD_TIME>
+    <TIN_QTY>27816</TIN_QTY>
+    <TALLIN_QTY>6501827</TALLIN_QTY>
+    <MAXBADTIME>2</MAXBADTIME>
+    <MAXPPM>611</MAXPPM>
+    <TBALLIN_QTY>10632</TBALLIN_QTY>
+    <TBALLBAD_QTY>34</TBALLBAD_QTY>
+    <TBALLBAD_AMT>634427</TBALLBAD_AMT>
+    <TBALLBAD_TIME>5</TBALLBAD_TIME>
+  </DATA>
+  <DATA>
+    <DATA_DIV>2</DATA_DIV>
+    <VENDCD>100009</VENDCD>
+    <VENDNM>(주)신진엔지니어링경주공장</VENDNM>
+    <VINCD>TQ</VINCD>
+    <PARTNO>M0240-4H000KD</PARTNO>
+    <PARTNM>LWR TRIM ASS`Y, RH</PARTNM>
+    <BAD_QTY>3</BAD_QTY>
+    <IN_BAD_TIME>1</IN_BAD_TIME>
+    <DEFCD>DA029 : 백화</DEFCD>
+  </DATA>
+  <DATA>
+    <DATA_DIV>2</DATA_DIV>
+    <VENDCD>100015</VENDCD>
+    <VENDNM>범양기업</VENDNM>
+    <VINCD>HI</VINCD>
+    <PARTNO>M0310-D2000NNB</PARTNO>
+    <PARTNM>MODULE ASSY-FR DR CTR TRIM,LH</PARTNM>
+    <STANDARD>PU LEATHER</STANDARD>
+    <BAD_QTY>9</BAD_QTY>
+    <IN_BAD_TIME>1</IN_BAD_TIME>
+    <DEFCD>DB028 : SINK</DEFCD>
+  </DATA>
+  <DATA>
+    <DATA_DIV>2</DATA_DIV>
+    <VENDCD>100016</VENDCD>
+    <VENDNM>태광공업(주)</VENDNM>
+    <VINCD>RBK</VINCD>
+    <PARTNO>M0170-1R090RY</PARTNO>
+    <PARTNM>MODULE ASSY-RR UPR TRIM,LH</PARTNM>
+    <STANDARD>RR PWR 사양</STANDARD>
+    <BAD_QTY>5</BAD_QTY>
+    <IN_BAD_TIME>1</IN_BAD_TIME>
+    <DEFCD>DB002 : 광택</DEFCD>
+  </DATA>
+  <DATA>
+    <DATA_DIV>2</DATA_DIV>
+    <VENDCD>100017</VENDCD>
+    <VENDNM>(주)제이제이케이</VENDNM>
+    <VINCD>TQ</VINCD>
+    <PARTNO>M82315-4HAG0UK2</PARTNO>
+    <PARTNM>UPR TRIM ASS`Y SLS LEATHER LH</PARTNM>
+    <STANDARD>50</STANDARD>
+    <BAD_QTY>9</BAD_QTY>
+    <IN_BAD_TIME>1</IN_BAD_TIME>
+    <DEFCD>DA011 : 눌림</DEFCD>
+  </DATA>
+  <DATA>
+    <DATA_DIV>2</DATA_DIV>
+    <VENDCD>100017</VENDCD>
+    <VENDNM>(주)제이제이케이</VENDNM>
+    <VINCD>TQ</VINCD>
+    <PARTNO>M82315-4HBM0KD2</PARTNO>
+    <PARTNM>UPR TRIM ASS`Y POWER LH</PARTNM>
+    <BAD_QTY>8</BAD_QTY>
+    <IN_BAD_TIME>1</IN_BAD_TIME>
+    <DEFCD>DA010 : 누락</DEFCD>
+  </DATA>
+</NewDataSet>

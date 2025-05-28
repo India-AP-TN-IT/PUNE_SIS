@@ -1,0 +1,711 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:Locale="en-US">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="en-US" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="INVOICE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="DELI_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CARNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ADDRESS_1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ADDRESS_2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VEND_GST" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TOTAL_QTY" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ASSESS_VALUE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="OVERALL_CGST" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="OVERALL_SGST" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="OVERALL_IGST" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="OVERALL_UTGST" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TOTAL_AMT" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CGST_IN_WORDS" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SGST_IN_WORDS" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TOTALAMT_IN_WORDS" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="QRCODE_INFO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                
+                <xs:element name="SID1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="RPCS1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ORDER_NO1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="HSN1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="QTY1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CGST1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SGST1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="UPRICE1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="AMT1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+
+                <xs:element name="SID2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="RPCS2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ORDER_NO2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="HSN2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="QTY2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CGST2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SGST2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="UPRICE2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="AMT2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+
+                <xs:element name="SID3" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="RPCS3" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ORDER_NO3" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO3" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM3" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="HSN3" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="QTY3" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CGST3" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SGST3" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="UPRICE3" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="AMT3" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+
+                <xs:element name="SID4" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="RPCS4" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ORDER_NO4" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO4" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM4" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="HSN4" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="QTY4" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CGST4" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SGST4" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="UPRICE4" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="AMT4" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+
+                <xs:element name="SID5" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="RPCS5" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ORDER_NO5" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO5" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM5" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="HSN5" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="QTY5" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CGST5" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SGST5" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="UPRICE5" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="AMT5" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+
+                <xs:element name="SID6" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="RPCS6" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ORDER_NO6" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO6" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM6" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="HSN6" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="QTY6" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CGST6" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SGST6" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="UPRICE6" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="AMT6" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                
+                <xs:element name="SID7" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="RPCS7" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ORDER_NO7" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO7" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM7" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="HSN7" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="QTY7" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CGST7" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SGST7" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="UPRICE7" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="AMT7" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+
+                <xs:element name="SID8" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="RPCS8" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ORDER_NO8" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO8" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM8" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="HSN8" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="QTY8" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CGST8" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SGST8" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="UPRICE8" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="AMT8" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <INVOICE>SA69001001</INVOICE>
+    <DELI_DATE>05.09.2020</DELI_DATE>
+    <CARNO>AP39TC5404</CARNO>
+    <VENDNM>Kia Motors India Private Limited</VENDNM>
+    <ADDRESS_1>Eramanchi Village, Penukonda Mandal,</ADDRESS_1>
+    <ADDRESS_2>Anatapur, Andhra Pradesh - 515164</ADDRESS_2>
+    <VEND_GST>GST No. : 376AACZ56978</VEND_GST>
+    <TOTAL_QTY>47</TOTAL_QTY>
+    <ASSESS_VALUE>63,168.54</ASSESS_VALUE>
+    <OVERALL_CGST>8,843.60</OVERALL_CGST>
+    <OVERALL_SGST>8,843.60</OVERALL_SGST>
+    <OVERALL_IGST>0.00</OVERALL_IGST>
+    <OVERALL_UTGST>0.00</OVERALL_UTGST>
+    <TOTAL_AMT>80,855.74</TOTAL_AMT>
+    <CGST_IN_WORDS>EIGHT THOUSAND EIGHT HUBNDRED FORTY THREE Rupees SIXTY Paise</CGST_IN_WORDS>
+    <SGST_IN_WORDS>EIGHT THOUSAND EIGHT HUBNDRED FORTY THREE Rupees SIXTY Paise</SGST_IN_WORDS>
+    <TOTALAMT_IN_WORDS>EIGHTY THOUSAND EIGHT HUNDRED FIFTYFIVE Rupees SEVENTY FOUR Paise</TOTALAMT_IN_WORDS>
+    <QRCODE_INFO></QRCODE_INFO>
+    
+    <SID1>1</SID1>
+    <RPCS1>Q087T04B</RPCS1>
+    <ORDER_NO1></ORDER_NO1>
+    <PARTNO1></PARTNO1>
+    <PARTNM1></PARTNM1>
+    <HSN1></HSN1>
+    <QTY1></QTY1>
+    <CGST1></CGST1>
+    <SGST1></SGST1>
+    <UPRICE1></UPRICE1>
+    <AMT1></AMT1>
+
+    <SID2></SID2>
+    <RPCS2></RPCS2>
+    <ORDER_NO2></ORDER_NO2>
+    <PARTNO2></PARTNO2>
+    <PARTNM2></PARTNM2>
+    <HSN2></HSN2>
+    <QTY2></QTY2>
+    <CGST2></CGST2>
+    <SGST2></SGST2>
+    <UPRICE2></UPRICE2>
+    <AMT2></AMT2>
+
+    <SID3></SID3>
+    <RPCS3></RPCS3>
+    <ORDER_NO3></ORDER_NO3>
+    <PARTNO3></PARTNO3>
+    <PARTNM3></PARTNM3>
+    <HSN3></HSN3>
+    <QTY3></QTY3>
+    <CGST3></CGST3>
+    <SGST3></SGST3>
+    <UPRICE3></UPRICE3>
+    <AMT3></AMT3>
+
+    <SID4></SID4>
+    <RPCS4></RPCS4>
+    <ORDER_NO4></ORDER_NO4>
+    <PARTNO4></PARTNO4>
+    <PARTNM4></PARTNM4>
+    <HSN4></HSN4>
+    <QTY4></QTY4>
+    <CGST4></CGST4>
+    <SGST4></SGST4>
+    <UPRICE4></UPRICE4>
+    <AMT4></AMT4>
+
+    <SID5></SID5>
+    <RPCS5></RPCS5>
+    <ORDER_NO5></ORDER_NO5>
+    <PARTNO5></PARTNO5>
+    <PARTNM5></PARTNM5>
+    <HSN5></HSN5>
+    <QTY5></QTY5>
+    <CGST5></CGST5>
+    <SGST5></SGST5>
+    <UPRICE5></UPRICE5>
+    <AMT5></AMT5>
+
+    <SID6></SID6>
+    <RPCS6></RPCS6>
+    <ORDER_NO6></ORDER_NO6>
+    <PARTNO6></PARTNO6>
+    <PARTNM6></PARTNM6>
+    <HSN6></HSN6>
+    <QTY6></QTY6>
+    <CGST6></CGST6>
+    <SGST6></SGST6>
+    <UPRICE6></UPRICE6>
+    <AMT6></AMT6>
+
+    <SID7></SID7>
+    <RPCS7></RPCS7>
+    <ORDER_NO7></ORDER_NO7>
+    <PARTNO7></PARTNO7>
+    <PARTNM7></PARTNM7>
+    <HSN7></HSN7>
+    <QTY7></QTY7>
+    <CGST7></CGST7>
+    <SGST7></SGST7>
+    <UPRICE7></UPRICE7>
+    <AMT7></AMT7>
+
+    <SID8></SID8>
+    <RPCS8></RPCS8>
+    <ORDER_NO8></ORDER_NO8>
+    <PARTNO8></PARTNO8>
+    <PARTNM8></PARTNM8>
+    <HSN8></HSN8>
+    <QTY8></QTY8>
+    <CGST8></CGST8>
+    <SGST8></SGST8>
+    <UPRICE8></UPRICE8>
+    <AMT8></AMT8>
+  </DATA>
+  <DATA>
+    <INVOICE>SA69001001</INVOICE>
+    <DELI_DATE>05.09.2020</DELI_DATE>
+    <CARNO>AP39TC5404</CARNO>
+    <VENDNM>Kia Motors India Private Limited</VENDNM>
+    <ADDRESS_1>Eramanchi Village, Penukonda Mandal,</ADDRESS_1>
+    <ADDRESS_2>Anatapur, Andhra Pradesh - 515164</ADDRESS_2>
+    <VEND_GST>GST No. : 376AACZ56978</VEND_GST>
+    <TOTAL_QTY>47</TOTAL_QTY>
+    <ASSESS_VALUE>63,168.54</ASSESS_VALUE>
+    <OVERALL_CGST>8,843.60</OVERALL_CGST>
+    <OVERALL_SGST>8,843.60</OVERALL_SGST>
+    <OVERALL_IGST>0.00</OVERALL_IGST>
+    <OVERALL_UTGST>0.00</OVERALL_UTGST>
+    <TOTAL_AMT>80,855.74</TOTAL_AMT>
+    <CGST_IN_WORDS>EIGHT THOUSAND EIGHT HUBNDRED FORTY THREE Rupees SIXTY Paise</CGST_IN_WORDS>
+    <SGST_IN_WORDS>EIGHT THOUSAND EIGHT HUBNDRED FORTY THREE Rupees SIXTY Paise</SGST_IN_WORDS>
+    <TOTALAMT_IN_WORDS>EIGHTY THOUSAND EIGHT HUNDRED FIFTYFIVE Rupees SEVENTY FOUR Paise</TOTALAMT_IN_WORDS>
+    <QRCODE_INFO></QRCODE_INFO>
+    
+    <SID1>1</SID1>
+    <RPCS1>Q087T04B</RPCS1>
+    <ORDER_NO1></ORDER_NO1>
+    <PARTNO1></PARTNO1>
+    <PARTNM1></PARTNM1>
+    <HSN1></HSN1>
+    <QTY1></QTY1>
+    <CGST1></CGST1>
+    <SGST1></SGST1>
+    <UPRICE1></UPRICE1>
+    <AMT1></AMT1>
+
+    <SID2></SID2>
+    <RPCS2></RPCS2>
+    <ORDER_NO2></ORDER_NO2>
+    <PARTNO2></PARTNO2>
+    <PARTNM2></PARTNM2>
+    <HSN2></HSN2>
+    <QTY2></QTY2>
+    <CGST2></CGST2>
+    <SGST2></SGST2>
+    <UPRICE2></UPRICE2>
+    <AMT2></AMT2>
+
+    <SID3></SID3>
+    <RPCS3></RPCS3>
+    <ORDER_NO3></ORDER_NO3>
+    <PARTNO3></PARTNO3>
+    <PARTNM3></PARTNM3>
+    <HSN3></HSN3>
+    <QTY3></QTY3>
+    <CGST3></CGST3>
+    <SGST3></SGST3>
+    <UPRICE3></UPRICE3>
+    <AMT3></AMT3>
+
+    <SID4></SID4>
+    <RPCS4></RPCS4>
+    <ORDER_NO4></ORDER_NO4>
+    <PARTNO4></PARTNO4>
+    <PARTNM4></PARTNM4>
+    <HSN4></HSN4>
+    <QTY4></QTY4>
+    <CGST4></CGST4>
+    <SGST4></SGST4>
+    <UPRICE4></UPRICE4>
+    <AMT4></AMT4>
+
+    <SID5></SID5>
+    <RPCS5></RPCS5>
+    <ORDER_NO5></ORDER_NO5>
+    <PARTNO5></PARTNO5>
+    <PARTNM5></PARTNM5>
+    <HSN5></HSN5>
+    <QTY5></QTY5>
+    <CGST5></CGST5>
+    <SGST5></SGST5>
+    <UPRICE5></UPRICE5>
+    <AMT5></AMT5>
+
+    <SID6></SID6>
+    <RPCS6></RPCS6>
+    <ORDER_NO6></ORDER_NO6>
+    <PARTNO6></PARTNO6>
+    <PARTNM6></PARTNM6>
+    <HSN6></HSN6>
+    <QTY6></QTY6>
+    <CGST6></CGST6>
+    <SGST6></SGST6>
+    <UPRICE6></UPRICE6>
+    <AMT6></AMT6>
+
+    <SID7></SID7>
+    <RPCS7></RPCS7>
+    <ORDER_NO7></ORDER_NO7>
+    <PARTNO7></PARTNO7>
+    <PARTNM7></PARTNM7>
+    <HSN7></HSN7>
+    <QTY7></QTY7>
+    <CGST7></CGST7>
+    <SGST7></SGST7>
+    <UPRICE7></UPRICE7>
+    <AMT7></AMT7>
+
+    <SID8></SID8>
+    <RPCS8></RPCS8>
+    <ORDER_NO8></ORDER_NO8>
+    <PARTNO8></PARTNO8>
+    <PARTNM8></PARTNM8>
+    <HSN8></HSN8>
+    <QTY8></QTY8>
+    <CGST8></CGST8>
+    <SGST8></SGST8>
+    <UPRICE8></UPRICE8>
+    <AMT8></AMT8>
+  </DATA>
+  <DATA>
+    <INVOICE>SA69001001</INVOICE>
+    <DELI_DATE>05.09.2020</DELI_DATE>
+    <CARNO>AP39TC5404</CARNO>
+    <VENDNM>Kia Motors India Private Limited</VENDNM>
+    <ADDRESS_1>Eramanchi Village, Penukonda Mandal,</ADDRESS_1>
+    <ADDRESS_2>Anatapur, Andhra Pradesh - 515164</ADDRESS_2>
+    <VEND_GST>GST No. : 376AACZ56978</VEND_GST>
+    <TOTAL_QTY>47</TOTAL_QTY>
+    <ASSESS_VALUE>63,168.54</ASSESS_VALUE>
+    <OVERALL_CGST>8,843.60</OVERALL_CGST>
+    <OVERALL_SGST>8,843.60</OVERALL_SGST>
+    <OVERALL_IGST>0.00</OVERALL_IGST>
+    <OVERALL_UTGST>0.00</OVERALL_UTGST>
+    <TOTAL_AMT>80,855.74</TOTAL_AMT>
+    <CGST_IN_WORDS>EIGHT THOUSAND EIGHT HUBNDRED FORTY THREE Rupees SIXTY Paise</CGST_IN_WORDS>
+    <SGST_IN_WORDS>EIGHT THOUSAND EIGHT HUBNDRED FORTY THREE Rupees SIXTY Paise</SGST_IN_WORDS>
+    <TOTALAMT_IN_WORDS>EIGHTY THOUSAND EIGHT HUNDRED FIFTYFIVE Rupees SEVENTY FOUR Paise</TOTALAMT_IN_WORDS>
+    <QRCODE_INFO></QRCODE_INFO>
+    
+    <SID1>1</SID1>
+    <RPCS1>Q087T04B</RPCS1>
+    <ORDER_NO1></ORDER_NO1>
+    <PARTNO1></PARTNO1>
+    <PARTNM1></PARTNM1>
+    <HSN1></HSN1>
+    <QTY1></QTY1>
+    <CGST1></CGST1>
+    <SGST1></SGST1>
+    <UPRICE1></UPRICE1>
+    <AMT1></AMT1>
+
+    <SID2></SID2>
+    <RPCS2></RPCS2>
+    <ORDER_NO2></ORDER_NO2>
+    <PARTNO2></PARTNO2>
+    <PARTNM2></PARTNM2>
+    <HSN2></HSN2>
+    <QTY2></QTY2>
+    <CGST2></CGST2>
+    <SGST2></SGST2>
+    <UPRICE2></UPRICE2>
+    <AMT2></AMT2>
+
+    <SID3></SID3>
+    <RPCS3></RPCS3>
+    <ORDER_NO3></ORDER_NO3>
+    <PARTNO3></PARTNO3>
+    <PARTNM3></PARTNM3>
+    <HSN3></HSN3>
+    <QTY3></QTY3>
+    <CGST3></CGST3>
+    <SGST3></SGST3>
+    <UPRICE3></UPRICE3>
+    <AMT3></AMT3>
+
+    <SID4></SID4>
+    <RPCS4></RPCS4>
+    <ORDER_NO4></ORDER_NO4>
+    <PARTNO4></PARTNO4>
+    <PARTNM4></PARTNM4>
+    <HSN4></HSN4>
+    <QTY4></QTY4>
+    <CGST4></CGST4>
+    <SGST4></SGST4>
+    <UPRICE4></UPRICE4>
+    <AMT4></AMT4>
+
+    <SID5></SID5>
+    <RPCS5></RPCS5>
+    <ORDER_NO5></ORDER_NO5>
+    <PARTNO5></PARTNO5>
+    <PARTNM5></PARTNM5>
+    <HSN5></HSN5>
+    <QTY5></QTY5>
+    <CGST5></CGST5>
+    <SGST5></SGST5>
+    <UPRICE5></UPRICE5>
+    <AMT5></AMT5>
+
+    <SID6></SID6>
+    <RPCS6></RPCS6>
+    <ORDER_NO6></ORDER_NO6>
+    <PARTNO6></PARTNO6>
+    <PARTNM6></PARTNM6>
+    <HSN6></HSN6>
+    <QTY6></QTY6>
+    <CGST6></CGST6>
+    <SGST6></SGST6>
+    <UPRICE6></UPRICE6>
+    <AMT6></AMT6>
+
+    <SID7></SID7>
+    <RPCS7></RPCS7>
+    <ORDER_NO7></ORDER_NO7>
+    <PARTNO7></PARTNO7>
+    <PARTNM7></PARTNM7>
+    <HSN7></HSN7>
+    <QTY7></QTY7>
+    <CGST7></CGST7>
+    <SGST7></SGST7>
+    <UPRICE7></UPRICE7>
+    <AMT7></AMT7>
+
+    <SID8></SID8>
+    <RPCS8></RPCS8>
+    <ORDER_NO8></ORDER_NO8>
+    <PARTNO8></PARTNO8>
+    <PARTNM8></PARTNM8>
+    <HSN8></HSN8>
+    <QTY8></QTY8>
+    <CGST8></CGST8>
+    <SGST8></SGST8>
+    <UPRICE8></UPRICE8>
+    <AMT8></AMT8>
+  </DATA>
+  <DATA>
+    <INVOICE>SA69001001</INVOICE>
+    <DELI_DATE>05.09.2020</DELI_DATE>
+    <CARNO>AP39TC5404</CARNO>
+    <VENDNM>Kia Motors India Private Limited</VENDNM>
+    <ADDRESS_1>Eramanchi Village, Penukonda Mandal,</ADDRESS_1>
+    <ADDRESS_2>Anatapur, Andhra Pradesh - 515164</ADDRESS_2>
+    <VEND_GST>GST No. : 376AACZ56978</VEND_GST>
+    <TOTAL_QTY>47</TOTAL_QTY>
+    <ASSESS_VALUE>63,168.54</ASSESS_VALUE>
+    <OVERALL_CGST>8,843.60</OVERALL_CGST>
+    <OVERALL_SGST>8,843.60</OVERALL_SGST>
+    <OVERALL_IGST>0.00</OVERALL_IGST>
+    <OVERALL_UTGST>0.00</OVERALL_UTGST>
+    <TOTAL_AMT>80,855.74</TOTAL_AMT>
+    <CGST_IN_WORDS>EIGHT THOUSAND EIGHT HUBNDRED FORTY THREE Rupees SIXTY Paise</CGST_IN_WORDS>
+    <SGST_IN_WORDS>EIGHT THOUSAND EIGHT HUBNDRED FORTY THREE Rupees SIXTY Paise</SGST_IN_WORDS>
+    <TOTALAMT_IN_WORDS>EIGHTY THOUSAND EIGHT HUNDRED FIFTYFIVE Rupees SEVENTY FOUR Paise</TOTALAMT_IN_WORDS>
+    <QRCODE_INFO></QRCODE_INFO>
+    
+    <SID1>1</SID1>
+    <RPCS1>Q087T04B</RPCS1>
+    <ORDER_NO1></ORDER_NO1>
+    <PARTNO1></PARTNO1>
+    <PARTNM1></PARTNM1>
+    <HSN1></HSN1>
+    <QTY1></QTY1>
+    <CGST1></CGST1>
+    <SGST1></SGST1>
+    <UPRICE1></UPRICE1>
+    <AMT1></AMT1>
+
+    <SID2></SID2>
+    <RPCS2></RPCS2>
+    <ORDER_NO2></ORDER_NO2>
+    <PARTNO2></PARTNO2>
+    <PARTNM2></PARTNM2>
+    <HSN2></HSN2>
+    <QTY2></QTY2>
+    <CGST2></CGST2>
+    <SGST2></SGST2>
+    <UPRICE2></UPRICE2>
+    <AMT2></AMT2>
+
+    <SID3></SID3>
+    <RPCS3></RPCS3>
+    <ORDER_NO3></ORDER_NO3>
+    <PARTNO3></PARTNO3>
+    <PARTNM3></PARTNM3>
+    <HSN3></HSN3>
+    <QTY3></QTY3>
+    <CGST3></CGST3>
+    <SGST3></SGST3>
+    <UPRICE3></UPRICE3>
+    <AMT3></AMT3>
+
+    <SID4></SID4>
+    <RPCS4></RPCS4>
+    <ORDER_NO4></ORDER_NO4>
+    <PARTNO4></PARTNO4>
+    <PARTNM4></PARTNM4>
+    <HSN4></HSN4>
+    <QTY4></QTY4>
+    <CGST4></CGST4>
+    <SGST4></SGST4>
+    <UPRICE4></UPRICE4>
+    <AMT4></AMT4>
+
+    <SID5></SID5>
+    <RPCS5></RPCS5>
+    <ORDER_NO5></ORDER_NO5>
+    <PARTNO5></PARTNO5>
+    <PARTNM5></PARTNM5>
+    <HSN5></HSN5>
+    <QTY5></QTY5>
+    <CGST5></CGST5>
+    <SGST5></SGST5>
+    <UPRICE5></UPRICE5>
+    <AMT5></AMT5>
+
+    <SID6></SID6>
+    <RPCS6></RPCS6>
+    <ORDER_NO6></ORDER_NO6>
+    <PARTNO6></PARTNO6>
+    <PARTNM6></PARTNM6>
+    <HSN6></HSN6>
+    <QTY6></QTY6>
+    <CGST6></CGST6>
+    <SGST6></SGST6>
+    <UPRICE6></UPRICE6>
+    <AMT6></AMT6>
+
+    <SID7></SID7>
+    <RPCS7></RPCS7>
+    <ORDER_NO7></ORDER_NO7>
+    <PARTNO7></PARTNO7>
+    <PARTNM7></PARTNM7>
+    <HSN7></HSN7>
+    <QTY7></QTY7>
+    <CGST7></CGST7>
+    <SGST7></SGST7>
+    <UPRICE7></UPRICE7>
+    <AMT7></AMT7>
+
+    <SID8></SID8>
+    <RPCS8></RPCS8>
+    <ORDER_NO8></ORDER_NO8>
+    <PARTNO8></PARTNO8>
+    <PARTNM8></PARTNM8>
+    <HSN8></HSN8>
+    <QTY8></QTY8>
+    <CGST8></CGST8>
+    <SGST8></SGST8>
+    <UPRICE8></UPRICE8>
+    <AMT8></AMT8>
+  </DATA>
+  <DATA>
+    <INVOICE>SA69001001</INVOICE>
+    <DELI_DATE>05.09.2020</DELI_DATE>
+    <CARNO>AP39TC5404</CARNO>
+    <VENDNM>Kia Motors India Private Limited</VENDNM>
+    <ADDRESS_1>Eramanchi Village, Penukonda Mandal,</ADDRESS_1>
+    <ADDRESS_2>Anatapur, Andhra Pradesh - 515164</ADDRESS_2>
+    <VEND_GST>GST No. : 376AACZ56978</VEND_GST>
+    <TOTAL_QTY>47</TOTAL_QTY>
+    <ASSESS_VALUE>63,168.54</ASSESS_VALUE>
+    <OVERALL_CGST>8,843.60</OVERALL_CGST>
+    <OVERALL_SGST>8,843.60</OVERALL_SGST>
+    <OVERALL_IGST>0.00</OVERALL_IGST>
+    <OVERALL_UTGST>0.00</OVERALL_UTGST>
+    <TOTAL_AMT>80,855.74</TOTAL_AMT>
+    <CGST_IN_WORDS>EIGHT THOUSAND EIGHT HUBNDRED FORTY THREE Rupees SIXTY Paise</CGST_IN_WORDS>
+    <SGST_IN_WORDS>EIGHT THOUSAND EIGHT HUBNDRED FORTY THREE Rupees SIXTY Paise</SGST_IN_WORDS>
+    <TOTALAMT_IN_WORDS>EIGHTY THOUSAND EIGHT HUNDRED FIFTYFIVE Rupees SEVENTY FOUR Paise</TOTALAMT_IN_WORDS>
+    <QRCODE_INFO></QRCODE_INFO>
+    
+    <SID1>1</SID1>
+    <RPCS1>Q087T04B</RPCS1>
+    <ORDER_NO1></ORDER_NO1>
+    <PARTNO1></PARTNO1>
+    <PARTNM1></PARTNM1>
+    <HSN1></HSN1>
+    <QTY1></QTY1>
+    <CGST1></CGST1>
+    <SGST1></SGST1>
+    <UPRICE1></UPRICE1>
+    <AMT1></AMT1>
+
+    <SID2></SID2>
+    <RPCS2></RPCS2>
+    <ORDER_NO2></ORDER_NO2>
+    <PARTNO2></PARTNO2>
+    <PARTNM2></PARTNM2>
+    <HSN2></HSN2>
+    <QTY2></QTY2>
+    <CGST2></CGST2>
+    <SGST2></SGST2>
+    <UPRICE2></UPRICE2>
+    <AMT2></AMT2>
+
+    <SID3></SID3>
+    <RPCS3></RPCS3>
+    <ORDER_NO3></ORDER_NO3>
+    <PARTNO3></PARTNO3>
+    <PARTNM3></PARTNM3>
+    <HSN3></HSN3>
+    <QTY3></QTY3>
+    <CGST3></CGST3>
+    <SGST3></SGST3>
+    <UPRICE3></UPRICE3>
+    <AMT3></AMT3>
+
+    <SID4></SID4>
+    <RPCS4></RPCS4>
+    <ORDER_NO4></ORDER_NO4>
+    <PARTNO4></PARTNO4>
+    <PARTNM4></PARTNM4>
+    <HSN4></HSN4>
+    <QTY4></QTY4>
+    <CGST4></CGST4>
+    <SGST4></SGST4>
+    <UPRICE4></UPRICE4>
+    <AMT4></AMT4>
+
+    <SID5></SID5>
+    <RPCS5></RPCS5>
+    <ORDER_NO5></ORDER_NO5>
+    <PARTNO5></PARTNO5>
+    <PARTNM5></PARTNM5>
+    <HSN5></HSN5>
+    <QTY5></QTY5>
+    <CGST5></CGST5>
+    <SGST5></SGST5>
+    <UPRICE5></UPRICE5>
+    <AMT5></AMT5>
+
+    <SID6></SID6>
+    <RPCS6></RPCS6>
+    <ORDER_NO6></ORDER_NO6>
+    <PARTNO6></PARTNO6>
+    <PARTNM6></PARTNM6>
+    <HSN6></HSN6>
+    <QTY6></QTY6>
+    <CGST6></CGST6>
+    <SGST6></SGST6>
+    <UPRICE6></UPRICE6>
+    <AMT6></AMT6>
+
+    <SID7></SID7>
+    <RPCS7></RPCS7>
+    <ORDER_NO7></ORDER_NO7>
+    <PARTNO7></PARTNO7>
+    <PARTNM7></PARTNM7>
+    <HSN7></HSN7>
+    <QTY7></QTY7>
+    <CGST7></CGST7>
+    <SGST7></SGST7>
+    <UPRICE7></UPRICE7>
+    <AMT7></AMT7>
+
+    <SID8></SID8>
+    <RPCS8></RPCS8>
+    <ORDER_NO8></ORDER_NO8>
+    <PARTNO8></PARTNO8>
+    <PARTNM8></PARTNM8>
+    <HSN8></HSN8>
+    <QTY8></QTY8>
+    <CGST8></CGST8>
+    <SGST8></SGST8>
+    <UPRICE8></UPRICE8>
+    <AMT8></AMT8>
+  </DATA>
+</NewDataSet>

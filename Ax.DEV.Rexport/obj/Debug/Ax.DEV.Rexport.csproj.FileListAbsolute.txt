@@ -1,0 +1,13 @@
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Rexport\obj\Debug\Interop.Clipsoft.dll
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Rexport\obj\Debug\AxInterop.Clipsoft.dll
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Rexport\obj\Debug\Ax.DEV.Rexport.csproj.ResolveComReference.cache
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Rexport\bin\Debug\Ax.DEV.Rexport.pdb
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Rexport\bin\Debug\Interop.Clipsoft.dll
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Rexport\bin\Debug\AxInterop.Clipsoft.dll
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Rexport\obj\Debug\Ax.DEV.Rexport.Properties.Resources.resources
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Rexport\obj\Debug\Ax.DEV.Rexport.csproj.GenerateResource.Cache
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Rexport\obj\Debug\Ax.DEV.Rexport.pdb
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Rexport\obj\Debug\Ax.DEV.Rexport.RexportUC.resources
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Rexport\bin\Debug\Ax.DEV.Rexport.dll
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Rexport\obj\Debug\Ax.DEV.Rexport.dll
+D:\SRCS\AP\Ax_SIS\Ax.DEV.Rexport\obj\Debug\Ax.DEV.Rexport.RexpertFrm.resources

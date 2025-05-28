@@ -1,0 +1,129 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="en-US" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="INVOICE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="DELI_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CARNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ADDRESS_1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ADDRESS_2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VEND_GST" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TOTAL_QTY" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ASSESS_VALUE" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="OVERALL_CGST" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="OVERALL_SGST" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="OVERALL_IGST" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="OVERALL_UTGST" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TOTAL_AMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="CGST_IN_WORDS" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SGST_IN_WORDS" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="IGST_IN_WORDS" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TCS_IN_WORDS" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TOTALAMT_IN_WORDS" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SID" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="RPCS" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ORDER_NO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="HSN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="UOM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="QTY" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="CGST" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SGST" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="IGST" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="UPRICE" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="AMT" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="IRN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TCS" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="OVERALL_TCS" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CGST_PER" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SGST_PER" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="IGST_PER" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="UTGST_PER" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TCS_PER" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="AMT_PLS_GST" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TAMT" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="GSTNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="COMNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="COMNM_SHORT" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="COMADDR" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ZIPCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="AREACD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PANNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="KMI_VENDCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CIN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="COM_ETC" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PRINT_TYPE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    
+    <INVOICE> A200000196</INVOICE>
+    <DELI_DATE> 27.11.2020</DELI_DATE>
+    <CARNO> AP39TH2199 / 001</CARNO>
+    <VENDNM>Kia Motors India Private Limited</VENDNM>
+    <ADDRESS_1>Erramanchi, Penukonda Mandal,</ADDRESS_1>
+    <ADDRESS_2>Anantapur district, Andhra Pradesh - 515164</ADDRESS_2>
+    <VEND_GST>GST No. : 37AAGCK5972Q6ZG</VEND_GST>
+    <TOTAL_QTY>38</TOTAL_QTY>
+    <ASSESS_VALUE>74838.07</ASSESS_VALUE>
+    <OVERALL_CGST>10477.33</OVERALL_CGST>
+    <OVERALL_SGST>10477.33</OVERALL_SGST>
+    <OVERALL_IGST>0.00</OVERALL_IGST>
+    <OVERALL_UTGST>0.00</OVERALL_UTGST>
+    <TOTAL_AMT>95864.57</TOTAL_AMT>
+    <CGST_IN_WORDS>TEN THOUSAND FOUR HUNDRED SEVENTY-SEVEN Rupees THIRTY-THREE Paise</CGST_IN_WORDS>
+    <SGST_IN_WORDS>TEN THOUSAND FOUR HUNDRED SEVENTY-SEVEN Rupees THIRTY-THREE Paise</SGST_IN_WORDS>
+    <IGST_IN_WORDS>TEN THOUSAND FOUR HUNDRED SEVENTY-SEVEN Rupees THIRTY-THREE Paise</IGST_IN_WORDS>
+    <TCS_IN_WORDS>SEVENTY-ONE Rupees EIGHTY-FOUR Paise</TCS_IN_WORDS>
+    <TOTALAMT_IN_WORDS>NINETY-FIVE THOUSAND EIGHT HUNDRED SIXTY-FOUR Rupees FIFTY-SEVEN Paise</TOTALAMT_IN_WORDS>
+    <SID>1</SID>
+    <RPCS>1</RPCS>
+    <ORDER_NO>1</ORDER_NO>
+    <PARTNO>1</PARTNO>
+    <PARTNM>1</PARTNM>
+    <HSN>1</HSN>
+    <UOM>1</UOM>
+    <QTY>1</QTY>
+    <CGST>1</CGST>
+    <SGST>1</SGST>
+    <IGST>1</IGST>
+    <UPRICE>1</UPRICE>
+    <AMT>1</AMT>
+    <IRN>X</IRN>
+    <TCS>X</TCS>
+    <OVERALL_TCS>71.84</OVERALL_TCS>
+    <CGST_PER>X</CGST_PER>
+    <SGST_PER>X</SGST_PER>
+    <IGST_PER>X</IGST_PER>
+    <UTGST_PER>X</UTGST_PER>
+    <TCS_PER>X</TCS_PER>
+    <AMT_PLS_GST>X</AMT_PLS_GST>
+    <TAMT>X</TAMT>
+    <GSTNO>X</GSTNO>
+    <COMNM>SEOYON E-HWA SUMMIT AUTOMOTIVE ANANTAPUR PVT., LTD</COMNM>
+    <COMNM_SHORT>SEOYON E-HWA SUMMIT AUTOMOTIVE ANANTAPUR PVT., LTD</COMNM_SHORT>
+    <COMADDR>Plot no 11B, Industrial Park,
+Ammavaripalli, Ermanchi Village, Penukonda Mandal,
+Anantapur District, Andhra Pradesh - 515164.</COMADDR>
+    <ZIPCD>TEIH</ZIPCD>
+    <AREACD>TEIH</AREACD>
+    <PANNO>TEIH</PANNO>
+    <KMI_VENDCD>TEIH</KMI_VENDCD>    
+    <CIN>TEIH</CIN>
+    <COM_ETC>TEIH</COM_ETC>
+    <PRINT_TYPE>TEIH</PRINT_TYPE>
+  </DATA>
+</NewDataSet>
+
