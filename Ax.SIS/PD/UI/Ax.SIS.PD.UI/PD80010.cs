@@ -172,7 +172,22 @@ namespace Ax.SIS.PD.UI
                 grp01_PD80010_GRP_4.Text = GetLabel("PD80010_GRP_4");
 
                 #endregion
+                #region grd05 --INI IP
 
+                this.grd05.AllowEditing = true;
+                this.grd05.Initialize();
+                this.grd05.AllowSorting = C1.Win.C1FlexGrid.AllowSortingEnum.None;
+                this.grd05.AllowMerging = C1.Win.C1FlexGrid.AllowMergingEnum.None;
+                this.grd05.SelectionMode = SelectionModeEnum.Cell;
+                this.grd05.AddColumn(true, false, AxFlexGrid.FtextAlign.L, 160, "CORCD", "CORCD", "CORCD");
+                this.grd05.AddColumn(true, false, AxFlexGrid.FtextAlign.L, 160, "BIZCD", "BIZCD", "BIZCD");
+                this.grd05.AddColumn(true, false, AxFlexGrid.FtextAlign.L, 160, "PID", "PROGRAM_ID", "PROGRAM_ID");
+                this.grd05.AddColumn(true, false, AxFlexGrid.FtextAlign.L, 060, "CLASS", "SCREEN_ID", "SCREEN_ID");
+                this.grd05.AddColumn(false, true, AxFlexGrid.FtextAlign.L, 210, "IP", "IP", "IP");
+                this.grd05.AddColumn(true, false, AxFlexGrid.FtextAlign.L, 050, "분석자", "USER_ID", "USER_ID");
+
+
+                #endregion
 
                 BtnQuery_Click(null, null);
             }
@@ -1231,6 +1246,9 @@ namespace Ax.SIS.PD.UI
 
                 this.AfterInvokeServer();
                 this.grd03.SetValue(source);
+
+                DataTable source2 = _WSCOM_N.ExecuteDataSet(string.Format("{0}.{1}", PACKAGE_NAME, "INQUERY_IP"), set, "OUT_CURSOR").Tables[0];
+                this.grd05.SetValue(source2);
             }
             catch (FaultException<ExceptionDetail> ex)
             {
@@ -1737,7 +1755,82 @@ namespace Ax.SIS.PD.UI
         }
         #endregion
 
+        private void axButton1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                DataSet source = this.grd05.GetValue(AxFlexGrid.FActionType.Save,
+                  "CORCD", "BIZCD", "PROGRAM_ID", "SCREEN_ID", "IP", "USER_ID" );
+
+                foreach (DataRow dr in source.Tables[0].Rows)
+                {
+                    dr["PROGRAM_ID"] = CURRENT_PROGRAM_ID;
+                    dr["SCREEN_ID"] = CURRENT_SCREEN_ID;
+
+                    dr["USER_ID"] = this.UserInfo.EmpNo;
+                    dr["CORCD"] = this.UserInfo.CorporationCode;
+                    dr["BIZCD"] = this.UserInfo.BusinessCode;
+                }
+
+                _WSCOM_N.ExecuteNonQueryTx(string.Format("{0}.{1}", PACKAGE_NAME, "SAVE_IP"), source);
+                this.LoadSection(CURRENT_PROGRAM_ID, CURRENT_SCREEN_ID);
+
+            }
+            catch (FaultException<ExceptionDetail> ex)
+            {
+                MsgBox.Show(ex.ToString());
+            }
+            finally
+            {
+            }
+        }
+
         #endregion
+
+        private void axButton2_Click(object sender, EventArgs e)
+        {
+            DataSet source = this.grd05.GetValue(AxFlexGrid.FActionType.Remove,
+                  "CORCD", "BIZCD", "PROGRAM_ID", "SCREEN_ID", "IP", "USER_ID");
+            foreach (DataRow dr in source.Tables[0].Rows)
+            {
+                dr["PROGRAM_ID"] = CURRENT_PROGRAM_ID;
+                dr["SCREEN_ID"] = CURRENT_SCREEN_ID;
+
+                dr["USER_ID"] = this.UserInfo.EmpNo;
+                dr["CORCD"] = this.UserInfo.CorporationCode;
+                dr["BIZCD"] = this.UserInfo.BusinessCode;
+            }
+            _WSCOM_N.ExecuteNonQueryTx(string.Format("{0}.{1}", PACKAGE_NAME, "DEL_IP"), source);
+            this.LoadSection(CURRENT_PROGRAM_ID, CURRENT_SCREEN_ID);
+        }
+
+        private void axButton3_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (MsgBox.Show("Do you want to deploy ip?", "Question", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    this.BeforeInvokeServer(true);
+                    HEParameterSet set = new HEParameterSet();
+                    set.Add("CORCD", this.UserInfo.CorporationCode);
+                    set.Add("BIZCD", this.UserInfo.BusinessCode);
+                    set.Add("PROGRAM_ID", CURRENT_PROGRAM_ID);
+                    set.Add("SCREEN_ID", CURRENT_SCREEN_ID);
+
+
+                    _WSCOM_N.ExecuteNonQueryTx(string.Format("{0}.{1}", PACKAGE_NAME, "DEPLOY_IP"), set);
+                }
+            }
+            catch(Exception eLog)
+            {
+                MsgBox.Show(eLog.ToString());
+                this.AfterInvokeServer();
+            }
+            finally
+            {
+                this.AfterInvokeServer();
+            }
+        }
        
     }
 }
